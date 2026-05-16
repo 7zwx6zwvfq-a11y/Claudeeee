@@ -791,76 +791,81 @@ def shade(cell, hexcolor):
         parse_xml(r'<w:shd {} w:fill="{}"/>'.format(nsdecls('w'), hexcolor)))
 
 
-doc = Document()
+def build():
+  doc = Document()
 
-style = doc.styles['Normal']
-style.font.name = 'Calibri'
-style.font.size = Pt(10.5)
+  style = doc.styles['Normal']
+  style.font.name = 'Calibri'
+  style.font.size = Pt(10.5)
 
-title = doc.add_paragraph()
-title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = title.add_run("CRAYON CAPITAL — CLONE SESSION · VIDEO 2")
-run.bold = True
-run.font.size = Pt(18)
+  title = doc.add_paragraph()
+  title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+  run = title.add_run("CRAYON CAPITAL — CLONE SESSION · VIDEO 2")
+  run.bold = True
+  run.font.size = Pt(18)
 
-sub = doc.add_paragraph()
-sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
-r = sub.add_run('"Por qué comprar se siente mejor que tener"  ·  The Dopamine Trap')
-r.italic = True
-r.font.size = Pt(12)
+  sub = doc.add_paragraph()
+  sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
+  r = sub.add_run('"Por qué comprar se siente mejor que tener"  ·  The Dopamine Trap')
+  r.italic = True
+  r.font.size = Pt(12)
 
-meta = doc.add_paragraph()
-meta.alignment = WD_ALIGN_PARAGRAPH.CENTER
-meta.add_run("Neuroeconomía · Inglés · Target 1,700 · Final 1,724 words · {} beats (3–5s each)".format(len(BEATS))).font.size = Pt(9)
+  meta = doc.add_paragraph()
+  meta.alignment = WD_ALIGN_PARAGRAPH.CENTER
+  meta.add_run("Neuroeconomía · Inglés · Target 1,700 · Final 1,724 words · {} beats (3–5s each)".format(len(BEATS))).font.size = Pt(9)
 
-doc.add_paragraph()
+  doc.add_paragraph()
 
-h = doc.add_paragraph()
-h.add_run("VISUAL STYLE PROFILE (locked — embedded in every prompt for standalone use)").bold = True
-p = doc.add_paragraph(STYLE)
-p.paragraph_format.space_after = Pt(6)
+  h = doc.add_paragraph()
+  h.add_run("VISUAL STYLE PROFILE (locked — embedded in every prompt for standalone use)").bold = True
+  p = doc.add_paragraph(STYLE)
+  p.paragraph_format.space_after = Pt(6)
 
-doc.add_paragraph()
-h = doc.add_paragraph()
-h.add_run("STATES 8 & 9 — IMAGE PROMPTS + VIDEO PROMPTS").bold = True
-doc.add_paragraph("Every script segment covered. Each image prompt is fully standalone. "
-                  "Each beat = max 3–5 seconds of narration.").runs[0].italic = True
+  doc.add_paragraph()
+  h = doc.add_paragraph()
+  h.add_run("STATES 8 & 9 — IMAGE PROMPTS + VIDEO PROMPTS").bold = True
+  doc.add_paragraph("Every script segment covered. Each image prompt is fully standalone. "
+                    "Each beat = max 3–5 seconds of narration.").runs[0].italic = True
 
-for i, (seg, scene, cam, light, mood, action, video) in enumerate(BEATS, 1):
-    doc.add_paragraph()
-    bh = doc.add_paragraph()
-    br = bh.add_run("BEAT {}".format(i))
-    br.bold = True
-    br.font.size = Pt(12)
-    br.font.color.rgb = RGBColor(0xB0, 0x2A, 0x2A)
+  for i, (seg, scene, cam, light, mood, action, video) in enumerate(BEATS, 1):
+      doc.add_paragraph()
+      bh = doc.add_paragraph()
+      br = bh.add_run("BEAT {}".format(i))
+      br.bold = True
+      br.font.size = Pt(12)
+      br.font.color.rgb = RGBColor(0xB0, 0x2A, 0x2A)
 
-    sp = doc.add_paragraph()
-    sr = sp.add_run('"{}"'.format(seg))
-    sr.bold = True
-    sr.italic = True
+      sp = doc.add_paragraph()
+      sr = sp.add_run('"{}"'.format(seg))
+      sr.bold = True
+      sr.italic = True
 
-    tbl = doc.add_table(rows=0, cols=2)
-    tbl.style = 'Table Grid'
-    tbl.autofit = True
+      tbl = doc.add_table(rows=0, cols=2)
+      tbl.style = 'Table Grid'
+      tbl.autofit = True
 
-    def row(label, value, fill=None):
-        cells = tbl.add_row().cells
-        lr = cells[0].paragraphs[0].add_run(label)
-        lr.bold = True
-        lr.font.size = Pt(9)
-        cells[0].width = Inches(1.15)
-        vp = cells[1].paragraphs[0]
-        vp.add_run(value).font.size = Pt(9.5)
-        if fill:
-            shade(cells[0], fill)
+      def row(label, value, fill=None):
+          cells = tbl.add_row().cells
+          lr = cells[0].paragraphs[0].add_run(label)
+          lr.bold = True
+          lr.font.size = Pt(9)
+          cells[0].width = Inches(1.15)
+          vp = cells[1].paragraphs[0]
+          vp.add_run(value).font.size = Pt(9.5)
+          if fill:
+              shade(cells[0], fill)
 
-    row("IMAGE PROMPT", "{} {}".format(STYLE, scene), "FDECEC")
-    row("Camera", cam)
-    row("Lighting", light)
-    row("Mood", mood)
-    row("Action", action)
-    row("VIDEO PROMPT", video, "EAF3FB")
+      row("IMAGE PROMPT", "{} {}".format(STYLE, scene), "FDECEC")
+      row("Camera", cam)
+      row("Lighting", light)
+      row("Mood", mood)
+      row("Action", action)
+      row("VIDEO PROMPT", video, "EAF3FB")
 
-docx_path = "/home/user/Claudeeee/Dopamine_Trap_Production.docx"
-doc.save(docx_path)
-print("Saved DOCX:", docx_path, "with", len(BEATS), "beats")
+  docx_path = "/home/user/Claudeeee/Dopamine_Trap_Production.docx"
+  doc.save(docx_path)
+  print("Saved DOCX:", docx_path, "with", len(BEATS), "beats")
+
+
+if __name__ == "__main__":
+    build()
