@@ -133,6 +133,14 @@ SECTIONS = [
         "The insight it produced — that every financial decision you make is shaped not by how much money you have, but by which mental account the money is in — is one of the most replicated findings in the history of economics.",
         "And the industries that want your money understood it before the Nobel committee announced his name.",
     ]),
+    ("EL MOVIMIENTO", [
+        "Here is what you do with this.",
+        "The next time a bonus arrives — before you spend a single euro — set up an automatic transfer to your investment account or emergency fund for that same day.",
+        "Not because you need discipline. Because your brain is about to file it as free money. You are faster than the filing.",
+        "If your employer offers a pension match and you are not maximizing it — that is not a benefit you are leaving on the table. That is your own compensation that your brain has quietly filed as optional.",
+        "Decide now — before the next windfall arrives — what percentage goes to savings or investment. When the money comes, the rule runs. The brain villain never gets to open the folder.",
+        "And use the pain of paying deliberately. Automate your savings transfer on the same day you get paid, before the rest moves. When the transfer hurts slightly, the account is real. When it feels like nothing, it does not exist yet.",
+    ]),
     ("THE ENDING", [
         "You cannot stop your brain from keeping mental accounts.",
         "The system runs below the threshold of conscious thought. It was there before you knew the word for it.",

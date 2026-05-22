@@ -669,6 +669,44 @@ BEATS = [
  "Industry markers preceding Nobel; corporate figure unsurprised; already knew",
  "Static. Timeline holds; corporate figure's unsurprise is the point. 3s."),
 
+# ── EL MOVIMIENTO ──────────────────────────────────────────────────────────────
+
+("Here is what you do with this.",
+ "Medium shot. The main character turns directly to camera, relaxed and prepared. The brain inside the skull shifts from its smug expression to a focused, practical one. A single bold label appears beside the character: 'THE MOVE.' Clean white background.",
+ "Medium shot, direct address", "Flat, white, single spotlight", "The transition into action — viewer attention sharpens",
+ "Character turns to camera; brain shifts to practical expression; 'THE MOVE' label",
+ "Static. Character holds direct address; brain expression shifts. 2s."),
+
+("The next time a bonus arrives — before you spend a single euro — set up an automatic transfer to your investment account or emergency fund for that same day.",
+ "Wide shot. A bonus envelope arrives and lands in the character's hands. Before the WINDFALL folder opens, a bold arrow redirects the money straight to two small icons: a bar chart (INVESTMENT) and a safety shield (EMERGENCY FUND). The redirection happens before the brain can file it as free. Label: 'REDIRECT FIRST.'",
+ "Wide shot", "Flat, white, transfer arrow highlighted green", "Action clarity — the rule is concrete and executable",
+ "Bonus arriving; redirect arrow to investment + emergency fund before brain files it",
+ "Animated. Arrow diverts bonus before WINDFALL folder opens; green glow on arrival. 3s."),
+
+("Not because you need discipline. Because your brain is about to file it as free money. You are faster than the filing.",
+ "Medium shot. The WINDFALL folder begins to open automatically — but the character's hand reaches the transfer lever first, moving it. The brain watches, slightly outpaced. Expression on the brain: surprised, not defeated. A small race graphic: character vs brain, character wins by a step. Label: 'YOU ARE FASTER.'",
+ "Medium shot", "Flat, white", "Reframe — speed not willpower",
+ "Character beats brain to the transfer lever; brain surprised; race graphic",
+ "Animated. Character moves lever a beat before folder opens; race graphic brief flash. 3s."),
+
+("If your employer offers a pension match and you are not maximizing it — that is not a benefit you are leaving on the table. That is your own compensation that your brain has quietly filed as optional.",
+ "Wide shot. A split diagram: left side shows a matched pension contribution as a bonus envelope with a green checkmark — labeled 'YOUR COMPENSATION.' Right side shows the same envelope grayed out, filed into a folder labeled 'OPTIONAL' by the brain in the background. Bold red X on the optional filing. Label: 'IT WAS NEVER OPTIONAL.'",
+ "Wide diagram", "Flat, white, red X on optional label", "The reframe — pension match is earned compensation not a benefit",
+ "Pension match shown as compensation; brain quietly filing it as optional; red X on that filing",
+ "Static. Diagram holds; red X appears on the optional folder. 3s."),
+
+("Decide now — before the next windfall arrives — what percentage goes to savings or investment. When the money comes, the rule runs. The brain villain never gets to open the folder.",
+ "Wide shot. A simple rule card floats in front of the character: '___% TO SAVINGS / INVESTMENT.' The character writes in a number. In the background, the brain villain reaches for the WINDFALL folder — but the rule card is already in place, blocking the folder. The brain can't open it. Expression: foiled. Label: 'THE RULE RUNS.'",
+ "Wide shot", "Flat, white, rule card highlighted", "Pre-commitment — the brain is outmaneuvered before it acts",
+ "Character filling rule card; brain villain blocked from WINDFALL folder; foiled expression",
+ "Static. Rule card placed; brain villain blocked; folder stays shut. 3s."),
+
+("And use the pain of paying deliberately. Automate your savings transfer on the same day you get paid, before the rest moves. When the transfer hurts slightly, the account is real. When it feels like nothing, it does not exist yet.",
+ "Wide split diagram. Left: a savings transfer set to auto on payday — a slight grimace on the character, a small ache icon above. Label: 'THE ACCOUNT IS REAL.' Right: the same money sitting untouched, no transfer, character smiling obliviously — and a ghost outline where savings should be. Label: 'IT DOES NOT EXIST YET.' The slight pain is the signal, not the problem.",
+ "Wide split diagram", "Flat, white, slight ache icon on left, ghost on right", "The counterintuitive close — slight pain means it's working",
+ "Pain icon on savings transfer vs ghost savings without transfer; two states compared",
+ "Static. Split diagram holds; left ache icon and right ghost outline are the point. 3s."),
+
 # ── THE ENDING ─────────────────────────────────────────────────────────────────
 
 ("You cannot stop your brain from keeping mental accounts.",
@@ -777,7 +815,8 @@ def build_docx():
         74: "THE POPULAR MISREADING",
         85: "THE INDUSTRY",
         99: "THE REAL CONCLUSION",
-        112: "THE ENDING",
+        112: "EL MOVIMIENTO",
+        118: "THE ENDING",
     }
 
     COL_LABELS = ["#", "SEGMENT (NARRATION)", "IMAGE PROMPT", "CAMERA",
