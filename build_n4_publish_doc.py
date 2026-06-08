@@ -89,11 +89,11 @@ add_label_value(doc, "ARCHIVO", "dopamine-trap-impulse-buying-spending-neurocent
 divider(doc)
 
 # ── 2. TÍTULO ──
-add_section(doc, "2. TÍTULO — 84/100 VidIQ")
-add_label_value(doc, "TÍTULO", "Your Brain Decides to Buy 200 Milliseconds Before You Do", DARK, 12)
-add_block(doc, "Descartados:  'The Hidden Reason You Can't Stop Spending (It's Not Willpower)' = 79/100  |  'Why Buying Feels Better Than Having — And What It's Costing You' = 73/100",
+add_section(doc, "2. TÍTULO — ~90-94/100 VidIQ (pendiente confirmar con créditos)")
+add_label_value(doc, "TÍTULO", "Your Brain Decided. You Just Signed the Receipt.", DARK, 12)
+add_block(doc, "Descartados:  'Your Brain Decides to Buy 200 Milliseconds Before You Do' = 84/100  |  'You Haven't Made a Free Purchase in Your Life' ~87-90  |  'Your Brain Buys Everything. You Just Pay for It.' ~85-88",
           size=8, color=GREY)
-add_block(doc, "Histórico canal:  N3 (V6) = 92/100  ·  N2 (V9) = 86/100  ·  N4 = 84/100",
+add_block(doc, "Histórico canal:  N3 (V6) = 92/100  ·  N2 (V9) = 86/100  ·  N4 anterior = 84/100  →  nuevo estimado ~90-94",
           size=8, color=GREY)
 
 divider(doc)
@@ -208,7 +208,7 @@ divider(doc)
 # ── 6. YOUTUBE STUDIO ──
 add_section(doc, "6. YOUTUBE STUDIO — configuración antes de publicar")
 checkboxes = [
-    "Título:         Your Brain Decides to Buy 200 Milliseconds Before You Do",
+    "Título:         Your Brain Decided. You Just Signed the Receipt.",
     "Descripción:    Pegada completa con capítulos y URL de V6",
     "Tags:           Todos pegados (ver sección 4)",
     "Categoría:      Education",
@@ -376,7 +376,7 @@ divider(doc)
 doc.add_paragraph()
 foot = doc.add_paragraph()
 foot.alignment = WD_ALIGN_PARAGRAPH.CENTER
-fr = foot.add_run("NEUROCENTS · N4 · PRE-PUBLISH CHECKLIST · Título 84/100 VidIQ · Tags testeados")
+fr = foot.add_run("NEUROCENTS · N4 · PRE-PUBLISH CHECKLIST · Título ~90-94/100 VidIQ estimado · Tags testeados")
 fr.font.size = Pt(8)
 fr.font.color.rgb = GREY
 
