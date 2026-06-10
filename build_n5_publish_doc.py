@@ -89,13 +89,15 @@ add_label_value(doc, "ARCHIVO", "sunk-cost-fallacy-investing-brain-bias-neurocen
 divider(doc)
 
 # ── 2. TÍTULO ──
-add_section(doc, "2. TÍTULO — pendiente score VidIQ")
-add_label_value(doc, "TÍTULO", "Your Brain Won't Let You Quit — And It's Costing You Everything", DARK, 12)
-add_block(doc, "Alternativas evaluadas:  'The $40,000 Mistake Your Brain Keeps Making'  |  'Why Your Brain Can't Stop Losing Money'",
+add_section(doc, "2. TÍTULO — curiosity gap · open loop · contradicción directa")
+add_label_value(doc, "TÍTULO", "Why Losing Money Makes You Want to Lose More", DARK, 12)
+add_block(doc, "Mecanismo: contradicción pura en 9 palabras. El cerebro del viewer dice 'eso no puede ser verdad' → click obligatorio para resolver el loop.",
           size=8, color=GREY)
-add_block(doc, "Histórico canal:  N3 (V6) = 92/100  ·  N4 = ~90-94/100  →  mantener línea title psychology: curiosity gap + loss",
+add_block(doc, "Descartados:  'Your Brain Won't Let You Quit — And It's Costing You Everything' (demasiado largo, dos ideas, genérico)  |  'The $40,000 Mistake You're Probably Making Right Now'  |  'Why You Can't Sell Your Worst Investment'",
           size=8, color=GREY)
-add_block(doc, "Thumbnail text: 'YOUR BRAIN WON'T LET YOU QUIT' — coincide con título, refuerza el loop",
+add_block(doc, "Histórico canal:  N3 (V6) = 92/100  ·  N4 = ~90-94/100  →  este título prioriza CTR sobre VidIQ score (Zenn formula)",
+          size=8, color=GREY)
+add_block(doc, "Thumbnail text: 'YOUR BRAIN WON'T LET YOU QUIT' — complementa el título, refuerza el loop visual",
           size=8, color=GREY)
 
 divider(doc)
@@ -213,7 +215,7 @@ divider(doc)
 # ── 6. YOUTUBE STUDIO ──
 add_section(doc, "6. YOUTUBE STUDIO — configuración antes de publicar")
 checkboxes = [
-    "Título:         Your Brain Won't Let You Quit — And It's Costing You Everything",
+    "Título:         Why Losing Money Makes You Want to Lose More",
     "Descripción:    Pegada completa con capítulos y URL de N4 (Dopamine Trap)",
     "Tags:           Todos pegados (ver sección 4)",
     "Categoría:      Education",
