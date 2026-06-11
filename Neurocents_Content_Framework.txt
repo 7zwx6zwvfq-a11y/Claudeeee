@@ -1,0 +1,179 @@
+NEUROCENTS — CONTENT CREATION FRAMEWORK
+Channel: Faceless 2D animated | Niche: Behavioral Finance | Language: English
+Integrated: 6 psychological principles + MrBeast thumbnail rule + TikTok repurposing
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TITLE FORMULA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Rules:
+- Validated topic first (proven demand in the niche — check what's already working)
+- Curiosity gap: plant a question the brain MUST resolve
+- Emotional trigger, not rational (click is always emotional)
+- Short, counterintuitive, open loop
+- Never explain the answer in the title
+
+Formula options:
+  → "Why [surprising thing] [counterintuitive outcome]"
+  → "The [hidden mechanism] That [unexpected consequence]"
+  → "Your Brain [does X] — And It's [costing/breaking/ruining] [thing viewer cares about]"
+
+Examples:
+  ✅ "Why Losing Money Makes You Want to Lose More"
+  ✅ "Why Do You Want It LESS the Second You Buy It?"
+  ✅ "The Billion-Dollar Bet Your Bank Wins Every Single Day"
+  ❌ "How to Avoid the Sunk Cost Fallacy" (answer is in the title, no gap)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THUMBNAIL FORMULA (MrBeast Rule)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3 elements only:
+  1. ALEX looking directly at camera (face = emotional connection)
+  2. ONE object that represents the concept (money, brain, chart, etc.)
+  3. ONE short text = the open loop (max 5 words, 100% saturated color)
+
+Rules:
+- 100% saturated background color (orange, red, yellow — never white or grey)
+- Readable at 20 feet (phone thumbnail size)
+- Text must CREATE the gap, not answer it
+- Brain villain optional as 2nd character — adds narrative tension
+- Alex's expression = fear, shock, or realization (never neutral)
+
+For TikTok cover (9:16):
+- Same 3 elements, vertical composition
+- Text in top 25% of frame
+- Bottom 15% empty (TikTok UI safe zone)
+- Re-record 3-second native hook before the clip
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. SCRIPT STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[SECONDS 0–15] HOOK + AUTHORITY + PROMISE FULFILLMENT
+- Open with a REAL scientific study, experiment, or data point
+  → Name: researcher, year, institution
+  → Example: "In 1954, neuroscientists James Olds and Peter Milner at McGill University..."
+- The science IS the credential (faceless channel = science as authority)
+- Immediately confirm what the title/thumbnail promised
+  → Viewer clicked for a reason — give them the payoff signal in the first 10 seconds
+  → If title = "Why you want it less", the hook must reference wanting/buying/disappointment immediately
+- End the hook with a NEW open loop that keeps them watching
+
+[EVERY 30 SECONDS] MICRO CURIOSITY GAPS
+- Every block must end with an unresolved question or an upcoming reveal
+- Formula: "But here's what nobody tells you..." / "And that's only half the problem..." / "The real reason is [pause] coming up"
+- Alex and brain villain are the story vehicle — use their dynamic to carry the conflict
+
+[MINUTE 2–3 = 33% MARK] CTA
+- Natural, not forced
+- Example: "If this is making sense, subscribe — we go deeper every week."
+- Alex looks at camera, brain villain reacts
+
+[MIDDLE] STORY ARC
+- Alex = the viewer (experiencing the bias)
+- Brain villain = the mechanism (personifies the psychological force)
+- Real-world example → science explanation → consequence → recognition
+- Every concept needs: a human story + the research + the $ cost
+
+[LAST 60 SECONDS] GUIDE THE VIEWER
+- Explicitly name the next video: "Next week we're covering [X] — watch it before you [decision]"
+- End screen: next video card must appear here
+- Final line plants a seed for the next curiosity gap
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. HOOK FORMULA (First 10 seconds)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Structure:
+  LINE 1: Surprising fact or counterintuitive statement (the pattern interrupt)
+  LINE 2: The consequence for the viewer personally
+  LINE 3: The open loop that keeps them watching
+
+Example (N4 — dopamine):
+  "In 1954, two scientists found the override switch for every brain on the planet."  ← pattern interrupt
+  "The rats pressed it until they died."                                              ← consequence
+  "You pressed it this morning."                                                      ← open loop
+
+Rules:
+- Never start with "In this video I'm going to..."
+- Never start with a question (too weak)
+- Always open with a FACT or a SCENE, not a statement about the video
+- The viewer should feel the hook is about THEM, not about a topic
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. CREDIBILITY (Faceless Channel)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+No face = science is the authority figure.
+
+Rules:
+- Every major claim must reference a real study: researcher + year + institution
+- Name-drop real scientists: Kahneman, Thaler, Ariely, Olds, Milner, Arkes, Blumer
+- Use specific numbers: "40% longer", "$108,000 difference", "67% of the time"
+- Channel description + every video description must include:
+  "Neurocents explains the science behind why your brain fails at money."
+- Pinned comment on every video = credibility anchor + link to next video
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. WATCH CHAIN (Viewer Retention System)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Every video must connect to the next:
+
+IN VIDEO (at 33% mark):
+  → Mention next video topic as a teaser: "We'll cover why [related bias] in the next one"
+
+END SCREEN (last 20 seconds):
+  → Show next video card explicitly
+  → Alex says: "Watch [title] next — it explains why [curiosity gap]"
+
+PINNED COMMENT (publish immediately after upload):
+  → "If this resonated — watch this next: [link to related video]"
+  → Add the zero-based question or main insight as text
+
+DESCRIPTION:
+  → First line = the curiosity gap restated as a question
+  → Second line = what they'll learn
+  → Third line = link to playlist or next video
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. TIKTOK REPURPOSING RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+To avoid the 40% reach penalty for recycled content:
+  1. Remove all YouTube watermarks and UI elements
+  2. Record a 3-5 second native hook to camera before the clip
+  3. Add TikTok-style captions and on-screen text
+  4. Post 24-48h AFTER YouTube upload (duplicate detection window)
+  5. Max 1-2 clips/day, minimum 4 hours apart
+  6. Best days: Tuesday + Thursday | Best times: 9-11am, 10am-12pm
+
+TikTok description formula:
+  LINE 1: Hook from the clip (the moment that creates the question)
+  LINE 2: The unresolved gap (what they don't know yet)
+  LINE 3: CTA → YouTube → Neurocents
+  HASHTAGS: 3-4 niche (#behavioralfinance #psychology #neuroscience) + 1 broad (#moneymindset)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. TOPIC SELECTION RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Video #25 of a proven topic beats video #1 of an original topic
+- Validate demand first: search the topic on YouTube, check view counts of existing videos
+- Add 3-6% differentiation: unique angle, better animation, stronger hook
+- Never create a topic because it's interesting — create it because there's proven demand
+- Best source for topic validation: top videos in behavioral finance / psychology of money niche
+
+
+================================================================================
+QUICK CHECKLIST BEFORE EVERY VIDEO
+================================================================================
+TITLE:     [ ] Curiosity gap?  [ ] Emotional trigger?  [ ] No answer in title?
+THUMBNAIL: [ ] Alex at camera? [ ] 1 object? [ ] 1 text? [ ] Saturated color?
+HOOK:      [ ] Fact/scene open? [ ] Personal consequence? [ ] Open loop?
+SCRIPT:    [ ] Authority in first 15s? [ ] Gap every 30s? [ ] CTA at 33%?
+END:       [ ] Next video named? [ ] End screen card? [ ] Pinned comment ready?
+TIKTOK:    [ ] Watermarks removed? [ ] Native hook recorded? [ ] 24h after YT?
+================================================================================
