@@ -1,0 +1,68 @@
+NEUROCENTS — V11 THUMBNAIL PROMPTS
+Title: "3 Traps That Rewire Your Brain to Stay Broke"
+Format: Google Flow / Imagen 4 — copy and paste directly
+================================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THUMBNAIL A — YOUTUBE 16:9 (1280x720)
+SPLIT BEFORE/AFTER FORMAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2D flat cartoon illustration, thick solid black outlines on every element, clean solid color fills, no gradients. Recurring main character ALEX: large beige oval head with transparent glass upper skull revealing a pink cartoon brain inside, small black dot eyes, thin neutral mouth, black spiky hair, muted blue t-shirt, gray pants. Brain villain: pink cartoon brain character, smug heavy-lidded eyes, slight smirk. Bold black diegetic text labels integrated into the scene. 16:9, 1280x720.
+
+SPLIT THUMBNAIL — vertical dividing line exactly at center. LEFT HALF: soft neutral green background (#C8E6C9). Large cartoon brain icon, clean and symmetrical, bright pink, smooth circuits with calm green glow — everything normal, healthy, ordered. Small bold label in top-left corner: "BEFORE" in white text on green badge. LEFT half feels calm, safe, clean. RIGHT HALF: deep saturated red background (#C62828). Same brain icon — but now 3 circuits are visibly disrupted: bright red highlighted paths with small padlock icons at each junction. Brain looks rewired, hijacked, wrong. Small bold label in top-right corner: "3 TRAPS" in white text on dark red badge. RIGHT half feels alarming, urgent, trapped. CENTER DIVIDING LINE: thick bold white vertical line, 8px. LARGE TEXT OVERLAY across the center line spanning both halves: "REWIRED" in ultra-bold black block capitals, white stroke outline, readable at thumbnail size. ALEX (blue t-shirt, black spiky hair, beige oval head, transparent skull revealing pink brain, shocked wide-eyes expression, mouth slightly open) positioned bottom-right of frame, pointing with one hand directly at the rewired brain on the right side. His expression: horrified recognition. Brain villain: tiny, peeking over the top edge of the right-side brain, arms folded, satisfied smirk. No background clutter. Maximum contrast between left and right halves. Text readable at 200px width.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THUMBNAIL B — YOUTUBE 16:9 (1280x720)
+STANDARD FORMAT — ALEX DIRECT
+(alternative if split doesn't generate well)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2D flat cartoon illustration, thick solid black outlines on every element, clean solid color fills, no gradients. Recurring main character ALEX: large beige oval head with transparent glass upper skull revealing a pink cartoon brain inside, small black dot eyes, thin neutral mouth, black spiky hair, muted blue t-shirt, gray pants. Brain villain: pink cartoon brain character, smug heavy-lidded eyes, slight smirk. Bold black diegetic text labels integrated into the scene. 16:9, 1280x720.
+
+100% saturated deep red background (#B71C1C). ALEX (blue t-shirt, black spiky hair, beige oval head, transparent glass skull) occupies left 40% of frame, facing directly at camera with expression of pure shock — eyes wide open, eyebrows raised high, mouth open. His transparent skull shows the pink brain inside glowing with three red highlighted circuits — the 3 rewired traps visible inside his own head. RIGHT side of frame: large flat brain icon in pink (#E8A598), three circuit paths highlighted in bold red, each path terminated with a small padlock icon in bright red. Above the brain icon: bold white text "3 TRAPS" in ultra-heavy font, black stroke outline. Below the brain icon: smaller white text "REWIRING YOU NOW" in medium weight. Brain villain: standing on top of the large brain icon on the right, arms crossed, heavy-lidded smug eyes, tiny figure. Maximum contrast. Bold, readable at phone size. No background clutter.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THUMBNAIL C — TIKTOK 9:16 (1080x1920)
+VERTICAL — SPLIT FORMAT ADAPTED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2D flat cartoon illustration, thick solid black outlines on every element, clean solid color fills, no gradients. Recurring main character ALEX: large beige oval head with transparent glass upper skull revealing a pink cartoon brain inside, small black dot eyes, thin neutral mouth, black spiky hair, muted blue t-shirt, gray pants. Brain villain: pink cartoon brain character, smug heavy-lidded eyes, slight smirk. Bold black diegetic text labels integrated into the scene. 9:16 VERTICAL, 1080x1920.
+
+VERTICAL SPLIT THUMBNAIL — horizontal dividing line at 45% from top. TOP HALF (45% of frame): soft neutral green background (#C8E6C9). Large cartoon brain icon centered, clean circuits, calm green glow. Small "BEFORE" badge top-left. TOP HALF feels safe and calm. BOTTOM HALF (55% of frame): deep saturated red background (#C62828). Same brain, 3 circuits in bold red with padlock icons. "3 TRAPS" badge top-right of bottom section. HORIZONTAL DIVIDING LINE: thick bold white line 8px. TEXT OVERLAY spanning the dividing line: "REWIRED" in ultra-bold black block capitals, white stroke, centered horizontally. TOP 25% of frame is TEXT SAFE ZONE — keep clear for TikTok UI. BOTTOM 15% of frame is EMPTY SAFE ZONE — keep clear for TikTok UI controls. ALEX (shocked expression, pointing at rewired brain) positioned in bottom-right quadrant of frame, within safe zones. Brain villain peeking from upper edge of bottom section. Maximum contrast. Readable at mobile size in feed.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+USAGE NOTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GENERATION ORDER:
+1. Generate Thumbnail A (split format) first — this is the primary
+2. If split doesn't render cleanly, use Thumbnail B (standard Alex direct)
+3. Generate Thumbnail C last for TikTok cover
+
+WHAT TO CHECK after generation:
+- "REWIRED" text: readable at 200px width (phone thumbnail size)?
+- Alex expression: genuinely shocked, not neutral?
+- Left/right contrast: clear split between calm green and alarm red?
+- Padlock icons on rewired circuits: visible at small size?
+- Brain Villain: visible but not dominant (supporting element only)?
+- No text crowding the edges (safe zone respected)?
+
+REFINEMENT PROMPTS (if needed):
+- "Make the REWIRED text larger and bolder, more readable at small sizes"
+- "Increase contrast between left green half and right red half"
+- "Alex's expression needs to be more shocked — wider eyes, mouth more open"
+- "The 3 padlock icons on the brain circuits need to be more visible"
+- "Make the dividing line thicker and whiter"
+
+COMBINED GAP CHECK:
+- Thumbnail: shows brain "REWIRED" with "3 TRAPS"
+- Title: "3 Traps That Rewire Your Brain to Stay Broke"
+- Click question: "Which 3 traps? Is my brain already rewired?"
+- Gap: YES — thumbnail + title create a question the brain must resolve
+
+================================================================================
