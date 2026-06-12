@@ -1,0 +1,457 @@
+NEUROCENTS — V11 SCRIPT
+Title: "3 Mental Traps That Empty Your Account — No Matter What You Earn"
+Format: Corta pero Letal | Duration target: 10-12 min
+Structure: VidIQ Outlier adapted | Behavioral Finance | Faceless 2D animated
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PACKAGING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TITLE:
+  "3 Mental Traps That Empty Your Account — No Matter What You Earn"
+
+  Why it works:
+  - Number in title = concrete promise (✅ VidIQ rule: 3 = credibility)
+  - Counterintuitive hook: "no matter what you earn" attacks the belief
+    that income = savings. The brain must resolve this.
+  - "Empty your account" = visceral, emotional, personal consequence
+  - No answer in title — traps are named but not revealed
+
+  Alternatives if A/B testing:
+  - "Why Your Brain Destroys Every Raise Before You Notice"
+  - "Your Brain Has 3 Payday Traps — And They Work Every Time"
+
+THUMBNAIL (MrBeast 3-element rule):
+  Element 1: Alex — expression = SHOCKED/HORRIFIED, looking directly at camera
+  Element 2: ONE object = an empty wallet or a €0 bank screen on a phone
+  Element 3: Text = "3 TRAPS" (large, saturated, max 2 words)
+  Background: 100% saturated RED or ORANGE
+  Brain Villain: peeking from behind Alex's shoulder (adds narrative tension)
+
+  Combined gap (title + thumbnail):
+  Thumbnail says "3 TRAPS" → Title says "empty your account no matter what you earn"
+  → Brain must click to know: what are the traps? why can't income fix it?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VISUAL DIRECTION — FIRST 30 SECONDS (top priority for retention)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+0:00 — HARD CUT. No logo. No music swell.
+  → Alex sitting at desk. Phone screen shows "SALARY RECEIVED — €3,200"
+  → He smiles. Cut to: same phone, Sunday 9pm. Balance: €1,980.
+  → Alex's expression: confused, not panicked. He's seen this before.
+  → Text appears on screen: "Friday: €3,200. Sunday: €1,980. He didn't buy anything big."
+
+  Visual pace: fast cuts every 1-2 seconds. No slow pans.
+  Music: low tension ambient, no lyrics. Ramps up at the 8-second mark.
+
+0:08 — Brain Villain appears in the corner of the frame.
+  → He's not sinister. He looks satisfied. Like he planned this.
+  → No dialogue yet. Just presence. Viewer knows: the villain did this.
+
+0:15 — Alex looks directly at camera. (Pattern interrupt moment)
+  → Animation style: same character proportions, same line thickness as V1-V10
+  → This is the beat where the hook lands.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FULL SCRIPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[0:00–0:05] ── PROMISE FULFILLMENT
+(Confirm the title/thumbnail in the FIRST sentence. No intro. No welcome.)
+
+  VISUAL: Alex's phone. Salary notification. Then Sunday. Balance lower.
+
+  ALEX (VO):
+  "Alex checked his bank account on Friday. Three thousand two hundred arrived —
+   same as last month. By Sunday, twelve hundred of it was already gone.
+   Not on rent. Not on bills. On things his brain convinced him he deserved."
+
+  [Brain Villain nods smugly in the background.]
+
+
+[0:05–1:00] ── HOOK: BELIEF SHATTER
+(Pattern interrupt → personal consequence → open loop that forces continuation)
+(Open with FACT or SCENE — never with a question or "in this video...")
+
+  ALEX (VO):
+  "Here's what nobody tells you about money problems: they're not math problems.
+
+   Alex isn't bad at math. He knows 3,200 minus 1,200 equals a serious problem.
+   But his brain doesn't think in numbers. It thinks in feelings.
+   And every payday, it runs three very specific programs.
+
+   Programs that were written before Alex had his first job.
+   Before he earned his first euro.
+   Three traps — designed by millions of years of evolution —
+   that activate the moment your paycheck hits.
+
+   And by the time you realize they're running,
+   the money is already gone."
+
+  [Visual: Brain Villain holds up THREE fingers. Slow, deliberate. Like a countdown.]
+
+  ALEX (VO):
+  "We're going to show you all three.
+   The third one is the one nobody suspects —
+   because it's not what you spend. It's why you'll never stop."
+
+  ── OPEN LOOP LOCKED. Viewer must see Trap 3. ──
+
+
+[1:00–3:20] ── TRAP 1: THE REWARD TRAP
+(Personaje real → Ciencia del sesgo → La anulación)
+(Curiosity gap every 30 seconds)
+
+  VISUAL: Alex leaving work on Friday. Tired. Slightly hunched. Phone buzzes.
+
+  ALEX (VO):
+  "Trap One. Alex calls it the Reward Trap — though he doesn't call it anything,
+   because he doesn't know it's a trap.
+
+   He worked hard this week. He knows it. His body knows it.
+   By Friday afternoon, his back hurts, his focus is gone, and he's been patient.
+   So when his phone shows the salary notification,
+   his brain immediately asks one question.
+
+   Not: 'How much do I need to save?'
+   But: 'What do I deserve?'"
+
+  [Visual: Brain Villain whispers into Alex's ear. Alex slowly smiles.]
+
+  ALEX (VO):
+  "This isn't laziness. This is neuroscience.
+
+   Wolfram Schultz — neuroscientist, Cambridge University —
+   won the Nobel Prize partly for discovering this:
+   the brain releases dopamine not when the reward arrives,
+   but when the reward is expected.
+
+   Alex doesn't feel good because he got paid.
+   He feels good because his brain already spent the money in his imagination.
+   The reward center activated before a single euro left his account."
+
+  ── 30-SECOND GAP: "But the expectation is only the beginning of the trap." ──
+
+  ALEX (VO):
+  "The result? The eighty-five euro dinner. The one-forty jacket.
+   The streaming subscription he upgraded 'just for this month.'
+   Not luxuries — rewards. Small. Justified. Automatic.
+
+   The Brain Villain calculated perfectly:
+   rewards feel necessary, not optional.
+   Alex didn't overspend. His brain spent exactly what it felt it earned."
+
+  [Visual: Brain Villain tallying on a notepad. Each item. Each amount. Smiling.]
+
+  ALEX (VO):
+  "And here's where Trap One gets expensive.
+
+   Professor Robert Frank — Cornell University, thirty years of research —
+   documented what happens after every reward: hedonic adaptation.
+   Every reward resets the baseline.
+   The eighty-five euro dinner becomes the new normal.
+   Next payday, eighty-five euros doesn't feel like a reward anymore.
+   It feels like the floor.
+
+   Trap One doesn't cost you once.
+   It raises the price every single month."
+
+  ── GAP CLOSE / BRIDGE: "But Trap One is just the surface." ──
+
+  ALEX (VO):
+  "Because Trap One is the one Alex knows about, somewhere in the back of his mind.
+   Trap Two is the one he thinks he's beating."
+
+
+[2:20–2:30] ── CTA (33% MARK — exactly at this moment)
+(Alex at camera. Brain Villain reacts. MAX 5 seconds. Do not interrupt momentum.)
+
+  [Visual: Alex turns directly to camera. Brain Villain freezes.]
+
+  ALEX (direct, calm):
+  "If your brain is doing this to you right now — subscribe.
+   We break down a new bias every week.
+   It's free. And it might save you more than you think."
+
+  [Brain Villain rolls his eyes. Alex turns back. Momentum resumes immediately.]
+
+
+[3:20–5:50] ── TRAP 2: THE SAFE MONEY ILLUSION
+(Personaje real → Nobel Prize science → La anulación)
+
+  VISUAL: Alex at a laptop. Two bank accounts on screen. One labeled "SAVINGS." One: "CREDIT."
+
+  ALEX (VO):
+  "Trap Two. Alex does something most people call responsible.
+
+   He keeps two thousand euros in a savings account.
+   Emergency fund. He's proud of it. He calls it untouchable.
+
+   Meanwhile, he carries eighteen hundred euros in credit card debt.
+   Annual interest rate: twenty-three percent.
+
+   Alex is paying four hundred and fourteen euros a year in interest —
+   to protect money that earns thirty-two euros a year in savings.
+   Net loss: three hundred and eighty-two euros. Every year.
+
+   Not because Alex is bad at finance.
+   Because his brain refuses to see these as the same money."
+
+  [Visual: Brain Villain draws a wall between the two accounts. Nodding approvingly.]
+
+  ── 30-SECOND GAP: "The wall isn't in the bank. It's in Alex's brain." ──
+
+  ALEX (VO):
+  "This is Mental Accounting.
+
+   Richard Thaler — Nobel Prize in Economics, 2017, University of Chicago —
+   proved that humans don't treat money as money.
+   We treat it as labeled categories.
+   Two thousand euros in a savings account called 'emergency'
+   feels completely different from two thousand euros that could pay off debt.
+
+   They are mathematically identical.
+   Psychologically, they live on different planets."
+
+  [Visual: Two identical coins. Brain Villain paints one red, one blue. Now they "feel" different.]
+
+  ALEX (VO):
+  "The Brain Villain loves this trap most because it feels responsible.
+
+   Alex is being careful with his emergency fund.
+   He's being disciplined.
+   He's paying three hundred and eighty-two euros a year for that discipline.
+
+   The trap doesn't feel like a trap.
+   It feels like a virtue."
+
+  ── BRIDGE + NAME DROP (50-60% mark) ──
+
+  ALEX (VO):
+  "In the next video, we show why Alex's brain does the exact same trick
+   with tax refunds — and why that money disappears faster than any other money he earns.
+   Same trap. Different label. Same result.
+
+   But before that — Trap Three.
+   The one that makes Trap One and Trap Two inevitable."
+
+
+[5:50–8:20] ── TRAP 3: THE FUTURE IS FAKE
+(The operating system the other two traps run on)
+(Most expensive trap — save best for last)
+
+  VISUAL: Alex at a fork in an animated road. Left path: "€100 TODAY." Right path: "€110 IN 1 WEEK."
+  Alex takes the left path without hesitation.
+
+  ALEX (VO):
+  "Trap Three. This one is harder to see because it's not a spending habit.
+   It's a perception problem.
+
+   Ask Alex: would you rather have a hundred euros today,
+   or a hundred and ten in one week?
+   He takes the hundred. Almost everyone does.
+
+   Now ask him: would you rather have a hundred euros in fifty-two weeks,
+   or a hundred and ten in fifty-three weeks?
+   Same trade. One year later.
+   He'll happily wait the extra week.
+
+   The math is identical.
+   The psychology is completely different."
+
+  [Visual: Brain Villain splits Alex in two — Present-Alex and Future-Alex. They look at each other like strangers.]
+
+  ── 30-SECOND GAP: "The reason Alex won't wait a week now but will wait a week later is the same reason he'll never start saving." ──
+
+  ALEX (VO):
+  "David Laibson — behavioral economist, Harvard University —
+   spent decades quantifying this pattern.
+   He calls it hyperbolic discounting.
+
+   The further something is in the future, the less real it feels.
+   Not less important. Less real.
+
+   Future-Alex — the one who needs the retirement account,
+   the one who has to pay Future-Alex's bills,
+   the one living the consequences of Present-Alex's choices —
+   doesn't feel like Alex.
+   He feels like a stranger.
+
+   And we don't sacrifice for strangers."
+
+  [Visual: Present-Alex looks at Future-Alex across a gap. Future-Alex waves. Present-Alex shrugs and walks away.]
+
+  ALEX (VO):
+  "So Present-Alex makes decisions that make perfect sense right now.
+
+   Eighty-five euro dinner? He deserves it. That's Trap One.
+   Keep the savings account, carry the debt? That's responsible. That's Trap Two.
+   Start saving next month? Future-Alex will be disciplined.
+   Future-Alex is always about to be disciplined.
+
+   Present Bias is the operating system.
+   Trap One and Trap Two are the applications running on top of it.
+
+   A 2024 study — Journal of Behavioral Decision Making — tracked fourteen thousand participants.
+   People who could mentally picture their future self as the same person
+   made twenty-three percent better financial decisions
+   without any other intervention.
+
+   Not a budgeting app. Not a financial advisor.
+   Just the ability to see Future-Alex as Alex."
+
+
+[8:20–10:00] ── CIERRE DE SISTEMA: The traps feed each other
+(Unify the three — show the system, not three separate tips)
+
+  VISUAL: Three gears connecting. Each trap is a gear. They spin together.
+
+  ALEX (VO):
+  "Here's what makes these three traps expensive: they don't work separately.
+
+   The Reward Trap fires on Friday.
+   Present Bias tells Alex Future-Alex will compensate.
+   Mental Accounting keeps the debt account and the savings account in separate boxes —
+   so the damage never looks total.
+
+   Remove any one gear, and the other two lose power.
+   Let all three run together, and they form a system that scales with income.
+
+   Researchers at Princeton — Kahneman, Deaton, 2010 —
+   found that above a certain income level, additional earnings have almost no effect
+   on day-to-day financial behavior.
+   Because behavioral traps consume the same percentage of income
+   regardless of salary level.
+
+   Alex could earn fifty thousand or a hundred and fifty thousand.
+   The system adjusts.
+   The percentage stays roughly the same.
+
+   This is why the title says 'no matter what you earn.'
+   It's not rhetorical. It's documented."
+
+  [Visual: Brain Villain watches the three gears spin. He didn't build this system.
+   He just maintains it. And he's very good at maintenance.]
+
+
+[10:00–11:30] ── IDENTITY CLOSE + VIEWER JOURNEY GUIDE
+(Do NOT moralize. Reframe identity. Then name the next video explicitly.)
+
+  VISUAL: Alex looks at the Brain Villain. Not angry. Understanding.
+
+  ALEX (VO):
+  "Alex isn't bad with money.
+
+   He's someone whose brain was trained to protect him.
+   The Reward Trap kept his ancestors motivated to hunt.
+   Mental Accounting helped them separate food from poison.
+   Present Bias kept them alive by prioritizing real, immediate threats
+   over hypothetical future ones.
+
+   The programs are not broken.
+   They are perfectly designed for an environment that no longer exists.
+
+   Knowing the three traps doesn't make them disappear.
+   The Brain Villain doesn't retire when you name him.
+   But it changes something fundamental:
+   you stop blaming yourself for a system you didn't design.
+
+   And that's the first condition for changing it."
+
+  [Visual: Alex and Brain Villain — side by side. Not enemies. Co-pilots.
+   Alex is now aware. The villain is still there. But Alex is watching.]
+
+  ALEX (direct to camera — end screen moment):
+  "The next step isn't a budget.
+   It's one decision that interrupts all three traps at the same time.
+   Watch [TITLE OF V12] next —
+   it shows exactly what that decision is, and why most people never make it."
+
+  [End screen card appears. Next video card visible.]
+
+  FINAL LINE (seed for next curiosity gap):
+  "One decision. Three traps. The math might surprise you."
+
+  [Music fades. Brain Villain gives a small, reluctant nod. Even he respects the next move.]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+POST-PUBLISH ASSETS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DESCRIPTION:
+  Line 1: "Alex earns the same salary every month. By Sunday, it's already gone. Not on rent — on traps."
+  Line 2: "This video breaks down the three behavioral programs your brain runs every payday — and why earning more doesn't fix them."
+  Line 3: [Link to playlist or V12 when available]
+  Tags: behavioral finance, psychology of money, investing psychology, money mindset, cognitive biases, brain and money, neuroscience finance, financial psychology
+
+PINNED COMMENT (post immediately):
+  "Alex earns €3,200. By Sunday, €1,200 is already gone — and he can't explain why.
+   Which of the 3 traps costs you the most? Drop your number below.
+   👇 Watch the one that fixes it: [V12 link when available]"
+
+RESPONSE TO EARLY COMMENTS (have ready):
+  "The scariest part isn't the spending — it's that every purchase felt completely justified
+   in the moment. The brain doesn't malfunction. It runs the trap exactly as designed.
+   The reward expectation (Wolfram Schultz, 1997) fires before the money leaves the account.
+   By the time you're deciding, the decision is already made."
+
+FRIEND COMMENTS (5 — post in first 20 minutes):
+
+  Amigo 1:
+  "The part about hedonic adaptation hit me. The €85 dinner becoming the new floor.
+   I thought my spending was stable. It just kept adjusting upward without me noticing."
+
+  Amigo 2:
+  "I have a savings account and credit card debt at the same time. Right now.
+   The mental accounting section made me uncomfortable in a way I needed."
+
+  Amigo 3:
+  "Future-Alex doesn't feel like me. That sentence is going to live in my head for weeks."
+
+  Amigo 4:
+  "I always thought the problem was discipline. The 'present bias is the operating system'
+   reframe changes the whole approach. It's not willpower. It's hardware."
+
+  Amigo 5:
+  "The three gears visual is the part that made it click. Not three separate problems —
+   one system. Breaking one weakens all three. I'd never thought about it that way."
+
+YOUR RESPONSE TO FRIEND COMMENTS:
+  "The gear system is the key insight. Most financial advice targets one gear at a time —
+   cut spending (Trap 1), consolidate debt (Trap 2), automate savings (Trap 3).
+   But the gears reinforce each other. Target the operating system (Present Bias first)
+   and the other two become easier to interrupt. That's what the next video covers."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LAUNCH SEQUENCE (V11)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  T-00:00 → 8 friends watch full video (clean signal window — NO LinkedIn yet)
+  T+00:20 → Video goes public
+  T+00:35 → LinkedIn post goes live (cold traffic arrives AFTER clean signal)
+
+  Friends: watch completely, no skipping, no background
+  Comments: post at minute 5-7 (not all at once — stagger by 3-4 minutes each)
+  You: post pinned comment immediately after publish
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PRE-PUBLISH CHECKLIST — V11
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE:      [ ] "no matter what you earn" = counterintuitive?  [ ] No answer in title?
+            [ ] Number in title (3)?                           [ ] Emotional trigger ("empty")?
+THUMBNAIL:  [ ] Alex horrified at camera?   [ ] Empty wallet / €0 screen?
+            [ ] "3 TRAPS" text only?        [ ] Saturated red/orange BG?
+            [ ] Brain Villain visible?      [ ] Readable at phone size?
+HOOK:       [ ] Promise in first 5s (Alex, Friday, €1,200 gone)?
+            [ ] Belief-shatter by 0:30?     [ ] Open loop locked by 1:00?
+SCRIPT:     [ ] Curiosity gap every 30s?    [ ] CTA at 2:20 (33%)?
+            [ ] Named researchers per trap?  [ ] Name drop V12 at ~5:50?
+            [ ] Cierre de sistema (gears)?   [ ] Identity close (not moralize)?
+END:        [ ] V12 named explicitly?       [ ] End screen card visible?
+            [ ] Pinned comment ready?       [ ] 5 friend comments queued?
+STORY:      [ ] Alex experiences each trap? [ ] Brain Villain = mechanism, not villain?
+            [ ] $ cost made concrete?       [ ] Viewer sees themselves in Alex?
+================================================================================
