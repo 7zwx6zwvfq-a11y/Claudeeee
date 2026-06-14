@@ -46,17 +46,17 @@ doc = SimpleDocTemplate(pdf_path, pagesize=landscape(A4),
                         topMargin=12*mm, bottomMargin=12*mm)
 
 flow = [
-    Paragraph("NEUROCENTS — VIDEO 11", SUB),
+    Paragraph("CRAYON CAPITAL — CLONE SESSION · VIDEO 11", SUB),
     Spacer(1, 4),
     Paragraph("3 Traps That Rewire Your Brain to Stay Broke", H1),
     Spacer(1, 4),
-    Paragraph(f"PRODUCTION DOCUMENT · {total_beats} beats · ~{word_count} words · "
+    Paragraph(f"STATE 1 — PRODUCTION DOCUMENT · {total_beats} beats · ~{word_count} words · "
               f"~{round(word_count/140)} min", META),
     Spacer(1, 10),
 ]
 
-HDR = ["#", "SEGMENT (NARRATION)", "IMAGE PROMPT", "CAMERA",
-       "LIGHTING", "MOOD / TONE", "CHARACTER ACTION", "VIDEO MOTION"]
+HDR = ["#", "NARRATION", "IMAGE PROMPT", "CAMERA",
+       "LIGHTING", "MOOD", "CHARACTER ACTION", "VIDEO MOTION"]
 COL_W = [10*mm, 44*mm, 65*mm, 28*mm, 26*mm, 28*mm, 28*mm, 34*mm]
 
 tbl_data = [HDR]
@@ -78,7 +78,7 @@ for beat_num, beat in enumerate(BEATS, 1):
     tbl_data.append([
         Paragraph(f'<b>{beat_num}</b>', BOLD),
         Paragraph(f'<b>{esc(seg)}</b>', BOLD),
-        Paragraph(esc(scene), CELL),
+        Paragraph(esc(f"{STYLE} {scene}"), CELL),
         Paragraph(esc(cam),   CELL),
         Paragraph(esc(light), CELL),
         Paragraph(esc(mood),  CELL),
@@ -111,8 +111,8 @@ flow.append(table)
 
 flow.append(Spacer(1, 8))
 flow.append(Paragraph(
-    f"END OF PRODUCTION DOCUMENT · {total_beats} beats · ~{word_count} words · "
-    f"~{round(word_count/140)} min narration", META))
+    f"END · {total_beats} beats · ~{word_count} words · "
+    f"~{round(word_count/140)} min", META))
 
 doc.build(flow)
 print(f"Saved: {pdf_path} | {total_beats} beats | {word_count} words")

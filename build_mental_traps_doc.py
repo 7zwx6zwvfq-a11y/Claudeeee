@@ -8,15 +8,15 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 STYLE = ("2D flat cartoon illustration, thick solid black outlines on every element, "
          "clean solid color fills, no gradients except soft warm ambient light. "
-         "Recurring main character: large beige oval head with a transparent glass upper "
-         "skull revealing a pink cartoon brain inside; small black dot eyes, thin neutral "
-         "mouth, black spiky hair, muted blue t-shirt, gray pants. The brain is an expressive "
-         "character with a smug villain default expression (heavy-lidded eyes, slight smirk, "
-         "small teeth). Palette: beige skin, black hair, muted blue shirt, gray pants, pink "
-         "brain (#E8A598), green for savings/gains, red for debt/loss/danger, white for "
-         "diagram/infographic scenes, warm beige interiors with a soft oval ceiling "
-         "spotlight, dark gray for void/absence scenes. Bold black diegetic text labels "
-         "integrated into the scene. 16:9, 1280x720.")
+         "Recurring main character ALEX: large beige oval head with transparent glass upper "
+         "skull revealing a pink cartoon brain inside, small black dot eyes, thin neutral mouth, "
+         "black spiky hair, red t-shirt, gray pants. "
+         "Brain villain: pink cartoon brain character, smug heavy-lidded eyes, slight smirk, small teeth. "
+         "Palette: beige skin, pink brain (#E8A598), red t-shirt, gray pants, green for savings/gains, "
+         "red for debt/loss/danger, white for diagram/infographic scenes, "
+         "warm beige interiors with soft oval ceiling spotlight, "
+         "dark charcoal (#1A1A1A) for hook/void scenes. "
+         "Bold black diegetic text labels integrated into the scene. 16:9, 1280x720.")
 
 # (segment, scene, camera, lighting, mood, action, video)
 BEATS = [
@@ -915,29 +915,28 @@ def build_docx():
     st.font.size = Pt(11)
 
     TITLE = "3 Traps That Rewire Your Brain to Stay Broke"
-    SUBTITLE = "NEUROCENTS — VIDEO 11"
-    LABEL = "PRODUCTION DOCUMENT — FULL BEAT SHEET"
+    SUBTITLE = "CRAYON CAPITAL — CLONE SESSION · VIDEO 11"
+    LABEL = "STATE 1 — PRODUCTION DOCUMENT"
 
     t = doc.add_paragraph()
     t.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = t.add_run(SUBTITLE)
     r.bold = True
     r.font.size = Pt(14)
-    r.font.color.rgb = RGBColor(0xB0, 0x2A, 0x2A)
 
     s = doc.add_paragraph()
     s.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = s.add_run(LABEL)
     r.bold = True
     r.font.size = Pt(11)
-    r.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
+    r.font.color.rgb = RGBColor(0xB0, 0x2A, 0x2A)
 
     s2 = doc.add_paragraph()
     s2.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = s2.add_run(TITLE)
     r.bold = True
     r.italic = True
-    r.font.size = Pt(16)
+    r.font.size = Pt(14)
 
     doc.add_paragraph()
 
@@ -951,8 +950,8 @@ def build_docx():
         129: "IDENTITY CLOSE + GUIDE",
     }
 
-    COL_LABELS = ["#", "SEGMENT (NARRATION)", "IMAGE PROMPT", "CAMERA", "LIGHTING",
-                  "MOOD / TONE", "CHARACTER ACTION", "VIDEO MOTION"]
+    COL_LABELS = ["#", "NARRATION", "IMAGE PROMPT", "CAMERA", "LIGHTING",
+                  "MOOD", "CHARACTER ACTION", "VIDEO MOTION"]
     COL_WIDTHS = [Inches(0.35), Inches(1.7), Inches(2.5), Inches(0.9), Inches(0.8),
                   Inches(1.0), Inches(1.0), Inches(1.25)]
 
@@ -1012,14 +1011,14 @@ def build_docx():
             if color:
                 run.font.color.rgb = color
 
-        cell_text(cells[0], str(beat_num), bold=True, sz=9, color=RGBColor(0x99, 0x99, 0x99))
-        cell_text(cells[1], seg, bold=True, sz=9)
-        cell_text(cells[2], scene, sz=8)
-        cell_text(cells[3], cam, sz=8)
-        cell_text(cells[4], light, sz=8)
-        cell_text(cells[5], mood, sz=8)
-        cell_text(cells[6], action, sz=8)
-        cell_text(cells[7], video, sz=8)
+        cell_text(cells[0], str(beat_num), bold=True, sz=7)
+        cell_text(cells[1], seg, bold=True, sz=7)
+        cell_text(cells[2], f"{STYLE} {scene}", sz=7)
+        cell_text(cells[3], cam, sz=7)
+        cell_text(cells[4], light, sz=7)
+        cell_text(cells[5], mood, sz=7)
+        cell_text(cells[6], action, sz=7)
+        cell_text(cells[7], video, sz=7)
 
     all_lines = [b[0] for b in BEATS]
     word_count = sum(len(l.split()) for l in all_lines)
@@ -1029,7 +1028,7 @@ def build_docx():
     footer = doc.add_paragraph()
     footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
     fr = footer.add_run(
-        f"TOTAL: {total_beats} beats · ~{word_count} words · ~{round(word_count/140)} min narration")
+        f"END · {total_beats} beats · ~{word_count} words · ~{round(word_count/140)} min")
     fr.font.size = Pt(9)
     fr.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
 
