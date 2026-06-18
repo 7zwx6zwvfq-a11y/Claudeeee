@@ -86,8 +86,9 @@ Descripción exacta para Google Flow / prompts de imagen:
 | V8 | Getting Rich Is Making You Poorer | Hedonic Treadmill + Diderot Effect | Script completo ✅ |
 | V9 | The First Number They Show You in a Job Interview Is Not an Offer | Anchoring Bias | Script completo ✅ |
 | V10 | Your Brain Won't Let You Quit — And It's Costing You Everything | Sunk Cost Fallacy — Concorde | Script completo ✅ |
-| V11 | 3 Traps That Rewire Your Brain to Stay Broke | Reward Trap + Mental Accounting + Present Bias | Script + producción + beats completo ✅ |
-| V12 | The One Decision That Defeats All Three Brain Traps | Sistema automático de ahorro | Script + producción completo ✅ |
+| V11 | 3 Traps That Rewire Your Brain to Stay Broke | Reward Trap + Mental Accounting + Present Bias | Suite completa ✅ |
+| V12 | **Why Willpower Fails Every Payday — And the One Decision That Stops It** | Ego Depletion (Baumeister) + Save More Tomorrow (Thaler) | Suite FINAL completa ✅ (107 beats) |
+| V13 | 5 Ways Your Brain Physically Rewires Itself to Stay Broke (Without Telling You) | Lista: Anticipation Burn + Balance Blindspot + Expertise Trap + Night Drain + Upgrade Lock | Script lista ✅ (104 beats) |
 
 **Cola de publicación (después de V7):** V8 → V3 → V5 → V4 (según last session)
 
@@ -189,9 +190,134 @@ BEAT N | Camera: [valor] | Lighting: [valor] | Mood: [valor] | Character Action:
 
 ---
 
+---
+
+## FORMATO CANÓNICO DE SCRIPTS — REGLAS VALIDADAS POR OUTLIERS
+
+Aplicar estas reglas a TODOS los videos futuros. Derivadas de análisis de outliers con múltiplos 36×–181×.
+
+### TÍTULOS — Fórmulas validadas (ordenadas por multiplicador)
+
+| Fórmula | Ejemplo | Multiplicador |
+|---|---|---|
+| `[Número] + "Brain" + verbo físico + paréntesis conspiración` | "5 Ways Your Brain Physically Rewires Itself to Stay Broke (Without Telling You)" | 181× |
+| `"Why [X] Fails Every [Trigger]"` | "Why Willpower Fails Every Payday" | 132.7× |
+| `"[Número] [Things] That [Negative Consequence]"` | "3 Traps That Rewire Your Brain" | 104× |
+| `"The [Mecanismo] That [Consecuencia financiera]"` | "The Billion-Dollar Bet Your Bank Wins Every Day" | 36× |
+
+**Regla:** Siempre negative framing > positive framing. "Fails" > "How to". "Broke" > "Richer".
+
+### HOOK — Estructura canónica (10 beats, ~30 segundos)
+
+```
+Beat 1: IDENTITY BEAT — espectador se reconoce antes de hacer clic (primera persona implícita)
+Beat 2: "Not because [causa A]."
+Beat 3: "Not because [causa B]."
+Beat 4: "Because [mecanismo real]." — primera revelación
+Beat 5: Promesa/solución en una línea (opcional: dato concreto)
+Beat 6: DATO ANCLA — cifra específica con contexto (Thaler 3.5%→13.6%, Baumeister 8 vs 19 min)
+Beat 7: "No [X]. No [Y]. No [Z]." — eliminar objeciones comunes
+Beat 8: Especificidad de tiempo/lugar — contraste entre dos estados
+Beat 9: Villain activo — calculando, anticipando
+Beat 10: Open loop — esto va a desmantelarlo
+```
+
+**Regla CRÍTICA:** Beat 1 = identidad, NO mecanismo. El espectador debe verse en el beat 1.
+
+### VISUAL-FIRST — Regla para image prompts
+
+- La imagen añade información que la narración NO puede convey
+- NO repetir en imagen lo que dice la narración (ej: narración dice "tres trampas" → imagen NO escribe "THREE TRAPS")
+- Texto en imagen SOLO para: números/cifras, nombres propios, pensamientos del villain, metáforas visuales clave
+- Cada imagen debe funcionar sin sonido
+
+### CTA — Posición y fórmula
+
+- Colocar al 33% del video (no al principio, no al final)
+- Fórmula: `"If your brain is running these programs right now — subscribe."`
+- Segunda línea: `"Every week: one bias. How it works. Who exploits it. And what you can actually do about it."`
+- El CTA debe espejear la identidad establecida en el hook
+
+### BRAIN VILLAIN INOCULATION — Sección final antes del cierre
+
+Usar en todos los videos donde el villain tiene una respuesta directa al mecanismo del video:
+```
+"The Brain Villain has one response to [mecanismo]."
+"You're feeling it right now."
+"Not anxiety. Something quieter."
+"Something that sounds like [virtud]: [objeción del villain]."
+"That thought is not intuition. Not wisdom. Not [virtud]."
+"It is [sesgo] wearing the costume of [virtud]."
+```
+
+### IDENTITY CLOSE — Fórmula de cierre
+
+```
+"The programs are not broken."
+"They are perfectly designed for an environment [contexto evolutivo]."
+"[Función evolutiva que tenía sentido]."
+"The [villain/programa] was built for that world. Not this one."
+```
+
+**Regla:** El cierre no moraliza. No dice "puedes mejorar". Dice "el programa tiene sentido — en otro contexto".
+
+### EXPERIMENTOS CIENTÍFICOS — Formato narrativo
+
+Formato probado para datos de retención alta:
+```
+"[Nombre] — [institución] — [año si relevante] —"
+"[Una frase qué midió/estudió]."
+"[Setup del experimento en 2-3 beats cortos]."
+"[El resultado en números concretos]."
+"[La interpretación en 1 beat.]"
+```
+
+Experimentos ya escritos y disponibles para reutilizar:
+- **Baumeister (1998):** rábanos/galletas → 8 min vs. 19 min → ego depletion (V12, beats 27-32)
+- **Thaler & Benartzi (2004):** Save More Tomorrow → 3.5% → 13.6% (V12, beats 62-74)
+- **Danziger et al.:** jueces → 65% → 11% parole (V13, beats Night Drain)
+- **Schultz:** dopamina predictiva pre-recompensa (V11 / V13)
+
+### FORMATO LISTA — Estructura canónica (cuando aplica)
+
+Para videos de lista (tipo V13), cada trampa tiene:
+```
+TRAP N — [NOMBRE EN MAYÚSCULAS]:
+- Setup narrativo con Alex (2-3 beats)
+- Científico + institución + hallazgo (2-3 beats)
+- Mecanismo explicado (3-4 beats)
+- Bridge a siguiente trampa (1 beat)
+```
+
+### STYLE PREAMBLE — Para todos los image prompts
+
+```
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills, no gradients.
+ALEX: large beige oval head, transparent glass upper skull revealing pink cartoon brain villain,
+small black dot eyes, thin neutral mouth, black spiky hair, BLUE t-shirt, gray pants.
+Brain villain: pink cartoon brain character, heavy-lidded eyes, slight smirk, small teeth.
+Palette: beige skin (#F5E6C8), pink brain (#E8A598), blue shirt, gray pants,
+green for savings/gains, red for loss/danger, white for diagram scenes. 16:9, 1280x720.
+```
+
+**CRÍTICO:** Blue t-shirt. NOT red. Verificar en Google Flow siempre.
+
+---
+
+## ARCHIVOS V12 FINAL — SUITE COMPLETA
+
+| Archivo | Output | Contenido |
+|---|---|---|
+| `build_v12_final_script.py` | `V12_final_SCRIPT.docx` + `.pdf` + `V12_final_ELEVENLABS.pdf` | 107 beats narración |
+| `build_v12_final_doc.py` | `V12_final_PRODUCTION.pdf` | 107 beats + image prompts + cam/light/mood/action/motion |
+| `build_v12_final_image_prompts_pdf.py` | `V12_final_IMAGE_PROMPTS.pdf` | 107 image prompts con STYLE preamble, 4 partes |
+| `build_v12_final_publish_doc.py` | `V12_final_Prepublish_Checklist.docx` | Título, descripción, tags, Reddit, YouTube Studio |
+
+---
+
 ## NOTAS IMPORTANTES
 
 - El canal se llamó "Crayon Capital" en sesión anterior → ahora es **Neurocents**. Los archivos más antiguos dicen CRAYON CAPITAL en los subtítulos.
 - V11 en los archivos dice NEUROCENTS · VIDEO 11 (primer video con branding nuevo)
-- V12 dice CRAYON CAPITAL — puede necesitar actualización de branding
+- V12 FINAL usa branding correcto: NEUROCENTS · VIDEO 12 — FINAL
 - La tabla de métricas de arriba hay que rellenarla — mandar captura de YouTube Studio
