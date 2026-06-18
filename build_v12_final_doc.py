@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 """
-V12 FINAL — Production Document (107 beats)
+V12 FINAL — Production Document (102 beats)
 Why Willpower Fails Every Payday — And the One Decision That Stops It
 Full image prompts + camera + lighting + mood + character action + video motion
+CHANGES vs. previous version:
+  - CTA moved to beat 40 (~39%), after "Alex does." emotional low
+  - Identity Close trimmed from 14 to 9 beats
+  - 15 visual-first violations fixed (text labels replaced with icon/visual-only)
+  - Beats 2-3: differentiated eye direction (down-left vs up-right)
+  - Beats 24-26: broke 3-diagram sequence with Alex-centered beat 25
+  - Beats 46-48: varied camera (close-up / top-down / profile)
 """
 
 from reportlab.lib.pagesizes import A4
@@ -36,16 +43,16 @@ BEATS = [
 
     (2, "HOOK",
      "Not because you're bad with money.",
-     "Alex with neutral/thoughtful expression. Clean white background. No props.",
-     "Close-up", "Flat neutral", "Contemplative",
-     "Alex head tilt, brow slightly furrowed — questioning himself",
+     "Alex close-up, eyes directed DOWN AND LEFT — defeat/guilt direction. Clean white background. No props or text.",
+     "Extreme close-up", "Flat neutral", "Defeat / Inward guilt",
+     "Alex eyes drift down-left, brow slightly lowered — shame direction",
      "Static"),
 
     (3, "HOOK",
      "Not because you lack discipline.",
-     "Same Alex expression, slight variation — eyes slightly upward, processing.",
-     "Close-up", "Flat neutral", "Introspective",
-     "Alex looks upward slightly",
+     "Alex close-up, eyes directed UP AND RIGHT — searching, self-questioning. Clean white background. No props or text.",
+     "Extreme close-up", "Flat neutral", "Self-questioning / Searching",
+     "Alex eyes drift up-right, brow slightly raised — wondering direction",
      "Static"),
 
     (4, "HOOK",
@@ -185,31 +192,31 @@ BEATS = [
 
     (23, "WHY WILLPOWER FAILS",
      "spent a decade measuring something he calls ego depletion.",
-     "Timeline bar labeled '10 YEARS'. Arrow pointing to: 'EGO DEPLETION'. Research-style clean graphic.",
+     "10-year timeline bar filled left to right. At the right end a fuel gauge depleting from full to empty. No text label for the concept — visual only.",
      "Wide shot, diagram", "Clinical white", "Scientific",
      "No character",
-     "Timeline bar fills left to right"),
+     "Timeline bar fills, then fuel gauge needle drops at the end"),
 
     (24, "WHY WILLPOWER FAILS",
      "Willpower is not a character trait. It is a finite daily resource.",
-     "Two columns: LEFT 'CHARACTER TRAIT' with red X. RIGHT fuel gauge going FULL to EMPTY, labeled 'FINITE RESOURCE'.",
+     "Two columns: LEFT muscle/trophy icon (symbol of personal quality) with red X through it. RIGHT fuel gauge going FULL to EMPTY. No text labels — visual contrast only.",
      "Wide shot, split diagram", "Clean contrast", "Revelatory",
      "No character",
-     "Left X strikes through; right gauge needle drops"),
+     "Left X strikes through muscle icon; right gauge needle drops from full to empty"),
 
     (25, "WHY WILLPOWER FAILS",
      "It depletes with every decision you make — not just financial ones.",
-     "Single fuel gauge. Decision icons draining it as taps: lunch plate, email envelope, shirt/outfit, coin.",
-     "Medium shot, diagram", "Warm neutral", "Accumulative drain",
-     "No character",
-     "Each tap opens in sequence, gauge drops with each"),
+     "Alex at desk: visible battery/reserve indicator icon on his chest showing 80% full. Multiple decision arrows pulling from it simultaneously — fork icon (lunch), envelope icon (email), shirt-hanger icon (outfit), coin icon (savings). Alex reacts with concerned expression as indicator drops.",
+     "Medium shot", "Warm neutral", "Personal / Accumulative drain",
+     "Alex looks down at depleting chest indicator, concerned expression as arrows pull from it",
+     "Indicator drops as each decision arrow activates around Alex"),
 
     (26, "WHY WILLPOWER FAILS",
      "Every decision draws from the same reserve. Lunch. Email. What to wear. Whether to save.",
-     "Large central tank: 'DAILY RESERVE'. Four taps draining simultaneously: LUNCH / EMAIL / OUTFIT / SAVINGS.",
+     "Large central tank draining through four icon-labeled taps simultaneously: fork icon (lunch), envelope icon (email), shirt/hanger icon (outfit), coin icon (savings). Tank level drops visibly. No text words on the taps — icons only.",
      "Wide shot", "Clean neutral", "Systemic drain",
      "No character",
-     "All four taps open simultaneously, tank level drops"),
+     "All four icon-taps open simultaneously, tank level drops"),
 
     (27, "WHY WILLPOWER FAILS",
      "In 1998, Baumeister ran an experiment. Two groups. One room.",
@@ -234,17 +241,17 @@ BEATS = [
 
     (30, "WHY WILLPOWER FAILS",
      "Then both groups received the same unsolvable puzzle.",
-     "Both tables now have identical red puzzle boxes. 'UNSOLVABLE' label visible on each.",
+     "Both tables now have identical red puzzle boxes. Pieces scattered off the table, figures hunched in frustrated postures. Visual confusion without text labels.",
      "Wide shot", "Neutral clinical", "Setup for reveal",
-     "Both groups lean toward puzzles",
-     "Puzzle boxes appear simultaneously on both tables"),
+     "Both groups lean toward puzzles, figures visibly tense",
+     "Puzzle boxes appear simultaneously on both tables, pieces scattered"),
 
     (31, "WHY WILLPOWER FAILS",
      "Radish eaters gave up in eight minutes. Cookie eaters lasted nineteen.",
-     "Two stopwatch faces: LEFT '8:00' in red, label 'GAVE UP'. RIGHT '19:00' in green, label 'LASTED'.",
+     "Two stopwatches: LEFT shows 8:00 in red — figure head-down on table beneath it (visual gave up). RIGHT shows 19:00 in green — figure still hunched working beneath it (visual still going). Numbers stay, no text labels.",
      "Wide shot, diagram", "LEFT: red / RIGHT: green", "Data clarity / Impact",
      "No character",
-     "Left stopwatch runs to 8:00 and stops. Right continues to 19:00."),
+     "Left stopwatch runs to 8:00, figure slumps. Right continues to 19:00, figure still working."),
 
     (32, "WHY WILLPOWER FAILS",
      "Same puzzle. Same intelligence. Different reserve.",
@@ -276,17 +283,17 @@ BEATS = [
 
     (36, "WHY WILLPOWER FAILS",
      "A budget is a willpower machine.",
-     "Budget spreadsheet shown with mechanical gears visible behind it. Fuel tank attached labeled 'WILLPOWER REQUIRED'.",
+     "Budget spreadsheet shown with mechanical gears visible behind it. Fuel gauge depleting visually as gears turn. No text label on the mechanism — visual only.",
      "Medium shot", "Mechanical industrial tones", "Reframing",
      "No character",
      "Gears begin turning, fuel gauge drops as they turn"),
 
     (37, "WHY WILLPOWER FAILS",
      "It asks Alex to make the right call at the right moment, every payday, for thirty years.",
-     "Long horizontal timeline: 30 years of payday markers. Each with tiny 'RIGHT CALL' flag requirement.",
+     "Long horizontal timeline: 30 years of payday markers. Each marker has a tiny sword-and-shield icon (representing the required 'right call'). No text flags.",
      "Wide shot, timeline", "Clean horizontal", "Daunting scale",
      "No character",
-     "Timeline extends right — camera pans to follow it"),
+     "Timeline extends right — camera pans to follow it, sword-shield icons populate each payday"),
 
     (38, "WHY WILLPOWER FAILS",
      "The Brain Villain doesn't get tired.",
@@ -302,161 +309,162 @@ BEATS = [
      "Alex barely holds head up",
      "Static — maximum stillness"),
 
-    (40, "WHY WILLPOWER FAILS",
-     "Over thirty years, the math does not favor Alex.",
-     "Bar race chart over 30-year timeline: VILLAIN stamina bar stays high/flat. ALEX bar declines each year.",
-     "Wide shot, bar chart", "Clean, red villain / blue Alex", "Sobering calculation",
-     "No character",
-     "Both bars animate year by year — villain flat, Alex declining"),
-
-    (41, "WHY WILLPOWER FAILS",
-     "But here's what Baumeister also found — the part that changes how you actually set up the system.",
-     "Baumeister nameplate again. Now with 'ALSO FOUND:' added below — unresolved. Curiosity gap.",
-     "Close-up, flat graphic", "Clean white, slight warm tint", "Pivot — anticipation",
-     "No character",
-     "'ALSO FOUND:' text appears with subtle emphasis, then holds"),
-
-    # ── THE DECISION ───────────────────────────────────────────────────────────
-    (42, "THE DECISION",
-     "There is only one way to beat a system that runs automatically.",
-     "The large red gear system from beat 4. Single spotlight illuminating it. No Alex yet.",
-     "Wide shot", "Single spotlight, dramatic", "Confrontation",
-     "No character — spotlight on gear system",
-     "Spotlight sweeps to settle on gear system"),
-
-    (43, "THE DECISION",
-     "Build a counter-system that also runs automatically.",
-     "A second green gear system appears beside the red one. They interlock. Green matches red in size and momentum.",
-     "Wide shot", "Dramatic — red and green contrast", "Resolution / Power",
-     "No character",
-     "Green gears emerge and interlock with red system"),
-
-    (44, "THE DECISION",
-     "Alex set up a standing order.",
-     "Alex at computer, single mouse click. Clean green 'STANDING ORDER' arrow appears on screen.",
-     "Medium shot", "Computer screen glow", "Decisive simplicity",
-     "Alex clicks once — deliberately. One finger, one click.",
-     "Mouse click registers; standing order graphic appears"),
-
-    (45, "THE DECISION",
-     "Four hundred euros. Every payday. One minute before the salary notification arrives.",
-     "Timeline: 'PAYDAY - 1 MIN' → green standing order arrow fires. 'PAYDAY' → blue salary notification arrives. Green clearly precedes blue.",
-     "Wide shot, timeline", "Clean, precise", "Mechanical advantage",
-     "No character",
-     "Timeline plays left to right — green fires first, then blue"),
-
-    (46, "THE DECISION",
-     "Before the Reward Trap fires its first question: what do I deserve?",
-     "Villain's mouth starting to open for question — but money space already empty. Speech bubble '?' forms too late. Nothing to address.",
-     "Close-up, skull interior", "Interior spotlight dims slightly", "Too late",
-     "Villain begins question motion — stops, confused",
-     "Villain's mouth opens, speech bubble starts — then freezes"),
-
-    (47, "THE DECISION",
-     "Before Mental Accounting creates a label: this is mine, this is safe, this is earned.",
-     "Brain with label-maker: three blank label templates (MINE / SAFE / EARNED) — but no euro coin to label. Printer runs empty.",
-     "Medium shot", "Office-style clean", "Futility of mechanism",
-     "Label printer runs but ejects empty labels",
-     "Printer cycles, blank labels curl out uselessly"),
-
-    (48, "THE DECISION",
-     "Before Present Bias whispers: Future Alex will take care of it.",
-     "Present Bias villain whispering in ear — speech bubble showing 'Future Alex' contains empty silhouette. No money to inherit.",
-     "Close-up", "Whisper scene — intimate dark", "Empty promise revealed",
-     "Villain leans in to whisper, realizes target is gone",
-     "Villain whisper animation — speech bubble shows void"),
-
-    (49, "THE DECISION",
-     "The Reward Trap fires the moment the salary hits. The standing order fires one minute earlier.",
-     "Race graphic: two countdown timers. STANDING ORDER fires at T-1:00 (green). REWARD TRAP fires at T+0:00 (red). Clear winner.",
-     "Wide shot, race graphic", "High contrast — green vs. red", "Speed advantage",
-     "No character",
-     "Both timers count down; green fires at -1:00, red at 0:00"),
-
-    (50, "THE DECISION",
-     "Mental Accounting assigns emotional labels to every euro Alex sees.",
-     "Villain with label printer, stamping arriving euros: 'EARNED' / 'SAFE' / 'MINE' in sequence.",
-     "Medium shot", "Warm office tones", "Mechanical enthusiasm",
-     "Villain stamps labels rapidly, enjoying the process",
-     "Label stamps hit coins in rapid sequence"),
-
-    (51, "THE DECISION",
-     "The standing order moves four hundred euros into a category the Brain Villain is never shown.",
-     "Villain's filing cabinet: many visible labeled folders. One folder is INVISIBLE — villain's hand passes right through where it should be.",
-     "Medium shot", "Slightly mysterious", "Invisible category",
-     "Villain searches cabinet, hand passes through invisible folder",
-     "Villain's hand sweeps through invisible folder's location"),
-
-    (52, "THE DECISION",
-     "Present Bias insists that Future Alex will be more responsible than Present Alex.",
-     "Two identical Alexes side by side. Present Bias villain points at Future Alex: 'He'll handle it' speech bubble.",
-     "Wide shot", "Split left/right same lighting", "False promise",
-     "Villain points confidently at Future Alex. Both Alexes look identical.",
-     "Static — emphasis on villain's confident pointing"),
-
-    (53, "THE DECISION",
-     "Past Alex already was — nine days before payday, when he was rested, calm, and the villain was quiet.",
-     "Calendar: 9 days before payday. Alex at desk: well-rested, upright, clear eyes. Through skull: villain small, sleepy, quiet.",
-     "Medium shot", "Clear daytime light — calm", "Peace / Competence",
-     "Alex alert and calm. Villain barely visible — eyes half-closed, dormant.",
-     "Slow reveal — camera pans from villain (small/quiet) to Alex (capable)"),
-
-    (54, "THE DECISION",
-     "Alex didn't learn to say no to the Brain Villain.",
-     "Alex NOT in confrontation with villain. No boxing ring. No argument. Alex neutral, alone, standing.",
-     "Medium shot", "Neutral clean", "Non-confrontation",
-     "Alex arms at sides — not fighting, not engaging. Villain absent.",
-     "Static — conspicuously no conflict"),
-
-    (55, "THE DECISION",
-     "He cancelled the meeting.",
-     "Calendar entry: 'MEETING: Alex vs. Brain Villain — PAYDAY 9AM'. Large red CANCELLED stamp over it.",
-     "Close-up on calendar", "Clean office", "Resolution — clean break",
-     "No character — calendar close-up",
-     "CANCELLED stamp slams onto calendar entry"),
-
-    (56, "THE DECISION",
-     "The Brain Villain cannot argue with a decision it was never invited to attend.",
-     "Villain outside a closed meeting room door. Sign: 'STANDING ORDER MEETING — PRIVATE'. Villain reads sign, tries handle.",
-     "Medium shot", "Office corridor — fluorescent", "Exclusion",
-     "Villain reads door sign, tries handle — door stays locked",
-     "Villain tries door handle — door stays closed"),
-
-    (57, "THE DECISION",
-     "The money is simply not there.",
-     "Alex's mental wallet: he opens it, the €400 space is clearly empty. Simple, clean.",
-     "Close-up on wallet", "Clean neutral", "Simple fact",
-     "Alex holds open wallet, looks at empty space without distress",
-     "Wallet opens — empty space revealed"),
-
-    (58, "THE DECISION",
-     "Not hidden. Not locked. Not off-limits.",
-     "Three icons in a row, each with bold red X: box with lock (HIDDEN), padlock (LOCKED), warning sign (OFF-LIMITS).",
-     "Wide shot, icon row", "Clean white", "Clarification",
-     "No character",
-     "Each X strikes through in rapid left-to-right sequence"),
-
-    (59, "THE DECISION",
-     "Gone before the calculation begins.",
-     "Villain's abacus/calculator: completely empty. No numbers, no inputs. Villain stares at it.",
-     "Medium shot", "Clean white", "Checkmate",
-     "Villain looks at empty calculator, expression shifts from expectation to confusion",
-     "Villain's abacus beads absent — empty frame"),
-
     # ── CTA ────────────────────────────────────────────────────────────────────
-    (60, "CTA",
+    (40, "CTA",
      "If your brain is running these programs right now — subscribe.",
      "Alex pointing directly at camera with calm confidence. Green subscribe button glows beside him.",
      "Medium shot, direct to camera", "Bright, welcoming", "Direct / Warm",
      "Alex points at camera, slight knowing smile",
      "Subscribe button pulses once"),
 
-    (61, "CTA",
+    (41, "CTA",
      "Every week: one bias. How it works. Who exploits it. And what you can actually do about it.",
-     "Simple weekly calendar — one slot highlighted green: 'NEUROCENTS — ONE BIAS PER WEEK'.",
+     "Weekly calendar grid with small repeating icons (alternating brain icon and coin icon) each week, one week highlighted in green. No text labels.",
      "Wide shot, calendar graphic", "Clean", "Promise / Regularity",
      "No character",
-     "Green slot highlights in calendar"),
+     "Calendar grid fills with alternating icons, one week pulses green"),
+
+    # ── continuation (no section header) ──────────────────────────────────────
+    (42, "",
+     "Over thirty years, the math does not favor Alex.",
+     "Bar race chart over 30-year timeline: VILLAIN stamina bar stays high/flat. ALEX bar declines each year.",
+     "Wide shot, bar chart", "Clean, red villain / blue Alex", "Sobering calculation",
+     "No character",
+     "Both bars animate year by year — villain flat, Alex declining"),
+
+    (43, "",
+     "But here's what Baumeister also found — the part that changes how you actually set up the system.",
+     "Baumeister nameplate again. Large question mark appearing to the right of it, off-frame arrow pointing beyond. Visual curiosity gap without text.",
+     "Close-up, flat graphic", "Clean white, slight warm tint", "Pivot — anticipation",
+     "No character",
+     "Question mark appears beside nameplate with subtle emphasis, then holds"),
+
+    # ── THE DECISION ───────────────────────────────────────────────────────────
+    (44, "THE DECISION",
+     "There is only one way to beat a system that runs automatically.",
+     "The large red gear system from beat 4. Single spotlight illuminating it. No Alex yet.",
+     "Wide shot", "Single spotlight, dramatic", "Confrontation",
+     "No character — spotlight on gear system",
+     "Spotlight sweeps to settle on gear system"),
+
+    (45, "THE DECISION",
+     "Build a counter-system that also runs automatically.",
+     "A second green gear system appears beside the red one. They interlock. Green matches red in size and momentum.",
+     "Wide shot", "Dramatic — red and green contrast", "Resolution / Power",
+     "No character",
+     "Green gears emerge and interlock with red system"),
+
+    (46, "THE DECISION",
+     "Alex set up a standing order.",
+     "Alex at computer, single mouse click. Clean green 'STANDING ORDER' arrow appears on screen.",
+     "Medium shot", "Computer screen glow", "Decisive simplicity",
+     "Alex clicks once — deliberately. One finger, one click.",
+     "Mouse click registers; standing order graphic appears"),
+
+    (47, "THE DECISION",
+     "Four hundred euros. Every payday. One minute before the salary notification arrives.",
+     "Timeline: 'PAYDAY - 1 MIN' → green standing order arrow fires. 'PAYDAY' → blue salary notification arrives. Green clearly precedes blue.",
+     "Wide shot, timeline", "Clean, precise", "Mechanical advantage",
+     "No character",
+     "Timeline plays left to right — green fires first, then blue"),
+
+    (48, "THE DECISION",
+     "Before the Reward Trap fires its first question: what do I deserve?",
+     "EXTREME CLOSE-UP on villain's face — mouth slowly opening for the question — but FREEZE MID-MOTION. Money space already empty. Expression: starting question but stopped cold.",
+     "Extreme close-up", "Interior spotlight dims suddenly", "Too late — frozen",
+     "Villain's mouth opens halfway, freezes in place",
+     "Villain begins question motion — hard freeze mid-motion"),
+
+    (49, "THE DECISION",
+     "Before Mental Accounting creates a label: this is mine, this is safe, this is earned.",
+     "BIRD'S-EYE VIEW (top-down): label-maker printing completely blank white labels into empty space. No coin visible. No text on the labels — blankness IS the visual.",
+     "Top-down overhead", "Office-style clean, overhead angle", "Futility of mechanism",
+     "No character — top-down view of printer ejecting blank labels",
+     "Printer cycles from above, blank labels curl out into empty space"),
+
+    (50, "THE DECISION",
+     "Before Present Bias whispers: Future Alex will take care of it.",
+     "PROFILE SHOT of villain leaning toward empty air, whispering. The target has vanished. Speech bubble forms — contains only an empty silhouette outline. Nothing to whisper to.",
+     "Side profile", "Whisper scene — intimate dark, profile angle", "Empty promise revealed",
+     "Villain leans toward nothing, speech bubble shows void silhouette",
+     "Villain whisper animation profile — speech bubble forms with empty outline"),
+
+    (51, "THE DECISION",
+     "The Reward Trap fires the moment the salary hits. The standing order fires one minute earlier.",
+     "Race graphic: two countdown timers. STANDING ORDER fires at T-1:00 (green). REWARD TRAP fires at T+0:00 (red). Clear winner.",
+     "Wide shot, race graphic", "High contrast — green vs. red", "Speed advantage",
+     "No character",
+     "Both timers count down; green fires at -1:00, red at 0:00"),
+
+    (52, "THE DECISION",
+     "Mental Accounting assigns emotional labels to every euro Alex sees.",
+     "Villain with label printer, stamping arriving euros: 'EARNED' / 'SAFE' / 'MINE' in sequence.",
+     "Medium shot", "Warm office tones", "Mechanical enthusiasm",
+     "Villain stamps labels rapidly, enjoying the process",
+     "Label stamps hit coins in rapid sequence"),
+
+    (53, "THE DECISION",
+     "The standing order moves four hundred euros into a category the Brain Villain is never shown.",
+     "Villain's filing cabinet: many visible labeled folders. One folder is INVISIBLE — villain's hand passes right through where it should be.",
+     "Medium shot", "Slightly mysterious", "Invisible category",
+     "Villain searches cabinet, hand passes through invisible folder",
+     "Villain's hand sweeps through invisible folder's location"),
+
+    (54, "THE DECISION",
+     "Present Bias insists that Future Alex will be more responsible than Present Alex.",
+     "Two identical Alexes side by side. Present Bias villain points at Future Alex: 'He'll handle it' speech bubble.",
+     "Wide shot", "Split left/right same lighting", "False promise",
+     "Villain points confidently at Future Alex. Both Alexes look identical.",
+     "Static — emphasis on villain's confident pointing"),
+
+    (55, "THE DECISION",
+     "Past Alex already was — nine days before payday, when he was rested, calm, and the villain was quiet.",
+     "Calendar: 9 days before payday. Alex at desk: well-rested, upright, clear eyes. Through skull: villain small, sleepy, quiet.",
+     "Medium shot", "Clear daytime light — calm", "Peace / Competence",
+     "Alex alert and calm. Villain barely visible — eyes half-closed, dormant.",
+     "Slow reveal — camera pans from villain (small/quiet) to Alex (capable)"),
+
+    (56, "THE DECISION",
+     "Alex didn't learn to say no to the Brain Villain.",
+     "Alex NOT in confrontation with villain. No boxing ring. No argument. Alex neutral, alone, standing.",
+     "Medium shot", "Neutral clean", "Non-confrontation",
+     "Alex arms at sides — not fighting, not engaging. Villain absent.",
+     "Static — conspicuously no conflict"),
+
+    (57, "THE DECISION",
+     "He cancelled the meeting.",
+     "Calendar entry: 'MEETING: Alex vs. Brain Villain — PAYDAY 9AM'. Large red CANCELLED stamp over it.",
+     "Close-up on calendar", "Clean office", "Resolution — clean break",
+     "No character — calendar close-up",
+     "CANCELLED stamp slams onto calendar entry"),
+
+    (58, "THE DECISION",
+     "The Brain Villain cannot argue with a decision it was never invited to attend.",
+     "Villain outside a closed meeting room door. Sign: 'STANDING ORDER MEETING — PRIVATE'. Villain reads sign, tries handle.",
+     "Medium shot", "Office corridor — fluorescent", "Exclusion",
+     "Villain reads door sign, tries handle — door stays locked",
+     "Villain tries door handle — door stays closed"),
+
+    (59, "THE DECISION",
+     "The money is simply not there.",
+     "Alex's mental wallet: he opens it, the €400 space is clearly empty. Simple, clean.",
+     "Close-up on wallet", "Clean neutral", "Simple fact",
+     "Alex holds open wallet, looks at empty space without distress",
+     "Wallet opens — empty space revealed"),
+
+    (60, "THE DECISION",
+     "Not hidden. Not locked. Not off-limits.",
+     "Three icons in a row, each with bold red X: box with lock (HIDDEN), padlock (LOCKED), warning sign (OFF-LIMITS).",
+     "Wide shot, icon row", "Clean white", "Clarification",
+     "No character",
+     "Each X strikes through in rapid left-to-right sequence"),
+
+    (61, "THE DECISION",
+     "Gone before the calculation begins.",
+     "Villain's abacus/calculator: completely empty. No numbers, no inputs. Villain stares at it.",
+     "Medium shot", "Clean white", "Checkmate",
+     "Villain looks at empty calculator, expression shifts from expectation to confusion",
+     "Villain's abacus beads absent — empty frame"),
 
     # ── THE SCIENCE ────────────────────────────────────────────────────────────
     (62, "THE SCIENCE",
@@ -482,10 +490,10 @@ BEATS = [
 
     (65, "THE SCIENCE",
      "They asked one question, one time: when your next raise arrives, can we automatically redirect a fixed percentage?",
-     "Single large question mark. Below: 'ONE QUESTION.' and 'ONE TIME.' — bold, minimal.",
-     "Close-up, typographic", "Clean white, slight warm", "Simplicity",
+     "Single large question mark dominating frame. Below it: one finger raised (index finger pointing up). No text labels.",
+     "Close-up, graphic", "Clean white, slight warm", "Simplicity",
      "No character",
-     "Question mark appears, then text below"),
+     "Question mark appears, then single finger rises below it"),
 
     (66, "THE SCIENCE",
      "Workers said yes — once.",
@@ -496,10 +504,10 @@ BEATS = [
 
     (67, "THE SCIENCE",
      "The system then executed automatically, every raise cycle, with no further decision required.",
-     "Automated green gear system running. Label: 'NO DECISION REQUIRED'. Calendar cycles in background.",
+     "Automated green gear system running completely unattended — no hands, no figure at controls. Calendar pages flipping in background automatically. Hands-free visual tells the story.",
      "Wide shot", "Green mechanical", "Automated inevitability",
-     "No character",
-     "Gears turn, calendar pages flip automatically in background"),
+     "No character — gears run themselves, calendar flips alone",
+     "Gears turn, calendar pages flip automatically — no human intervention visible"),
 
     (68, "THE SCIENCE",
      "Workers who started at a savings rate of three and a half percent",
@@ -531,17 +539,17 @@ BEATS = [
 
     (72, "THE SCIENCE",
      "The only variable that changed across those five years was structure.",
-     "Five-year timeline, four tracked lines: INCOME (flat), KNOWLEDGE (flat), CHARACTER (flat). STRUCTURE (ascending green).",
+     "Five-year timeline, four tracked lines: INCOME (flat), KNOWLEDGE (flat), CHARACTER (flat). STRUCTURE (ascending green). Same graph as prior beats with all lines visible.",
      "Wide shot, multi-line graph", "Clean white, green highlight", "Isolation of variable",
      "No character",
      "All lines draw simultaneously — only STRUCTURE rises"),
 
     (73, "THE SCIENCE",
      "Not income. Not financial knowledge. Not character.",
-     "Three labels crossed out in bold red: 'INCOME' / 'FINANCIAL KNOWLEDGE' / 'CHARACTER'.",
-     "Wide shot, graphic", "Clean white", "Precision elimination",
+     "Same graph from beat 72: the three flat lines each get a bold red X mark through them while the green STRUCTURE line continues ascending. Visual elimination without text labels.",
+     "Wide shot, multi-line graph", "Clean white, red X marks", "Precision elimination",
      "No character",
-     "Each label crossed out in rapid sequence"),
+     "Red X marks strike through each flat line in sequence — STRUCTURE line continues"),
 
     (74, "THE SCIENCE",
      "Structure.",
@@ -581,10 +589,10 @@ BEATS = [
 
     (79, "THE BRAIN VILLAIN'S LAST TRICK",
      "That thought is not intuition. Not wisdom. Not financial prudence.",
-     "Three labels crossed out in red: 'INTUITION' / 'WISDOM' / 'FINANCIAL PRUDENCE'.",
+     "Three villain costumes in a row, each with red X through it: judge's robe (intuition symbol), owl shape (wisdom symbol), banker briefcase (prudence symbol). Visual elimination without text labels.",
      "Wide shot, graphic", "Clean white", "Precision elimination",
      "No character",
-     "Each label crossed out — rapid sequence"),
+     "Each costume X'd out in sequence — rapid visual elimination"),
 
     (80, "THE BRAIN VILLAIN'S LAST TRICK",
      "It is Present Bias wearing the costume of caution.",
@@ -645,7 +653,7 @@ BEATS = [
     # ── IDENTITY CLOSE + GUIDE ────────────────────────────────────────────────
     (88, "IDENTITY CLOSE + GUIDE",
      "Alex doesn't need more discipline.",
-     "Alex standing calm. No 'DISCIPLINE +' gauge, no metrics. Just Alex, neutral, at peace.",
+     "Alex standing calm. No gauge, no metrics. Just Alex, neutral, at peace.",
      "Medium shot", "Clean neutral, warm", "Simplicity / Relief",
      "Alex stands comfortably, no strain",
      "Static — peaceful, unburdened"),
@@ -672,112 +680,77 @@ BEATS = [
      "Single battle → single victory → automated gears take over"),
 
     (92, "IDENTITY CLOSE + GUIDE",
-     "The Reward Trap fires on Friday. But the money is already somewhere else.",
-     "Villain fires arrow at Alex's wallet — arrow hits empty space. Wallet open, empty €400 spot visible. Arrow misses.",
-     "Wide shot", "Warm Friday tones", "Deflection",
-     "Villain surprised expression as arrow connects with nothing",
-     "Arrow fires, hits empty wallet — villain reacts"),
-
-    (93, "IDENTITY CLOSE + GUIDE",
-     "Mental Accounting creates its emotional categories. But there's now one it will never see.",
-     "Villain's label-maker operation: all visible folders. ONE folder at back is invisible — villain never looks there.",
-     "Wide shot", "Office tones", "Invisible protection",
-     "Villain organizes labels, unaware of invisible folder in background",
-     "Camera briefly reveals invisible folder — villain never looks there"),
-
-    (94, "IDENTITY CLOSE + GUIDE",
-     "Present Bias tells him Future Alex will be responsible.",
-     "Present Bias (villain) pointing at Future Alex. But Future Alex already holds green savings indicator — done.",
-     "Wide shot", "Split: present (dim) / future (green)", "Promise already fulfilled",
-     "Villain points at Future Alex; Future Alex reveals completed savings",
-     "Future Alex reveals green savings as villain points"),
-
-    (95, "IDENTITY CLOSE + GUIDE",
-     "And this time — he already was.",
-     "Calendar: 9 days before payday. Past Alex at desk — rested, clear-eyed. Green checkmark above his head.",
-     "Medium shot", "Calm daytime", "Completed action",
-     "Past Alex looks at camera with quiet satisfaction. Checkmark appears.",
-     "Checkmark appears above Past Alex — settled"),
-
-    (96, "IDENTITY CLOSE + GUIDE",
      "The programs are not broken.",
      "Three brain programs running as gears — perfectly smooth, no errors. Just mismatched to environment.",
      "Wide shot", "Neutral, analytical", "Reframe — not broken",
      "No character — gears running smoothly",
      "Gears turn steadily — perfectly functional"),
 
-    (97, "IDENTITY CLOSE + GUIDE",
+    (93, "IDENTITY CLOSE + GUIDE",
      "They are perfectly designed for an environment where saving made no survival sense.",
      "Ancestral wilderness background. Same three gear programs overlaid — they FIT the ancient environment.",
      "Wide shot, contrast scene", "Warm ancient tones", "Historical fit",
      "No character — gear programs overlaid on ancient setting",
      "Scene transitions to ancestral background — gears still running"),
 
-    (98, "IDENTITY CLOSE + GUIDE",
+    (94, "IDENTITY CLOSE + GUIDE",
      "You didn't store food in a world where tomorrow was never guaranteed.",
      "Ancestral Alex (same character, simple clothes) holding berries — nowhere safe to store them. Hostile wilderness.",
      "Medium shot", "Ancient warm", "Evolutionary logic",
      "Ancestral Alex holds food, looks at wilderness — storing impossible",
      "Ancestral Alex looks around for storage — finds none"),
 
-    (99, "IDENTITY CLOSE + GUIDE",
+    (95, "IDENTITY CLOSE + GUIDE",
      "The Brain Villain was built for that world. Not this one.",
      "Split panel: LEFT villain thriving in ancient wilderness (confident, in element). RIGHT villain in modern apartment, confused, mismatched.",
      "Wide split panel", "LEFT: ancient warm / RIGHT: modern cool", "Displacement",
      "LEFT: villain flourishing / RIGHT: villain lost",
      "Split reveals simultaneously — villain in each context"),
 
-    (100, "IDENTITY CLOSE + GUIDE",
-     "The standing order is the first system Alex has ever run",
-     "Alex with green standing order gear running BEHIND him — supporting him, not threatening. First time gears are behind Alex.",
-     "Medium shot", "Green supportive glow from behind", "New relationship with system",
-     "Alex stands forward, green system running behind him — for him",
-     "Green gear system activates behind Alex"),
-
-    (101, "IDENTITY CLOSE + GUIDE",
-     "that was designed for the world he actually lives in.",
-     "Modern world backdrop: bank app on phone, apartment window, calendar with paydays. Standing order fits perfectly.",
-     "Wide shot", "Modern clean — warm", "Resolution / Fit",
-     "Alex in modern setting — standing order integrated into his world",
-     "Modern environment elements settle around Alex"),
+    (96, "IDENTITY CLOSE + GUIDE",
+     "The standing order is the first system designed for the world he actually lives in.",
+     "Modern world backdrop: bank app on phone, apartment window, calendar with paydays. Green standing order gear running behind Alex — supporting him, integrated perfectly into his modern environment.",
+     "Wide shot", "Modern clean — warm green glow", "Resolution / Fit",
+     "Alex stands in modern setting — green gear system behind him, supporting him",
+     "Modern environment elements settle around Alex, green gear activates behind him"),
 
     # ── NEXT VIDEO TEASE ──────────────────────────────────────────────────────
-    (102, "NEXT VIDEO TEASE",
+    (97, "NEXT VIDEO TEASE",
      "Next video: Alex gets a tax refund.",
      "Envelope arriving at Alex's door. Label: 'TAX REFUND'. Alex expression: surprised delight.",
      "Medium shot", "Bright daylight — unexpected good news", "Surprise",
      "Alex opens mailbox, finds tax refund envelope — eyes widen",
      "Envelope slides out, Alex reacts"),
 
-    (103, "NEXT VIDEO TEASE",
+    (98, "NEXT VIDEO TEASE",
      "Eight hundred euros he wasn't expecting.",
      "'€800' appearing from envelope in large numbers. 'UNEXPECTED' implied visually by his expression.",
      "Close-up", "Bright, generous light", "Pleasant surprise",
      "No character — €800 dominates frame",
      "€800 amount appears from envelope"),
 
-    (104, "NEXT VIDEO TEASE",
+    (99, "NEXT VIDEO TEASE",
      "His brain treats it completely differently from every euro he ever earned.",
      "Split brain diagram: LEFT 'EARNED EUROS' — one processing track. RIGHT 'UNEXPECTED EUROS' — completely different track, different color.",
      "Wide split diagram", "Clean with distinct tracks", "Different processing",
      "No character — brain diagram",
      "Two tracks shown simultaneously — different pathways"),
 
-    (105, "NEXT VIDEO TEASE",
+    (100, "NEXT VIDEO TEASE",
      "Same trap. Different label.",
      "Two identical villain trap mechanisms — exact same design. LEFT labeled 'SALARY'. RIGHT labeled 'REFUND'.",
      "Wide shot", "Clean contrast", "Pattern recognition",
      "No character",
      "Two traps appear side by side — identical mechanism, different labels"),
 
-    (106, "NEXT VIDEO TEASE",
+    (101, "NEXT VIDEO TEASE",
      "The money disappears three times faster.",
      "Speedometer graphic: normal depletion rate vs. €800 refund depletion rate — refund depletes 3× faster.",
      "Wide shot, speedometer", "Dynamic red for fast depletion", "Warning",
      "No character",
      "Speedometer needle swings 3× faster for refund track"),
 
-    (107, "NEXT VIDEO TEASE",
+    (102, "NEXT VIDEO TEASE",
      "The reason is the one nobody expects.",
      "Villain holding large '?' sign. Direct eye contact with camera. Hard cut.",
      "Medium shot, direct to camera", "Dramatic — slight spotlight", "Curiosity gap",
@@ -785,7 +758,7 @@ BEATS = [
      "Static — villain holds question mark. Hard cut."),
 ]
 
-assert len(BEATS) == 107, f"Expected 107 beats, got {len(BEATS)}"
+assert len(BEATS) == 102, f"Expected 102 beats, got {len(BEATS)}"
 
 
 def esc(t):
@@ -837,7 +810,8 @@ def build_production_pdf():
         num, sec, narration, img, cam, light, mood, char_action, motion = beat
 
         if sec != last_sec:
-            flow.append(Paragraph(f"— {esc(sec)} —", SEC))
+            if sec:  # only show header if section name is non-empty
+                flow.append(Paragraph(f"— {esc(sec)} —", SEC))
             last_sec = sec
 
         full_prompt = f"{STYLE} {img}"

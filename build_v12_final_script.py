@@ -6,7 +6,9 @@ CAMBIOS vs. v12_revised:
   - WHY WILLPOWER FAILS: experimento rábanos/galletas de Baumeister añadido
   - BRAIN VILLAIN'S LAST TRICK: reescrito — explícito, inocula en tiempo real
   - Título final: "Why Willpower Fails Every Payday — And the One Decision That Stops It"
-107 beats · ~1,050 words · ~7.5 min
+  - CTA movido a ~39% (después de "Alex does.")
+  - Identity Close reducido a 9 beats
+102 beats · ~950 words · ~7 min
 """
 
 from docx import Document
@@ -77,6 +79,14 @@ SECTIONS = [
         "It asks Alex to make the right call at the right moment, every payday, for thirty years.",
         "The Brain Villain doesn't get tired.",
         "Alex does.",
+    ]),
+
+    ("CTA", [
+        "If your brain is running these programs right now — subscribe.",
+        "Every week: one bias. How it works. Who exploits it. And what you can actually do about it.",
+    ]),
+
+    ("", [
         "Over thirty years, the math does not favor Alex.",
         "But here's what Baumeister also found — the part that changes how you actually set up the system.",
     ]),
@@ -100,11 +110,6 @@ SECTIONS = [
         "The money is simply not there.",
         "Not hidden. Not locked. Not off-limits.",
         "Gone before the calculation begins.",
-    ]),
-
-    ("CTA", [
-        "If your brain is running these programs right now — subscribe.",
-        "Every week: one bias. How it works. Who exploits it. And what you can actually do about it.",
     ]),
 
     ("THE SCIENCE", [
@@ -145,16 +150,11 @@ SECTIONS = [
         "He needs fewer decisions — not better ones.",
         "Every budgeting system ever created asks Alex to win the same battle every month.",
         "The standing order asks him to win it once.",
-        "The Reward Trap fires on Friday. But the money is already somewhere else.",
-        "Mental Accounting creates its emotional categories. But there's now one it will never see.",
-        "Present Bias tells him Future Alex will be responsible.",
-        "And this time — he already was.",
         "The programs are not broken.",
         "They are perfectly designed for an environment where saving made no survival sense.",
         "You didn't store food in a world where tomorrow was never guaranteed.",
         "The Brain Villain was built for that world. Not this one.",
-        "The standing order is the first system Alex has ever run",
-        "that was designed for the world he actually lives in.",
+        "The standing order is the first system designed for the world he actually lives in.",
     ]),
 
     ("NEXT VIDEO TEASE", [
@@ -181,8 +181,8 @@ SECTIONS = [
 #   Beat 16: Same question. Same Friday. Same four hundred euros gone.
 #   Beat 32: Same puzzle. Same intelligence. Different reserve.         ✅ ×2
 #
-# CTA espejo identidad: Beat 60 — "If your brain is running these programs..."  ✅
-# Cierre identidad: Beat 88 — "The programs are not broken."                   ✅
+# CTA espejo identidad: Beat 40 — "If your brain is running these programs..."  ✅
+# Cierre identidad: Beat 92 — "The programs are not broken."                   ✅
 # Cifras en euros (€ implicado en narración): €400 × 5, €800 × 1              ✅
 # Segunda persona: beats 1, 7-10, 69-74, 91, 98 — solo momentos clave        ✅
 # Sin "basically", sin hedging, sin relleno                                    ✅
