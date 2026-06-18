@@ -1,0 +1,243 @@
+NEUROCENTS — CREATOR BRIEF FOR VIDIQ
+Script Style, Outlier Rules & Retention Framework
+=====================================================
+
+
+CHANNEL
+-------
+Neurocents. Behavioral finance and money psychology. Faceless, 2D animated, English.
+One bias per video. Audience: people who have tried budgeting and failed, earn reasonable
+money but save little, recognize themselves as intelligent but financially stuck.
+
+
+CHARACTER
+---------
+Alex: large beige oval head, transparent glass skull revealing a pink cartoon Brain Villain
+inside. The Villain is Alex's bias personified — not an external enemy, a built-in program.
+Every video shows the Villain running, being named, and either inoculated against or
+structurally bypassed. Alex never defeats the Villain through willpower. He builds systems
+around it.
+
+
+TITLE FORMULAS — VALIDATED BY OUTLIER DATA
+-------------------------------------------
+Use these exact structures. Ranked by breakout multiplier:
+
+[Number] Ways Your Brain [Physical Verb] to Stay Broke (Without Telling You)
+  Example: "5 Ways Your Brain Physically Rewires Itself to Stay Broke"
+  Multiplier: 181x
+
+Why [X] Fails Every [Universal Trigger]
+  Example: "Why Willpower Fails Every Payday"
+  Multiplier: 132.7x
+
+[Number] [Things] That [Negative Consequence to Brain/Money]
+  Example: "3 Traps That Rewire Your Brain to Stay Broke"
+  Multiplier: 104x
+
+The [Mechanism] That [Financial Consequence]
+  Example: "The Billion-Dollar Bet Your Bank Wins Every Day"
+  Multiplier: 36x
+
+Rules:
+- Negative framing always beats positive. "Fails" beats "How To". "Broke" beats "Richer".
+- Specificity beats generality. "Every Payday" beats "When You Get Paid".
+- The title must match the core mechanism of the video — not a surface description of it.
+- Max 12 words. Every word must earn its place.
+
+
+HOOK — CANONICAL STRUCTURE (10 beats, ~30 seconds)
+----------------------------------------------------
+Beat 1:  IDENTITY — viewer recognizes themselves before they can click away
+         Example: "You've started a budget at least three times. It never survived payday."
+Beat 2:  "Not because [wrong cause A]."
+Beat 3:  "Not because [wrong cause B]."
+Beat 4:  "Because [the real mechanism]." — first reveal, reframes the problem
+Beat 5:  Promise — one-line solution tease (specific, concrete)
+Beat 6:  DATA ANCHOR — exact figure with context (3.5% to 13.6%, 8 min vs 19 min)
+Beat 7:  "No [X]. No [Y]. No [Z]." — eliminate the obvious objections
+Beat 8:  Specificity of time/place — contrast between two states
+Beat 9:  Brain Villain active — calculating, anticipating, already working
+Beat 10: Open loop — this video was built to dismantle it
+
+Critical rule: Beat 1 is always identity, never mechanism. The viewer must see themselves
+in Beat 1 before they understand what the video is about.
+
+
+SCRIPT VOICE — RULES
+---------------------
+- Short sentences. Never more than 20 words per beat.
+- Alternate long beats with very short ones. "Alex does." is a complete beat.
+- Use "Same X. Same Y. Same result." for repetition patterns — high retention device.
+- Use "Not X. Not Y. Not Z." to eliminate false causes before the real one.
+- No "basically", no hedging, no filler. Every word is load-bearing.
+- Second person ("you", "your brain") only at high-stakes moments: hook, CTA, villain
+  inoculation. Overuse kills it.
+- Experiments are narrated cinematically: Setup > Conflict > Number > Interpretation.
+  Never as lecture.
+- Specific amounts: 400 euros, 800 euros — not "some money".
+
+
+EXPERIMENTS — FORMAT FOR HIGH RETENTION
+-----------------------------------------
+"[Name] — [Institution] — [year if relevant] —"
+"[What they measured, one sentence.]"
+"[Setup, 2-3 short beats.]"
+"[The result in exact numbers.]"
+"[One-line interpretation.]"
+
+Available experiments (already written, reference for continuity):
+- Baumeister (1998): radishes vs. cookies > 8 minutes vs. 19 minutes > ego depletion
+- Thaler & Benartzi (2004): Save More Tomorrow > 3.5% to 13.6% in five years
+- Danziger et al.: judges > 65% to 11% parole grants > decision fatigue
+- Schultz: dopamine fires at prediction, not reward > Anticipation Burn
+
+
+CTA — POSITION AND FORMULA
+---------------------------
+- Place CTA at ~35-40% through the video — after maximum pain, before solution is revealed.
+- Never at the beginning. Never past 50%.
+- Optimal moment: immediately after the viewer understands the depth of the problem.
+
+Fixed formula:
+  "If your brain is running these programs right now — subscribe."
+  "Every week: one bias. How it works. Who exploits it. And what you can actually do about it."
+
+The CTA must mirror the identity from Beat 1.
+
+
+BRAIN VILLAIN INOCULATION — USE IN EVERY VIDEO
+------------------------------------------------
+This section appears near the end, before the identity close. It names the viewer's
+resistance to the solution in real time — as they are feeling it.
+
+"The Brain Villain has one response to [mechanism/solution]."
+"You're feeling it right now."
+"Not [obvious emotion]. Something quieter."
+"Something that sounds like [virtue]: [the objection]."
+"That thought is not intuition. Not wisdom. Not [virtue]."
+"It is [bias name] wearing the costume of [virtue]."
+
+This works because it names the objection before the viewer acts on it.
+It is not persuasion — it is identification. High retention, high subscription correlation.
+
+
+IDENTITY CLOSE — FORMULA
+--------------------------
+Never moralize. Never say "you can do better". Reframe the programs as rational —
+just mismatched to environment. Maximum 9 beats.
+
+"The programs are not broken."
+"They are perfectly designed for an environment where [evolutionary context]."
+"[Why the behavior made sense in that environment.]"
+"The Brain Villain was built for that world. Not this one."
+"[The structural solution] is the first system designed for the world [Alex] actually lives in."
+
+
+IMAGE PROMPTS — VISUAL-FIRST RULE
+-----------------------------------
+Every image must add information the narration cannot convey.
+Never illustrate what is already being said.
+
+Text in images ONLY for:
+- Numbers and percentages (3.5%, 8:00, 400 euros)
+- Proper names and institutions (ROY BAUMEISTER / Florida State)
+- Villain's spoken thoughts (speech bubble: "What if I need that money?")
+- Essential visual props where the text IS the prop (CANCELLED stamp on calendar)
+
+Never write in the image:
+- Concept labels that the narration just said ("EGO DEPLETION", "FINITE RESOURCE")
+- Category words the narration lists ("LUNCH / EMAIL / OUTFIT" — use icons instead)
+- Verdict words that repeat the conclusion ("GAVE UP", "NO DECISION REQUIRED")
+
+Replace text labels with: posture (figure slumped = gave up), icons (fork = lunch),
+visual metaphor (empty space = gone). If the image needs a text label to be understood,
+the image concept is too abstract — redesign the image.
+
+
+ALEX CHARACTER — STYLE PREAMBLE (for all image generation)
+------------------------------------------------------------
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills,
+no gradients. ALEX: large beige oval head, transparent glass upper skull revealing
+pink cartoon brain villain, small black dot eyes, thin neutral mouth, black spiky hair,
+BLUE t-shirt, gray pants. Brain villain: pink cartoon brain character, heavy-lidded eyes,
+slight smirk, small teeth. Palette: beige skin (#F5E6C8), pink brain (#E8A598),
+blue shirt, gray pants, green for savings/gains, red for loss/danger,
+white for diagram scenes. 16:9, 1280x720.
+
+BLUE t-shirt. Not red. Verify every time.
+
+
+WHAT WE FIXED IN V12 — AND WHY IT MATTERS FOR FUTURE VIDEOS
+-------------------------------------------------------------
+These are the specific mistakes corrected in V12. Avoid repeating them.
+
+MISTAKE 1 — CTA too late
+  Original: CTA at beat 60 of 107 = 56% through the video.
+  Viewer had already decided whether to subscribe before the CTA appeared.
+  Fix: CTA moved to beat 40 of 102 = 39%, immediately after the emotional low point.
+  Rule going forward: CTA goes after maximum pain, before solution reveal. Never past 45%.
+
+MISTAKE 2 — Images repeating the narration
+  Original: 15 image prompts contained text labels that repeated the narration exactly.
+  The animation was illustrating the audio instead of adding a second information layer.
+  Examples: "EGO DEPLETION" written in image while narration says "ego depletion".
+  "GAVE UP" written under stopwatch while narration says "gave up in eight minutes".
+  Fix: All 15 replaced with icon-based or posture-based visuals.
+  Rule going forward: if you can remove the text from the image and the image still
+  communicates the same thing through visuals — remove the text.
+
+MISTAKE 3 — Identity Close too long
+  Original: 14 beats including a recap of the three traps already explained.
+  Viewer felt the video had ended 5 beats before it actually ended.
+  Fix: Trimmed to 9 beats. Removed trap recap, kept evolutionary reframe and payoff line.
+  Rule going forward: Identity Close maximum 9 beats. Cut everything after the
+  evolutionary reframe has landed.
+
+MISTAKE 4 — Visual stutter in hook
+  Original: Beats 2 and 3 used the same close-up angle and same expression.
+  Looked like a frozen frame — two identical images back to back.
+  Fix: Beat 2 eyes down-left (defeat). Beat 3 eyes up-right (searching). Two distinct frames.
+  Rule going forward: Never two consecutive beats with the same camera angle,
+  same expression, and same background. At minimum change one variable.
+
+MISTAKE 5 — Three diagram beats with no character
+  Original: Beats 24-26 were three consecutive abstract diagrams with no Alex, no villain.
+  Dead zone in retention — no human anchor.
+  Fix: Beat 25 made Alex-centered — Alex reacts to his own reserve depleting.
+  Rule going forward: Maximum two consecutive beats without a character visible.
+  Break diagram sequences with a reaction beat.
+
+
+PRODUCTION DOCUMENT FORMAT
+---------------------------
+Each video produces 6 files:
+1. SCRIPT.docx / SCRIPT.pdf — narration with numbered beats and section headers
+2. ELEVENLABS.pdf — clean narration only, paste directly into TTS
+3. PRODUCTION.pdf — every beat with: Image Prompt, Camera, Lighting, Mood,
+   Character Action, Video Motion
+4. IMAGE_PROMPTS.pdf — 4 parts of ~26 beats each, full STYLE preamble prepended
+   to each prompt, ready for Google Flow / Imagen 4
+5. Prepublish_Checklist.docx — title, description, tags, Reddit posts, YouTube Studio config
+
+Script naming convention: build_v[N]_final_script.py, build_v[N]_final_doc.py,
+build_v[N]_final_image_prompts_pdf.py, build_v[N]_final_publish_doc.py
+
+
+SECTION ORDER — EVERY VIDEO
+-----------------------------
+1. HOOK (10 beats)
+2. [WHY THE COMMON SOLUTION FAILS] (8-12 beats) — Alex tried it, it didn't work
+3. [THE MECHANISM] (16-20 beats) — scientist + experiment + interpretation
+4. CTA (2 beats) — at ~35-40% mark
+5. [THE MECHANISM CONCLUSION] (2-4 beats) — pivot beat with curiosity gap
+6. [THE DECISION / SOLUTION] (14-18 beats) — structural fix, not willpower fix
+7. [THE SCIENCE] (10-14 beats) — data proof of solution
+8. BRAIN VILLAIN INOCULATION (10-14 beats) — real-time second person
+9. IDENTITY CLOSE (9 beats maximum)
+10. NEXT VIDEO TEASE (5-6 beats)
+
+=====================================================
+Apply these rules to every Neurocents video.
+Framework derived from outlier analysis: 36x to 181x performing videos,
+behavioral finance niche.
