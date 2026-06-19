@@ -15,8 +15,8 @@
 - **Formato:** Faceless, 2D animated, inglés (US). One cognitive bias per video.
 - **Duración:** Long-form only, ~7–11 min (90–145 beats · ~8–10 palabras/beat)
 - **Cadencia:** Weekly. Consistent day/time.
-- **Horario publicación:** 20:00–22:00 hora Bali = 12:00–14:00 EST
-- **Localización creador:** Bali
+- **Horario publicación:** 20:15 hora España (CEST = UTC+2) = 14:15 EST
+- **Localización creador:** España
 - **Subs actuales:** 1,030
 
 **Audiencia:** People who've tried budgeting and failed. They earn reasonable money but save little.
