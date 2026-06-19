@@ -14,8 +14,7 @@
 - **Nicho:** Behavioral finance / psicología del dinero
 - **Formato:** Faceless, 2D animated, inglés (US). One cognitive bias per video.
 - **Duración:** Long-form only, ~7–11 min (90–145 beats · ~8–10 palabras/beat)
-- **Cadencia:** Weekly. Consistent day/time.
-- **Horario publicación:** 20:15 hora España (CEST = UTC+2) = 14:15 EST
+- **Cadencia:** 2 videos/semana — **Lunes y Jueves a las 20:15 España (CEST = UTC+2) = 14:15 EST**
 - **Localización creador:** España
 - **Subs actuales:** 1,030
 
