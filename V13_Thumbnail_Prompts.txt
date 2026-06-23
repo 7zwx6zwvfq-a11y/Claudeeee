@@ -1,0 +1,141 @@
+NEUROCENTS · VIDEO 13
+THUMBNAIL PROMPTS — Google Flow / Imagen 4
+"5 Ways Your Brain Physically Rewires Itself to Stay Broke (Without Telling You)"
+Generated: 2026-06-23
+
+CHARACTER SPEC (always include in generation):
+- ALEX: large beige oval head, transparent glass upper skull revealing pink cartoon Brain Villain inside,
+  small black dot eyes, thin neutral mouth, black spiky hair, BLUE t-shirt (NOT RED — verify every time), gray pants
+- Brain Villain: pink cartoon brain character, heavy-lidded eyes, slight smirk, small teeth —
+  ALWAYS INSIDE Alex's skull, never floating outside
+- Style: 2D flat cartoon illustration, thick solid black outlines, clean solid color fills,
+  NO gradients, white background (Andy/MoneyTom style)
+
+═══════════════════════════════════════════════════════════════════════════════
+THUMBNAIL A — YouTube 16:9 (1280×720) — PRIMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills, no gradients.
+White background. 16:9 format, 1280×720.
+
+ALEX (LEFT 50% of frame): large beige oval head (#F5E6C8), transparent glass upper skull revealing
+pink cartoon Brain Villain inside (#E8A598). Alex expression: shocked — wide open eyes, mouth open
+in disbelief, one hand pressed flat against the side of his head. Black spiky hair. BLUE t-shirt
+(NOT RED). Gray pants. Visible from waist up.
+
+BRAIN VILLAIN (inside Alex's skull only, never outside): pink cartoon brain character, heavy-lidded
+eyes now open wide and triumphant, arms raised in victory pose, broad smug grin showing small teeth.
+Five red glowing circuit paths radiate outward from the Villain's body within the skull cavity,
+all five firing simultaneously — electric red lines with small node pulses, like a neural circuit
+diagram activating all at once. Each circuit path is distinct and numbered (subtle small numerals
+1–5 along the paths).
+
+RIGHT 50% of frame (text only, white background):
+- TOP: "5 WAYS" — ultra-heavy black block capitals, Impact or similar ultra-bold condensed font,
+  very large size (occupies ~30% of right half height). Maximum weight.
+- MIDDLE: "YOUR BRAIN" — large bold black sans-serif, slightly smaller than "5 WAYS".
+- LOWER MIDDLE: "REWIRES ITSELF" — ultra-bold, color #C62828 (deep red), same large size as
+  "YOUR BRAIN". This line is the visual punch.
+- No additional text. No border. No drop shadows. No gradients on text.
+
+COMPOSITION: Clean split. Alex left, text right. Maximum contrast between white background and
+bold black/red text. Alex's shocked expression and raised hand mirror the text's urgency.
+Text must be fully readable at 200px thumbnail width — letters must not crowd each other.
+No visual noise between text and character.
+
+═══════════════════════════════════════════════════════════════════════════════
+THUMBNAIL B — YouTube 16:9 (1280×720) — ALTERNATIVE
+═══════════════════════════════════════════════════════════════════════════════
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills, no gradients.
+White background. 16:9 format, 1280×720.
+
+ALEX (LEFT 60% of frame): large beige oval head (#F5E6C8), transparent glass upper skull revealing
+pink cartoon Brain Villain inside. Alex expression: urgent warning — eyes wide open, eyebrows raised
+high, direct eye contact with viewer. Right arm extended forward, index finger pointing directly
+at the viewer (breaking the fourth wall). BLUE t-shirt (NOT RED). Gray pants. Visible from
+mid-thigh up to allow full arm extension to be visible.
+
+BRAIN VILLAIN (inside Alex's skull only): pink cartoon brain character (#E8A598), standing at a
+compact control panel within the skull. Five red levers/switches on the panel, all pulled fully
+down into the ON position. Villain expression: smug, satisfied smirk, heavy-lidded eyes. Small
+red indicator lights glow beside each lever.
+
+RIGHT 40% of frame (text stack, white background):
+- TOP: Large bold numeral "5" in ultra-bold black, takes up significant vertical space.
+- BELOW "5": "WAYS YOUR BRAIN / STAYS BROKE" in bold black, two lines, solid weight.
+  Line break after "BRAIN".
+- BELOW that: "(WITHOUT TELLING YOU)" in small grey italic, subdued tone, creates curiosity gap.
+- No border. No drop shadows.
+
+COMPOSITION: Alex's pointing finger creates a direct visual challenge to the viewer.
+The "5" is large enough to be the anchor even at 200px. The Villain at the control panel
+tells the story of automation without any text labels. Eye contact from Alex = implicit CTA:
+"Do you know which ones are running in you?"
+
+═══════════════════════════════════════════════════════════════════════════════
+THUMBNAIL C — TikTok 9:16 (1080×1920) — VERTICAL
+═══════════════════════════════════════════════════════════════════════════════
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills, no gradients.
+White background. 9:16 format, 1080×1920. Mobile-first: all key elements must read at small size.
+
+ZONE BREAKDOWN (top to bottom):
+- TOP 30% (text safe zone — NO character in this zone):
+  Centered: "5 WAYS" in ultra-bold black block capitals, Impact or similar heavy font.
+  Large enough to occupy most of this zone's width. High contrast on white.
+
+- MIDDLE 50% (character zone):
+  ALEX centered, full body visible from head to knees. Large beige oval head (#F5E6C8),
+  transparent glass upper skull. Expression: shocked — both hands pressed to either side of head
+  (classic "mind blown" pose), eyes wide open, mouth open. BLUE t-shirt (NOT RED). Gray pants.
+  BRAIN VILLAIN (inside Alex's skull only): pink cartoon brain (#E8A598), arms raised triumphantly,
+  all five red circuit paths radiating outward within the skull, glowing electric red, all firing
+  simultaneously. Villain expression: triumphant grin.
+
+- TEXT BELOW ALEX (within the middle 50%, just below character):
+  "YOUR BRAIN" in bold black, centered.
+  "REWIRES ITSELF" in ultra-bold deep red (#C62828), centered, same or slightly larger size.
+
+- BOTTOM 20% (empty safe zone — NO text or key visuals here, reserved for TikTok controls overlay).
+
+COMPOSITION: Strictly vertical. Character centered. No split panel. Text above character creates
+"title card" feel that works in For You Page feed. Maximum contrast. Readable at mobile thumbnail
+size (approx 400×711px in TikTok grid).
+
+═══════════════════════════════════════════════════════════════════════════════
+USAGE NOTES
+═══════════════════════════════════════════════════════════════════════════════
+
+GENERATION ORDER:
+1. Generate Thumbnail A first (primary — this is the upload thumbnail).
+2. If A fails (character misplaced, Villain escapes skull, text unreadable), generate B.
+3. Generate C last — only needed if publishing to TikTok / Reels vertical format.
+
+WHAT TO CHECK BEFORE USING:
+- 5 distinct circuit paths visible in skull (not merged into a blob)
+- Alex expression clearly shocked (not neutral, not smiling)
+- Brain Villain fully inside skull — never floating beside Alex
+- Text readable at 200px width (zoom out in browser to verify)
+- BLUE t-shirt, NOT red — confirm color every generation
+- White background, no dark backgrounds, no vignettes
+- No text labels on the circuits (no "TRAP 1" etc. — circuits speak visually)
+
+REFINEMENT PROMPTS (use after first generation if needed):
+- "Make Alex's expression more dramatically shocked — wider eyes, mouth open further."
+- "The Brain Villain must be inside the transparent skull, not floating outside it."
+- "Increase the contrast of the red text 'REWIRES ITSELF' — it must pop on white background."
+- "The five circuit paths inside the skull need to be more distinct — separate lines, not merged."
+- "Make the text larger and bolder — it must be readable when the thumbnail is displayed at 200px width."
+
+COMBINED GAP CHECK (thumbnail + title must work together):
+Thumbnail shows: "5 WAYS / YOUR BRAIN / REWIRES ITSELF"
+Title reads: "5 Ways Your Brain Physically Rewires Itself to Stay Broke (Without Telling You)"
+
+The thumbnail cuts off before "to Stay Broke" and "Without Telling You" — creating the
+curiosity gap: HOW does it rewire? What does it rewire toward? The viewer must click to resolve.
+This is the core click mechanic. Do not add "STAY BROKE" to the thumbnail — the title delivers
+that payload after the click.
+
+THUMBNAIL FORMULA USED: Number + Consequence (Andy/MoneyTom style)
+Multiplier benchmark: 181x (from channel title formulas — highest performing format)
