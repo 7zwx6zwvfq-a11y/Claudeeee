@@ -110,7 +110,7 @@ Each video shows the Villain running, being named, and either inoculated against
 | V9 | The First Number They Show You in a Job Interview Is Not an Offer | Anchoring Bias | Script completo ✅ |
 | V10 | Your Brain Won't Let You Quit — And It's Costing You Everything | Sunk Cost Fallacy — Concorde | Script completo ✅ |
 | V11 | 3 Traps That Rewire Your Brain to Stay Broke | Reward Trap + Mental Accounting + Present Bias | Suite completa ✅ |
-| V12 | **Why Willpower Fails Every Payday — And the One Decision That Stops It** | Ego Depletion (Baumeister) + Save More Tomorrow (Thaler) | Suite FINAL completa ✅ (102 beats) |
+| V12 | **Why Willpower Fails Every Payday — And the One Decision That Stops It** | Ego Depletion (Baumeister) + Save More Tomorrow (Thaler) | Suite FINAL completa ✅ (102 beats) — **Publicando hoy martes 24 junio 20:15** |
 | V13 | 5 Ways Your Brain Physically Rewires Itself to Stay Broke (Without Telling You) | Lista: Anticipation Burn + Balance Blindspot + Expertise Trap + Night Drain + Upgrade Lock | Script lista ✅ (104 beats) |
 
 **Cola de publicación (después de V7):** V8 → V3 → V5 → V4
