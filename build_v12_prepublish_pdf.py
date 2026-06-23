@@ -13,6 +13,7 @@ DARK  = colors.HexColor('#2C3E50')
 GREY  = colors.HexColor('#777777')
 GREEN = colors.HexColor('#1A7A3C')
 LGREY = colors.HexColor('#CCCCCC')
+ORANGE= colors.HexColor('#C05A00')
 
 styles = getSampleStyleSheet()
 
@@ -34,7 +35,7 @@ NOTE_S  = ParagraphStyle('NoteS', parent=styles['Normal'],
                          textColor=GREY, spaceAfter=2)
 WARN_S  = ParagraphStyle('WarnS', parent=styles['Normal'],
                          fontSize=8, leading=11, leftIndent=5*mm,
-                         textColor=RED, spaceAfter=2)
+                         textColor=ORANGE, spaceAfter=2)
 GRNS    = ParagraphStyle('GrnS', parent=styles['Normal'],
                          fontSize=8, leading=11, leftIndent=5*mm,
                          textColor=GREEN, spaceAfter=2)
@@ -91,68 +92,76 @@ flow = []
 # HEADER
 flow += [
     Paragraph("NEUROCENTS — VIDEO 12 FINAL · PRE-PUBLISH CHECKLIST", TITLE_S),
-    Paragraph("Why Willpower Fails Every Payday · Baumeister Ego Depletion · Thaler &amp; Benartzi · Save More Tomorrow", SUB_S),
+    Paragraph("3 Reasons Your Brain Spends Every Payday (Without Telling You)  ·  20:15 España / 14:15 EST", SUB_S),
     hr(),
 ]
 
 # 1. FILENAME
 flow += [
     sec("1. NOMBRE DEL ARCHIVO — renombrar el MP4 ANTES de subir"),
-    lv("ARCHIVO", "why-willpower-fails-every-payday-automatic-savings-neurocents.mp4", GREEN),
+    lv("ARCHIVO", "3-reasons-brain-spends-every-payday-neurocents.mp4", GREEN),
     hr(),
 ]
 
 # 2. TÍTULO
 flow += [
-    sec("2. TÍTULO — testear en VidIQ antes de publicar"),
-    lv("TÍTULO PRINCIPAL (outlier-validated)",
-       "Why Willpower Fails Every Payday — And the One Decision That Stops It", DARK),
-    grn("Justificación: 132.7× outlier pattern. 'Why [X] Fails Every [Trigger]' — identidad + mecanismo + solución en 12 palabras."),
-    note("Alternativa A: 'The One Decision That Defeats All Three Brain Traps' — mecanismo-first, menor CTR"),
-    note("Alternativa B: 'Why Your Brain Spends Every Payday (And the One Move That Stops It)' — testear score"),
-    warn("El título principal tiene outlier pattern validado ('Why Willpower Fails'). Mantener si VidIQ ≥80."),
+    sec("2. TÍTULO — VidIQ 85 pts  ·  fórmula outlier 181×"),
+    lv("TÍTULO PRINCIPAL",
+       "3 Reasons Your Brain Spends Every Payday (Without Telling You)", DARK),
+    grn("Fórmula: '[Number] [Things] That [Negative Consequence to Brain/Money] (Without Telling You)' — 181× outlier validado."),
+    grn("VidIQ: 85 pts  ·  'reasons' = alta intención + número = expectativa de estructura clara"),
+    warn("NO cambiar a título anterior. 85 pts supera 81 pts de 'Why Willpower Fails'. Mantener este."),
     hr(),
 ]
 
 # 3. DESCRIPCIÓN
 flow.append(sec("3. DESCRIPCIÓN — copia exactamente"))
 desc_lines = [
-    ("Alex watched the last video. He took notes. He sent it to his brother.", True),
-    ("On Friday, the salary notification arrived — and four hundred euros were gone again.", True),
+    ("Every payday, Alex earns 3,200. By Sunday, 1,200 is already gone.", True),
+    ("Not on rent. Not on luxuries. On 3 programs his brain runs automatically.", False),
     ("", False),
-    ("Knowing the name of a trap is not the same as escaping it.", True),
-    ("The real fix requires removing the decision from Alex's hands entirely — not making it easier to get right.", False),
+    ("He doesn't overspend. His brain does — for 3 specific reasons.", False),
     ("", False),
-    ("Roy Baumeister found that willpower depletes with every decision you make — not just financial ones.", False),
-    ("By payday, you have the least of it exactly when you need the most.", False),
-    ("In 1998, his radish experiment showed the mechanism clearly: same puzzle, different reserve.", False),
+    ("Reason 1: Roy Baumeister (Florida State, 1998) found that willpower depletes", False),
+    ("with every decision you make — not just financial ones.", False),
+    ("By payday, after 5 days of micro-choices, you have the least of it", False),
+    ("exactly when you need the most.", False),
     ("", False),
-    ("Richard Thaler and Shlomo Benartzi tested the solution at the University of Chicago in 2004.", False),
-    ("Workers who made one structural decision went from saving 3.5% to 13.6% in five years.", False),
-    ("No budgets. No willpower. No spreadsheets.", False),
+    ("Reason 2: Wolfram Schultz (Cambridge, Nobel) proved that dopamine fires", False),
+    ("at the moment of expectation — not when you spend.", False),
+    ("The decision is already made before the money moves.", False),
+    ("", False),
+    ("Reason 3: Kahneman and Deaton (Princeton) found that behavioral traps", False),
+    ("consume the same percentage of income at $50K as at $150K.", False),
+    ("Earning more doesn't fix it. The 3 programs scale with the paycheck.", False),
+    ("", False),
+    ("Richard Thaler and Shlomo Benartzi tested the only fix that works.", False),
+    ("One structural decision — made on a calm Tuesday — took workers", False),
+    ("from saving 3.5% to 13.6% in five years. No budgets. No willpower. No spreadsheets.", False),
     ("", False),
     ("In this video:", False),
-    ("→ Why understanding a bias doesn't stop it from running", False),
-    ("→ Roy Baumeister's ego depletion — the radish experiment", False),
-    ("→ Why the standing order fires one minute before the Reward Trap", False),
-    ("→ Save More Tomorrow (Thaler &amp; Benartzi, 2004) — 3.5% to 13.6% in five years", False),
-    ("→ The Brain Villain's last trick — Present Bias wearing the costume of caution", False),
+    ("→ Reason 1 — Ego Depletion: why Friday is the worst day to decide (Baumeister, 1998)", False),
+    ("→ Reason 2 — Dopamine at Expectation: why the spend is decided before payday (Schultz)", False),
+    ("→ Reason 3 — The Income Trap: why earning more makes the same % disappear (Kahneman/Deaton)", False),
+    ("→ The one structural decision that defeats all 3 — before they activate (Thaler &amp; Benartzi)", False),
     ("", False),
     ("───────────────────────────────", False),
-    ("📌 Watch next → [PEGA AQUÍ URL DE V13 — TAX REFUND]", False),
+    ("📌 Watch next → [PEGA AQUÍ URL DE V13]", False),
     ("📌 Previous: 3 Traps That Rewire Your Brain to Stay Broke → [PEGA AQUÍ URL DE V11]", False),
     ("───────────────────────────────", False),
     ("", False),
-    ("0:00  You've started a budget at least three times", False),
-    ("0:30  Why knowing isn't enough — Alex still spent it", False),
-    ("1:45  Roy Baumeister — ego depletion + radish experiment", False),
-    ("3:30  The standing order — how it beats all three traps", False),
-    ("5:00  The CTA", False),
-    ("5:15  Thaler &amp; Benartzi — Save More Tomorrow", False),
-    ("6:30  The Brain Villain's last trick (Present Bias in disguise)", False),
-    ("7:30  Identity close + next video", False),
+    ("0:00  Every payday. Same result.", False),
+    ("0:30  Why knowing the traps isn't enough", False),
+    ("1:20  Reason 1 — Ego Depletion (Baumeister / radish experiment)", False),
+    ("3:10  Reason 2 — Dopamine at Expectation (Schultz / Nobel)", False),
+    ("5:00  CTA", False),
+    ("5:15  Reason 3 — The Income Trap (Kahneman &amp; Deaton / Princeton)", False),
+    ("6:30  The one decision: Save More Tomorrow (Thaler &amp; Benartzi 2004)", False),
+    ("8:00  Brain Villain's last trick — Present Bias in disguise", False),
+    ("9:00  Identity close + next video", False),
     ("", False),
-    ("#behavioralfinance #automaticsavings #savingmoney #egodepletion #neurocents", False),
+    ("#behavioralfinance #psychologyofmoney #automaticsavings #egodepletion #neurocents", False),
+    ("#savingmoney #presentbias #financialpsychology #cognitivebiases #rewirebrain", False),
 ]
 for text, bold in desc_lines:
     if text == "":
@@ -167,27 +176,26 @@ flow.append(hr())
 flow += [
     sec("4. TAGS — copia todo el bloque en YouTube Studio"),
     Paragraph(
-        "automatic savings, ego depletion, save more tomorrow, willpower and money, "
-        "behavioral finance, richard thaler, baumeister ego depletion, present bias, "
-        "savings psychology, how to save money automatically, brain bias money, "
-        "shlomo benartzi, standing order savings, psychology of saving, "
-        "behavioral economics, neuroscience money, decision fatigue, neurocents, "
-        "why willpower fails, radish experiment",
+        "behavioral finance, psychology of money, financial psychology, "
+        "automatic savings, ego depletion, save more tomorrow, present bias, "
+        "why you spend money, brain and money, baumeister ego depletion, "
+        "wolfram schultz dopamine, kahneman deaton, richard thaler, shlomo benartzi, "
+        "reasons brain spends, cognitive biases money, neuroscience finance, "
+        "rewire brain, standing order savings, decision fatigue money, neurocents",
         CODE_S),
     sp(2),
-    body("<b>TOP KEYWORDS POR SCORE VIDIQ (confirmar en VidIQ antes de publicar):</b>"),
+    body("<b>TOP KEYWORDS POR SCORE VIDIQ:</b>"),
 ]
 kw_rows = [
-    ("behavioral finance",              "103K/mes", "27 comp.", "73 ← confirmado"),
+    ("behavioral finance",              "98K/mes",  "24 comp.", "75 ← primario"),
+    ("financial psychology",            "120K/mes", "27 comp.", "74.7 ← primario"),
+    ("psychology of money",             "731K/mes", "57 comp.", "69.5 ← alto vol."),
     ("automatic savings",               "~67K/mes", "~31 comp.", "← testear"),
-    ("how to save money automatically", "~44K/mes", "~29 comp.", "← alto volumen"),
     ("ego depletion",                   "~12K/mes", "~18 comp.", "← gema oculta"),
     ("save more tomorrow",              "~8K/mes",  "~14 comp.", "← nicho fuerte"),
-    ("baumeister ego depletion",        "~5K/mes",  "~10 comp.", "← long-tail preciso"),
-    ("savings psychology",              "~22K/mes", "~25 comp.", "← testear"),
-    ("willpower and money",             "~19K/mes", "~22 comp.", "← testear"),
     ("present bias",                    "~15K/mes", "~20 comp.", "← bajo comp."),
-    ("why willpower fails",             "testear",  "—",         "← título exact match"),
+    ("reasons brain spends",            "testear",  "—",         "← exact match título"),
+    ("why you spend money",             "testear",  "—",         "← intención búsqueda"),
 ]
 for kw, vol, comp, score in kw_rows:
     flow.append(Paragraph(
@@ -196,29 +204,29 @@ flow.append(hr())
 
 # 5. MINIATURA
 flow += [
-    sec("5. MINIATURA"),
+    sec("5. MINIATURA — concepto YOUR BRAIN / WINS (fondo blanco Andy/MoneyTom)"),
     lv("CONCEPTO",
-       "Alex con expresión de cansancio / revelación. <b>Fondo blanco estilo Andy/MoneyTom.</b>"),
-    lv("TEXTO THUMBNAIL", "WILLPOWER FAILS  (máx 5 palabras)"),
-    lv("OBJETO", "Villain pequeño vs. standing order (flecha verde) — contraste de tamaño"),
-    note("Alternativa A: Alex exhausted (viernes) LEFT | Alex calm (martes) RIGHT — split panel antes/después."),
-    note("Alternativa B: Villain durmiendo / vencido, Alex de pie con brazo cruzado. Alex dominante."),
-    warn("V11 usó villain activo + 3 trampas. V12: Alex dominante, villain en segundo plano o derrotado."),
-    warn("BLUE t-shirt en Alex — NO red. Verificar en Google Flow antes de generar."),
+       "Alex señalando con el dedo a cartera vacía. Brain Villain dentro del cráneo transparente, brazos cruzados, satisfecho."),
+    lv("FONDO", "BLANCO — estilo Andy/MoneyTom. NO oscuro, NO gradiente.", RED),
+    lv("TEXTO THUMBNAIL", "YOUR BRAIN / WINS  (máx 5 palabras, bold Impact)"),
+    lv("OBJETO", "Cartera vacía con símbolo $ cayendo — arriba Brain Villain victorioso dentro del skull de Alex"),
+    note("Expresión de Alex: shock genuino, ojos abiertos, señalando la cartera. Villain: heavy-lidded smug, brazos cruzados."),
+    warn("Blue t-shirt en Alex — NO red. Verificar SIEMPRE en Google Flow antes de generar."),
+    warn("Brain Villain DENTRO del cráneo transparente — NO flotando fuera. Regla absoluta."),
     hr(),
 ]
 
 # 6. YOUTUBE STUDIO
 flow.append(sec("6. YOUTUBE STUDIO — configuración antes de publicar"))
 yt_checks = [
-    "Título:         Why Willpower Fails Every Payday — And the One Decision That Stops It",
-    "Descripción:    Pegada completa con capítulos y URLs de V11 y V13",
+    "Título:         3 Reasons Your Brain Spends Every Payday (Without Telling You)",
+    "Descripción:    Pegada completa — 3 razones + timestamps + URLs V11 y V13",
     "Tags:           Todos pegados (ver sección 4)",
     "Categoría:      Education",
-    "Miniatura:      Subida — fondo blanco, Alex dominante, texto WILLPOWER FAILS",
-    "Capítulos:      Activados (timestamps en descripción)",
+    "Miniatura:      Fondo blanco, Alex shocked, cartera vacía, YOUR BRAIN / WINS",
+    "Capítulos:      Activados (timestamps en descripción desde 0:00)",
     "Subtítulos:     Auto-generados por YouTube (dejar activado)",
-    "Visibilidad:    Público — programado 20:00–22:00 hora Bali (12:00–14:00 EST)",
+    "Visibilidad:    Público — programado 20:15 España (CEST = UTC+2) = 14:15 EST",
     "Marca de agua:  Neurocents_Watermark.png subida en Studio",
 ]
 for c in yt_checks:
@@ -228,7 +236,7 @@ flow.append(hr())
 # 7. END SCREEN
 flow += [
     sec("7. END SCREEN — últimos 20 segundos"),
-    cb("Vídeo: seleccionar V13 (Tax Refund — €800 disappears 3× faster) — NO 'mejor opción'"),
+    cb("Vídeo: seleccionar V13 — NO 'mejor opción automática'"),
     cb("Botón suscripción"),
     body("Script end screen: 'Watch this next — Alex gets a tax refund. Eight hundred euros he wasn't expecting. "
          "His brain treats it completely differently. The money disappears three times faster. "
@@ -240,8 +248,8 @@ flow += [
 # 8. CARDS
 flow += [
     sec("8. CARDS (tarjetas dentro del vídeo)"),
-    cb("Minuto ~1:45 (BAUMEISTER) → card apuntando a V11 (3 Traps — contexto de trampas)"),
-    cb("Minuto ~5:30 (THE SCIENCE) → card apuntando a V5 (Mental Accounting — Thaler conexión)"),
+    cb("Minuto ~1:20 (BAUMEISTER) → card apuntando a V11 (3 Traps — contexto de trampas)"),
+    cb("Minuto ~6:30 (THALER) → card apuntando a V5 (Mental Accounting — Thaler conexión)"),
     hr(),
 ]
 
@@ -249,19 +257,19 @@ flow += [
 flow += [
     sec("9. PLAYLIST"),
     cb("Añadir V12 a playlist 'How Your Brain Costs You Money — Neurocents'"),
-    cb("Orden sugerido: V11 → V12 → V13 (secuencia 3 Traps → One Decision → Tax Refund)"),
+    cb("Orden sugerido: V11 → V12 → V13 (secuencia 3 Traps → 3 Reasons → Tax Refund)"),
     cb("Pegar URL de playlist en descripción de V12"),
     hr(),
 ]
 
 # 10. PRIMER COMENTARIO
 flow += [
-    sec("10. PRIMER COMENTARIO — fijar nada más publicar"),
+    sec("10. PRIMER COMENTARIO — fijar nada más publicar (inmediatamente)"),
     Paragraph(
-        "Alex didn't need more willpower. He needed fewer decisions.<br/>"
-        "One bank transfer, set up on a calm Tuesday — before the salary arrives.<br/>"
-        "Drop 🧠 if you felt the discomfort when the standing order was explained. "
-        "That was the Brain Villain identifying itself.",
+        "3 reasons. Same result every payday.<br/>"
+        "Alex didn't need more willpower. He needed one decision made on a Tuesday — "
+        "before the salary arrives, before the dopamine fires, before Reason 1 depletes the tank.<br/>"
+        "Which of the 3 reasons costs you the most? Drop the number below.",
         CODE_S),
     hr(),
 ]
@@ -270,48 +278,53 @@ flow += [
 flow.append(sec("11. REDDIT — publicar 1h después de que el vídeo esté live"))
 reddit_rows = [
     ("r/personalfinance",      "Primero — ahorro automático, muy activo"),
-    ("r/BehavioralEconomics",  "+30 min — Thaler &amp; Benartzi + Baumeister"),
+    ("r/BehavioralEconomics",  "+30 min — Baumeister + Schultz + Kahneman"),
     ("r/psychology",           "+30 min — ego depletion / radish experiment"),
-    ("r/cogsci",               "+30 min — sistema automático vs willpower"),
+    ("r/cogsci",               "+30 min — dopamine at expectation / Schultz"),
 ]
 for sub, timing in reddit_rows:
     flow.append(Paragraph(f"<b>{sub}</b>  —  <font color='{GREY.hexval()}'>{timing}</font>", BODY_S))
 flow.append(sp(2))
-flow.append(body("<b>TÍTULO REDDIT (r/psychology / r/BehavioralEconomics):</b>"))
+flow.append(body("<b>TÍTULO REDDIT (r/BehavioralEconomics / r/psychology):</b>"))
 flow.append(Paragraph(
-    "Baumeister's 1998 radish experiment found that willpower depletes with every decision — not just financial ones. "
-    "By payday (after 5 days of choosing), you have the least of it exactly when you need the most. "
-    "The only real fix isn't a better budget. (Made a short video on the mechanism + the structural solution)",
+    "Baumeister (1998) proved willpower depletes with every decision — not just financial ones. "
+    "Schultz proved dopamine fires at expectation, not at spend. "
+    "Kahneman and Deaton found behavioral traps consume the same % of income at $50K as at $150K. "
+    "Three separate findings. One result every payday. "
+    "(Short video mapping all three and the only structural fix that works)",
     CODE_S))
 flow.append(sp(2))
 flow.append(body("<b>TÍTULO REDDIT (r/personalfinance):</b>"))
 flow.append(Paragraph(
-    "Thaler &amp; Benartzi found that one structural decision — automatic redirect on raise day — "
-    "took workers from 3.5% to 13.6% savings in 5 years. No budgets, no willpower. "
-    "The insight isn't the savings rate — it's why the decision needs to happen on a Tuesday, not a Friday. "
-    "(Short video on the mechanism)",
+    "Thaler and Benartzi found that one structural decision — automatic redirect made once — "
+    "took workers from saving 3.5% to 13.6% in 5 years. No budgets, no willpower. "
+    "The key insight: the decision has to happen on a Tuesday, not a Friday. "
+    "Mapped the 3 reasons why Friday never works. (Short video)",
     CODE_S))
 flow.append(hr())
 
 # 12. HORA
 flow += [
     sec("12. HORA DE PUBLICACIÓN"),
-    lv("BALI", "20:00 – 22:00", GREEN),
-    lv("EST",  "12:00 – 14:00 (prime time USA)", GREY),
+    lv("ESPAÑA (CEST)", "20:15", GREEN),
+    lv("EST",  "14:15 (prime time USA East Coast)", GREY),
+    lv("UTC",  "18:15", GREY),
     lv("SECUENCIA",
-       "Publicar V12 máximo 7 días después de V11 — son una unidad narrativa", GREY),
-    warn("V12 debe publicarse pronto después de V11 para mantener la continuidad narrativa."),
+       "V11 publicado antes. V12 = continuidad narrativa. Publicar mismo día si es posible.", GREY),
+    warn("Cadencia canal: Lunes y Jueves a las 20:15 España. V12 publica hoy martes — excepción por desplazamiento."),
     hr(),
 ]
 
 # 13. OUTLIER NOTES
 flow.append(sec("13. NOTAS DE OUTLIER — por qué este título y este hook"))
 outlier_notes = [
-    "TÍTULO: 'Why Willpower Fails Every Payday' — Outlier pattern validado (132.7×): 'Why [X] Fails Every [Trigger]'",
-    "HOOK BEAT 1: Identity-first — espectador se reconoce antes de hacer clic (3 presupuestos, ninguno sobrevivió)",
-    "BAUMEISTER EXPERIMENT: concreto, narrativo, contrastivo — mismo tipo de datos que generan retención alta",
-    "VILLAIN INOCULATION (beats 76–86): segunda persona directa en tiempo real — sella el engagement con el concepto",
-    "IDENTITY CLOSE: 'The programs are not broken' — cierre no moralista = mayor retención hasta el final",
+    "TÍTULO: '3 Reasons Your Brain Spends Every Payday' — VIDIQ 85 pts. Fórmula 181× validada por outliers.",
+    "FÓRMULA: '[Number] [Things] That [Negative Consequence] (Without Telling You)' — número + curiosity gap.",
+    "HOOK BEAT 1: Identity-first — 'Every payday. Same result.' Espectador se reconoce antes de entender el mecanismo.",
+    "ESTRUCTURA 3 RAZONES: Baumeister (depletes willpower) → Schultz (dopamine fires early) → Kahneman (scales with income).",
+    "VILLAIN INOCULATION: 'Present Bias wearing the costume of caution' — sella el engagement en tiempo real.",
+    "IDENTITY CLOSE: 'The programs are not broken' — cierre no moralista = mayor retención hasta el final.",
+    "CTR TARGET: >6% en primeras 48h. Retention at 30s: >45%. Retention at midpoint: >50%.",
 ]
 for n in outlier_notes:
     flow.append(Paragraph(f"→  {n}", BODY_S))
@@ -322,7 +335,7 @@ flow += [
     sp(4),
     Paragraph(
         "NEUROCENTS · V12 FINAL · PRE-PUBLISH CHECKLIST · "
-        "Why Willpower Fails Every Payday · Tags a confirmar en VidIQ",
+        "3 Reasons Your Brain Spends Every Payday (Without Telling You) · 20:15 España",
         FOOT_S),
 ]
 
