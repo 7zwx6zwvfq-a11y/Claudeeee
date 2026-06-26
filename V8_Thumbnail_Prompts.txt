@@ -1,0 +1,214 @@
+═══════════════════════════════════════════════════════════════
+NEUROCENTS · VIDEO 8 — THUMBNAIL PROMPTS
+Getting Rich Is Making You Poorer
+Generado: 26 Junio 2026
+═══════════════════════════════════════════════════════════════
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TÍTULO SELECCIONADO — v3.0 Formula (181× outlier)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+#1 RECOMENDADO (92 pts):
+"3 Ways Your Brain Turns Every Raise Into Debt (Without Telling You)"
+→ Fórmula 181×: [Number] + "Your Brain" + [Physical Verb] + [Negative Consequence] + (Without Telling You)
+→ "Every Raise" = universal trigger (todo el mundo se identifica)
+→ "Debt" = negative consequence específico y asustador
+→ 12 palabras ✅ · "brain" ✅ · número ✅ · parenthetical ✅
+
+#2 ALTERNATIVA (89 pts):
+"3 Brain Traps That Drain Every Raise Before You Feel It"
+→ Fórmula 104×: [Number] [Things] That [Negative Consequence]
+→ "Drain Every Raise Before You Feel It" = timing específico, muy personal
+→ 11 palabras ✅
+
+#3 ALTERNATIVA (86 pts):
+"Why Every Raise Makes You Poorer — The Science Behind the Reset"
+→ Fórmula 132×: Why [X] [Negative Verb] Every [Universal Trigger]
+→ "The Reset" = curiosity gap que el thumbnail puede reforzar
+
+VEREDICTO: Publica con #1. El (Without Telling You) es el elemento más viralizable
+de todos los títulos del canal — activa el instinto conspiratorio sin clickbait.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THUMBNAIL A — "THE TREADMILL" (RECOMENDADO PRINCIPAL)
+Layout: Texto izquierda grande — personaje derecha
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TEXTO EN THUMBNAIL:
+Line 1: "YOUR RAISE"  (Impact font, 80pt, negro, izquierda)
+Line 2: "WON'T"       (Impact font, 100pt, ROJO #B02A2A, izquierda)
+Line 3: "HELP"        (Impact font, 100pt, ROJO #B02A2A, izquierda)
+Total: 3 palabras clave / 5 palabras total ✅
+
+——— PROMPT PARA GOOGLE FLOW ———
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills,
+no gradients, no textures, Andy Singer / MoneyTom style.
+
+SCENE: Alex standing on a treadmill, running hard, visibly exhausted.
+Blue electric-blue t-shirt (NOT red — this is critical), gray pants, black spiky hair.
+Large beige oval head (#F5E6C8), transparent glass upper skull revealing Brain Villain inside.
+Alex expression: mouth open, eyes wide with effort, three cartoon sweat drops flying off his head.
+Arms pumping forward, legs mid-stride on the treadmill belt.
+
+Brain Villain: pink cartoon brain character (#E8A598) inside the transparent skull,
+heavy-lidded eyes, wide smug grin, feet crossed and propped up on the inside of the skull
+as if relaxing, small arms behind head — completely unbothered while Alex runs.
+
+Treadmill: flat 2D side view, simple design. On the treadmill screen:
+a small upward arrow showing salary numbers climbing (€40K → €70K → €100K),
+but a savings bar below showing a flat line at zero.
+
+TEXT placement (left 40% of frame, large Impact bold):
+"YOUR RAISE" — black, large
+"WON'T" — red (#B02A2A), larger
+"HELP" — red (#B02A2A), largest
+
+Background: pure white (#FFFFFF).
+Character group (Alex + treadmill): right 60% of frame.
+Aspect ratio: 16:9, 1280×720.
+High contrast. Clean lines. No shadows. No gradients.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THUMBNAIL B — "SAME BALANCE" (SPLIT PANEL / ANTES + DESPUÉS)
+Layout: Split panel — izquierda vs derecha
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TEXTO EN THUMBNAIL:
+Center divider label: "18 MONTHS LATER" (pequeño, gris, sobre la línea divisoria)
+Left panel top: "€40K / YEAR" (verde, pequeño)
+Right panel top: "€100K / YEAR" (verde, pequeño)
+Center bottom large: "SAME FEELING" (Impact, 90pt, ROJO, abarca ambos paneles)
+Total palabras visibles fuertes: 2 ("SAME FEELING") ✅
+
+——— PROMPT PARA GOOGLE FLOW ———
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills,
+no gradients, Andy Singer / MoneyTom style.
+
+SCENE: Split panel thumbnail divided vertically down the center by a thin black line.
+
+LEFT PANEL (background very light gray #F5F5F5):
+Alex holding a large paycheck, expression: huge open-mouth smile, eyes wide with happiness,
+one fist pumped in celebration. Blue electric-blue t-shirt, gray pants, black spiky hair,
+large beige oval head. No Brain Villain visible in left panel.
+Small green label above Alex: "€40K / YEAR".
+
+RIGHT PANEL (background white #FFFFFF):
+Same Alex, identical pose, but expression completely changed: confused and deflated,
+eyes half-closed, mouth slightly open in bewilderment, shoulders slightly drooped.
+Holding an EMPTY wallet (brown, open, nothing inside, cartoon exaggerated empty).
+Blue electric-blue t-shirt (same shirt — same character, different moment).
+Brain Villain VISIBLE inside transparent skull: pink cartoon brain, heavy-lidded eyes,
+slight smug smirk, small thumbs-up gesture — as if proud of the outcome.
+Small green label above Alex: "€100K / YEAR".
+
+Center divider: thin solid black vertical line.
+Small label on the divider line: "18 MONTHS LATER" in gray small text.
+
+BOTTOM SPANNING BOTH PANELS: large bold Impact text "SAME FEELING"
+in red (#B02A2A), centered, very large, slightly overlapping the panel divide.
+
+Aspect ratio: 16:9, 1280×720. No gradients. Clean lines. High contrast.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THUMBNAIL C — "THE RESET BUTTON" (PERSONAJE CENTRO)
+Layout: Personaje centro — texto arriba y abajo
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TEXTO EN THUMBNAIL:
+Top: "EVERY RAISE"   (Impact, negro, grande)
+Bottom: "SAME GAP"   (Impact, ROJO, grande)
+Total: 4 palabras ✅
+
+——— PROMPT PARA GOOGLE FLOW ———
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills,
+no gradients, Andy Singer / MoneyTom style.
+
+SCENE: Alex standing center frame, looking directly at viewer with a confused and
+slightly frustrated expression — eyebrows slightly furrowed, head tilted,
+one hand raised palm-up in a "what is happening?" gesture.
+Blue electric-blue t-shirt, gray pants, black spiky hair.
+Large beige oval head (#F5E6C8), transparent glass upper skull.
+
+Brain Villain inside skull: pink cartoon brain (#E8A598), holding a large red button
+labeled "RESET" in white text. Villain has an exaggerated grin, heavy-lidded eyes,
+about to press the button — captured in the moment just before pressing.
+
+To the LEFT of Alex: a simple upward bar chart (green bars) showing salary growing:
+€40K → €70K → €100K, each bar taller. Clean 2D flat style, no labels needed.
+
+To the RIGHT of Alex: a flat horizontal line in gray with a small arrow barely moving —
+representing savings/wellbeing not growing despite the salary bars growing.
+
+TEXT LAYOUT:
+Top of frame: "EVERY RAISE" — Impact, black, centered, very large
+Bottom of frame: "SAME GAP" — Impact, red (#B02A2A), centered, very large
+
+Background: pure white (#FFFFFF).
+Aspect ratio: 16:9, 1280×720. No gradients. Clean lines. High contrast.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VERSIÓN 9:16 (TikTok / Shorts / Instagram)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Usar base de THUMBNAIL A pero adaptado vertical:
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills,
+no gradients, Andy Singer / MoneyTom style.
+
+SCENE: Alex running on a treadmill, viewed from the front-side angle.
+Blue electric-blue t-shirt, gray pants, black spiky hair.
+Large beige oval head, transparent glass skull, Brain Villain inside — relaxed, smirking.
+Alex expression: exhausted, mouth open, sweat drops.
+
+TEXT (top third of frame):
+"YOUR RAISE" — Impact, black, centered, very large
+"WON'T HELP" — Impact, red, centered, slightly larger
+
+Alex + treadmill: center and lower 2/3 of frame.
+Background: pure white.
+Aspect ratio: 9:16, 720×1280. Clean lines. High contrast.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RANKING DE THUMBNAILS PARA CTR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THUMBNAIL A — "THE TREADMILL"     → CTR estimado 8-11%  [PUBLICAR ESTE]
+  Por qué: La tensión visual (Alex corre / Villain descansa) es LEGIBLE en 0.3 segundos
+  sin leer el texto. El viewer que ha tenido un aumento SE VE en Alex.
+  El Brain Villain relajado es el elemento de humor oscuro que hace scroll-stop.
+
+THUMBNAIL B — "SAME FEELING"      → CTR estimado 7-9%
+  Por qué: El split panel funciona bien pero necesita leer las etiquetas para
+  captar la tensión. Mejor como A/B test en 7 días si A no alcanza 6%.
+
+THUMBNAIL C — "THE RESET BUTTON"  → CTR estimado 6-8%
+  Por qué: Concepto más abstracto — el viewer necesita entender la metáfora.
+  Usar solo si A y B fallan.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHECKLIST THUMBNAIL ANTES DE SUBIR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Fondo blanco puro (#FFFFFF) — no gris, no gradiente
+☐  Alex: camiseta AZUL ELÉCTRICO (no roja, no naranja)
+☐  Brain Villain: dentro del cráneo transparente (nunca flotando fuera)
+☐  Texto: máximo 5 palabras visibles
+☐  Texto: Impact Bold, contraste alto sobre blanco
+☐  Legible en 120×68px (tamaño thumbnail en móvil)
+☐  Tensión visual clara en 0.3 segundos sin leer el texto
+☐  No hay más de 2 elementos de color fuerte compitiendo
+☐  Resolución mínima: 1280×720 (16:9) o 720×1280 (9:16)
+
+═══════════════════════════════════════════════════════════════
+END · V8 Thumbnail Prompts · Neurocents · 26 Junio 2026
+═══════════════════════════════════════════════════════════════
