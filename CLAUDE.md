@@ -205,10 +205,44 @@ BEAT N | Camera: [valor] | Lighting: [valor] | Mood: [valor] | Character Action:
 
 ---
 
-# CREATOR BRIEF v3.0 — CANONICAL RULES (ALL FUTURE VIDEOS)
+# CREATOR BRIEF v3.1 — CANONICAL RULES (ALL FUTURE VIDEOS)
 
 > Integrado permanentemente desde Brief v3.0 — Junio 2026.
-> Aplicar a TODOS los videos. Sin excepciones.
+> **v3.1 actualizado Junio 2026 — Aplicar a TODOS los videos desde V9. Sin excepciones.**
+
+---
+
+## ESTÁNDAR OBLIGATORIO DESDE V9 — QUICK REFERENCE
+
+> Este bloque resume las reglas más críticas. Las secciones completas están en S17 y S18.
+> Antes de escribir cualquier video, leer este bloque primero.
+
+**HOOK:**
+- Los primeros 30 segundos entregan la promesa del título. Sin setup. Sin historia previa.
+- El viewer sabe lo que va a obtener antes del segundo 30.
+- Consultar S18 y elegir estrategia de hook — nunca la misma que el video anterior.
+
+**BEAT 1:**
+- Continuación directa del thumbnail. El viewer que acaba de ver el thumbnail reconoce la escena en <5 segundos.
+- Alex MID-ACTION. Nunca estático, nunca explicando.
+- Si el título tiene un número → ese número en pantalla antes del segundo 20.
+
+**PRODUCCIÓN:**
+- Cambio de ángulo cada 2 beats máximo en los primeros 4 beats.
+- El valor visible sin audio — imagen demuestra, voz confirma.
+- Brain Villain activo desde Beat 1 si el sesgo ya está corriendo.
+
+**CHECKLIST PRE-SCRIPT (en este orden):**
+```
+1. Keyword con volumen real (>5K/month) — S13
+2. Título con fórmula validada — S1
+3. Hook strategy elegida — S18 tabla de rotación
+4. Thumbnail → Título → Beat 1 completar las 3 líneas — S17
+5. Escribir Beat 1 antes que cualquier otra cosa
+6. Luego el resto del script siguiendo S2-S8
+```
+
+---
 
 ---
 
@@ -791,3 +825,6 @@ STEP 2.5 — HOOK STRATEGY:
 - La tabla de métricas hay que rellenarla — mandar captura de YouTube Studio
 - **Thumbnail:** Fondo blanco (Andy/MoneyTom style). El Brief v3.0 PDF decía "dark background" pero el creador confirmó que el estándar es fondo blanco.
 - **Script naming convention:** `build_v[N]_final_script.py`, `build_v[N]_final_doc.py`, `build_v[N]_final_image_prompts_pdf.py`, `build_v[N]_final_publish_doc.py`
+- **DESDE V9 — NUEVO ESTÁNDAR:** Hook rotation obligatoria (S18) + Thumbnail-to-Beat-1 continuity (S17). Leer el bloque ESTÁNDAR OBLIGATORIO DESDE V9 antes de escribir cualquier script.
+- **V8 diagnóstico:** 24.1% retención (AVD 2:45 / 11:27). Causa: hook no entregaba promesa del thumbnail en primeros 30s. Fix aplicado en S17+S18.
+- **Pool cualificado estimado (junio 2026):** ~310 viewers >50% watch time sobre ~889 views totales V1-V8. Breakout threshold: 500.
