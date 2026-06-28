@@ -2,7 +2,8 @@
 > Este archivo se carga automáticamente en cada sesión. Contiene todo el contexto del canal,
 > personaje, videos, workflow y estrategia. Actualizar aquí cuando cambien métricas o estado de videos.
 >
-> **Creator Brief v3.0 integrado permanentemente — Junio 2026.**
+> **Creator Brief v3.1 integrado permanentemente — Junio 2026.**
+> v3.1: Sección 17 añadida — Thumbnail-to-Beat-1 Continuity Rule (diagnóstico V8 retención 24.1%)
 
 ---
 
@@ -508,6 +509,103 @@ STEP 7 — CLOSE:      Max 9 beats. Never moralize. Section 8 formula.
 STEP 8 — IMAGES:     Visual-first rule (Section 9). Style preamble (Section 10). NEVER text that repeats narration.
 STEP 9 — FILES:      Deliver the 6 production files + Prepublish Checklist (Section 12).
 ```
+
+---
+
+## 17. HOOK VISUAL — THUMBNAIL-TO-BEAT-1 CONTINUITY (V9 EN ADELANTE)
+
+> Regla establecida Junio 2026 tras diagnóstico de V8 (24.1% retención).
+> Causa raíz: los primeros 30 segundos no entregaban la promesa del thumbnail+título.
+> Esta sección es OBLIGATORIA desde V9. Sin excepciones.
+
+---
+
+### PRINCIPIO CORE: Thumbnail → Título → Beat 1 son el mismo momento
+
+No tres cosas separadas. Un continuum.
+
+El viewer clickó el thumbnail. Su cerebro busca **confirmación de que acertó** en los primeros 5-10 segundos. Si no la encuentra, cierra. La estructura del script puede ser perfecta — si Beat 1 no entrega la promesa visual del thumbnail, el viewer se va igual.
+
+**Regla:** Beat 1 no introduce el video. Beat 1 es la continuación directa de lo que el viewer acaba de ver en el thumbnail.
+
+---
+
+### ANTES DE ESCRIBIR BEAT 1 — CHECKLIST OBLIGATORIO
+
+Para cada video, completar esto antes de escribir una sola línea de narración:
+
+```
+THUMBNAIL muestra:  [descripción exacta de lo que ve el viewer al clickar]
+TÍTULO promete:     [la frase exacta del título]
+BEAT 1 debe ser:    [el momento exacto en que esa promesa se vuelve real — en imagen, no en explicación]
+```
+
+Ejemplo V9 — "The First Number They Show You in a Job Interview Is Not an Offer":
+
+```
+THUMBNAIL muestra:  Alex con cara de sorpresa/traición. Número grande en pantalla. Brain Villain sonriendo.
+TÍTULO promete:     El primer número que te dan no es una oferta — te están anclarando.
+BEAT 1 debe ser:    Alex sentado frente a entrevistador. Papel girado hacia él. Número €38,000 visible.
+                    Alex lo lee. Brain Villain se enciende. La negociación ya terminó — él no lo sabe.
+```
+
+---
+
+### REGLA DE NÚMEROS: Si el título tiene un número → en pantalla en los primeros 20 segundos
+
+- "**3** Ways Your Brain Turns Every Raise Into Debt" → 3 situaciones o el número 3 visible antes del segundo 20
+- "Why Willpower Fails **Every Payday**" → la nómina, la fecha, el saldo — visual antes del segundo 20
+- "**5** Ways Your Brain Physically Rewires Itself" → los 5 on screen como setup en primeros 20 segundos
+
+**La voz confirma. La imagen demuestra. Nunca al revés.**
+
+---
+
+### REGLAS DE PRODUCCIÓN — BEATS 1-4 (OBLIGATORIAS)
+
+**1. Beat 1 = Alex MID-ACTION. Nunca estático.**
+- Alex siempre en una situación específica, no explicando algo al viewer
+- Brain Villain visible desde el primer frame si el bias ya está activo
+- La expresión facial cambia DENTRO del beat — no una pose fija
+
+**2. Cambio de ángulo cada 2 beats máximo en el hook**
+- No dos beats consecutivos con el mismo encuadre
+- Rotar: plano completo → primer plano → detalle de objeto/número → Brain Villain close-up
+
+**3. El valor debe ser visible sin audio**
+- El viewer con el audio muteado tiene que entender qué le pasa a Alex en los primeros 20 segundos
+- Al menos UN número concreto o situación reconocible en pantalla antes del segundo 20
+- No depender de la voz para entregar la promesa del título
+
+**4. En canales faceless, los primeros 3 segundos no tienen cara humana que retenga — necesitan acción**
+- Compensar la ausencia de cara con: movimiento de personaje + cambio emocional + elemento visual de alto impacto
+- Nunca abrir con Alex parado centro de frame mirando al viewer
+
+---
+
+### FORMAT OBLIGATORIO — IMAGE PROMPT BEAT 1
+
+```
+BEAT 1 — OPENING [THUMBNAIL CONTINUITY]:
+Alex is [specific mid-action situation matching thumbnail promise].
+Expression: [specific emotion — NOT neutral].
+Brain Villain: [active state — lit up / calculating / smirking].
+Camera: [dynamic angle — NEVER center static].
+Motion: [zoom in / pan / character movement — specify].
+On screen text/visual: [number or situation from title — visible within this beat].
+NOTE: Viewer who just saw the thumbnail must recognize this scene in under 5 seconds.
+      NO static pose. NO introduction. Scene tells the story before narration begins.
+```
+
+---
+
+### LO QUE ESTO REEMPLAZA EN EL BRIEF v3.0
+
+La Sección 2 (HOOK) sigue vigente. Esta sección la complementa con la capa visual.
+La estructura de 10 beats es el esqueleto narrativo.
+Esta sección define cómo Beat 1-4 se ejecutan visualmente.
+
+**Si hay conflicto entre ambas secciones: esta sección tiene prioridad para las decisiones de imagen y producción.**
 
 ---
 
