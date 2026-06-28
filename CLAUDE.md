@@ -609,6 +609,169 @@ Esta sección define cómo Beat 1-4 se ejecutan visualmente.
 
 ---
 
+## 18. HOOK ROTATION — 6 PSYCHOLOGICAL STRATEGIES (V9 EN ADELANTE)
+
+> Regla establecida Junio 2026.
+> La Sección 2 define la estructura canónica de 10 beats. Esta sección define QUÉ TIPO de apertura
+> usar en cada video. NUNCA dos videos consecutivos con la misma estrategia.
+> La Sección 17 (thumbnail continuity) se aplica a TODAS las estrategias sin excepción.
+
+---
+
+### POR QUÉ ROTAR
+
+El viewer que ya te conoce predice los primeros 30 segundos. Su cerebro desconecta antes de que empieces.
+Rotar estrategias elimina esa predicción y mantiene el engagement incluso en suscriptores.
+Cada estrategia activa un mecanismo psicológico distinto — cubrir los 6 maximiza el alcance de audiencia.
+
+---
+
+### LAS 6 ESTRATEGIAS
+
+---
+
+**ESTRATEGIA 1 — PREGUNTA SIN RESOLVER (Efecto Zeigarnik)**
+
+*Mecanismo:* El cerebro no puede cerrar un loop abierto. La pregunta activa tensión cognitiva que solo se resuelve terminando el video.
+
+*Cuándo usarla:* Cuando el viewer ya se hace esa pregunta pero no tiene respuesta. Videos de comportamiento repetido sin explicación.
+
+*Apertura tipo:*
+> "¿Por qué cada vez que sube tu sueldo el dinero desaparece igual?"
+> "¿Por qué sabes exactamente lo que tienes que hacer y no lo haces?"
+> "¿Por qué eres más inteligente que esto y aun así sigues aquí?"
+
+*Reglas de ejecución:*
+- La pregunta tiene que ser algo que el viewer SE ESTÁ PREGUNTANDO, no algo nuevo
+- Máximo 2 preguntas consecutivas — la tercera rompe el ritmo
+- No responder la pregunta hasta el minuto 3-4 mínimo — el loop tiene que estar abierto
+
+---
+
+**ESTRATEGIA 2 — DATO SIN CONTEXTO (Number Drop)**
+
+*Mecanismo:* Especificidad + Loss Aversion. Un número concreto activa atención inmediata. Sin contexto = tensión insoportable.
+
+*Cuándo usarla:* Cuando tienes un dato fuerte y verificable. Videos con experimentos centrales.
+
+*Apertura tipo:*
+> "47.000 euros. Eso es lo que pierde el trabajador medio por este sesgo a lo largo de su carrera. Nunca has oído hablar de él."
+> "11 puntos de IQ. Eso baja tu inteligencia cuando te preocupas por dinero. No metafóricamente. Literalmente."
+> "8 minutos. 19 minutos. Misma persona. Mismo día. Una sola diferencia."
+
+*Reglas de ejecución:*
+- El número en pantalla en grande en Beat 1, sin explicación
+- La voz dice el número. Pausa. Luego el contexto
+- Nunca inventar ni redondear — la especificidad ES el mecanismo
+
+---
+
+**ESTRATEGIA 3 — ESCENA IN MEDIAS RES**
+
+*Mecanismo:* Tensión narrativa. El viewer entra en una escena que ya está ocurriendo. Necesita ver cómo termina.
+
+*Cuándo usarla:* Videos con momento de decisión claro (entrevista, negociación, compra, payday). Cuando el thumbnail muestra una situación específica.
+
+*Apertura tipo:*
+> "Alex acaba de recibir la oferta. 38.000 euros. Cree que es justa. No lo es. Esto es lo que pasó."
+> "Son las 11 de la noche. Alex acaba de ver su cuenta. El número no es dramático. Pero es inconfundible."
+> "El papel está sobre la mesa. Alex lleva tres semanas preparando esta conversación. Ya perdió."
+
+*Reglas de ejecución:*
+- Empieza en el momento de mayor tensión, no antes
+- No explicar el contexto — el viewer lo deduce
+- Brain Villain ya activo en Beat 1, el sesgo ya está corriendo
+
+---
+
+**ESTRATEGIA 4 — AFIRMACIÓN CONTRAINTUITIVA**
+
+*Mecanismo:* Disonancia cognitiva. El viewer cree X. Tú dices no-X. Su cerebro tiene que resolver la contradicción.
+
+*Cuándo usarla:* Videos que desafían sabiduría convencional. Cuando el título ya es contraintuitivo.
+
+*Apertura tipo:*
+> "Cuanto más sabes sobre dinero, más pierdes."
+> "La razón por la que no ahorras no es disciplina. Tienes más disciplina que el 90% de la gente."
+> "El mejor momento para automatizar tus finanzas no es cuando estás motivado. Es exactamente lo contrario."
+
+*Reglas de ejecución:*
+- La afirmación tiene que ser defendible con ciencia — no clickbait vacío
+- No suavizar con "puede que" o "en algunos casos" — la disonancia requiere certeza
+- La prueba científica tiene que llegar antes del minuto 4
+
+---
+
+**ESTRATEGIA 5 — RÁFAGA DE PREGUNTAS (Momentum)**
+
+*Mecanismo:* Ritmo acumulativo. Cada pregunta encadena la siguiente. El cerebro no tiene tiempo de salir antes de estar enganchado.
+
+*Cuándo usarla:* Videos de lista (V13 tipo). Cuando el título cubre múltiples situaciones.
+
+*Apertura tipo:*
+> "¿Por qué desaparece el dinero extra? ¿Por qué cada ascenso se siente igual que el anterior? ¿Por qué sabes la respuesta y no cambia nada? Mismo mecanismo. Tres formas. Esto es lo que hace tu cerebro."
+
+*Reglas de ejecución:*
+- Máximo 4 preguntas — más rompe el ritmo
+- Ritmo rápido, sin pausa entre preguntas — la velocidad es parte del mecanismo
+- Cerrar la ráfaga con una frase de una sola línea que promete la respuesta a todas
+
+---
+
+**ESTRATEGIA 6 — VILLAIN REVEAL (El programa ya está corriendo)**
+
+*Mecanismo:* Intriga + amenaza invisible. El viewer no sabe que esto le está pasando. Ahora lo sabe. Necesita saber qué es.
+
+*Cuándo usarla:* Videos donde el sesgo opera de forma invisible. Cuando el título dice "Without Telling You" o similar.
+
+*Apertura tipo:*
+> "Ahora mismo tu cerebro está corriendo un programa. Lo lleva corriendo desde que abriste YouTube. No lo elegiste. Ni siquiera sabes que está ahí."
+> "Hay algo que tu cerebro hace automáticamente cada vez que ves un número. En entrevistas. En tiendas. En negociaciones. Lo hace antes de que pienses."
+
+*Reglas de ejecución:*
+- Brain Villain prominente desde el primer frame — el visual hace el trabajo
+- No nombrar el sesgo hasta el minuto 2-3 — el nombre es la recompensa, no el gancho
+- Segunda persona: "tu cerebro", "tú", "ahora mismo" — directo al viewer
+
+---
+
+### TABLA DE ROTACIÓN — USAR PARA PLANIFICAR
+
+| Video | Estrategia usada | Siguiente video NO puede usar |
+|---|---|---|
+| V8 — Hedonic Treadmill | Identidad (S3/S1 mezclado) | S3 o S1 |
+| V9 — Anchoring | **Escena In Medias Res (S3)** | S3 |
+| V10 — Sunk Cost | Afirmación Contraintuitiva (S4) | S4 |
+| V11 — 3 Traps | Ráfaga de Preguntas (S5) | S5 |
+| V12 — Willpower | Villain Reveal (S6) | S6 |
+| V13 — 5 Ways Rewires | Dato Sin Contexto (S2) | S2 |
+
+---
+
+### REGLA DE VELOCIDAD — LOS PRIMEROS 30 SEGUNDOS
+
+Independientemente de qué estrategia se use:
+
+1. **El viewer sabe lo que va a obtener antes del segundo 30.** No después. Antes.
+2. **No hay setup narrativo en los primeros 30 segundos.** El valor empieza en Beat 1.
+3. **La promesa del título se confirma visualmente antes del segundo 20.**
+4. **Ninguna de las 6 estrategias empieza con Alex explicando algo.** Siempre empieza con Alex viviendo algo, un dato, o una pregunta directa.
+
+---
+
+### INTEGRACIÓN CON WORKFLOW — PASO AÑADIDO
+
+Antes de STEP 3 (HOOK) del Workflow (Sección 16), añadir:
+
+```
+STEP 2.5 — HOOK STRATEGY:
+  Consultar tabla de rotación. Elegir estrategia distinta al video anterior.
+  Escribir la frase de apertura de Beat 1 antes de escribir el script completo.
+  Verificar que la apertura entrega la promesa del thumbnail en <5 segundos.
+```
+
+---
+
 ## ARCHIVOS V12 FINAL — SUITE COMPLETA
 
 | Archivo | Output | Contenido |
