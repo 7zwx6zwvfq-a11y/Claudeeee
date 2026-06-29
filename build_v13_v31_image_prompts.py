@@ -20,7 +20,7 @@ STYLE_PREAMBLE = (
     "black spiky hair, BLUE t-shirt (NOT RED — verify every time), gray pants. "
     "Brain Villain: pink cartoon brain character, heavy-lidded eyes, slight smirk, small teeth — "
     "ALWAYS inside Alex's skull, never floating outside. "
-    "Palette: beige skin #F5E6C8 · pink brain #E8A598 · electric BLUE t-shirt · gray pants · "
+    "Palette: beige skin #F5E6C8 · pink brain #E8A598 · blue t-shirt · gray pants · "
     "green: savings/gains · red: loss/danger/circuits · white: diagram scenes · "
     "dark charcoal #1A1A1A: hook/drama scenes. "
     "16:9, 1280×720."

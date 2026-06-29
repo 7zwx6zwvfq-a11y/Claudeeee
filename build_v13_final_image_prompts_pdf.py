@@ -23,7 +23,7 @@ STYLE = (
     "pink cartoon Brain Villain, small black dot eyes, thin neutral mouth, black spiky hair, "
     "BLUE t-shirt (NOT RED — verify every time), gray pants. Brain Villain: pink cartoon brain "
     "character, heavy-lidded eyes, slight smirk, small teeth. Palette: beige skin #F5E6C8 · "
-    "pink brain #E8A598 · electric blue shirt · gray pants · green: savings/gains · "
+    "pink brain #E8A598 · blue shirt · gray pants · green: savings/gains · "
     "red: loss/danger · white: diagram scenes. 16:9, 1280x720."
 )
 

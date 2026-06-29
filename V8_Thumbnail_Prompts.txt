@@ -48,7 +48,7 @@ Total: 3 palabras clave / 5 palabras total ✅
 no gradients, no textures, Andy Singer / MoneyTom style.
 
 SCENE: Alex standing on a treadmill, running hard, visibly exhausted.
-Blue electric-blue t-shirt (NOT red — this is critical), gray pants, black spiky hair.
+Blue t-shirt (NOT red — this is critical), gray pants, black spiky hair.
 Large beige oval head (#F5E6C8), transparent glass upper skull revealing Brain Villain inside.
 Alex expression: mouth open, eyes wide with effort, three cartoon sweat drops flying off his head.
 Arms pumping forward, legs mid-stride on the treadmill belt.
@@ -93,7 +93,7 @@ SCENE: Split panel thumbnail divided vertically down the center by a thin black 
 
 LEFT PANEL (background very light gray #F5F5F5):
 Alex holding a large paycheck, expression: huge open-mouth smile, eyes wide with happiness,
-one fist pumped in celebration. Blue electric-blue t-shirt, gray pants, black spiky hair,
+one fist pumped in celebration. Blue t-shirt, gray pants, black spiky hair,
 large beige oval head. No Brain Villain visible in left panel.
 Small green label above Alex: "€40K / YEAR".
 
@@ -101,7 +101,7 @@ RIGHT PANEL (background white #FFFFFF):
 Same Alex, identical pose, but expression completely changed: confused and deflated,
 eyes half-closed, mouth slightly open in bewilderment, shoulders slightly drooped.
 Holding an EMPTY wallet (brown, open, nothing inside, cartoon exaggerated empty).
-Blue electric-blue t-shirt (same shirt — same character, different moment).
+Blue t-shirt (same shirt — same character, different moment).
 Brain Villain VISIBLE inside transparent skull: pink cartoon brain, heavy-lidded eyes,
 slight smug smirk, small thumbs-up gesture — as if proud of the outcome.
 Small green label above Alex: "€100K / YEAR".
@@ -133,7 +133,7 @@ no gradients, Andy Singer / MoneyTom style.
 SCENE: Alex standing center frame, looking directly at viewer with a confused and
 slightly frustrated expression — eyebrows slightly furrowed, head tilted,
 one hand raised palm-up in a "what is happening?" gesture.
-Blue electric-blue t-shirt, gray pants, black spiky hair.
+Blue t-shirt, gray pants, black spiky hair.
 Large beige oval head (#F5E6C8), transparent glass upper skull.
 
 Brain Villain inside skull: pink cartoon brain (#E8A598), holding a large red button
@@ -164,7 +164,7 @@ Usar base de THUMBNAIL A pero adaptado vertical:
 no gradients, Andy Singer / MoneyTom style.
 
 SCENE: Alex running on a treadmill, viewed from the front-side angle.
-Blue electric-blue t-shirt, gray pants, black spiky hair.
+Blue t-shirt, gray pants, black spiky hair.
 Large beige oval head, transparent glass skull, Brain Villain inside — relaxed, smirking.
 Alex expression: exhausted, mouth open, sweat drops.
 
