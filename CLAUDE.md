@@ -167,10 +167,22 @@ build_[x]_doc.py         → PRODUCTION.pdf (beats + image prompts + cam/light/m
 build_[x]_publish_doc.py → Prepublish_Checklist.docx
 ```
 
-**Formato beats para el animador:**
+**Formato beats para el editor (CapCut — sin animación IA):**
 ```
-BEAT N | Camera: [valor] | Lighting: [valor] | Mood: [valor] | Character Action: [valor] | Video Motion: [valor]
+BEAT N | Camera: [valor] | Lighting: [valor] | Mood: [valor] | Character Action: [valor] | CapCut Motion: [valor]
 ```
+
+**Vocabulario CapCut Motion (usar exactamente estos términos):**
+- `ZOOM IN SLOW · Xs` — Ken Burns push in, 4-8s (revelar, construir tensión)
+- `ZOOM OUT SLOW · Xs` — Ken Burns pull out, 4-8s (contexto, setup, reset)
+- `ZOOM IN FAST · Xs` — push dramático, 1-2s (shock, revelación, número en pantalla)
+- `PAN LEFT · Xs` / `PAN RIGHT · Xs` — scan horizontal (timelines, comparaciones)
+- `PAN UP · Xs` / `PAN DOWN · Xs` — scan vertical (listas, escalada)
+- `DIAGONAL PAN + ZOOM IN · Xs` — Ken Burns diagonal (beats de máximo impacto)
+- `STATIC` — sin movimiento (pausa intencional, énfasis máximo)
+- `SHAKE · SHORT` — shake de cámara, <1s (activación Brain Villain, impacto)
+
+**Nota:** El movimiento de personaje y cambios de emoción se consiguen generando imágenes distintas por beat — no animando. La expresión/postura debe ser inequívoca ya en la imagen estática.
 
 ---
 
@@ -463,7 +475,7 @@ green: savings/gains · red: loss/danger · white: diagram scenes.
 |---|---|
 | `SCRIPT.docx / .pdf` | Narration with numbered beats and section headers |
 | `ELEVENLABS.pdf` | Clean narration only — paste directly into TTS |
-| `PRODUCTION.pdf` | Every beat: Image Prompt · Camera · Lighting · Mood · Character Action · Video Motion |
+| `PRODUCTION.pdf` | Every beat: Image Prompt · Camera · Lighting · Mood · Character Action · CapCut Motion |
 | `IMAGE_PROMPTS.pdf` | 4 parts × ~26 beats, full STYLE preamble prepended to each prompt |
 | `THUMBNAIL_PROMPTS.txt` | Thumbnail generation prompts following the visual formula |
 | `TITLES.txt` | Title candidates scored against the formula |
@@ -520,7 +532,8 @@ The video topic is NOT chosen by personal interest — it's chosen because peopl
 | Format | Long-form only, 16:9, 1280×720 |
 | Duration | ~7–11 min (90–145 beats at ~8–10 words/beat) |
 | Publishing | Weekly. Consistent day/time. |
-| Animation | 2D flat cartoon, thick black outlines, solid color fills, no gradients |
+| Imágenes | 2D flat cartoon estático, thick black outlines, solid color fills, no gradients — generado en Google Flow/Imagen 4 |
+| Edición | Imágenes estáticas + CapCut Ken Burns / zoom / pan. Sin animación IA. |
 | Language | English (US). Euros (€) in monetary examples. |
 | Thumbnail | Alex + Brain Villain prominent, **white background**, bold text, shocked expression, glowing pink brain |
 
@@ -597,23 +610,25 @@ BEAT 1 debe ser:    Alex sentado frente a entrevistador. Papel girado hacia él.
 
 ### REGLAS DE PRODUCCIÓN — BEATS 1-4 (OBLIGATORIAS)
 
-**1. Beat 1 = Alex MID-ACTION. Nunca estático.**
-- Alex siempre en una situación específica, no explicando algo al viewer
-- Brain Villain visible desde el primer frame si el bias ya está activo
-- La expresión facial cambia DENTRO del beat — no una pose fija
+**1. Beat 1 = imagen de alta carga emocional. Nunca Alex neutral o simétrico.**
+- La pose/expresión de Alex ya en la imagen estática debe transmitir acción o emoción inequívoca
+- Brain Villain visible en el primer frame si el bias ya está activo
+- La imagen sola — sin audio — debe comunicar el estado emocional del beat
 
-**2. Cambio de ángulo cada 2 beats máximo en el hook**
-- No dos beats consecutivos con el mismo encuadre
-- Rotar: plano completo → primer plano → detalle de objeto/número → Brain Villain close-up
+**2. Cambio de imagen cada 2 beats máximo en el hook (imágenes distintas, no la misma con otro zoom)**
+- No dos beats consecutivos con la misma imagen — generar imagen diferente por beat
+- Rotar encuadre en la imagen: plano completo → primer plano → detalle de objeto/número → Brain Villain close-up
+- El CapCut Motion diferente entre beats también aporta variación visual
 
 **3. El valor debe ser visible sin audio**
 - El viewer con el audio muteado tiene que entender qué le pasa a Alex en los primeros 20 segundos
 - Al menos UN número concreto o situación reconocible en pantalla antes del segundo 20
 - No depender de la voz para entregar la promesa del título
 
-**4. En canales faceless, los primeros 3 segundos no tienen cara humana que retenga — necesitan acción**
-- Compensar la ausencia de cara con: movimiento de personaje + cambio emocional + elemento visual de alto impacto
-- Nunca abrir con Alex parado centro de frame mirando al viewer
+**4. En canales faceless, los primeros 3 segundos no tienen cara humana que retenga — compensar con CapCut**
+- Beat 1: ZOOM IN FAST o DIAGONAL PAN + ZOOM IN hacia el elemento de mayor impacto (número, skull, expresión)
+- Nunca abrir con Alex parado centro de frame y CapCut STATIC
+- El movimiento de cámara CapCut reemplaza el movimiento de personaje como elemento de retención
 
 ---
 
@@ -621,14 +636,15 @@ BEAT 1 debe ser:    Alex sentado frente a entrevistador. Papel girado hacia él.
 
 ```
 BEAT 1 — OPENING [THUMBNAIL CONTINUITY]:
-Alex is [specific mid-action situation matching thumbnail promise].
-Expression: [specific emotion — NOT neutral].
+Alex is [specific high-emotion situation matching thumbnail promise].
+Expression: [specific emotion — NOT neutral. Must read clearly as a static image].
 Brain Villain: [active state — lit up / calculating / smirking].
-Camera: [dynamic angle — NEVER center static].
-Motion: [zoom in / pan / character movement — specify].
+Camera (image composition): [dynamic angle — NEVER center static full body].
+CapCut Motion: [ZOOM IN FAST / DIAGONAL PAN + ZOOM IN — specify effect + duration].
 On screen text/visual: [number or situation from title — visible within this beat].
 NOTE: Viewer who just saw the thumbnail must recognize this scene in under 5 seconds.
-      NO static pose. NO introduction. Scene tells the story before narration begins.
+      Static image + CapCut fast zoom delivers the same impact as AI animation — without artifacts.
+      The expression and pose in the still image IS the action. Make it unambiguous.
 ```
 
 ---
