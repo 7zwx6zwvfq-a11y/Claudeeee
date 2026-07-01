@@ -1,0 +1,186 @@
+NEUROCENTS · VIDEO 14
+THUMBNAIL PROMPTS — Google Flow / Imagen 4
+"5 Things That Drain Your Money Before Payday (No Matter What You Earn)"
+Generated: 2026-07-01
+
+S17 CONTINUITY: Thumbnail → Title → Beat 1
+Beat 1 scene: Alex staring at phone showing €0.00 — recognition, not panic.
+Brain Villain lit inside skull, smirking. Calendar: 2 days to payday.
+Viewer who clicks must recognize Beat 1 in under 5 seconds.
+
+CHARACTER SPEC (always include in generation):
+- ALEX: large beige oval head (#F5E6C8), transparent glass upper skull revealing pink cartoon
+  Brain Villain inside, small black dot eyes, thin neutral mouth, black spiky hair,
+  BLUE t-shirt (NOT RED — verify every time), gray pants
+- Brain Villain: pink cartoon brain character (#E8A598), heavy-lidded eyes, slight smirk,
+  small teeth — ALWAYS INSIDE Alex's skull, never floating outside
+- Style: 2D flat cartoon illustration, thick solid black outlines, clean solid color fills,
+  NO gradients, white background (neominimalism / Andy-MoneyTom style)
+
+TEXT RULE: Max 5 words. Text creates the question — never answers it.
+TARGET EMOTION: "That's me every month. I need to know why."
+
+═══════════════════════════════════════════════════════════════════════════════
+THUMBNAIL A — YouTube 16:9 (1280×720) — PRIMARY HERO
+Layout: TEXT LEFT — ALEX RIGHT (maximum text/character contrast)
+Text: BROKE BEFORE PAYDAY
+═══════════════════════════════════════════════════════════════════════════════
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills, no gradients.
+Pure white background (#FFFFFF). 16:9 format, 1280×720.
+
+TEXT BLOCK (LEFT 45% of frame, vertically centered, left-aligned):
+- Line 1: "BROKE" — ultra-heavy Impact font, massive size (~180px), pure black (#111111).
+  Occupies full width of the left panel. Single word. Maximum visual weight.
+- Line 2: "BEFORE" — same ultra-heavy Impact, same size, pure black. Directly below BROKE.
+  No gap between lines — tightly stacked.
+- Line 3: "PAYDAY" — same size, bold red (#C62828). This word is the emotional punch.
+  PAYDAY in red makes the timeline feel urgent and real.
+- No additional text, no subtitles, no arrows, no decorative elements in the text zone.
+- Text is flush-left, stacked vertically — reads like a verdict.
+
+ALEX (RIGHT 55% of frame, slight right-of-center, full visible from waist up):
+- Expression: EYES WIDE OPEN — recognition mixed with dread. Not panic. The face of someone
+  who just checked their account and it confirmed what they feared. Eyebrows slightly raised,
+  mouth in a thin tight line. This is the "oh no, not again" face.
+- Right hand holds a smartphone in front of his torso. Phone screen faces the viewer.
+  Screen shows: "€0.00" in bold red digits, large and clearly readable at thumbnail size.
+  Below the balance: a thin grey "AVAILABLE BALANCE" label in tiny text.
+- Brain Villain inside the transparent glass skull: pink cartoon brain, arms crossed,
+  smirking with one eyebrow raised — SATISFIED, not surprised. It knew this was coming.
+  Villain's eyes: half-lidded, amused. The Villain is the one who did this.
+- Alex BLUE t-shirt (NOT RED — critical), gray pants. Visible waist-up.
+
+COMPOSITION:
+Left text block bleeds almost to the center. Alex stands slightly overlapping the text zone —
+his head and skull intrude 10-15% into the left text panel, creating depth.
+The €0.00 on the phone screen aligns horizontally with "PAYDAY" in red — same eye line.
+Thick black outline on Alex and Brain Villain. No drop shadows. No gradients anywhere.
+At 200px (YouTube browse thumbnail), "BROKE" "BEFORE" "PAYDAY" must still be legible.
+Maximum contrast: black text on white, red PAYDAY, black Alex outlines.
+
+═══════════════════════════════════════════════════════════════════════════════
+THUMBNAIL B — YouTube 16:9 (1280×720) — ALTERNATIVE A
+Layout: ALEX CENTER — TEXT TOP + BOTTOM (cinematic, personal)
+Text: WHERE DOES IT GO?
+═══════════════════════════════════════════════════════════════════════════════
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills, no gradients.
+Pure white background. 16:9 format, 1280×720.
+
+TEXT TOP (horizontal strip, top 20% of frame):
+- "WHERE DOES IT GO?" — ultra-bold Impact or Helvetica Black, all caps, black (#111111),
+  large size. Centered horizontally. No punctuation except the question mark.
+  The question mark is LARGE — not an afterthought. It's part of the headline.
+- Subtitle below in smaller grey text (70px): "Every. Single. Month."
+  Thin weight, tight tracking. Creates rhythm — confirms universality.
+
+ALEX (CENTER of frame, slightly left-of-center, visible from knees up):
+- Expression: LOOKING DOWN AT PHONE with a furrowed brow — confused but resigned.
+  Not angry. Resigned confusion. "Again." Head tilted slightly down, eyes directed at screen.
+  This is the most relatable expression for the target viewer.
+- Both hands hold the phone in front of him. Screen shows a bank app interface:
+  ACCOUNT BALANCE: €0.00 in large bold red. The number is the largest element on the screen.
+  Above the balance: a small calendar icon showing "2 DAYS TO PAYDAY" — small but visible.
+  This is the thumbnail continuity: Beat 1 shows this exact scene.
+- Brain Villain inside the glass skull: LEANING FORWARD with a wide smirk, arms clasped together
+  like a villain who just pulled off a heist. Expression: pure self-satisfaction.
+  The Villain did this. It's proud. Eyes wide open (inverse of usual heavy-lidded state) —
+  this moment is its greatest hit.
+- Alex BLUE t-shirt, gray pants. Full figure visible from knees up.
+
+TEXT BOTTOM (horizontal strip, bottom 18% of frame):
+- "5 REASONS YOUR BRAIN DOES THIS" — bold black, smaller than the top text, centered.
+  OR alternatively just: "5 DRAINS. NAMED." — punchier, more mysterious.
+  Choose whichever fits the bottom strip at thumbnail test size.
+
+BACKGROUND DETAIL:
+Faint grey calendar grid behind Alex — very subtle, almost invisible at full size,
+but adds texture. NOT a solid color. The calendar grid suggests "time is running out."
+White dominant. The grey is 5% opacity — texture only, not visual noise.
+
+COMPOSITION:
+Phone screen with €0.00 is the CENTER of gravity. The viewer's eye goes:
+Question (top) → Alex's resigned expression → €0.00 on screen → "5 DRAINS" (bottom).
+Perfect vertical read path. No element fights for attention.
+
+═══════════════════════════════════════════════════════════════════════════════
+THUMBNAIL C — YouTube 16:9 (1280×720) — ALTERNATIVE B
+Layout: SPLIT PANEL — LEFT: THE PROBLEM / RIGHT: ALEX + VILLAIN
+Text: YOUR MONEY IS ALREADY GONE
+═══════════════════════════════════════════════════════════════════════════════
+
+2D flat cartoon illustration, thick solid black outlines, clean solid color fills, no gradients.
+Pure white background. 16:9 format, 1280×720.
+
+LEFT PANEL (45% of frame width) — THE PROBLEM VISUALIZATION:
+This panel has a very subtle off-white (#F8F8F8) background to distinguish it from the right.
+Contents from top to bottom:
+- A large stylized bank account balance display:
+  "€ 0" — the zero is enormous, almost filling the panel width. Bold, red (#C62828).
+  The euro sign is black. The zero is RED. This is the central visual punch.
+- Below the €0: a thin horizontal timeline arrow — LEFT end labeled "PAYDAY" (with a small
+  calendar icon), RIGHT end labeled "TODAY" (with a small clock icon). The arrow points left —
+  time runs OUT before payday arrives. No text labels beyond these two single words.
+- Below the timeline: three tiny drain icons in a row — a credit card, a shopping bag, a calendar
+  with "auto-renew" icon. These represent the drains without naming them. Small, iconic, clear.
+- All elements left-panel are clean, flat, diagram-style. No character in this panel.
+
+RIGHT PANEL (55% of frame width) — ALEX + VILLAIN:
+Pure white background.
+- ALEX visible from mid-chest up, positioned right-center. Looking LEFT at the €0 panel —
+  his gaze connects the two panels. Expression: wide-eyed RECOGNITION.
+  Not surprise. Recognition. "I know this situation." The slight wince confirms: it's personal.
+- He holds no prop — both hands are visible at his sides, slightly open. The phone is absent
+  here — his reaction IS the phone. His face is the response to what's in the left panel.
+- Brain Villain inside skull: POINTING LEFTWARD at the €0 with a knowing smirk —
+  "I made that." The Villain's extended finger connects to the red number across panels.
+  This is the visual link between cause (Villain) and effect (€0).
+- Alex BLUE t-shirt (verify — NOT RED), gray pants.
+
+TEXT OVERLAY (top-right corner of right panel, above Alex's head):
+- "YOUR MONEY" — bold black Impact, large
+- "IS ALREADY GONE" — bold red Impact, same size
+- Two lines. No additional text. Simple as a verdict.
+
+DIVIDING ELEMENT:
+A thin black vertical line (2px) separates the two panels at the 45% mark.
+This is the only graphic element besides text and character. Clean neominimalist separator.
+
+COMPOSITION:
+Left panel = the financial reality (€0, timeline, drain icons).
+Right panel = the human reaction (Alex) + the cause (Brain Villain pointing back at it).
+The viewer's eye bounces left-right, reads the cause-effect loop.
+At 200px thumbnail: the €0 in red (left) and Alex's expression (right) must both be readable.
+
+═══════════════════════════════════════════════════════════════════════════════
+PRODUCTION NOTES
+═══════════════════════════════════════════════════════════════════════════════
+
+PREFERRED ORDER TO TEST:
+1. Thumbnail A — "BROKE BEFORE PAYDAY" — highest CTR prediction (universal + visceral)
+2. Thumbnail C — split panel — best for YouTube Browse (two clear visual anchors)
+3. Thumbnail B — "WHERE DOES IT GO?" — strongest question hook, weakest at tiny sizes
+
+S17 CONTINUITY CHECK:
+Thumbnail A: Alex holds phone with €0.00 ← matches Beat 1 exactly ✅
+Thumbnail B: Alex looks at phone with €0.00 and "2 DAYS TO PAYDAY" ← matches Beat 1 ✅
+Thumbnail C: €0 panel + Alex recognition ← matches Beat 1 theme ✅
+
+BLUE T-SHIRT VERIFICATION:
+Before generating: confirm BLUE, not red, not teal.
+After generating: zoom into chest area before approving.
+
+TEXT AT SMALL SIZE (200px test):
+Before using any thumbnail, screenshot it at 200px width and check:
+- Is the key text still readable? (BROKE / BEFORE / PAYDAY or WHERE DOES IT GO?)
+- Is Alex's expression still distinguishable from a neutral face?
+- Is the Brain Villain visible inside the skull?
+If any of these fail → regenerate before uploading.
+
+TITLE MATCH REMINDER:
+Video title: "5 Things That Drain Your Money Before Payday (No Matter What You Earn)"
+Thumbnail text DOES NOT need to match the title word-for-word.
+Thumbnail creates the question. Title answers "how many things."
+Together they form: "Broke before payday [I know that feeling]" → "oh wait, there are 5 specific things?"
+That gap is the click.
