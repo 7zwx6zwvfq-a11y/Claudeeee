@@ -945,6 +945,62 @@ PREGUNTA (segundo 0-3) → SENTIMIENTO DE IDENTIDAD → LOOP ABIERTO
 
 ---
 
+## 23. THUMBNAIL — LECCIONES V14 (CANÓNICO DESDE V14)
+
+> Establecido Julio 2026. Thumbnail A aprobado tras dos iteraciones en Google Flow.
+
+### VARIANTE APROBADA — V14 THUMBNAIL A
+
+**Composición:** Texto izquierda stacked (45%) + Alex derecha (55%)
+**Texto:** BROKE / BEFORE / PAYDAY — BROKE y BEFORE en negro, PAYDAY en rojo (#C62828)
+**Font:** Impact ultra-heavy, stacked sin gap entre líneas — lectura como veredicto
+**Alex:** Boca abierta, ojos grandes — shock + dread. Expresión legible a 200px.
+**Brain Villain:** Dentro del skull, brazos cruzados, smirking satisfecho — hizo su trabajo
+**Teléfono:** En mano de Alex, screen facing viewer, €0.00 en rojo grande + "AVAILABLE BALANCE"
+**Camiseta:** AZUL confirmado ✅
+**Fondo:** Blanco puro ✅
+
+### LO QUE FUNCIONÓ (replicar en V15+)
+
+| Elemento | Spec |
+|---|---|
+| Expresión Alex | Boca ABIERTA + ojos grandes = legible a miniatura. Neutral/flat no funciona. |
+| Texto stacked | BROKE / BEFORE / PAYDAY en 3 líneas = lee como veredicto en 0.3s |
+| PAYDAY en rojo | El color diferencia la palabra clave — ojo va ahí último |
+| €0.00 en teléfono | Prop concreto que confirma S17 continuity con Beat 1 |
+| Brain Villain satisfecho | Brazos cruzados + smirk = "yo hice esto" — no necesita contexto |
+| Alex overlapping texto | Cabeza entra 10-15% en zona de texto = profundidad, no split estático |
+
+### LO QUE CORREGIR EN ITERACIÓN 2
+
+- **Pantalones:** En V14 salieron azulados (jeans). Especificar siempre: "gray pants, NOT jeans, NOT blue pants"
+- **Expresión V1 era flat:** Primera generación = neutral. Añadir siempre: "mouth open in shock, eyes wide open — expression must read clearly at 200px thumbnail size"
+- **Skull border:** La línea del cráneo transparente puede ser más definida — añadir "thick black outline around the transparent glass skull section"
+
+### PROMPT ADDITION OBLIGATORIO (pegar al final de cualquier thumbnail prompt desde V14)
+
+```
+CRITICAL EXPRESSION NOTE: Alex's mouth must be OPEN in genuine shock/dread.
+Eyes must be WIDE OPEN with eyebrows raised. This expression must be clearly
+readable when the thumbnail is displayed at 200px width. Neutral or flat
+expressions are rejected — regenerate if Alex looks calm or mildly confused.
+Gray pants (NOT jeans, NOT blue pants). BLUE t-shirt (NOT red, NOT teal).
+Thick black outline around the transparent glass skull section.
+```
+
+### FLUJO DE APROBACIÓN THUMBNAIL
+
+```
+1. Generar con prompt completo en Google Flow
+2. Test a 200px: ¿expresión legible? ¿texto legible? ¿€0.00 visible?
+3. Verificar: camiseta AZUL / pantalones GRISES / Brain Villain dentro del skull
+4. Si expresión flat → regenerar con CRITICAL EXPRESSION NOTE reforzado
+5. Si pantalones azules → especificar "gray pants, NOT jeans" en siguiente gen
+6. Aprobar solo cuando expresión + texto + S17 continuity están los tres ✅
+```
+
+---
+
 ## NOTAS IMPORTANTES
 
 - El canal se llamó "Crayon Capital" en sesiones anteriores → ahora es **Neurocents**. Los archivos más antiguos dicen CRAYON CAPITAL en subtítulos.
