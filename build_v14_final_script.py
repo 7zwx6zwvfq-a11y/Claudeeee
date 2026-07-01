@@ -1,208 +1,332 @@
 #!/usr/bin/env python3
-"""V14 Script — 5 Things That Drain Your Money Before Payday (No Matter What You Earn)."""
+"""
+VIDEO 14 — BRIEF v3.1 FINAL
+5 Things That Drain Your Money Before Payday (No Matter What You Earn)
+NEUROCENTS · 95 beats · ~900 words · ~8 min
+Hook strategy: S1 — PREGUNTA SIN RESOLVER (Zeigarnik Effect)
+S17: Thumbnail → Alex + €0.00 + Brain Villain lit → Beat 1 = pregunta directa al viewer
+S18 rotation: V13 used S2 → V14 uses S1 ✅
+CTA at beats 36-37 = 38% through 95 ✅
+Format: Lista con Ranking (5 → 1) — sector-wide topic — sin datos científicos
+"""
 
 from docx import Document
-from docx.shared import Pt, RGBColor, Cm
+from docx.shared import Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.units import cm
+from reportlab.lib.units import mm
 from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.enums import TA_CENTER
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 
-RED   = RGBColor(0xB0, 0x2A, 0x2A)
-DARK  = RGBColor(0x2C, 0x3E, 0x50)
-GREY  = RGBColor(0x77, 0x77, 0x77)
-GREEN = RGBColor(0x1A, 0x7A, 0x3C)
+TITLE    = "5 Things That Drain Your Money Before Payday (No Matter What You Earn)"
+SUBTITLE = "NEUROCENTS · VIDEO 14 — BRIEF v3.1"
+LABEL    = "SCRIPT (NARRATION)"
 
-BEATS = [
-    # SECTION, BEAT_NUM, TEXT
-    ("HOOK — PRIMEROS 5 SEGUNDOS",  1,  "Why does your money always disappear before payday?"),
-    ("HOOK",                         2,  "Not sometimes. Every month."),
-    ("HOOK",                         3,  "It doesn't matter if you earn €2,000 or €6,000."),
-    ("HOOK",                         4,  "Four weeks. Same empty account."),
-    ("HOOK",                         5,  "Five things are doing this to you."),
-    ("HOOK",                         6,  "And number one runs before you even get paid."),
-    ("HOOK",                         7,  "Not when you spend it. Before."),
-    ("HOOK",                         8,  "Here's the list."),
+SECTIONS = [
 
-    ("SETUP",                        9,  "These aren't budgeting mistakes."),
-    ("SETUP",                       10,  "They're not discipline failures."),
-    ("SETUP",                       11,  "They're patterns. And they run automatically."),
-    ("SETUP",                       12,  "Number five is the one everyone knows. And still can't stop."),
+    # ── HOOK ── 8 beats (~25 seg)
+    # S1 — PREGUNTA SIN RESOLVER (Zeigarnik Effect)
+    # S17: Thumbnail shows Alex + €0.00 balance + Brain Villain lit
+    # Beat 1 = pregunta directa. Viewer se reconoce en <5 segundos.
+    ("HOOK — PRIMEROS 5 SEGUNDOS", [
+        "Why does your money always disappear before payday?",           # B1  S19: pregunta → sentimiento → loop
+        "Not sometimes. Every month.",                                   # B2  pattern established
+        "It doesn't matter if you earn €2,000 or €6,000.",             # B3  universality
+        "Four weeks. Same empty account.",                               # B4  repetition pattern
+        "Five things are doing this to you.",                            # B5  promise — list format
+        "And number one runs before you even get paid.",                 # B6  curiosity gap
+        "Not when you spend it. Before.",                                # B7  contrast beat
+        "Here's the list.",                                              # B8  open loop → into list
+    ]),
 
-    ("ITEM 5 — THE CARD GAP",       13,  "Number five. The Card Gap."),
-    ("ITEM 5",                      14,  "When you pay with cash, your brain registers loss."),
-    ("ITEM 5",                      15,  "You feel the €40 leave."),
-    ("ITEM 5",                      16,  "When you pay with card — tap, done — the pain disappears."),
-    ("ITEM 5",                      17,  "Same purchase. Different brain response."),
-    ("ITEM 5",                      18,  "Card users spend 20 to 47% more than cash users."),
-    ("ITEM 5",                      19,  "Not because they want to. Because the payment doesn't feel like payment."),
-    ("ITEM 5",                      20,  "Your brain is still waiting for the money to actually leave."),
+    # ── SETUP ── 4 beats
+    ("SETUP", [
+        "These aren't budgeting mistakes.",                              # B9
+        "They're not discipline failures.",                              # B10
+        "They're patterns. And they run automatically.",                 # B11  mechanism
+        "Number five is the one everyone knows. And still can't stop.", # B12  hook into ranking
+    ]),
 
-    ("ITEM 4 — THE REWARD DRAIN",   21,  "Number four. The Reward Drain."),
-    ("ITEM 4",                      22,  "It's Thursday. You've had a brutal week."),
-    ("ITEM 4",                      23,  "Alex has too. Deadlines. A difficult meeting. Late nights."),
-    ("ITEM 4",                      24,  "And his brain does something automatic."),
-    ("ITEM 4",                      25,  "It calculates what he's owed."),
-    ("ITEM 4",                      26,  "Not the salary. Something extra."),
-    ("ITEM 4",                      27,  "'I worked hard. I deserve this.'"),
-    ("ITEM 4",                      28,  "That sentence has cost more money than any impulse purchase."),
+    # ── ITEM 5 ── 8 beats
+    ("ITEM 5 — THE CARD GAP", [
+        "Number five. The Card Gap.",                                    # B13  reveal
+        "When you pay with cash, your brain registers loss.",            # B14  mechanism
+        "You feel the €40 leave.",                                       # B15  felt experience
+        "When you pay with card — tap, done — the pain disappears.",    # B16  contrast
+        "Same purchase. Different brain response.",                       # B17  pattern phrase
+        "Card users spend 20 to 47% more than cash users.",             # B18  stat
+        "Not because they want to. Because the payment doesn't feel like payment.", # B19
+        "Your brain is still waiting for the money to actually leave.", # B20  mechanism close
+    ]),
 
-    ("ITEM 3 — THE INVISIBLE DRAIN",29,  "Number three. The Invisible Drain."),
-    ("ITEM 3",                      30,  "Right now, you have at least three subscriptions you've forgotten about."),
-    ("ITEM 3",                      31,  "Apps you haven't opened in four months."),
-    ("ITEM 3",                      32,  "Services that auto-renewed in January."),
-    ("ITEM 3",                      33,  "Why haven't you cancelled them?"),
-    ("ITEM 3",                      34,  "Because cancelling requires a decision. And decisions cost energy."),
-    ("ITEM 3",                      35,  "Your brain doesn't cancel things. It lets them run."),
+    # ── ITEM 4 ── 8 beats
+    ("ITEM 4 — THE REWARD DRAIN", [
+        "Number four. The Reward Drain.",                                # B21  reveal
+        "It's Thursday. You've had a brutal week.",                     # B22  scene
+        "Alex has too. Deadlines. A difficult meeting. Late nights.",   # B23  specificity
+        "And his brain does something automatic.",                       # B24  mechanism
+        "It calculates what he's owed.",                                 # B25  the logic
+        "Not the salary. Something extra.",                              # B26  contrast
+        "'I worked hard. I deserve this.'",                              # B27  signature phrase
+        "That sentence has cost more money than any impulse purchase.", # B28  the real cost
+    ]),
 
-    ("CTA",                         36,  "If your brain is doing this to you right now — subscribe."),
-    ("CTA",                         37,  "We break down a new pattern every week. It's free. And it might save you more than you think."),
+    # ── ITEM 3 ── 7 beats
+    ("ITEM 3 — THE INVISIBLE DRAIN", [
+        "Number three. The Invisible Drain.",                            # B29  reveal
+        "Right now, you have at least three subscriptions you've forgotten about.", # B30  direct
+        "Apps you haven't opened in four months.",                       # B31
+        "Services that auto-renewed in January.",                        # B32
+        "Why haven't you cancelled them?",                               # B33  Zeigarnik question
+        "Because cancelling requires a decision. And decisions cost energy.", # B34  mechanism
+        "Your brain doesn't cancel things. It lets them run.",          # B35  mechanism close
+    ]),
 
-    ("ITEM 2 — SOCIAL SPENDING",    38,  "Number two. Social Spending."),
-    ("ITEM 2",                      39,  "You bought something this month for an audience that wasn't watching."),
-    ("ITEM 2",                      40,  "The car that looks good in the parking lot."),
-    ("ITEM 2",                      41,  "The jacket for the meeting."),
-    ("ITEM 2",                      42,  "The upgrade nobody asked for but someone might notice."),
-    ("ITEM 2",                      43,  "Who is that person you're buying for?"),
-    ("ITEM 2",                      44,  "They don't exist. They're a projection."),
-    ("ITEM 2",                      45,  "The most expensive audience in your life has never spent a single dollar."),
-    ("ITEM 2",                      46,  "They live entirely in your head. And they have expensive taste."),
+    # ── CTA ── beats 36-37 = 38% ✅
+    ("CTA", [
+        "If your brain is doing this to you right now — subscribe.",
+        "We break down a new pattern every week. It's free. And it might save you more than you think.",
+    ]),
 
-    ("ITEM 1 — THE PRE-SPEND",      47,  "Number one. The one nobody names."),
-    ("ITEM 1",                      48,  "The Pre-Spend."),
-    ("ITEM 1",                      49,  "It's Wednesday. Payday is Friday."),
-    ("ITEM 1",                      50,  "Alex hasn't received anything yet."),
-    ("ITEM 1",                      51,  "But his brain has already spent it."),
-    ("ITEM 1",                      52,  "Not metaphorically. Neurologically."),
-    ("ITEM 1",                      53,  "The moment you know money is coming — your brain allocates it."),
-    ("ITEM 1",                      54,  "The rent. The pending bill. The thing you've been delaying."),
-    ("ITEM 1",                      55,  "And then — quietly — a few things that feel deserved."),
-    ("ITEM 1",                      56,  "By the time Friday arrives, the money is already gone in your mind."),
-    ("ITEM 1",                      57,  "Friday is just the confirmation."),
-    ("ITEM 1",                      58,  "You don't spend your salary. You process a transaction your brain closed on Wednesday."),
+    # ── ITEM 2 ── 9 beats
+    ("ITEM 2 — SOCIAL SPENDING", [
+        "Number two. Social Spending.",                                  # B38  reveal
+        "You bought something this month for an audience that wasn't watching.", # B39  direct
+        "The car that looks good in the parking lot.",                   # B40  example
+        "The jacket for the meeting.",                                   # B41  example
+        "The upgrade nobody asked for but someone might notice.",        # B42  example
+        "Who is that person you're buying for?",                        # B43  Zeigarnik question
+        "They don't exist. They're a projection.",                       # B44  reveal
+        "The most expensive audience in your life has never spent a single dollar.", # B45
+        "They live entirely in your head. And they have expensive taste.", # B46  close
+    ]),
 
-    ("MECHANISM CONCLUSION",        59,  "Five patterns. Running automatically."),
-    ("MECHANISM CONCLUSION",        60,  "Card Gap. Reward Drain. Invisible Drain. Social Spending. Pre-Spend."),
-    ("MECHANISM CONCLUSION",        61,  "None of them feel like mistakes when they happen."),
-    ("MECHANISM CONCLUSION",        62,  "The Card Gap feels convenient."),
-    ("MECHANISM CONCLUSION",        63,  "The Reward Drain feels earned. The Social Spend feels reasonable. The Pre-Spend feels like planning."),
+    # ── ITEM 1 ── 12 beats
+    ("ITEM 1 — THE PRE-SPEND", [
+        "Number one. The one nobody names.",                             # B47  build-up
+        "The Pre-Spend.",                                                # B48  reveal — one word
+        "It's Wednesday. Payday is Friday.",                            # B49  scene
+        "Alex hasn't received anything yet.",                            # B50
+        "But his brain has already spent it.",                          # B51  the core mechanism
+        "Not metaphorically. Neurologically.",                           # B52  elevation
+        "The moment you know money is coming — your brain allocates it.", # B53  mechanism
+        "The rent. The pending bill. The thing you've been delaying.",  # B54  the logical ones
+        "And then — quietly — a few things that feel deserved.",        # B55  the silent add-ons
+        "By the time Friday arrives, the money is already gone in your mind.", # B56
+        "Friday is just the confirmation.",                              # B57  the reframe
+        "You don't spend your salary. You process a transaction your brain closed on Wednesday.", # B58
+    ]),
 
-    ("THE STRUCTURAL FIX",          64,  "The fix isn't 'spend less.'"),
-    ("THE STRUCTURAL FIX",          65,  "That's not a system. That's a wish."),
-    ("THE STRUCTURAL FIX",          66,  "For the Card Gap: switch one category to cash. Groceries. Restaurants. One category."),
-    ("THE STRUCTURAL FIX",          67,  "You don't need to feel the money leaving everywhere. Just somewhere."),
-    ("THE STRUCTURAL FIX",          68,  "For the Reward Drain: budget it. €80 a month. 'This is my earned money.'"),
-    ("THE STRUCTURAL FIX",          69,  "When it's gone, it's gone. The Villain needs a container, not a lecture."),
-    ("THE STRUCTURAL FIX",          70,  "For the Invisible Drain: one audit. Once a year. Not monthly — once."),
-    ("THE STRUCTURAL FIX",          71,  "For Social Spending: one question before every non-essential purchase."),
-    ("THE STRUCTURAL FIX",          72,  "'Who am I buying this for?' If the answer isn't you — pause."),
-    ("THE STRUCTURAL FIX",          73,  "For the Pre-Spend: the salary hits the account. You don't touch it for 24 hours."),
+    # ── MECHANISM CONCLUSION ── 5 beats
+    ("MECHANISM CONCLUSION", [
+        "Five patterns. Running automatically.",                         # B59
+        "Card Gap. Reward Drain. Invisible Drain. Social Spending. Pre-Spend.", # B60
+        "None of them feel like mistakes when they happen.",             # B61
+        "The Card Gap feels convenient.",                                # B62
+        "The Reward Drain feels earned. The Social Spend feels reasonable. The Pre-Spend feels like planning.", # B63
+    ]),
 
-    ("BRAIN VILLAIN'S LAST TRICK",  74,  "The Brain Villain has one response to this list."),
-    ("BRAIN VILLAIN'S LAST TRICK",  75,  "You're feeling it right now."),
-    ("BRAIN VILLAIN'S LAST TRICK",  76,  "Not resistance. Something quieter."),
-    ("BRAIN VILLAIN'S LAST TRICK",  77,  "Something that sounds like common sense: 'I already know this.'"),
-    ("BRAIN VILLAIN'S LAST TRICK",  78,  "That thought is not wisdom. Not self-awareness."),
-    ("BRAIN VILLAIN'S LAST TRICK",  79,  "It is the Invisible Drain wearing the costume of insight."),
-    ("BRAIN VILLAIN'S LAST TRICK",  80,  "The programs are not broken."),
-    ("BRAIN VILLAIN'S LAST TRICK",  81,  "They were built for a world where money was physical — coins you could feel, resources you could see leaving."),
-    ("BRAIN VILLAIN'S LAST TRICK",  82,  "In that world, the Pre-Spend was planning. The Reward Drain was recovery. The Card Gap didn't exist."),
-    ("BRAIN VILLAIN'S LAST TRICK",  83,  "The Brain Villain was built for that world. Not this one."),
-    ("BRAIN VILLAIN'S LAST TRICK",  84,  "These five systems were designed for the world you actually live in."),
+    # ── THE STRUCTURAL FIX ── 10 beats
+    ("THE STRUCTURAL FIX", [
+        "The fix isn't 'spend less.'",                                  # B64
+        "That's not a system. That's a wish.",                          # B65
+        "For the Card Gap: switch one category to cash. Groceries. Restaurants. One category.", # B66
+        "You don't need to feel the money leaving everywhere. Just somewhere.", # B67
+        "For the Reward Drain: budget it. €80 a month. 'This is my earned money.'", # B68
+        "When it's gone, it's gone. The Villain needs a container, not a lecture.", # B69
+        "For the Invisible Drain: one audit. Once a year. Not monthly — once.", # B70
+        "For Social Spending: one question before every non-essential purchase.", # B71
+        "'Who am I buying this for?' If the answer isn't you — pause.", # B72
+        "For the Pre-Spend: the salary hits the account. You don't touch it for 24 hours.", # B73
+    ]),
 
-    ("IDENTITY CLOSE",              85,  "Your money doesn't disappear."),
-    ("IDENTITY CLOSE",              86,  "It follows five very predictable routes."),
-    ("IDENTITY CLOSE",              87,  "Card Gap. Reward Drain. Invisible Drain. Social Spending. Pre-Spend."),
-    ("IDENTITY CLOSE",              88,  "Name them. And they lose power."),
-    ("IDENTITY CLOSE",              89,  "You're not bad with money."),
-    ("IDENTITY CLOSE",              90,  "You're running programs that were never designed for a world with direct deposits and one-click payments."),
-    ("IDENTITY CLOSE",              91,  "Now you know which five. That's the first thing the Villain didn't want you to have."),
+    # ── BRAIN VILLAIN'S LAST TRICK ── 11 beats (template obligatorio)
+    ("BRAIN VILLAIN'S LAST TRICK", [
+        "The Brain Villain has one response to this list.",              # B74
+        "You're feeling it right now.",                                  # B75
+        "Not resistance. Something quieter.",                            # B76
+        "Something that sounds like common sense: 'I already know this.'", # B77
+        "That thought is not wisdom. Not self-awareness.",               # B78
+        "It is the Invisible Drain wearing the costume of insight.",    # B79
+        "The programs are not broken.",                                  # B80
+        "They were built for a world where money was physical — coins you could feel, resources you could see leaving.", # B81
+        "In that world, the Pre-Spend was planning. The Reward Drain was recovery. The Card Gap didn't exist.", # B82
+        "The Brain Villain was built for that world. Not this one.",    # B83
+        "These five systems were designed for the world you actually live in.", # B84
+    ]),
 
-    ("NEXT VIDEO TEASE",            92,  "Next week — the one decision that stops all five."),
-    ("NEXT VIDEO TEASE",            93,  "Not five solutions. One."),
-    ("NEXT VIDEO TEASE",            94,  "Made once. Before the patterns activate."),
-    ("NEXT VIDEO TEASE",            95,  "See you Thursday."),
+    # ── IDENTITY CLOSE ── 7 beats (max 9)
+    ("IDENTITY CLOSE", [
+        "Your money doesn't disappear.",                                 # B85
+        "It follows five very predictable routes.",                      # B86
+        "Card Gap. Reward Drain. Invisible Drain. Social Spending. Pre-Spend.", # B87
+        "Name them. And they lose power.",                               # B88
+        "You're not bad with money.",                                    # B89
+        "You're running programs that were never designed for a world with direct deposits and one-click payments.", # B90
+        "Now you know which five. That's the first thing the Villain didn't want you to have.", # B91
+    ]),
+
+    # ── NEXT VIDEO TEASE ── 4 beats
+    ("NEXT VIDEO TEASE", [
+        "Next week — the one decision that stops all five.",             # B92
+        "Not five solutions. One.",                                      # B93
+        "Made once. Before the patterns activate.",                      # B94
+        "See you Thursday.",                                             # B95
+    ]),
+
 ]
 
-# ── DOCX SCRIPT ──
-def build_script_docx():
+
+def build_docx():
     doc = Document()
     st = doc.styles['Normal']
     st.font.name = 'Calibri'
-    st.font.size = Pt(10)
+    st.font.size = Pt(11)
 
     t = doc.add_paragraph()
     t.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r = t.add_run("NEUROCENTS — VIDEO 14")
-    r.bold = True; r.font.size = Pt(14); r.font.color.rgb = RED
+    r = t.add_run(SUBTITLE)
+    r.bold = True; r.font.size = Pt(14)
 
     s = doc.add_paragraph()
     s.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r = s.add_run("5 Things That Drain Your Money Before Payday (No Matter What You Earn)")
-    r.font.size = Pt(11); r.font.color.rgb = DARK
+    r = s.add_run(LABEL)
+    r.bold = True; r.font.size = Pt(11)
+    r.font.color.rgb = RGBColor(0xB0, 0x2A, 0x2A)
 
     s2 = doc.add_paragraph()
     s2.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r = s2.add_run("95 beats · Hook S1 · Lista con Ranking · Sin datos científicos · CapCut static")
-    r.font.size = Pt(9); r.font.color.rgb = GREY
+    r = s2.add_run(TITLE)
+    r.bold = True; r.italic = True; r.font.size = Pt(14)
+
+    note = doc.add_paragraph()
+    note.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    nr = note.add_run("Hook: S1 — Pregunta Sin Resolver · S17 Thumbnail Continuity · S18 Rotation ✅ · Lista con Ranking")
+    nr.font.size = Pt(9); nr.font.color.rgb = RGBColor(0x44, 0x88, 0x44)
 
     doc.add_paragraph()
 
-    current_section = ""
-    for section, num, text in BEATS:
-        if section != current_section:
-            current_section = section
-            p = doc.add_paragraph()
-            p.paragraph_format.space_before = Pt(12)
-            p.paragraph_format.space_after = Pt(2)
-            r = p.add_run(f"── {section} ──")
-            r.bold = True; r.font.size = Pt(10); r.font.color.rgb = RED
+    beat_num = 1
+    for section_title, lines in SECTIONS:
+        sh = doc.add_paragraph()
+        sr = sh.add_run(f"— {section_title} —")
+        sr.bold = True; sr.font.size = Pt(11)
+        sr.font.color.rgb = RGBColor(0xB0, 0x2A, 0x2A)
+        sh.paragraph_format.space_before = Pt(14)
+        sh.paragraph_format.space_after = Pt(4)
 
-        p = doc.add_paragraph()
-        p.paragraph_format.space_before = Pt(1)
-        p.paragraph_format.space_after = Pt(3)
-        p.paragraph_format.left_indent = Cm(0.5)
-        r1 = p.add_run(f"[{num:02d}]  ")
-        r1.bold = True; r1.font.size = Pt(9); r1.font.color.rgb = GREY
-        r2 = p.add_run(text)
-        r2.font.size = Pt(11)
+        for line in lines:
+            p = doc.add_paragraph()
+            p.paragraph_format.space_before = Pt(1)
+            p.paragraph_format.space_after = Pt(1)
+            nr = p.add_run(f"[{beat_num}]  ")
+            nr.bold = True; nr.font.size = Pt(9)
+            nr.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
+            p.add_run(line).font.size = Pt(11)
+            beat_num += 1
+        doc.add_paragraph()
+
+    all_lines = [line for _, lines in SECTIONS for line in lines]
+    wc = sum(len(l.split()) for l in all_lines)
+    total = beat_num - 1
+
+    f = doc.add_paragraph()
+    f.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    fr = f.add_run(f"TOTAL: {total} beats · ~{wc} words · ~{round(wc/140)} min")
+    fr.font.size = Pt(9); fr.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
 
     path = "/home/user/Claudeeee/V14_final_SCRIPT.docx"
     doc.save(path)
-    print(f"✅ SCRIPT.docx saved: {path}")
-    return path
+    print(f"DOCX: {path} | {total} beats | {wc} words | ~{round(wc/140)} min")
+    return all_lines, total, wc
 
-# ── PDF ELEVENLABS ──
-def build_elevenlabs_pdf():
-    path = "/home/user/Claudeeee/V14_final_ELEVENLABS.pdf"
-    doc = SimpleDocTemplate(path, pagesize=A4,
-                            leftMargin=2*cm, rightMargin=2*cm,
-                            topMargin=2*cm, bottomMargin=2*cm)
+
+def build_pdf(all_lines, total, wc):
     styles = getSampleStyleSheet()
-    beat_style = ParagraphStyle('beat', fontSize=12, leading=18,
-                                spaceAfter=6, fontName='Helvetica')
-    section_style = ParagraphStyle('section', fontSize=10, leading=14,
-                                   spaceAfter=4, spaceBefore=16,
-                                   textColor=colors.HexColor('#B02A2A'),
-                                   fontName='Helvetica-Bold')
-    story = []
-    story.append(Paragraph("NEUROCENTS · V14 · ELEVENLABS SCRIPT", section_style))
-    story.append(Paragraph("5 Things That Drain Your Money Before Payday (No Matter What You Earn)", beat_style))
-    story.append(Spacer(1, 0.4*cm))
+    H1  = ParagraphStyle('H1',  parent=styles['Title'],  fontSize=14, leading=18, alignment=TA_CENTER)
+    SUB = ParagraphStyle('SUB', parent=styles['Normal'], fontSize=10, leading=13,
+                         alignment=TA_CENTER, textColor=colors.HexColor('#B02A2A'),
+                         fontName='Helvetica-Bold')
+    NOTE= ParagraphStyle('NOTE',parent=styles['Normal'], fontSize=9, leading=12,
+                         alignment=TA_CENTER, textColor=colors.HexColor('#448844'))
+    META= ParagraphStyle('META',parent=styles['Normal'], fontSize=9, leading=12,
+                         alignment=TA_CENTER, textColor=colors.HexColor('#777777'))
+    SEC = ParagraphStyle('SEC', parent=styles['Normal'], fontSize=10, leading=13,
+                         textColor=colors.HexColor('#B02A2A'), fontName='Helvetica-Bold',
+                         spaceBefore=14, spaceAfter=4)
+    LINE= ParagraphStyle('LINE',parent=styles['Normal'], fontSize=11, leading=17, spaceAfter=1)
 
-    current_section = ""
-    for section, num, text in BEATS:
-        if section != current_section:
-            current_section = section
-            story.append(Spacer(1, 0.3*cm))
-            story.append(Paragraph(f"── {section} ──", section_style))
-        story.append(Paragraph(text, beat_style))
+    def esc(t): return t.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')
 
-    doc.build(story)
-    print(f"✅ ELEVENLABS.pdf saved: {path}")
-    return path
+    pdf_path = "/home/user/Claudeeee/V14_final_SCRIPT.pdf"
+    doc = SimpleDocTemplate(pdf_path, pagesize=A4,
+                            leftMargin=20*mm, rightMargin=20*mm,
+                            topMargin=18*mm, bottomMargin=18*mm)
+    flow = [
+        Paragraph(esc(SUBTITLE), SUB),
+        Spacer(1, 4),
+        Paragraph(esc(TITLE), H1),
+        Spacer(1, 4),
+        Paragraph("Hook: S1 Pregunta Sin Resolver · S17 Thumbnail Continuity · CTA beats 36-37 = 38%", NOTE),
+        Spacer(1, 4),
+        Paragraph(f"{LABEL} · {total} beats · ~{wc} words · ~{round(wc/140)} min", META),
+        Spacer(1, 14),
+    ]
+    beat_num = 1
+    for section_title, lines in SECTIONS:
+        flow.append(Paragraph(f"— {esc(section_title)} —", SEC))
+        for line in lines:
+            flow.append(Paragraph(
+                f'<font color="#888888"><b>[{beat_num}]</b></font>  {esc(line)}', LINE))
+            beat_num += 1
+        flow.append(Spacer(1, 8))
+    flow.append(Spacer(1, 10))
+    flow.append(Paragraph(f"END · {total} beats · ~{wc} words · ~{round(wc/140)} min", META))
+    doc.build(flow)
+    print(f"PDF:  {pdf_path}")
 
-build_script_docx()
-build_elevenlabs_pdf()
+
+def build_elevenlabs_pdf(all_lines, wc):
+    styles = getSampleStyleSheet()
+    H1  = ParagraphStyle('H1',  parent=styles['Title'],  fontSize=14, leading=18, alignment=TA_CENTER)
+    SUB = ParagraphStyle('SUB', parent=styles['Normal'], fontSize=10, leading=13,
+                         alignment=TA_CENTER, textColor=colors.HexColor('#B02A2A'),
+                         fontName='Helvetica-Bold')
+    META= ParagraphStyle('META',parent=styles['Normal'], fontSize=9,  leading=12,
+                         alignment=TA_CENTER, textColor=colors.HexColor('#777777'))
+    LINE= ParagraphStyle('LINE',parent=styles['Normal'], fontSize=12, leading=20, spaceAfter=3)
+
+    def esc(t): return t.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')
+
+    pdf_path = "/home/user/Claudeeee/V14_final_ELEVENLABS.pdf"
+    doc = SimpleDocTemplate(pdf_path, pagesize=A4,
+                            leftMargin=20*mm, rightMargin=20*mm,
+                            topMargin=18*mm, bottomMargin=18*mm)
+    flow = [
+        Paragraph("NEUROCENTS · VIDEO 14 — BRIEF v3.1", SUB),
+        Spacer(1, 4),
+        Paragraph(esc(TITLE), H1),
+        Spacer(1, 4),
+        Paragraph(f"ELEVENLABS — NARRATION ONLY · {len(all_lines)} lines · ~{wc} words · ~{round(wc/140)} min", META),
+        Spacer(1, 16),
+    ]
+    for line in all_lines:
+        flow.append(Paragraph(esc(line), LINE))
+    flow.append(Spacer(1, 10))
+    flow.append(Paragraph(f"END OF SCRIPT · {len(all_lines)} lines · ~{wc} words", META))
+    doc.build(flow)
+    print(f"ELEVENLABS: {pdf_path}")
+
+
+if __name__ == "__main__":
+    all_lines, total, wc = build_docx()
+    build_pdf(all_lines, total, wc)
+    build_elevenlabs_pdf(all_lines, wc)
+    print(f"\n✅ V14 BRIEF v3.1 — 3 archivos generados")
+    print(f"   {total} beats · {wc} words · ~{round(wc/140)} min")
+    print(f"   Hook: S1 Pregunta Sin Resolver ✅")
+    print(f"   Beat 1: Thumbnail continuity — pregunta directa ✅")
+    print(f"   CTA: beats 36-37 = 38% ✅")
+    print(f"   t-shirt: BLUE ✅")
