@@ -923,6 +923,23 @@ PREGUNTA (segundo 0-3) → SENTIMIENTO DE IDENTIDAD → LOOP ABIERTO
 - Sin datos científicos duros — observaciones conductuales universales
 - Los 5 items: Card Gap → Reward Drain → Invisible Drain → Social Spending → Pre-Spend (el número 1)
 
+**ACTUALIZACIÓN JULIO 2026 — V15 CONFIRMADO:**
+- Título: *"Why Smart People Can't Save Money (Do This Once Instead)"*
+- Patrón 993x ("smart people" = amenaza de estatus) + keyword "can't save money" + paréntesis contrapunto
+- Hook Beat 1: *"You're smart. So why can't you save money?"* (S19: pregunta → identidad → loop)
+- Hook Strategy: S4 (Afirmación Contraintuitiva) — la disonancia llega en beat 5: "It's because you keep trying."
+- PAGA EL TEASE DE V14: "the one decision that stops all five" — beats 52-58 demuelen los 5 drains uno a uno
+- La decisión: transferencia automática hora-cero de payday → cuenta separada, otro banco, sin tarjeta
+- Frame central: "Your drains are machines. Your savings plan is a to-do list. Machines beat to-do lists."
+- Ciencia NUEVA: Madrian & Shea (Harvard, 2001) — auto-enrollment 37% → 86%. No usada en videos anteriores.
+- Diferenciación vs V12 (que ya usó "One Decision"): V12 = willpower/ego depletion + Save More Tomorrow.
+  V15 = manual vs automático + defaults + payoff anti-5-drains. Cero solapamiento de ciencia.
+- Villain's Last Trick: "What if I need that money?" = el Pre-Spend defendiendo su territorio (continuidad V14)
+- Thumbnail: "SMART. STILL BROKE." stacked (STILL BROKE en rojo) + Alex con libros de finanzas + móvil saldo €140
+- Beat 1 imagen: Alex rodeado de libros de finanzas leídos + app de presupuesto abierta + saldo €140 — smart & broke
+- Trilogía binge: V13 (5 rewires) → V14 (5 drains) → V15 (the one fix) — end screens encadenados obligatorios
+- Tease V16: *"7 Signs Your Brain Is Already Wired to Stay Broke"* (Formato 3 — Señales/Síntomas, S20)
+
 ---
 
 ## 22. REGLA SECTOR-WIDE — OBLIGATORIA DESDE V14
