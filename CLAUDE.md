@@ -914,6 +914,35 @@ PREGUNTA (segundo 0-3) → SENTIMIENTO DE IDENTIDAD → LOOP ABIERTO
 **Título V14 recomendado (combina 993x + fórmula probada):**
 *"Why Smart People Keep Rewiring Their Brain to Stay Broke (Without Realizing It)"*
 
+**ACTUALIZACIÓN JULIO 2026 — V14 CONFIRMADO:**
+- Título: *"5 Things That Drain Your Money Before Payday (No Matter What You Earn)"*
+- Hook Beat 1: *"Why does your money always disappear before payday?"*
+- Formato: Lista con ranking (5→1, de malo a catastrófico)
+- Hook Strategy: S1 (Pregunta Sin Resolver)
+- Thumbnail: Alex mirando móvil con saldo €0, Brain Villain satisfecho, texto "BROKE / BEFORE / PAYDAY"
+- Sin datos científicos duros — observaciones conductuales universales
+- Los 5 items: Card Gap → Reward Drain → Invisible Drain → Social Spending → Pre-Spend (el número 1)
+
+---
+
+## 22. REGLA SECTOR-WIDE — OBLIGATORIA DESDE V14
+
+> Establecida Julio 2026 tras análisis de outliers "Real Estate Vs Stocks" (1.5M views) y "Leasing Vs Buying A Car" (794K views).
+
+**El principio:** Los videos con más alcance no van a sub-nicho behavioral finance. Van a preguntas universales que el 99% de la audiencia financiera se hace. El ángulo psicológico (Brain Villain, sesgos) es el GIRO ÚNICO dentro de ese tema universal — no el tema en sí.
+
+**Lo que significa:**
+- El TEMA del video debe ser algo que cualquier persona con interés en dinero entiende en 1 segundo
+- El TÍTULO no necesita decir "brain", "rewire" o "cognitive bias"
+- La psicología/neurociencia es la promesa del canal, no el punto de entrada del viewer
+- Ejemplos de temas universales válidos: "broke before payday", "salary never enough", "budget always fails", "card vs cash"
+
+**Lo que NO cambia:**
+- La estructura del script (hook → ranking → solución → villain → close)
+- El personaje Alex + Brain Villain
+- Los primeros 5 segundos (S19): pregunta → sentimiento → loop
+- CTA al 37%
+
 ---
 
 ## NOTAS IMPORTANTES
