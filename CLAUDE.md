@@ -833,6 +833,89 @@ STEP 2.5 — HOOK STRATEGY:
 
 ---
 
+## 19. REGLA DE LOS PRIMEROS 5 SEGUNDOS — OBLIGATORIA DESDE V14
+
+> Establecida Julio 2026. Complementa S17 y S18. Prioridad máxima.
+
+**El principio:** Los primeros 5 segundos no son storytelling. No hay contexto. No hay presentación. Solo una pregunta que va al sentimiento — el viewer se reconoce, recibe la promesa implícita, y abre un loop que no puede cerrar sin quedarse.
+
+**La fórmula:**
+```
+PREGUNTA (segundo 0-3) → SENTIMIENTO DE IDENTIDAD → LOOP ABIERTO
+```
+
+**Criterios de la pregunta de apertura:**
+1. El viewer ya sabe qué va a obtener antes del segundo 5
+2. Va al sentimiento, no a la información
+3. El viewer se ve reflejado ("eso me pasa a mí")
+4. Abre un loop que solo se cierra viendo el video
+5. Cero storytelling — el valor es inmediato
+
+**Ejemplos correctos:**
+- *"Why does every money decision feel right in the moment — and wrong by Friday?"*
+- *"Why does your money disappear even when you're trying?"*
+- *"Do you know which of these programs is running in your brain right now?"*
+
+**Lo que NO es esto:**
+- "In this video we're going to talk about..." → contexto, no gancho
+- "Let me tell you a story about Alex..." → storytelling, no promesa
+- "Today I want to show you..." → presentación, no identidad
+
+**Regla de producción:** El Beat 1 empieza con la pregunta. La imagen ya muestra el estado emocional de la respuesta. No hay warm-up.
+
+---
+
+## 20. FORMATOS DE VIDEO — VALIDADOS (desde V14)
+
+> No todos los videos necesitan datos científicos. La estructura es el contenedor. El dato es una herramienta, no una obligación.
+
+**FORMATO 1 — LISTA CON RANKING** ✅ Validado outliers
+- El viewer sabe que hay N items y quiere saber cuál es el peor/más sorprendente
+- La tensión la genera el orden ("Number 1 you've never heard named")
+- No requiere experimentos — requiere observaciones conductuales fuertes
+- Ejemplo: "Ranked: The 5 Worst Things Your Brain Does With Money"
+
+**FORMATO 2 — COMPARATIVA**
+- Dos realidades enfrentadas. El viewer se ve en una y quiere llegar a la otra.
+- "People Who Build Wealth vs People Who Stay Broke: 3 Brain Differences"
+- No requiere datos — requiere contraste visual y conductual claro
+
+**FORMATO 3 — SEÑALES / SÍNTOMAS**
+- El viewer se autoevalúa mientras mira. Cada señal que reconoce lo retiene.
+- "7 Signs Your Brain Is Already Wired to Stay Broke"
+- No requiere experimentos — requiere especificidad en los síntomas
+
+**Lo que NO cambia en ningún formato:**
+- Primeros 5 segundos: pregunta → sentimiento → loop (S19)
+- Beat 1 = identidad, thumbnail continuity (S17)
+- CTA al 37%
+- Brain Villain activo desde el principio
+- Identity Close max 9 beats, sin moralizar
+
+---
+
+## 21. OUTLIERS VALIDADOS — JULIO 2026
+
+> Datos de VidIQ. Usar como referencia para títulos V14+.
+
+| Outlier | Canal | Subs | Views | Multiplicador | Patrón clave |
+|---|---|---|---|---|---|
+| "Smart People Make Bad Money Decisions" | — | 8.1K | 30K | **993x** | Amenaza de estatus — "smart people" |
+| "5 Habits REWIRING Your Brain to Stay Broke" | — | 4.8K | 111K | **96x** | Gemelo estructural fórmula Neurocents |
+| "The Neuroscience Behind Why Procrastination Rewires Your Brain (Even When You Care)" | Dr. Yvette ZH | 3.4K | 36K | **97x** | "(Even When You Care)" = variante del paréntesis — repetido 2 veces (86x y 97x) |
+| "7 Daily Habits Rewiring Your Brain Faster Than You Think" | — | 12.5K | 62K | **43x** | "Faster Than You Think" = amenaza de velocidad |
+
+**Patrones confirmados:**
+- **"Rewires/Rewiring"** es el verbo físico ganador — 4/4 outliers
+- **Número + verbo físico + consecuencia** — 3/4
+- **Paréntesis contrapunto** "(Even When...)" / "(Without...)" — solo en outliers de neurociencia, máximo multiplicador
+- **Amenaza de estatus** ("smart people", "faster than you think") — 2/4, el 993x lo usa
+
+**Título V14 recomendado (combina 993x + fórmula probada):**
+*"Why Smart People Keep Rewiring Their Brain to Stay Broke (Without Realizing It)"*
+
+---
+
 ## NOTAS IMPORTANTES
 
 - El canal se llamó "Crayon Capital" en sesiones anteriores → ahora es **Neurocents**. Los archivos más antiguos dicen CRAYON CAPITAL en subtítulos.
