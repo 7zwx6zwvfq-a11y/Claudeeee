@@ -1,0 +1,116 @@
+NEUROCENTS · VIDEO 14 — THUMBNAIL EXPERIMENTAL (ICON GRID / SIN PERSONAJE)
+"5 Things That Drain Your Money Before Payday (No Matter What You Earn)"
+Estilo: viral icon-grid explainer (ref: "Todas las Técnicas de Manipulación", "Cada Droga y Sus Efectos",
+"Efectos de las Drogas", "¿Quién Fue el Capo Más Peligroso?")
+Generated: 2026-07-02
+
+NOTA DE ESTRATEGIA — LEER ANTES DE GENERAR:
+Este formato NO incluye a Alex ni al Brain Villain. Es un one-off deliberado solo para V14,
+porque el contenido (lista de 5 drenajes) encaja genuinamente con el género "Cada X Explicado".
+Trade-off: rompe parcialmente la regla S17 (thumbnail → Beat 1 en <5 seg) porque Beat 1 muestra
+a Alex con el teléfono, no el grid de iconos. La continuidad se traslada al reveal de la lista
+(beats 5-8, ~15-20 seg), no al primer frame. Es una decisión consciente, no un error de sistema.
+Si más adelante quieres mantener parte de la identidad del canal, hay una opción B con Alex
+pequeño en una esquina — ver al final de este archivo.
+
+═══════════════════════════════════════════════════════════════════════════════
+THUMBNAIL — ICON GRID (OPCIÓN PRINCIPAL — SIN PERSONAJE)
+YouTube 16:9 (1280×720)
+═══════════════════════════════════════════════════════════════════════════════
+
+Flat 2D icon/pictogram illustration style, thick solid black outlines on every icon, clean solid
+flat color fills, no gradients, no photorealism. Pure white background (#FFFFFF). 16:9 format,
+1280×720. This is an infographic/explainer-style thumbnail — NO human character, NO brain
+character, NO Alex. Pure icon grid composition.
+
+HEADER (top of frame, full width, ~12% of frame height):
+- Bold black condensed sans-serif (Impact-style), all caps: "MONEY DRAINS"
+- Directly below in smaller red (#C62828) bold text: "BEFORE PAYDAY"
+- Left-aligned or centered — test both, centered reads cleaner at 1280×720
+- No background box behind the text — sits directly on white
+
+ICON GRID (center of frame, arranged as 3 icons top row + 2 icons bottom row, centered
+as a group — NOT edge to edge, leave generous white margin on both sides):
+
+ICON 1 — CARD GAP:
+- Circle background, solid flat color: teal blue (#2C93A8)
+- Inside: black flat silhouette of a contactless payment card with three curved "tap" waves
+  radiating from one corner (standard contactless payment icon language)
+- Label below circle, bold black caps, small: "CARD GAP"
+
+ICON 2 — REWARD DRAIN:
+- Circle background, solid flat color: warm orange (#E8892C)
+- Inside: black flat silhouette of a wrapped gift box with a bow on top
+- Label below circle, bold black caps, small: "REWARD DRAIN"
+
+ICON 3 — INVISIBLE DRAIN:
+- Circle background, solid flat color: muted purple (#7B5FA6)
+- Inside: black flat silhouette of a circular "auto-renew" arrow loop (two curved arrows forming
+  a circle, standard subscription/refresh icon language)
+- Label below circle, bold black caps, small: "INVISIBLE DRAIN"
+
+ICON 4 — SOCIAL SPENDING:
+- Circle background, solid flat color: rose pink (#D9527A)
+- Inside: black flat silhouette of three small human bust/head-and-shoulders icons in a row
+  (representing "audience") with one small eye icon above them
+- Label below circle, bold black caps, small: "SOCIAL SPENDING"
+
+ICON 5 — PRE-SPEND:
+- Circle background, solid flat color: golden yellow (#E8C13C)
+- Inside: black flat silhouette of a calendar page with a clock hand overlay pointing forward
+  (representing spending money before it arrives)
+- Label below circle, bold black caps, small: "PRE-SPEND"
+
+GRID LAYOUT SPEC:
+- Row 1 (top): CARD GAP · REWARD DRAIN · INVISIBLE DRAIN — three circles evenly spaced
+- Row 2 (bottom): SOCIAL SPENDING · PRE-SPEND — two circles, centered under the gap between
+  row 1's icons (offset/staggered like a pyramid, not a rigid grid — matches the organic feel
+  of the reference thumbnails)
+- Each circle: consistent size, roughly 18-20% of frame width in diameter
+- Consistent spacing between circles — generous gutters, nothing crowded
+- All labels same font size, same weight, same black color — uniform typography discipline
+
+BOTTOM STRIP (bottom ~10% of frame, optional but recommended):
+- Small text, grey (#777777), centered: "5 patterns. Zero willpower required."
+- OR leave empty for maximum cleanliness — test both
+
+COMPOSITION RULES:
+- Maximum legibility at 200px thumbnail width — each icon must be instantly distinguishable
+  by silhouette shape alone, color is secondary reinforcement
+- No two adjacent circles share the same background color
+- Consistent black outline weight (thick, ~4-6px at full resolution) on every circle and icon
+- No drop shadows, no gradients, no 3D bevels — pure flat design
+- White space is a design element — do not fill the entire frame edge to edge
+
+═══════════════════════════════════════════════════════════════════════════════
+CRITICAL CONSISTENCY NOTES
+═══════════════════════════════════════════════════════════════════════════════
+
+- This thumbnail deliberately excludes Alex and the Brain Villain — confirm this is intentional
+  before publishing, since it breaks visual continuity with the rest of the channel's catalog
+- Test at 200px width before approving: are all 5 icons distinguishable? Is "MONEY DRAINS
+  BEFORE PAYDAY" readable?
+- Icon silhouettes must be simple enough to read instantly — if any icon needs more than
+  0.5 seconds to parse, simplify it further (reduce detail, increase icon-to-circle size ratio)
+
+═══════════════════════════════════════════════════════════════════════════════
+OPCIÓN B — HÍBRIDO (mantiene identidad de canal, si quieres cubrirte)
+═══════════════════════════════════════════════════════════════════════════════
+
+Misma composición de grid de iconos descrita arriba, pero añadir:
+- Alex (spec estándar del canal: cabeza ovalada beige, cráneo transparente con Brain Villain
+  rosa dentro, camiseta AZUL, pantalones grises) en tamaño pequeño (~15% del frame), posicionado
+  en la esquina inferior derecha, mirando hacia el grid de iconos con expresión de sorpresa
+  (ojos grandes, boca ligeramente abierta) — como si él mismo estuviera descubriendo la lista.
+- Esto recupera parcialmente la continuidad S17 (el viewer ve a Alex, aunque no en primer plano)
+  sin sacrificar el atractivo del formato grid viral.
+- Recomendado si te preocupa romper la identidad visual del canal en un vídeo que forma parte
+  de la trilogía V13→V14→V15.
+
+═══════════════════════════════════════════════════════════════════════════════
+DECISIÓN RECOMENDADA
+═══════════════════════════════════════════════════════════════════════════════
+
+Genera primero la OPCIÓN PRINCIPAL (sin personaje) — es la que copia el patrón viral al 100%
+y es la que estás intentando testear. Si el CTR no mejora frente al thumbnail de Alex (A: "BROKE
+BEFORE PAYDAY"), la Opción B queda como alternativa de respaldo sin perder el formato grid.
