@@ -865,32 +865,104 @@ PREGUNTA (segundo 0-3) → SENTIMIENTO DE IDENTIDAD → LOOP ABIERTO
 
 ---
 
-## 20. FORMATOS DE VIDEO — VALIDADOS (desde V14)
+## 20. FORMATOS DE VIDEO — VALIDADOS Y AMPLIADOS (desde V16, obligatorio)
 
-> No todos los videos necesitan datos científicos. La estructura es el contenedor. El dato es una herramienta, no una obligación.
+> Actualizado Julio 2026 tras diagnóstico V14/V15: los guiones eran casi el mismo vídeo con
+> las etiquetas cambiadas — mismo esqueleto de secciones, mismo Villain's Last Trick calcado
+> palabra por palabra, y V15 dependía de haber visto V14 para tener sentido completo.
+> Esto mata la viralización: un vídeo que necesita otro vídeo previo para entenderse
+> NUNCA puede explotar solo, y explotar solo con audiencia fría es el objetivo.
 
-**FORMATO 1 — LISTA CON RANKING** ✅ Validado outliers
+### REGLA DE INDEPENDENCIA — OBLIGATORIA, SIN EXCEPCIONES
+
+**Ningún vídeo puede depender de haber visto otro vídeo del canal para tener sentido completo.**
+
+- Si se menciona un vídeo anterior o se retoma un concepto ya nombrado (ej. un drenaje, una trampa),
+  esa mención va acompañada de una explicación breve y autocontenida del mecanismo — nunca solo
+  la etiqueta ("Card Gap") asumiendo que el viewer ya sabe qué es.
+- Las trilogías/sagas están permitidas como CAPA EXTRA para quien haya visto los anteriores
+  (el reconocimiento es un bonus de satisfacción), pero el vídeo tiene que funcionar al 100%
+  para alguien que lo ve como su primer contacto con el canal — ese es el espectador que decide
+  si viralizas o no.
+- Test obligatorio antes de dar por bueno un guión: leerlo imaginando que es la primera vez que
+  alguien ve el canal. Si hay un solo tramo que no se entiende sin contexto externo, se reescribe.
+
+### REGLA DEL VILLAIN'S LAST TRICK — YA NO ES UNA PLANTILLA FIJA
+
+El bloque de 11 beats (Sección 7) se venía copiando casi verbatim de vídeo en vídeo
+("The programs are not broken" / "The Brain Villain was built for that world. Not this one."
+aparecían idénticos, palabra por palabra, en V14 y V15). A partir de V16:
+
+- La idea de fondo (reencuadrar el sesgo como adaptativo en otro contexto) se mantiene,
+  pero **la redacción, el número de beats y el orden deben variar** de un vídeo a otro
+- Es válido comprimirlo a 5-6 beats, expandirlo, cambiar el orden (empezar por el contexto
+  evolutivo y terminar en la objeción, en vez de al revés), o **omitirlo entero** si el
+  formato del vídeo no lo pide (ej. una Cronología o un Mito vs Realidad no necesitan
+  el mismo momento de inoculación que una Lista)
+- Antes de escribir este bloque: releer el de los 2 vídeos anteriores y verificar que no
+  se repite ninguna frase textual
+
+### LIBRERÍA DE FORMATOS — 9 tipos, rotar igual que los hooks (S18)
+
+> No solo se rota el HOOK (S1-S6). Desde V16 se rota también el ESQUELETO completo del vídeo.
+> Dos vídeos consecutivos no pueden compartir formato.
+
+**FORMATO 1 — LISTA CON RANKING** ✅ Validado outliers (usado: V13, V14)
 - El viewer sabe que hay N items y quiere saber cuál es el peor/más sorprendente
-- La tensión la genera el orden ("Number 1 you've never heard named")
-- No requiere experimentos — requiere observaciones conductuales fuertes
 - Ejemplo: "Ranked: The 5 Worst Things Your Brain Does With Money"
 
 **FORMATO 2 — COMPARATIVA**
 - Dos realidades enfrentadas. El viewer se ve en una y quiere llegar a la otra.
 - "People Who Build Wealth vs People Who Stay Broke: 3 Brain Differences"
-- No requiere datos — requiere contraste visual y conductual claro
 
-**FORMATO 3 — SEÑALES / SÍNTOMAS**
+**FORMATO 3 — SEÑALES / SÍNTOMAS** (próximo: V16)
 - El viewer se autoevalúa mientras mira. Cada señal que reconoce lo retiene.
 - "7 Signs Your Brain Is Already Wired to Stay Broke"
-- No requiere experimentos — requiere especificidad en los síntomas
 
-**Lo que NO cambia en ningún formato:**
+**FORMATO 4 — EXPERIMENTO ÚNICO A FONDO**
+- Un solo estudio/experimento como columna vertebral narrativa de todo el vídeo, explorado
+  en profundidad (setup → método → resultado → giro → aplicación) en vez de repartir varios
+  datos superficiales
+- No necesita "N cosas" — necesita UN hallazgo bien desarrollado
+
+**FORMATO 5 — MITO VS REALIDAD**
+- Desmonta una creencia popular financiera específica y muy extendida
+- "Why 'Pay Yourself First' Doesn't Work (And What Actually Does)"
+
+**FORMATO 6 — CRONOLOGÍA / ORIGEN**
+- Cómo un hábito o sesgo concreto evolucionó — de dónde viene, por qué existía antes,
+  por qué persiste ahora. Estructura temporal, no de lista
+- No necesita el Villain's Last Trick clásico — el origen evolutivo YA es el contenido central
+
+**FORMATO 7 — CONFESIÓN PERSONAL (Alex)**
+- Alex admite un error propio muy concreto y reciente, tono más íntimo/vulnerable que el resto
+- Rompe el patrón "Alex como ejemplo genérico" — aquí Alex es protagonista de su propio fallo
+
+**FORMATO 8 — APUESTA / PREDICCIÓN**
+- "Esto es lo que te va a pasar si sigues haciendo X" — proyección a futuro, urgencia temporal
+- Diferente motor emocional al resto: no es reconocimiento de patrón pasado, es advertencia
+
+**FORMATO 9 — GRID DE ICONOS SIN NARRATIVA** (ver V14_Thumbnail_IconGrid_Prompt.txt como referencia visual)
+- Formato explicativo puro, ritmo rápido, sin arco emocional de Alex como columna vertebral
+- Reservar para temas muy enumerables (tipos de gasto, categorías de sesgos) donde la lista
+  en sí es el atractivo, no la historia
+
+**Tabla de rotación (actualizar en cada vídeo nuevo):**
+
+| Vídeo | Formato usado |
+|---|---|
+| V13 | Formato 1 — Lista con Ranking |
+| V14 | Formato 1 — Lista con Ranking |
+| V15 | Mecanismo/Solución (sin numerar — pre-regla) |
+| V16 | Formato 3 — Señales/Síntomas (ya planeado, cumple regla de no repetir consecutivo) |
+
+**Lo que NO cambia en ningún formato (esto sí sigue siendo fijo):**
 - Primeros 5 segundos: pregunta → sentimiento → loop (S19)
 - Beat 1 = identidad, thumbnail continuity (S17)
 - CTA al 37%
 - Brain Villain activo desde el principio
 - Identity Close max 9 beats, sin moralizar
+- Regla de Independencia (arriba) — esto es lo único no negociable entre formatos
 
 ---
 
