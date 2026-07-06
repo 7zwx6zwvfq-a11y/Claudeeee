@@ -991,8 +991,10 @@ aparecían idénticos, palabra por palabra, en V14 y V15). A partir de V16:
 | V13 | Formato 1 — Lista con Ranking |
 | V14 | Formato 1 — Lista con Ranking |
 | V15 | Mecanismo/Solución (sin numerar — pre-regla) |
-| V16 | Formato 3 — Señales/Síntomas ✅ CONFIRMADO (guión hecho, ver bloque V16) |
-| V17 | Formato 2 — Comparativa (teaseado en V16: two people, same salary) |
+| V16 | Formato 9 — Catálogo ✅ guión hecho (decisión creador: patrón drogas 4.9M) |
+| V17 | Formato 2 — Comparativa ✅ guión hecho (Leo vs Marc) |
+| V18 | Formato 3 — Señales/Síntomas ✅ guión en banco (V18_bank_*) |
+| V19 | Formato 6 — Cronología (teaseado en V18: "the year money stopped hurting") |
 
 **Lo que NO cambia en ningún formato (esto sí sigue siendo fijo):**
 - Primeros 5 segundos: pregunta → sentimiento → loop (S19)
@@ -1163,24 +1165,55 @@ Thick black outline around the transparent glass skull section.
 
 ---
 
-## ACTUALIZACIÓN JULIO 2026 — V16 CONFIRMADO
+## ACTUALIZACIÓN JULIO 2026 — V16 / V17 / V18 CONFIRMADOS (guiones hechos, pipeline de 3)
 
+**V16 — CATÁLOGO (Formato 9, patrón 'Every Drug Explained' 4.9M — decisión del creador):**
+- Título: *"Every Money Bias & Its Effect Explained in 8 Minutes"* (espejo del outlier de 4.9M)
+- EL GIRO ÚNICO: cada sesgo tratado como una SUSTANCIA — con onset, peak y comedown. Nadie lo hace en el nicho.
+- CERO HOOK — entrada directa "Anchoring. Anchoring is..." (S24-P15: el título es el contrato;
+  excepción validada a S19 para Formato 9)
+- 81 beats · CTA beats 32-33 = 40% · 10 sesgos en escalada (patrón cafeína→opioides):
+  Anchoring → Loss Aversion → Mental Accounting → Present Bias → [CTA] → Herd Instinct →
+  Lifestyle Inflation → Sunk Cost → Optimism Loop → Default Bias → Scarcity Mindset (el 'heavy one')
+- Micro-plantilla por sesgo: nombre → definición cotidiana → escena 2ª persona → ONSET → PEAK →
+  COMEDOWN → daño → FRASE LAPIDARIA ("You never buy the thing. You buy the distance from the first number.")
+- Guión narrado SIN Alex (regla Reducir Alex) — el personaje solo como hilo visual en image prompts
+- Cierre catálogo (sin Villain template): "Ten programs. One brain." + share-CTA ("send this to the
+  friend who's deep in sunk cost")
+- Thumbnail: grid 10 círculos de colores con icono-OBJETO por sesgo (no conceptos abstractos —
+  lección test 200px) + header estilo "DRUG EFFECTS EXPLAINED"
+- Sesgos ya tocados en vídeos viejos individuales — VÁLIDO: esto es el vídeo-referencia/greatest hits
+  (mismo valor que el catálogo de drogas); redacción 100% nueva, cero frases recicladas
+- Tease → V17 comparativa
+
+**V17 — COMPARATIVA (Formato 2, patrón 'Real Estate vs Stocks' 1.5M):**
+- Título: *"Two People, Same Salary: Why Only One Stops Working at 45"*
+- Personajes NUEVOS: Leo y Marc (Alex descansa) — mismo sueldo/ciudad/cerebro, una sola variable
+- LA REGLA (el napkin): vivir con el primer sueldo real, bancar cada subida automáticamente,
+  upgrade de vida cada 5 años a propósito. CERO solape con V15 (V15 = automatizar ahorro base)
+- Hook S3 In Medias Res (última vez V9) · 74 beats · CTA beats 27-28 = 36%
+- Checkpoints año 1→5→10→15→20 con números hiperespecíficos: 34K/126K/318K/640K
+- Sentimientos vs matemáticas ("Leo looks like the one winning") + fairness pivot ("to be fair to
+  Leo: he didn't lose") + devolución de la pregunta ("which bet are you placing right now?")
+- Lapidarias: "He has two salaries: his — and his money's." / "The price of freedom: two decades
+  of looking average." / "Not because of math — because of mirrors."
+- Thumbnail: split Leo (coche/copa) vs Marc (gris promedio) → a los 45 invertidos + "SAME SALARY."
+- Tease → V18 señales ("number four happens at the supermarket")
+
+**V18 — SEÑALES (Formato 3, BANCO LISTO — archivos V18_bank_*):**
 - Título: *"7 Signs Your Brain Is Wired to Stay Broke (Count Yours)"*
-- Formato: 3 — Señales/Síntomas (primera vez) · Hook: S6 Villain Reveal (última vez V12) ✅ ambas rotaciones
-- Beat 1: *"Do you open your banking app with one eye half-closed?"* — micro-momento + pregunta S19
-- 95 beats (dentro de 70-110) · CTA beats 35-36 = 37% · redacción CTA NUEVA
+- Hook S6 Villain Reveal · Beat 1: *"Do you open your banking app with one eye half-closed?"*
+- 94 beats · CTA beats 35-36 = 37% (CTA reescrito para no solapar con V16/V17)
 - Las 7 señales (escalada leve→identidad): One-Eye Check → Sale Math → Round-Down Memory →
-  Checkout Sacrifice (supermercado) → Countdown Clock → 'When' Plan → The Ceiling (infancia/identidad)
-- Mecánica: contador acumulativo "that's one/two..." + THE COUNT con umbrales (0-2/3-5/6-7) +
-  pide el número en comentarios
-- Inoculación NUEVA (5 beats, "The Delete Attempt" — el cerebro archiva el vídeo como 'interesting')
-  — cero frases de V14/V15
-- Cierre: The Catch + anti-vergüenza ("Shame is what these programs eat. Curiosity is what starves them.")
-- Share-CTA: "send this to whoever does sign four every week"
-- Independencia total: cero referencias a V13/V14/V15 ✅
-- Thumbnail: checklist 7 casillas (3 en rojo) + Alex contando con dedos, boca abierta + "HOW MANY?"
-- Tease V17: Comparativa (Formato 2, patrón Jake vs Marcus) — "two people, same salary, same city;
-  at 45 one stops needing to work"
+  Checkout Sacrifice → Countdown Clock → 'When' Plan → The Ceiling (infancia/identidad)
+- Contador acumulativo + THE COUNT (umbrales 0-2/3-5/6-7) + número en comentarios
+- Inoculación "The Delete Attempt" + cierre anti-vergüenza ("Shame is what these programs eat.")
+- Thumbnail: checklist 7 casillas (3 en rojo) + Alex contando con dedos + "HOW MANY?"
+- Tease → V19 Cronología (Formato 6): "the exact year money stopped hurting — when spending
+  turned invisible"
+
+**ORDEN DE PUBLICACIÓN:** V16 catálogo → V17 comparativa → V18 señales. Cadena de teases encadenada ✅
+**PENDIENTE por vídeo:** IMAGE_PROMPTS.pdf + PRODUCTION.pdf + Prepublish_Checklist (generar al dar OK cada guión)
 
 ---
 

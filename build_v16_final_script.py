@@ -1,28 +1,36 @@
 #!/usr/bin/env python3
 """
-VIDEO 16 — BRIEF v3.1 + PLAYBOOK OUTLIERS
-7 Signs Your Brain Is Wired to Stay Broke (Count Yours)
-NEUROCENTS · 95 beats · ~980 words · ~7.5 min
-Formato: 3 — SEÑALES/SÍNTOMAS (primera vez usado; V13/V14 = Lista, V15 = Mecanismo) ✅ rotación S20
-Hook strategy: S6 — VILLAIN REVEAL ("el programa ya corre y dejó huellas") — última vez V12 ✅ rotación S18
-Apertura: micro-momento universal en pregunta (patrón outlier 'names') — cumple S19
-CTA at beats 35-36 = 38% ✅ — redacción NUEVA (no repite el CTA de V13/V14/V15)
-Villain counter: 5 beats, redacción 100% nueva — CERO frases de V14/V15 (regla S20)
-REGLA DE INDEPENDENCIA: cero referencias a otros vídeos, cero conceptos que requieran contexto previo ✅
-FRESCURA verificada: hook distinto (micro-momento conductual), esqueleto distinto (checklist con contador),
-                     cierre distinto, CTA distinto, sin "The programs are not broken" ni derivados ✅
+VIDEO 16 — FORMATO CATÁLOGO (patrón 'Every Drug Explained', 4.9M views)
+Every Money Bias & Its Effect Explained in 8 Minutes
+NEUROCENTS · 81 beats · ~1,050 words · ~8 min
+Formato: 9 — CATÁLOGO/GRID (primera vez) · V13/V14 = Lista, V15 = Mecanismo ✅ rotación S20
+Hook: CERO HOOK — patrón S24-P15: el título ES el contrato, entrada directa al item 1
+      (excepción validada a S19 para Formato 9 — el outlier de 4.9M abre "Caffeine. Caffeine is...")
+EL GIRO ÚNICO: cada sesgo tratado como una SUSTANCIA — con onset, peak y comedown.
+      Nadie en el nicho de dinero está haciendo esto. Es la traducción directa del outlier más grande.
+CTA at beats 32-33 = 39.5% ✅ (dentro de 35-40%) — redacción NUEVA
+Sin Villain's Last Trick (Formato 9 no lo pide — regla S20 permite omitir) — cierre catálogo + share-CTA
+REGLA DE INDEPENDENCIA: cada sesgo autocontenido en 6-9 beats, redacción 100% nueva ✅
+      (Algunos sesgos aparecieron en vídeos antiguos individuales — esto es el CATÁLOGO de referencia:
+      mismo valor que 'Every Drug Explained' recopilando sustancias con mil vídeos individuales detrás.
+      CERO frases recicladas de V1-V15.)
+ESCALADA (patrón cafeína→opioides): Anchoring (el más cotidiano) → ... → Scarcity Mindset (el más profundo)
 
-PATRONES OUTLIERS APLICADOS:
-- Micro-plantilla repetida por señal + FRASE LAPIDARIA de cierre (patrón 'Every Drug Explained', 4.9M)
-- Contador acumulativo "that's one / that's two" → completismo checklist (patrón catálogo)
-- Escalada de leve (señal 7) a profunda/identidad (señal 1) (patrón cafeína→meth)
-- Absolución temprana beat 11 + reframe halagador a mitad beats 45-48 (patrón 'names')
-- Humor ligero cada ~40s (patrón 'smoking')
-- Motor de comentarios: "pon tu número en comentarios" beat 76 (self-assessment compartible)
-- Cierre que devuelve el poder al viewer + tease comparativa estilo Jake vs Marcus (patrón 'Real Estate vs Stocks')
+MICRO-PLANTILLA POR SESGO (patrón catálogo 4.9M):
+  Nombre → qué es (1 frase cotidiana) → escena/trigger 2ª persona → ONSET (cómo empieza, se siente bien)
+  → PEAK (cuando decide por ti) → COMEDOWN (la factura) → daño largo plazo → FRASE LAPIDARIA
 
-S17: Thumbnail = checklist de 7 casillas (3 marcadas en rojo) + Alex contando con dedos, boca abierta,
-     texto "HOW MANY?" → Beat 1 = el gesto del one-eye check + primera casilla en pantalla, <5 seg
+LOS 10 SESGOS (orden de escalada):
+  1. Anchoring · 2. Loss Aversion · 3. Mental Accounting · 4. Present Bias · [CTA] · 5. Herd Instinct
+  · 6. Lifestyle Inflation · 7. Sunk Cost · 8. Optimism Loop · 9. Default Bias · 10. Scarcity Mindset
+
+S17: Thumbnail = grid de 10 círculos de colores con icono-objeto por sesgo (estilo 'DRUG EFFECTS
+     EXPLAINED') + header "MONEY BIASES EXPLAINED" → Beat 1 = el círculo de Anchoring llenando
+     pantalla + "Anchoring." — el viewer reconoce el grid en <5 seg.
+     NOTA iconos: objetos cotidianos (etiqueta de precio tachada, carrito, hucha...), NO conceptos
+     abstractos — lección del test a 200px.
+BEATS VISUALES: guión narrado SIN Alex — el personaje va solo en los image prompts como hilo visual
+     mínimo (regla 'Reducir Alex', Sección 9). El Brain Villain puede operar cada 'sustancia' visualmente.
 """
 
 from docx import Document
@@ -35,165 +43,143 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 
-TITLE    = "7 Signs Your Brain Is Wired to Stay Broke (Count Yours)"
-SUBTITLE = "NEUROCENTS · VIDEO 16 — BRIEF v3.1 + OUTLIER PLAYBOOK"
+TITLE    = "Every Money Bias & Its Effect Explained in 8 Minutes"
+SUBTITLE = "NEUROCENTS · VIDEO 16 — CATALOG FORMAT"
 LABEL    = "SCRIPT (NARRATION)"
 
 SECTIONS = [
 
-    # ── HOOK ── 9 beats — S6 Villain Reveal, apertura micro-momento (patrón 'names')
-    ("HOOK — PRIMEROS 5 SEGUNDOS", [
-        "Do you open your banking app with one eye half-closed?",         # B1  micro-momento + pregunta S19
-        "That little pause before the balance loads — that's not a quirk.",  # B2
-        "That's evidence.",                                                # B3  two-word beat
-        "Your brain runs a quiet program about money. It installed itself years ago. You never agreed to it.",  # B4  S6 villain reveal
-        "And like every program, it leaves fingerprints.",                 # B5
-        "Seven of them.",                                                  # B6  number drop
-        "Most people carry at least three and have never noticed a single one.",  # B7  implication
-        "Today you're going to count yours.",                              # B8  the game — checklist contract
-        "Fair warning: number one is the reason the other six exist.",     # B9  open loop → escalada
+    # ── BIAS 1 ── 9 beats — el más cotidiano (patrón cafeína: implica al 100% de la audiencia)
+    ("BIAS 1 — ANCHORING", [
+        "Anchoring. Anchoring is your brain's habit of trusting the first number it sees.",  # B1 — CERO intro, directo (S24-P15)
+        "It's everywhere. Price tags, salaries, menus. The most consumed bias on Earth.",     # B2
+        "You see a jacket: two hundred euros, crossed out. Now ninety.",                      # B3 escena
+        "The onset is instant. Ninety stops being a price — it becomes a bargain.",           # B4 ONSET
+        "Your brain never asked if the jacket was worth ninety. It only compared it to two hundred.",  # B5
+        "At the peak, the crossed-out number does all your thinking. The real question — 'do I even want this?' — never loads.",  # B6 PEAK
+        "The comedown arrives at home: a ninety-euro jacket you never planned to buy.",       # B7 COMEDOWN
+        "Repeated daily, anchoring quietly decides what 'normal' costs — rent, phones, haircuts, everything.",  # B8 daño
+        "You never buy the thing. You buy the distance from the first number.",               # B9 LAPIDARIA
     ]),
 
-    # ── SETUP ── 4 beats — reglas del juego + absolución temprana (patrón 'names')
-    ("SETUP — THE RULES", [
-        "The rules are simple. I describe the sign. You check if it's you. Keep count.",  # B10
-        "No sign is a character flaw. A fingerprint isn't a crime — it's information.",   # B11 absolución TEMPRANA
-        "Some of these are so small they look like personality.",          # B12
-        "That's exactly what makes them expensive. Start counting.",       # B13
+    # ── BIAS 2 ── 8 beats
+    ("BIAS 2 — LOSS AVERSION", [
+        "Loss Aversion. The oldest bias in the building.",                                    # B10
+        "Losing a hundred euros hurts about twice as much as winning a hundred feels good. That asymmetry runs your life.",  # B11
+        "The onset: you check a price, an account, an investment — and your chest tightens before your thoughts arrive.",  # B12 ONSET
+        "At the peak, you'll do irrational things to avoid a small loss — hold a bad investment, keep a broken subscription, stay in the wrong plan.",  # B13 PEAK
+        "Not to win. Just to not lose.",                                                      # B14 short beat
+        "The comedown is invisible: all the better options you never took because they smelled like risk.",  # B15 COMEDOWN
+        "Long-term damage: a life optimized against losing is a life that never compounds.",  # B16 daño
+        "Your brain doesn't protect your money. It protects the feeling of not losing it.",   # B17 LAPIDARIA
     ]),
 
-    # ── SIGN 7 ── 7 beats — micro-plantilla: nombre → escena → mecanismo → lapidaria → check
-    ("SIGN 7 — THE ONE-EYE CHECK", [
-        "Sign number seven. The One-Eye Check.",                           # B14
-        "You know the gesture. Phone out. App open. And a half-second flinch before the number appears.",  # B15 micro-momento
-        "You're not checking your balance. You're bracing for it.",        # B16 LAPIDARIA
-        "A person who feels in control reads a number. A person who doesn't — prepares for impact.",  # B17
-        "Somewhere along the way, your brain learned that this number brings pain.",  # B18 mecanismo
-        "So now it treats your own bank account like an incoming punch.",  # B19 humor oscuro
-        "If you flinched this week: that's one.",                          # B20 CHECK — contador
+    # ── BIAS 3 ── 7 beats
+    ("BIAS 3 — MENTAL ACCOUNTING", [
+        "Mental Accounting. Your brain runs separate wallets for the same money.",            # B18
+        "Salary money is serious. Refund money is free. Birthday money is fun.",              # B19
+        "The onset: a hundred euros arrives outside your salary — and it lands in the 'doesn't count' wallet.",  # B20 ONSET
+        "At the peak, you'll spend a tax refund in a weekend while agonizing over a forty-euro grocery bill.",  # B21 PEAK
+        "Same currency. Same account. Different rules.",                                      # B22
+        "The comedown: at the end of the year, the 'free money' is gone and you can't name a single thing it built.",  # B23 COMEDOWN
+        "Money doesn't come with labels. Your brain prints them.",                            # B24 LAPIDARIA
     ]),
 
-    # ── SIGN 6 ── 7 beats
-    ("SIGN 6 — THE SALE MATH", [
-        "Sign number six. The Sale Math.",                                 # B21
-        "'It was fifty percent off.' And your brain files it as money earned.",  # B22 micro-momento
-        "You didn't save thirty euros. You spent seventy.",                # B23 LAPIDARIA
-        "The discount isn't income. But it feels like income — and your brain banks the feeling.",  # B24 mecanismo
-        "That's why the word 'sale' makes you spend faster, not slower.",  # B25
-        "Nobody ever got rich collecting discounts on things they didn't need.",  # B26
-        "If you've said 'but it was on offer' this month: that's two.",    # B27 CHECK
+    # ── BIAS 4 ── 7 beats
+    ("BIAS 4 — PRESENT BIAS", [
+        "Present Bias. The dealer that always finds you.",                                    # B25 humor oscuro
+        "To your brain, you-today is a real person. You-in-ten-years is a stranger in a stock photo.",  # B26
+        "The onset: 'I'll start saving next month.' It feels responsible. It's actually the high.",  # B27 ONSET
+        "At the peak, today's wants outvote tomorrow's needs every single time — dinner beats retirement, now beats later.",  # B28 PEAK
+        "The comedown never comes today. That's the design. The bill is always addressed to the stranger.",  # B29 COMEDOWN
+        "Until one morning you're the stranger, opening the mail.",                           # B30
+        "Present bias doesn't steal your money. It borrows it from someone you haven't met yet — you.",  # B31 LAPIDARIA
     ]),
 
-    # ── SIGN 5 ── 7 beats
-    ("SIGN 5 — THE ROUND-DOWN MEMORY", [
-        "Sign number five. The Round-Down Memory.",                        # B28
-        "Someone asks what you spent last night. 'Twenty? Twenty-five?'",  # B29 micro-momento
-        "It was thirty-eight.",                                            # B30 short beat — the receipt
-        "Your memory rounds your spending down with the confidence of a chief financial officer.",  # B31 humor
-        "Never up. Always down. One direction only.",                      # B32
-        "That's not bad memory. That's your brain protecting the story it tells about you.",  # B33 mecanismo — LAPIDARIA
-        "If your numbers always shrink in the retelling: that's three.",   # B34 CHECK
-    ]),
-
-    # ── CTA ── beats 35-36 = 38% ✅ — redacción NUEVA
+    # ── CTA ── beats 32-33 = 39.5% ✅ — redacción NUEVA estilo catálogo
     ("CTA", [
-        "Quick pause. If you've already counted two or more — subscribe.", # B35
-        "We put a name on one of these programs every week. Named programs lose their grip. It's free, and it works better than guilt.",  # B36
+        "Four down, six to go. If your brain has already shown up twice in this catalog — subscribe.",  # B32
+        "We name one of these programs every week. Free, painless, and mildly uncomfortable in the good way.",  # B33
     ]),
 
-    # ── SIGN 4 ── 8 beats — el del supermercado
-    ("SIGN 4 — THE CHECKOUT SACRIFICE", [
-        "Sign number four. The Checkout Sacrifice.",                       # B37
-        "You're at the supermarket. The total feels high.",                # B38 micro-momento
-        "So you take something out of the cart.",                          # B39
-        "The two-euro chocolate. Back on the shelf. Ritual complete.",     # B40 humor
-        "The sixty euros of everything else? Stays.",                      # B41
-        "You didn't cut the cost. You bought the feeling of cutting it.",  # B42 LAPIDARIA
-        "Your brain doesn't want a cheaper cart. It wants permission for the cart.",  # B43 mecanismo
-        "If you've sacrificed the chocolate to bless the basket: that's four.",  # B44 CHECK
+    # ── BIAS 5 ── 7 beats
+    ("BIAS 5 — HERD INSTINCT", [
+        "Herd Instinct. Social proof. The party drug.",                                       # B34
+        "Your brain outsources decisions to the crowd — if everyone's buying, it must be safe.",  # B35
+        "The onset feels like belonging: everyone has the phone, the trip, the coin, the sneakers.",  # B36 ONSET
+        "At the peak, 'everyone's doing it' overrides every number you know. FOMO isn't fear of missing the thing — it's fear of standing outside the group.",  # B37 PEAK
+        "The comedown hits when the crowd moves on and you're still holding the receipt.",    # B38 COMEDOWN
+        "The crowd got the memories. You got the credit card statement.",                     # B39 daño
+        "Herds are great protection against lions. There are no lions at the mall.",          # B40 LAPIDARIA + humor
     ]),
 
-    # ── MID REFRAME ── 4 beats — giro halagador (patrón 'names')
-    ("MID REFRAME", [
-        "Now — if you're at three or four and feeling attacked: hold on.", # B45
-        "Recognizing these signs this fast means something most people miss.",  # B46
-        "You can't recognize a pattern you've never observed. You've been watching. Most people never watch.",  # B47 el halago
-        "The count isn't your sentence. It's your map. Keep going — the last three run deeper.",  # B48 re-hook
+    # ── BIAS 6 ── 7 beats
+    ("BIAS 6 — LIFESTYLE INFLATION", [
+        "Lifestyle Inflation. The tolerance effect.",                                         # B41 vocabulario sustancia
+        "Every raise feels enormous for exactly one month.",                                  # B42
+        "The onset: more money arrives, and 'needs' quietly upgrade themselves to match. Better coffee. Better car. Better everything.",  # B43 ONSET
+        "At the peak, you're earning double what you did five years ago — and saving exactly the same: nothing.",  # B44 PEAK
+        "That's tolerance. The dose went up. The effect didn't.",                             # B45 — la analogía sustancia explícita
+        "The comedown is the trap itself: there is no comedown. It just becomes your baseline. Forever.",  # B46 COMEDOWN
+        "A raise doesn't make you richer. It makes your old life unaffordable.",              # B47 LAPIDARIA
     ]),
 
-    # ── SIGN 3 ── 7 beats
-    ("SIGN 3 — THE COUNTDOWN CLOCK", [
-        "Sign number three. The Countdown Clock.",                         # B49
-        "You know exactly how many days until payday. Right now. Without checking.",  # B50 micro-momento
-        "But last year's total spending? Not even a guess.",               # B51
-        "Your brain measures money in 'days I can survive' — never in years.",  # B52 mecanismo
-        "Survival math is short math. Wealth math is long math.",          # B53 LAPIDARIA
-        "The horizon of your money thoughts quietly predicts where you'll be in ten years.",  # B54
-        "If your money clock only counts down to Friday: that's five.",    # B55 CHECK
+    # ── BIAS 7 ── 7 beats
+    ("BIAS 7 — SUNK COST", [
+        "Sunk Cost. The loyalty program of bad decisions.",                                   # B48 humor
+        "You keep paying for the gym you don't attend, the course you don't finish, the project that died last year.",  # B49
+        "The onset is a sentence: 'But I've already put so much into it.'",                   # B50 ONSET
+        "At the peak, the past runs your future — you throw good money after bad, because quitting would make the loss real.",  # B51 PEAK
+        "Here's what your brain hides from you: the money is already gone. It left when you spent it.",  # B52
+        "The comedown lasts years: every month you stay is another payment on a decision you already know was wrong.",  # B53 COMEDOWN
+        "You're not protecting your investment. You're buying tickets to watch it sink.",     # B54 LAPIDARIA
     ]),
 
-    # ── SIGN 2 ── 7 beats
-    ("SIGN 2 — THE 'WHEN' PLAN", [
-        "Sign number two. The 'When' Plan.",                               # B56
-        "'When they raise my salary.' 'When things calm down.' 'When this year is over.'",  # B57 micro-momento
-        "Every money plan you have starts with a word you don't control.", # B58
-        "'When' feels like a plan. It's a waiting room.",                  # B59 LAPIDARIA
-        "And your brain loves waiting rooms — because waiting costs nothing today.",  # B60 mecanismo
-        "The people who get out never found a better 'when.' They found a smaller 'now.'",  # B61
-        "If your money plan lives in someone else's calendar: that's six.",  # B62 CHECK
+    # ── BIAS 8 ── 6 beats
+    ("BIAS 8 — THE OPTIMISM LOOP", [
+        "The Optimism Loop. Planning fallacy, if you want the lab name.",                     # B55
+        "Next month, you'll spend less. Next month has been coming for nine years.",          # B56 humor seco
+        "The onset: every budget you make stars a fictional character — a disciplined, unhurried you with no birthdays, no emergencies, no Fridays.",  # B57 ONSET
+        "At the peak, you plan for the best month you've ever had — every month.",            # B58 PEAK
+        "The comedown arrives on day twenty-something, with a calendar full of exceptions that were 'one-time things.' All twelve months have one-time things.",  # B59 COMEDOWN
+        "Optimism is a great life partner and a terrible accountant.",                        # B60 LAPIDARIA
     ]),
 
-    # ── SIGN 1 ── 9 beats — la profunda (identidad)
-    ("SIGN 1 — THE CEILING", [
-        "Sign number one. The Ceiling.",                                   # B63
-        "Try something. Right now. Picture yourself wealthy. Actually wealthy.",  # B64 ejercicio en vivo
-        "Not the car. Not the beach. Just you — with money, at peace.",    # B65
-        "Did something push back?",                                        # B66 the moment
-        "A small voice. 'That's not for people like us.'",                 # B67
-        "That voice has an accent. It sounds like your childhood kitchen.",  # B68 el beat más fuerte del vídeo
-        "Somewhere before you turned twelve, you learned how much money 'people like you' are allowed to have.",  # B69 mecanismo
-        "It's not that you can't picture being rich. It's that the picture feels like someone else's photo.",  # B70 LAPIDARIA
-        "If the picture pushed back: that's seven. And that one is the parent of the other six.",  # B71 CHECK + payoff del beat 9
+    # ── BIAS 9 ── 6 beats
+    ("BIAS 9 — DEFAULT BIAS", [
+        "Default Bias. The silent subscription.",                                             # B61
+        "Whatever is already happening keeps happening — not because it's good, but because changing it requires a decision.",  # B62
+        "The onset is nothing. That's its trick. The same bank since you were eighteen. The same tariff. The same insurance, renewing itself in the dark.",  # B63 ONSET
+        "At the peak, entire industries price your inertia into their business model — the loyalty penalty has a name because it's that reliable.",  # B64 PEAK
+        "The comedown is spread so thin you never feel it: thirty euros here, sixty there, every month, for decades.",  # B65 COMEDOWN
+        "The most expensive decisions of your life are the ones you never made.",             # B66 LAPIDARIA
     ]),
 
-    # ── THE COUNT ── 6 beats — resolución del juego + motor de comentarios
-    ("THE COUNT", [
-        "So. What's your number?",                                         # B72
-        "Zero to two: you have habits. Everyone does.",                    # B73
-        "Three to five: you have a program. It's been running for years, and it thinks it's protecting you.",  # B74
-        "Six or seven: your money life has been on autopilot since childhood — and today might be the first time you've met the pilot.",  # B75
-        "Whatever you counted — put the number in the comments. Watch how many people share your exact fingerprints.",  # B76 MOTOR DE COMENTARIOS
-        "Now — before your brain deletes this entire video, we need to talk about what it's doing right now.",  # B77 bridge
+    # ── BIAS 10 ── 8 beats — el profundo (patrón opioides: cierra la escalada)
+    ("BIAS 10 — SCARCITY MINDSET", [
+        "Scarcity Mindset. The heavy one.",                                                   # B67
+        "When money has been tight long enough, scarcity stops being a situation and becomes an operating system.",  # B68
+        "The onset: money worries start taxing your attention — rent math running in the background of every conversation.",  # B69 ONSET
+        "Researchers measured it: active financial scarcity can consume more cognitive capacity than a full night without sleep.",  # B70 dato
+        "At the peak, the tunnel closes in. Today's fire is all there is. Long-term thinking isn't a choice you're refusing — it's a luxury the tunnel doesn't stock.",  # B71 PEAK
+        "And the cruelest part: the tunnel makes the exact decisions that keep you in the tunnel.",  # B72
+        "The comedown isn't even yours. It's inherited — scarcity teaches children what money feels like before they ever earn any.",  # B73 COMEDOWN generacional
+        "Poverty isn't just a number in an account. It's a full-time job your brain works for free.",  # B74 LAPIDARIA
     ]),
 
-    # ── THE DELETE ATTEMPT ── 5 beats — inoculación, redacción 100% NUEVA (no template V14/V15)
-    ("THE DELETE ATTEMPT", [
-        "There's a thought forming in your head at this exact moment.",    # B78
-        "'Interesting video.' That's the thought. Calm. Friendly. Final.", # B79
-        "'Interesting' is where your brain sends threats to be forgotten.",  # B80 LAPIDARIA
-        "A video that names your programs is a threat to your programs.",  # B81
-        "So it stamps this one 'interesting' — and schedules the forgetting for tonight.",  # B82
+    # ── CLOSE ── 5 beats — cierre catálogo + share-CTA (patrón S24-P12), sin Villain template
+    ("CLOSE — THE CATALOG", [
+        "Ten programs. One brain. Yours came pre-installed with all of them.",                # B75
+        "You can't uninstall a bias. Nobody can.",                                            # B76 honestidad intelectual
+        "But a named program never runs quietly again — from now on, when one fires, some part of you will be watching.",  # B77
+        "That part is new. It didn't exist eight minutes ago.",                               # B78
+        "Send this catalog to the friend who's deep in sunk cost right now. They'll know exactly which one they're on.",  # B79 share-CTA
     ]),
 
-    # ── CLOSE ── 8 beats — absolutorio + anti-vergüenza (patrón 'procrastination'), redacción nueva
-    ("CLOSE — THE CATCH", [
-        "Here's what survives the forgetting: one number. Yours.",         # B83
-        "You can't uncount it. Tomorrow — at the checkout, at the app, at the word 'sale' — you'll catch yourself mid-sign.",  # B84
-        "That catch — that half-second of watching it happen — is the only place money habits have ever actually changed.",  # B85
-        "Not in budgets. Not in resolutions. In the catch.",               # B86 LAPIDARIA final
-        "One warning: when you catch yourself, don't punish yourself.",    # B87 patrón self-compassion (outlier 6)
-        "Shame is what these programs eat. Curiosity is what starves them.",  # B88 LAPIDARIA anti-vergüenza
-        "Seven signs. One count. And a brain that now knows it's being watched.",  # B89
-        "That's not a small thing. That's the whole beginning.",           # B90
-    ]),
-
-    # ── NEXT VIDEO TEASE ── 5 beats — share-CTA (patrón outlier 6) + V17: Comparativa (patrón Jake vs Marcus)
+    # ── NEXT VIDEO TEASE ── 2 beats — V17: Comparativa
     ("NEXT VIDEO TEASE", [
-        "And if someone you know does sign number four every single week — send them this. These programs end when they get seen.",  # B91 share-CTA con propósito
-        "Next week: two people. Same salary. Same rent. Same city.",       # B92
-        "At forty-five, one of them stops needing to work. The other never does.",  # B93
-        "The difference fits on a napkin. And nobody teaches it.",         # B94
-        "See you Thursday.",                                               # B95
+        "Next week: two people. Same salary. Same city. At forty-five, one of them stops needing to work.",  # B80
+        "The difference fits on a napkin. See you Thursday.",                                 # B81
     ]),
 
 ]
@@ -223,7 +209,7 @@ def build_docx():
 
     note = doc.add_paragraph()
     note.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    nr = note.add_run("Formato 3 Señales · Hook S6 · Micro-plantilla + frase lapidaria por señal · Contador acumulativo · Independencia total ✅")
+    nr = note.add_run("Formato 9 Catálogo (patrón 4.9M) · Cero hook — título es el contrato · Onset/Peak/Comedown por sesgo · 10 sesgos en escalada")
     nr.font.size = Pt(9); nr.font.color.rgb = RGBColor(0x44, 0x88, 0x44)
 
     doc.add_paragraph()
@@ -289,7 +275,7 @@ def build_pdf(all_lines, total, wc):
         Spacer(1, 4),
         Paragraph(esc(TITLE), H1),
         Spacer(1, 4),
-        Paragraph("Formato 3 Señales · Hook S6 · CTA beats 35-36 = 38% · Contador + frases lapidarias · Independencia total", NOTE),
+        Paragraph("Formato 9 Catálogo (patrón 4.9M) · Cero hook · Onset/Peak/Comedown por sesgo · CTA beats 32-33 = 39.5%", NOTE),
         Spacer(1, 4),
         Paragraph(f"{LABEL} · {total} beats · ~{wc} words · ~{round(wc/140)} min", META),
         Spacer(1, 14),
@@ -325,7 +311,7 @@ def build_elevenlabs_pdf(all_lines, wc):
                             leftMargin=20*mm, rightMargin=20*mm,
                             topMargin=18*mm, bottomMargin=18*mm)
     flow = [
-        Paragraph("NEUROCENTS · VIDEO 16 — BRIEF v3.1", SUB),
+        Paragraph("NEUROCENTS · VIDEO 16 — CATALOG FORMAT", SUB),
         Spacer(1, 4),
         Paragraph(esc(TITLE), H1),
         Spacer(1, 4),
@@ -344,9 +330,10 @@ if __name__ == "__main__":
     all_lines, total, wc = build_docx()
     build_pdf(all_lines, total, wc)
     build_elevenlabs_pdf(all_lines, wc)
-    print(f"\n✅ V16 — 3 archivos generados")
+    print(f"\n✅ V16 CATÁLOGO — 3 archivos generados")
     print(f"   {total} beats · {wc} words · ~{round(wc/140)} min · dentro de 70-110 ✅")
-    print(f"   Formato 3 (Señales) — primera vez ✅ | Hook S6 — no consecutivo ✅")
-    print(f"   CTA: beats 35-36 = {round(35/total*100)}% ✅")
-    print(f"   Independencia total: cero referencias a V13/V14/V15 ✅")
-    print(f"   Frases nuevas: cero solape con closes/villain de V14/V15 ✅")
+    print(f"   Formato 9 (Catálogo, patrón 4.9M) — primera vez ✅")
+    print(f"   Cero hook — entrada directa 'Anchoring.' (S24-P15) ✅")
+    print(f"   CTA: beats 32-33 = {round(32/total*100)}% ✅")
+    print(f"   Onset/Peak/Comedown en los 10 sesgos ✅ · Lapidaria por sesgo ✅")
+    print(f"   Escalada Anchoring → Scarcity Mindset ✅ · Independencia total ✅")
