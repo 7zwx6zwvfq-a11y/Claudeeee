@@ -5,6 +5,17 @@
 > **Creator Brief v3.1 integrado permanentemente — Junio 2026.**
 > v3.1: Sección 17 añadida — Thumbnail-to-Beat-1 Continuity Rule (diagnóstico V8 retención 24.1%)
 
+> ## ⚠️ REGLA MÁXIMA — FRESCURA ENTRE VÍDEOS (Julio 2026, no negociable)
+> Diagnóstico: V14 y V15 salieron casi calcados — mismo esqueleto de secciones, mismo
+> Villain's Last Trick repetido palabra por palabra, y V15 no se entendía sin haber visto V14.
+> **Esto NUNCA puede volver a pasar.** Antes de dar por bueno CUALQUIER guión nuevo:
+> 1. Releer los guiones de los 2 vídeos anteriores completos
+> 2. Comparar: ¿se repite alguna frase textual? ¿el esqueleto de secciones es el mismo orden?
+>    ¿el vídeo nuevo depende de haber visto otro para entenderse (Sección 20, Regla de Independencia)?
+> 3. Si la respuesta a cualquiera de esas tres es sí → reescribir esa parte antes de continuar
+> Ver Sección 20 para la librería de 9 formatos y la regla de independencia completa.
+> **Cada vídeo tiene que poder ser el primer vídeo del canal que alguien ve en su vida.**
+
 ---
 
 ## CANAL
@@ -542,17 +553,24 @@ The video topic is NOT chosen by personal interest — it's chosen because peopl
 ## 16. WORKFLOW — 9 STEPS FOR EACH VIDEO
 
 ```
+STEP 0 — FRESCURA:    Releer los guiones completos de los 2 vídeos anteriores ANTES de escribir
+                      una sola línea. Elegir formato de la librería de 9 (Sección 20) que no sea
+                      el mismo que el vídeo inmediatamente anterior. Confirmar que el vídeo nuevo
+                      no va a depender de haber visto ningún otro (Regla de Independencia, S20).
 STEP 1 — KEYWORD:    Choose keyword with real search volume (>5K/month) from Section 13.
                       Validate it doesn't have zero searches.
 STEP 2 — TITLE:      Use one of the 4 formulas from Section 1. Include the keyword.
-                      Max 12 words. Negative framing.
-STEP 3 — HOOK:       Follow the canonical 10-beat structure (Section 2).
-                      Beat 1 = IDENTITY, never mechanism.
-STEP 4 — BODY:       2-3 traps/biases using the experiment format (Section 4).
-                      Each trap: Alex behavior → seems normal → brain mechanism → scientist → real cost → why it feels justified.
+                      Max 12 words. Negative framing. Must not repeat any previous title's wording.
+STEP 3 — HOOK:       Follow the canonical 10-beat structure (Section 2), adapted to the format
+                      chosen in STEP 0. Beat 1 = IDENTITY, never mechanism.
+STEP 4 — BODY:       Content shaped by the format chosen in STEP 0 (Section 20) — not automatically
+                      "2-3 traps," that's just what Format 1 (Lista) uses. Each unit: Alex behavior →
+                      seems normal → brain mechanism → scientist/evidence → real cost → why it feels justified.
 STEP 5 — CTA:        Beat 35–42 (~35–40%). Identity mirror format (Section 6).
-STEP 6 — VILLAIN:    Follow the mandatory 11-beat template (Section 7).
-STEP 7 — CLOSE:      Max 9 beats. Never moralize. Section 8 formula.
+STEP 6 — VILLAIN:    Villain's Last Trick is NOT a fixed template anymore (Section 20) — vary
+                      wording/length/order from the last 2 videos, or omit if the format doesn't call for it.
+STEP 7 — CLOSE:      Max 9 beats. Never moralize. Section 8 formula, own wording — check it doesn't
+                      reuse phrasing from the last 2 videos' closes.
 STEP 8 — IMAGES:     Visual-first rule (Section 9). Style preamble (Section 10). NEVER text that repeats narration.
 STEP 9 — FILES:      Deliver the 6 production files + Prepublish Checklist (Section 12).
 ```
