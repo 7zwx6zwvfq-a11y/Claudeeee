@@ -25,7 +25,7 @@
 - **Handle YouTube:** [RELLENAR — @handle]
 - **Nicho:** Behavioral finance / psicología del dinero
 - **Formato:** Faceless, 2D animated, inglés (US). One cognitive bias per video.
-- **Duración:** Long-form only, ~7–11 min (90–145 beats · ~8–10 palabras/beat)
+- **Duración:** Long-form only. Beats: **70 mínimo — 110 máximo, SIEMPRE** (~8–10 palabras/beat → ~6–10 min resultante)
 - **Cadencia:** 2 videos/semana — **Lunes y Jueves a las 20:15 España (CEST = UTC+2) = 14:15 EST**
 - **Localización creador:** España
 - **Subs actuales:** 1,030
@@ -541,7 +541,7 @@ The video topic is NOT chosen by personal interest — it's chosen because peopl
 | Spec | Value |
 |---|---|
 | Format | Long-form only, 16:9, 1280×720 |
-| Duration | ~7–11 min (90–145 beats at ~8–10 words/beat) |
+| Duration | Beats: **70 mínimo — 110 máximo, SIEMPRE** (regla fija, sin excepciones). Duración resultante ~6–10 min a ~8–10 palabras/beat — la duración es consecuencia del beat count, no al revés. |
 | Publishing | Weekly. Consistent day/time. |
 | Imágenes | 2D flat cartoon estático, thick black outlines, solid color fills, no gradients — generado en Google Flow/Imagen 4 |
 | Edición | Imágenes estáticas + CapCut Ken Burns / zoom / pan. Sin animación IA. |
