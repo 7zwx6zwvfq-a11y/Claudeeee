@@ -450,6 +450,25 @@ Every image must add information the narration **cannot** convey. Never illustra
 **REGLA ABSOLUTA:** Si la imagen necesita un texto para entenderse, el concepto visual es demasiado abstracto. Rediseñar — no añadir texto.
 Reemplazar labels con: postura (figura encorvada = se rindió), iconos (tenedor = almuerzo), metáfora visual (espacio vacío = desapareció).
 
+### REGLA — REDUCIR ALEX EN PANTALLA (Julio 2026)
+
+> El espectador ya sabe quién es Alex desde el segundo 3. No hace falta reconfirmarlo en cada beat.
+
+- **Muchos beats deben ser mayoritariamente visuales — casi sin texto y sin que Alex aparezca en el frame.**
+  Objetos, diagramas, manos, pantallas de móvil, dinero, relojes, el propio Brain Villain aislado
+  (sin el cuerpo de Alex) pueden llevar el peso visual de un beat perfectamente solos.
+- **Alex aparece cuando aporta algo que el objeto/diagrama no puede** — una reacción emocional,
+  un momento de identidad, un gesto que cambia el significado de la escena. Si el beat funciona
+  igual de bien sin él, no lo pongas.
+- Al escribir cada image prompt, decidir explícitamente: **¿este beat necesita a Alex, o es más
+  fuerte sin él?** Si la respuesta es "no lo necesita", el prompt debe decirlo explícito:
+  *"Alex NOT visible in this beat — [objeto/diagrama/mano/Brain Villain aislado] carries the frame."*
+- Esto no es la regla antigua de "romper diagramas abstractos con humanos" (ver Sección 11, fila 5,
+  ya actualizada) — un beat sin Alex puede seguir siendo muy visual e interesante por sí mismo.
+  Lo que hay que evitar es un diagrama plano y estático sin vida, no la ausencia de Alex.
+- Guía aproximada, no regla rígida de conteo: en un guión de referencia, Alex no debería aparecer
+  en la mayoría absoluta de los beats — que su ausencia sea normal, no la excepción.
+
 ---
 
 ## 10. STYLE PREAMBLE — Para todos los image prompts
@@ -476,7 +495,7 @@ green: savings/gains · red: loss/danger · white: diagram scenes.
 | 2 | 15 image prompts contained text repeating narration | All replaced with icon-based or posture-based visuals. Audio and visual carry DIFFERENT information simultaneously. |
 | 3 | Identity Close was 14 beats — 5 beats of trap recap already received | Trimmed to 9 beats max. Removed trap recap. Kept evolutionary reframe + final payoff line. |
 | 4 | Beats 2 and 3 used same close-up angle — visual stutter | Beat 2: eyes down-left (defeat). Beat 3: eyes up-right (searching). Two distinct frames. |
-| 5 | Three consecutive diagram beats (24–26) — no character, dead zone | Beat 25 made Alex-centered. Break abstract sequences with human moments. Max 2 consecutive beats without a character. |
+| 5 | Three consecutive diagram beats (24–26) felt dead — but the problem was static, lifeless diagrams, not the absence of Alex | **Actualizado Julio 2026:** el fix ya NO es "meter a Alex cada 2 beats." Es dar vida visual al diagrama en sí (movimiento, Brain Villain aislado reaccionando, objeto con carga emocional) sin necesitar el cuerpo de Alex en pantalla. Ver regla "Reducir Alex en pantalla" en Sección 9. |
 
 ---
 
