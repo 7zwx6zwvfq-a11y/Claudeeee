@@ -2,7 +2,7 @@
 """
 VIDEO 16 — BRIEF v3.1 + PLAYBOOK OUTLIERS
 7 Signs Your Brain Is Wired to Stay Broke (Count Yours)
-NEUROCENTS · 92 beats · ~950 words · ~7.5 min
+NEUROCENTS · 95 beats · ~980 words · ~7.5 min
 Formato: 3 — SEÑALES/SÍNTOMAS (primera vez usado; V13/V14 = Lista, V15 = Mecanismo) ✅ rotación S20
 Hook strategy: S6 — VILLAIN REVEAL ("el programa ya corre y dejó huellas") — última vez V12 ✅ rotación S18
 Apertura: micro-momento universal en pregunta (patrón outlier 'names') — cumple S19
@@ -175,22 +175,25 @@ SECTIONS = [
         "So it stamps this one 'interesting' — and schedules the forgetting for tonight.",  # B82
     ]),
 
-    # ── CLOSE ── 6 beats — absolutorio, redacción nueva (sin frases de closes anteriores)
+    # ── CLOSE ── 8 beats — absolutorio + anti-vergüenza (patrón 'procrastination'), redacción nueva
     ("CLOSE — THE CATCH", [
         "Here's what survives the forgetting: one number. Yours.",         # B83
         "You can't uncount it. Tomorrow — at the checkout, at the app, at the word 'sale' — you'll catch yourself mid-sign.",  # B84
         "That catch — that half-second of watching it happen — is the only place money habits have ever actually changed.",  # B85
         "Not in budgets. Not in resolutions. In the catch.",               # B86 LAPIDARIA final
-        "Seven signs. One count. And a brain that now knows it's being watched.",  # B87
-        "That's not a small thing. That's the whole beginning.",           # B88
+        "One warning: when you catch yourself, don't punish yourself.",    # B87 patrón self-compassion (outlier 6)
+        "Shame is what these programs eat. Curiosity is what starves them.",  # B88 LAPIDARIA anti-vergüenza
+        "Seven signs. One count. And a brain that now knows it's being watched.",  # B89
+        "That's not a small thing. That's the whole beginning.",           # B90
     ]),
 
-    # ── NEXT VIDEO TEASE ── 4 beats — V17: Comparativa (patrón Jake vs Marcus)
+    # ── NEXT VIDEO TEASE ── 5 beats — share-CTA (patrón outlier 6) + V17: Comparativa (patrón Jake vs Marcus)
     ("NEXT VIDEO TEASE", [
-        "Next week: two people. Same salary. Same rent. Same city.",       # B89
-        "At forty-five, one of them stops needing to work. The other never does.",  # B90
-        "The difference fits on a napkin. And nobody teaches it.",         # B91
-        "See you Thursday.",                                               # B92
+        "And if someone you know does sign number four every single week — send them this. These programs end when they get seen.",  # B91 share-CTA con propósito
+        "Next week: two people. Same salary. Same rent. Same city.",       # B92
+        "At forty-five, one of them stops needing to work. The other never does.",  # B93
+        "The difference fits on a napkin. And nobody teaches it.",         # B94
+        "See you Thursday.",                                               # B95
     ]),
 
 ]

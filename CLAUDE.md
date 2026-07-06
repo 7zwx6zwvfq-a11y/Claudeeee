@@ -991,7 +991,8 @@ aparecían idénticos, palabra por palabra, en V14 y V15). A partir de V16:
 | V13 | Formato 1 — Lista con Ranking |
 | V14 | Formato 1 — Lista con Ranking |
 | V15 | Mecanismo/Solución (sin numerar — pre-regla) |
-| V16 | Formato 3 — Señales/Síntomas (ya planeado, cumple regla de no repetir consecutivo) |
+| V16 | Formato 3 — Señales/Síntomas ✅ CONFIRMADO (guión hecho, ver bloque V16) |
+| V17 | Formato 2 — Comparativa (teaseado en V16: two people, same salary) |
 
 **Lo que NO cambia en ningún formato (esto sí sigue siendo fijo):**
 - Primeros 5 segundos: pregunta → sentimiento → loop (S19)
@@ -1124,6 +1125,62 @@ Thick black outline around the transparent glass skull section.
 5. Si pantalones azules → especificar "gray pants, NOT jeans" en siguiente gen
 6. Aprobar solo cuando expresión + texto + S17 continuity están los tres ✅
 ```
+
+---
+
+## 24. PLAYBOOK VIRAL — PATRONES DE 6 OUTLIERS ANALIZADOS (Julio 2026)
+
+> Fuentes analizadas guión completo: "Ancient Humans Smoking" (1.5M, cronología) · "Real Estate vs
+> Stocks" (1.5M, comparativa) · "Every Drug Explained" (4.9M, catálogo) · "Why You Forget Names"
+> (micro-momento) · "Fake Scenarios" (psicología, ráfaga) · "You're Not Lazy/Procrastination" (terapéutico).
+> **Consultar esta sección en cada guión nuevo desde V16. Son patrones, no plantilla — elegir los que
+> encajen con el formato del vídeo, no meterlos todos siempre.**
+
+1. **Apertura = micro-momento universal en 2ª persona** — una escena física vivida (gesto, momento,
+   lugar), no un problema abstracto. Variante ráfaga: 3-4 micro-momentos encadenados.
+2. **Absolución TEMPRANA** (segundo 15-20) — "You're not lazy/rude/bad" como gancho, no solo como cierre.
+3. **Micro-plantilla repetida por item + FRASE LAPIDARIA citeable** al cierre de cada unidad
+   ("You're not checking your balance. You're bracing for it."). La lapidaria es la dopamina entre items.
+4. **Contador/checklist con umbral** ("count yours", "if you have 3+") → completismo + motor de
+   comentarios (pide el número en comentarios).
+5. **Escalada leve→profundo** — el último item toca identidad/infancia (patrón cafeína→meth).
+6. **Humor cada 40-60 segundos** como válvula de presión ("like a hostage", "CFO confidence").
+7. **Micro-payoffs cada minuto** — un dato/insight contable-en-una-cena por minuto, no concentrar
+   el valor en 2-3 momentos del vídeo.
+8. **Reframe halagador a mitad** — el defecto se recontextualiza como señal de inteligencia/observación.
+   Es el momento más compartible del vídeo.
+9. **Re-hook a mitad**: "if this sounds familiar, keep going — the second half is where it gets useful."
+10. **Meta-insight anti-vergüenza**: castigarse por el patrón ALIMENTA el patrón (self-compassion
+    respaldada por estudios reduce recaída). Cierre cálido, nunca culpabilizador.
+11. **Voz con opiniones + honestidad intelectual** — el narrador juzga, bromea; admitir "no se sabe
+    exacto" funciona si el viaje dio valor.
+12. **Share-CTA con propósito** al final: "mándaselo a quien hace el #4 cada semana" — distribución
+    orgánica renombrada como ayudar.
+13. **Checkpoints temporales en comparativas** (día 1 → año 3 → año 10 → año 20, "¿quién gana AHORA?").
+14. **Números hiperespecíficos** ($1,330, día 19, 38€) — nunca cifras redondas vagas.
+15. **Cero hook si el título ya es el contrato** (patrón catálogo 4.9M): en formatos lista/catálogo
+    puros, entrar directo al item 1 sin intro es válido y validado.
+
+---
+
+## ACTUALIZACIÓN JULIO 2026 — V16 CONFIRMADO
+
+- Título: *"7 Signs Your Brain Is Wired to Stay Broke (Count Yours)"*
+- Formato: 3 — Señales/Síntomas (primera vez) · Hook: S6 Villain Reveal (última vez V12) ✅ ambas rotaciones
+- Beat 1: *"Do you open your banking app with one eye half-closed?"* — micro-momento + pregunta S19
+- 95 beats (dentro de 70-110) · CTA beats 35-36 = 37% · redacción CTA NUEVA
+- Las 7 señales (escalada leve→identidad): One-Eye Check → Sale Math → Round-Down Memory →
+  Checkout Sacrifice (supermercado) → Countdown Clock → 'When' Plan → The Ceiling (infancia/identidad)
+- Mecánica: contador acumulativo "that's one/two..." + THE COUNT con umbrales (0-2/3-5/6-7) +
+  pide el número en comentarios
+- Inoculación NUEVA (5 beats, "The Delete Attempt" — el cerebro archiva el vídeo como 'interesting')
+  — cero frases de V14/V15
+- Cierre: The Catch + anti-vergüenza ("Shame is what these programs eat. Curiosity is what starves them.")
+- Share-CTA: "send this to whoever does sign four every week"
+- Independencia total: cero referencias a V13/V14/V15 ✅
+- Thumbnail: checklist 7 casillas (3 en rojo) + Alex contando con dedos, boca abierta + "HOW MANY?"
+- Tease V17: Comparativa (Formato 2, patrón Jake vs Marcus) — "two people, same salary, same city;
+  at 45 one stops needing to work"
 
 ---
 
