@@ -1,0 +1,73 @@
+NEUROCENTS · VIDEO 18 — THUMBNAIL PROMPTS (Google Flow)
+"7 Signs Your Brain Is Wired to Stay Broke (Count Yours)"
+Formato Señales — mecánica de autoevaluación (Count Yours)
+Orden de test: A (checklist + Alex) → B (checkbox gigante) → C (grid de señales) como swap a 48h
+
+S17 CONTINUITY: Beat 1 = el one-eye check (ojo entrecerrado + app del banco) con el COUNTER de
+7 casillas apareciendo en la esquina. El thumbnail debe mostrar el checklist para que el counter
+del vídeo se reconozca en <5 seg.
+
+CHARACTER SPEC ALEX (incluir siempre que aparezca):
+- Large beige oval head (#F5E6C8), transparent glass upper skull revealing pink cartoon Brain
+  Villain (#E8A598) smirking inside, small black dot eyes, black spiky hair,
+  BLUE t-shirt (NOT red), gray pants (NOT jeans)
+- S23 obligatorio: mouth OPEN in genuine shock, eyes WIDE, eyebrows raised — legible a 200px;
+  thick black outline around the glass skull section
+
+═══════════════════════════════════════════════════════════════════
+OPCIÓN A — CHECKLIST + ALEX CONTANDO (PRINCIPAL)
+═══════════════════════════════════════════════════════════════════
+
+Flat 2D cartoon illustration, thick solid black outlines, clean solid color fills, no gradients. Pure white background. 16:9, 1280×720.
+
+LEFT 45% — THE CHECKLIST: a giant vertical checklist card with 7 large checkboxes. Boxes 2, 4 and 6 are ticked with BOLD RED checks (#C62828); the other four are empty. The card has a thick black outline and a slight tilt for energy. No text labels on the rows — just boxes and short line-scribbles suggesting text.
+
+RIGHT 55% — ALEX: beige oval head (#F5E6C8), transparent glass skull with pink Brain Villain (#E8A598) smirking with arms crossed inside, black spiky hair, BLUE t-shirt (NOT red), gray pants (NOT jeans). Alex is COUNTING ON HIS RAISED FINGERS — three fingers up — while staring at the checklist. Mouth OPEN in genuine shock, eyes wide, eyebrows raised. His head slightly overlaps the checklist zone (10-15%) for depth.
+
+TEXT (top center):
+- "HOW MANY?" — ultra-bold Impact black caps, very large, with the "?" in red (#C62828)
+
+RULES:
+- The three red checks + Alex's open-mouth shock + "HOW MANY?" must all read clearly at 200px
+- No other text. No shadows. No gradients. White dominant.
+
+═══════════════════════════════════════════════════════════════════
+OPCIÓN B — EL CHECKBOX GIGANTE (minimal, máxima legibilidad)
+═══════════════════════════════════════════════════════════════════
+
+Flat 2D cartoon illustration, thick solid black outlines, clean solid color fills, no gradients. Pure white background. 16:9, 1280×720.
+
+CENTER: ONE giant checkbox (占 ~40% of frame height) receiving a huge RED check mark (#C62828) — the check is mid-stroke, drawn by a pink Brain Villain (isolated, no body/skull) holding an oversized red marker, standing on the checkbox's edge. The Villain smirks directly at the viewer.
+
+Below the giant box: six smaller empty checkboxes in a row, waiting.
+
+TEXT (top, stacked):
+- "7 SIGNS" — ultra-bold Impact black
+- "COUNT YOURS" — same size, red (#C62828)
+
+RULES: Three elements only (giant check, Villain, text) = everything readable at any size. The Villain drawing the check on YOU is the hook: he's keeping score.
+
+═══════════════════════════════════════════════════════════════════
+OPCIÓN C — MINI-GRID DE SEÑALES (eco del formato V16, swap 48h)
+═══════════════════════════════════════════════════════════════════
+
+Flat 2D cartoon illustration, thick solid black outlines, clean solid color fills, no gradients. Pure white background. 16:9, 1280×720.
+
+CENTER: 7 circular badges arranged in two rows (4 + 3), each with a black flat object icon:
+1. Half-closed eye · 2. Percent tag · 3. Rounded-down arrow · 4. Shopping cart · 5. Countdown clock · 6. Waiting-room chair · 7. Low ceiling line
+Colors rotating: teal, red, purple, orange, pink, gold, dark navy — thick black outlines. Three of the seven badges have a small RED check mark stamped on their corner.
+
+TEXT (top):
+- "WHICH ONES" — ultra-bold Impact black
+- "ARE YOU?" — same size, red (#C62828)
+
+RULES: Object icons readable by silhouette. The 3 red-stamped badges create the "already counting" effect. Familiar grid-language for viewers coming from V16.
+
+═══════════════════════════════════════════════════════════════════
+NOTAS
+═══════════════════════════════════════════════════════════════════
+- A es la principal: combina la mecánica del vídeo (checklist) con la identidad del canal (Alex+Villain)
+  y la expresión S23 validada en V14.
+- B es el plan de máxima legibilidad si A sale ruidosa a 200px.
+- C conecta visualmente con V16 (mismo lenguaje de badges) — útil si V16 rindió bien en CTR.
+- Verificar SIEMPRE: camiseta AZUL, pantalones GRISES, boca ABIERTA, checks en ROJO.

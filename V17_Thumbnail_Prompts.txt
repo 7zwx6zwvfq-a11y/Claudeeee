@@ -1,0 +1,73 @@
+NEUROCENTS · VIDEO 17 — THUMBNAIL PROMPTS (Google Flow)
+"Two People, Same Salary: Why Only One Stops Working at 45"
+Formato Comparativa — patrón 'Real Estate vs Stocks' (1.5M)
+Orden de test: A (split irónico) → B (curva) → C (napkin) como swap a 48h
+
+S17 CONTINUITY: Beat 1 = Leo y Marc recibiendo el mismo email de subida en split-screen.
+El thumbnail debe mostrar las DOS figuras para que el beat 1 se reconozca en <5 seg.
+
+CHARACTER SPECS (incluir siempre):
+- LEO: flat cartoon young man, rounded head, brown swept hair, navy blazer (at 45), tense forced smile
+- MARC: flat cartoon young man, short black hair, plain GRAY t-shirt (never changes), calm at-peace expression
+- Style: 2D flat cartoon, thick solid black outlines, solid color fills, NO gradients, white background
+
+═══════════════════════════════════════════════════════════════════
+OPCIÓN A — SPLIT IRÓNICO (PRINCIPAL)
+═══════════════════════════════════════════════════════════════════
+
+Flat 2D cartoon illustration, thick solid black outlines, clean solid color fills, no gradients. Pure white background. 16:9, 1280×720.
+
+SPLIT COMPOSITION (thin black vertical divider at center):
+
+LEFT HALF — LEO at 45: navy blazer, holding a wine glass, a nice car silhouette behind him — visibly "successful." BUT: a subtle black shackle chains his ankle to an office desk in the corner. Expression: tense forced smile, slight sweat drop. The irony must be discoverable in half a second.
+
+RIGHT HALF — MARC at 45: plain gray t-shirt, sitting relaxed on a small green hilltop at sunrise, leaning back on his hands, eyes closed, completely at peace. No possessions visible. Warm morning light on his side only.
+
+TEXT (top center, spanning both halves):
+- "SAME SALARY." — one giant line, ultra-bold Impact black caps, the final period in red (#C62828)
+
+RULES:
+- Both expressions must read clearly at 200px: Leo TENSE, Marc AT PEACE
+- The shackle must be visible but subtle — a detail that rewards a second look
+- No other text. No logos. Maximum contrast, generous white space.
+
+═══════════════════════════════════════════════════════════════════
+OPCIÓN B — LA CURVA (alternativa data-driven)
+═══════════════════════════════════════════════════════════════════
+
+Flat 2D cartoon illustration, thick solid black outlines, clean solid color fills, no gradients. Pure white background. 16:9, 1280×720.
+
+CENTER: A giant two-line wealth graph filling most of the frame:
+- A flat GRAY line crawling along the bottom — at its end, tiny LEO (navy blazer) still walking on it like a treadmill
+- A steep GREEN curve rising to the top-right corner — at its end, tiny MARC (gray t-shirt) sitting on the curve's peak like a hilltop
+- Both lines START from the same point on the left, marked with a single € coin icon
+
+TEXT (top left, stacked):
+- "SAME JOB." — ultra-bold Impact black
+- "20 YEARS." — same size, black
+- "ONE RULE." — same size, red (#C62828)
+
+RULES: The diverging lines ARE the story — they must dominate. Figures tiny but readable. At 200px: the two-line divergence + "ONE RULE." must land instantly.
+
+═══════════════════════════════════════════════════════════════════
+OPCIÓN C — EL NAPKIN (swap 48h)
+═══════════════════════════════════════════════════════════════════
+
+Flat 2D cartoon illustration, thick solid black outlines, clean solid color fills, no gradients. Pure white background. 16:9, 1280×720.
+
+CENTER: A giant paper napkin (slightly crumpled, realistic paper texture in flat style) held up by a hand from below. On the napkin, handwritten-style: a simple diagram — a salary arrow splitting into two paths: one path to a tiny house/car/wine icons (crossed out lightly), one path to a growing green curve with a checkmark.
+
+BACKGROUND: faint, small — Leo and Marc silhouettes diverging on two paths behind the napkin.
+
+TEXT (top, stacked):
+- "THE €640,000" — ultra-bold Impact black
+- "NAPKIN" — same size, red (#C62828)
+
+RULES: The napkin is the hero — the mystery object. The number 640,000 does heavy lifting (specificity). At 200px: napkin shape + the number must be readable.
+
+═══════════════════════════════════════════════════════════════════
+NOTAS
+═══════════════════════════════════════════════════════════════════
+- A es la principal: la ironía visual (el "ganador" encadenado) es el gancho más fuerte y funciona sin leer nada.
+- Test 200px obligatorio antes de subir (expresiones + texto).
+- Verificar: Leo blazer AZUL MARINO, Marc camiseta GRIS — consistentes con los image prompts del vídeo.
