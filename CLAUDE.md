@@ -457,6 +457,12 @@ Reemplazar labels con: postura (figura encorvada = se rindió), iconos (tenedor 
 - **Muchos beats deben ser mayoritariamente visuales — casi sin texto y sin que Alex aparezca en el frame.**
   Objetos, diagramas, manos, pantallas de móvil, dinero, relojes, el propio Brain Villain aislado
   (sin el cuerpo de Alex) pueden llevar el peso visual de un beat perfectamente solos.
+- **⚠ La regla aplica a AMBOS personajes (feedback V16, julio 2026): sustituir a Alex por el Villain
+  en todos los beats es el mismo error con otro disfraz.** El Villain tampoco aparece "presentando"
+  cada sección ni en la mayoría de beats — solo en un puñado (referencia: ~7 de 81 en V16), y cuando
+  aparece, VARIAR posición y tamaño explícitamente en el prompt (centro grande / esquina pequeña /
+  saliendo del frame / fondo) — nunca dos veces seguidas en el mismo sitio. La mayoría de beats:
+  cero personajes, con nota explícita "No characters" en el prompt.
 - **Alex aparece cuando aporta algo que el objeto/diagrama no puede** — una reacción emocional,
   un momento de identidad, un gesto que cambia el significado de la escena. Si el beat funciona
   igual de bien sin él, no lo pongas.
