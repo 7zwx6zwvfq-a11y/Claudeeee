@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 VIDEO 16 — IMAGE PROMPTS · FORMATO CATÁLOGO
-81 beats · SIN ALEX (regla Reducir Alex al máximo) · Brain Villain aislado como HOST del catálogo
+81 beats · SIN ALEX · Brain Villain SOLO en 7 beats (25, 32, 46, 54, 61, 67, 76) con posición/tamaño variados — el resto sin personajes
 Cada sesgo tiene un BADGE circular de color con icono-objeto negro (eco del thumbnail grid).
 Beat 1 = badge de Anchoring llenando pantalla → S17 continuity con el thumbnail grid.
 """
@@ -19,9 +19,11 @@ SUBTITLE = "NEUROCENTS · VIDEO 16"
 STYLE = (
     "2D flat cartoon illustration, thick solid black outlines on every element, clean solid color "
     "fills, no gradients. THIS VIDEO HAS NO ALEX — do not draw the recurring main character. "
-    "Recurring visual host: THE BRAIN VILLAIN appearing ISOLATED (no human body, no skull) — pink "
-    "cartoon brain character (#E8A598), heavy-lidded eyes, slight smirk, small teeth, tiny arms — "
-    "acting as the catalog's curator/dealer, presenting each bias like a product. "
+    "THE BRAIN VILLAIN appears ISOLATED (no human body, no skull) ONLY in the handful of beats "
+    "where the prompt explicitly names him — pink cartoon brain (#E8A598), heavy-lidded eyes, "
+    "slight smirk, small teeth, tiny arms. When he appears, VARY his position and size "
+    "(center / left / right / background, large / small) — never the same corner twice. "
+    "MOST BEATS HAVE NO CHARACTERS AT ALL: badges, objects and diagrams carry the frame alone. "
     "Generic humans when a scene needs people: simple flat silhouette-style figures with minimal "
     "features, varied builds — never Alex. "
     "BIAS BADGES: each bias has a colored circle badge with a black flat object-icon inside "
@@ -41,8 +43,8 @@ BEATS = [
     (1, "BIAS 1 — ANCHORING",
      "Anchoring. Anchoring is your brain's habit of trusting the first number it sees.",
      "S17 OPENING [THUMBNAIL CONTINUITY]: The teal ANCHORING badge (crossed-out price tag icon) fills "
-     "the frame, exactly as seen in the thumbnail grid. Brain Villain slides in from the side and taps "
-     "the badge like a museum curator starting a tour. Clean white background. No Alex."),
+     "the frame, exactly as seen in the thumbnail grid — alone, huge, with one slow confident pulse. "
+     "Clean white background. NO characters: the badge IS the opening."),
     (2, "BIAS 1 — ANCHORING",
      "It's everywhere. Price tags, salaries, menus. The most consumed bias on Earth.",
      "Rapid montage grid: a price tag, a salary offer letter, a restaurant menu — each with a glowing "
@@ -54,8 +56,7 @@ BEATS = [
     (4, "BIAS 1 — ANCHORING",
      "The onset is instant. Ninety stops being a price — it becomes a bargain.",
      "The €90 on the tag morphs visually: sprouting a golden 'bargain' glow, tiny sparkles. "
-     "ONSET meter appearing at frame edge (small syringe-style gauge filling, teal). Brain Villain "
-     "watches from the corner, pleased."),
+     "ONSET meter appearing at frame edge (small syringe-style gauge filling, teal). No characters."),
     (5, "BIAS 1 — ANCHORING",
      "Your brain never asked if the jacket was worth ninety. It only compared it to two hundred.",
      "Diagram: brain icon with two input arrows — a big €200 arrow feeding it, and a tiny unused "
@@ -75,14 +76,14 @@ BEATS = [
     (9, "BIAS 1 — ANCHORING",
      "You never buy the thing. You buy the distance from the first number.",
      "LAPIDARIA FRAME: minimal composition — two numbers on white (€200 faded, €90 bold) with a "
-     "measuring-tape arc drawn between them. Brain Villain sits on the arc like a hammock. "
-     "Maximum white space."),
+     "measuring-tape arc drawn between them — the arc alone bridges the two numbers. "
+     "Maximum white space. No characters."),
 
     # ═══ BIAS 2 — LOSS AVERSION (red badge) ═══
     (10, "BIAS 2 — LOSS AVERSION",
      "Loss Aversion. The oldest bias in the building.",
-     "The red LOSS AVERSION badge (cracked coin icon) fills frame. Brain Villain presents it wearing "
-     "a tiny archaeologist hat — this one is ancient. Stone-texture backdrop behind the badge."),
+     "The red LOSS AVERSION badge (cracked coin icon) fills frame on a stone-texture backdrop, "
+     "resting on a small carved pedestal like a museum relic — this one is ancient. No characters."),
     (11, "BIAS 2 — LOSS AVERSION",
      "Losing a hundred euros hurts about twice as much as winning a hundred feels good. That asymmetry runs your life.",
      "Balance scale diagram: left pan holds one €100 note pointing down HARD (heavy, red glow); right "
@@ -99,7 +100,7 @@ BEATS = [
     (14, "BIAS 2 — LOSS AVERSION",
      "Not to win. Just to not lose.",
      "Minimal frame: a trophy icon crossed out in gray; beside it, a shield icon glowing red, "
-     "clutched by tiny Brain Villain arms. White background, huge negative space."),
+     "standing alone. White background, huge negative space. No characters."),
     (15, "BIAS 2 — LOSS AVERSION",
      "The comedown is invisible: all the better options you never took because they smelled like risk.",
      "COMEDOWN: a corridor of faded, translucent doors labeled with icons (growth chart, new job "
@@ -111,14 +112,14 @@ BEATS = [
      "compounding curve rising away from it — marked as 'never taken' by a faded ghost texture."),
     (17, "BIAS 2 — LOSS AVERSION",
      "Your brain doesn't protect your money. It protects the feeling of not losing it.",
-     "LAPIDARIA FRAME: Brain Villain hugging a glass jar labeled with a heart icon — inside the jar "
-     "is NOT money, just a soft glowing cushion. Actual coins lie ignored outside the jar. White bg."),
+     "LAPIDARIA FRAME: a glass jar labeled with a heart icon — inside the jar is NOT money, just a "
+     "soft glowing cushion. Actual coins lie ignored outside the jar. White bg. No characters."),
 
     # ═══ BIAS 3 — MENTAL ACCOUNTING (purple badge) ═══
     (18, "BIAS 3 — MENTAL ACCOUNTING",
      "Mental Accounting. Your brain runs separate wallets for the same money.",
-     "The purple MENTAL ACCOUNTING badge (three envelopes icon) fills frame. Brain Villain fans out "
-     "three envelopes like a card dealer. Clean white background."),
+     "The purple MENTAL ACCOUNTING badge (three envelopes icon) fills frame; below it, three real "
+     "envelopes lie fanned on a table like a dealt hand — nobody holding them. Clean white background."),
     (19, "BIAS 3 — MENTAL ACCOUNTING",
      "Salary money is serious. Refund money is free. Birthday money is fun.",
      "Three envelopes personified: a gray envelope with a tie (serious) · a bouncing green envelope "
@@ -126,8 +127,8 @@ BEATS = [
      "from all three."),
     (20, "BIAS 3 — MENTAL ACCOUNTING",
      "The onset: a hundred euros arrives outside your salary — and it lands in the 'doesn't count' wallet.",
-     "ONSET: a €100 note parachuting down, steered mid-air by tiny Brain Villain arms away from a "
-     "sturdy safe and into a flimsy paper bag labeled with a shrug icon. Purple gauge at frame edge."),
+     "ONSET: a €100 note parachuting down, drifting on drawn wind-lines away from a sturdy safe "
+     "and into a flimsy paper bag labeled with a shrug icon. Purple gauge at frame edge. No characters."),
     (21, "BIAS 3 — MENTAL ACCOUNTING",
      "At the peak, you'll spend a tax refund in a weekend while agonizing over a forty-euro grocery bill.",
      "PEAK split: left — confetti and shopping bags devouring a refund letter in fast-forward blur; "
@@ -143,15 +144,16 @@ BEATS = [
      "turned inside out, a single moth flying out. Cold winter light."),
     (24, "BIAS 3 — MENTAL ACCOUNTING",
      "Money doesn't come with labels. Your brain prints them.",
-     "LAPIDARIA FRAME: Brain Villain at a tiny label-printer machine, gleefully sticking labels "
-     "(party icon, shrug icon, tie icon) onto identical passing € notes on a conveyor belt."),
+     "LAPIDARIA FRAME: a tiny label-printer machine with a mechanical arm sticking labels "
+     "(party icon, shrug icon, tie icon) onto identical passing € notes on a conveyor belt — "
+     "running entirely by itself. No characters."),
 
     # ═══ BIAS 4 — PRESENT BIAS (orange badge) ═══
     (25, "BIAS 4 — PRESENT BIAS",
      "Present Bias. The dealer that always finds you.",
-     "The orange PRESENT BIAS badge (melting hourglass icon) fills frame. Brain Villain in a subtle "
-     "trench coat opens one side revealing tiny 'NOW' pills glowing orange. Dark alley vignette, "
-     "still cartoon-friendly."),
+     "The orange PRESENT BIAS badge (melting hourglass icon) fills frame. Brain Villain — CENTER "
+     "frame, LARGE, his biggest appearance of the video — in a subtle trench coat, opens one side "
+     "revealing tiny 'NOW' pills glowing orange. Dark alley vignette, still cartoon-friendly."),
     (26, "BIAS 4 — PRESENT BIAS",
      "To your brain, you-today is a real person. You-in-ten-years is a stranger in a stock photo.",
      "Split: left — a vivid, full-color silhouette labeled by a bright TODAY sun icon; right — a "
@@ -175,24 +177,25 @@ BEATS = [
      "holding the accumulated envelope stack. The vivid young figure is now the faded photo on the wall."),
     (31, "BIAS 4 — PRESENT BIAS",
      "Present bias doesn't steal your money. It borrows it from someone you haven't met yet — you.",
-     "LAPIDARIA FRAME: Brain Villain handing a signed IOU note across a mirror — the reflection "
-     "reaching back to receive it is the same silhouette, older. Minimal, white background, mirror center."),
+     "LAPIDARIA FRAME: an anonymous hand passing a signed IOU note INTO a mirror — the reflection "
+     "reaching back to receive it is the same hand, older and grayer. Minimal, white background, mirror center."),
 
     # ═══ CTA ═══
     (32, "CTA",
      "Four down, six to go. If your brain has already shown up twice in this catalog — subscribe.",
      "The four completed badges (teal, red, purple, orange) lined up like collected stamps; six empty "
-     "slots waiting. A clean subscribe button below. Brain Villain checks items off a clipboard."),
+     "slots waiting. A clean subscribe button below. Brain Villain — SMALL, tucked in the bottom-right "
+     "corner — checks items off a clipboard."),
     (33, "CTA",
      "We name one of these programs every week. Free, painless, and mildly uncomfortable in the good way.",
      "Weekly calendar strip with a small brain icon on each Thursday. Minimal, fast, no hard sell. "
-     "Brain Villain shrugs with a honest half-smile."),
+     "No characters."),
 
     # ═══ BIAS 5 — HERD INSTINCT (pink badge) ═══
     (34, "BIAS 5 — HERD INSTINCT",
      "Herd Instinct. Social proof. The party drug.",
-     "The pink HERD INSTINCT badge (three sheep icon) fills frame with confetti falling. Brain Villain "
-     "wears a tiny party hat, offering the badge like a tray of drinks."),
+     "The pink HERD INSTINCT badge (three sheep icon) fills frame with confetti falling around it — "
+     "the badge alone at the party. No characters."),
     (35, "BIAS 5 — HERD INSTINCT",
      "Your brain outsources decisions to the crowd — if everyone's buying, it must be safe.",
      "A brain icon with its 'decision' cable physically unplugged from itself and plugged into a "
@@ -223,8 +226,8 @@ BEATS = [
     # ═══ BIAS 6 — LIFESTYLE INFLATION (gold badge) ═══
     (41, "BIAS 6 — LIFESTYLE INFLATION",
      "Lifestyle Inflation. The tolerance effect.",
-     "The gold LIFESTYLE INFLATION badge (rising balloon with € icon) fills frame. Brain Villain "
-     "measures the badge with a tolerance-scale ruler, nodding like a pharmacist."),
+     "The gold LIFESTYLE INFLATION badge (rising balloon with € icon) fills frame; a clinical "
+     "tolerance-scale ruler leans against it like lab equipment. No characters."),
     (42, "BIAS 6 — LIFESTYLE INFLATION",
      "Every raise feels enormous for exactly one month.",
      "A firework labeled with a € burst exploding brilliantly over a calendar month — and by the "
@@ -245,7 +248,8 @@ BEATS = [
     (46, "BIAS 6 — LIFESTYLE INFLATION",
      "The comedown is the trap itself: there is no comedown. It just becomes your baseline. Forever.",
      "COMEDOWN subverted: the gauge's needle welded permanently at the high mark with a tiny padlock. "
-     "The floor of the frame literally rises to meet it. Brain Villain pockets the key, strolling off."),
+     "The floor of the frame literally rises to meet it. Brain Villain — mid-size, EXITING the frame "
+     "on the RIGHT edge — pockets the key mid-stroll."),
     (47, "BIAS 6 — LIFESTYLE INFLATION",
      "A raise doesn't make you richer. It makes your old life unaffordable.",
      "LAPIDARIA FRAME: a silhouette looks back at a small cozy glowing house now behind a velvet rope "
@@ -254,9 +258,9 @@ BEATS = [
     # ═══ BIAS 7 — SUNK COST (brown badge) ═══
     (48, "BIAS 7 — SUNK COST",
      "Sunk Cost. The loyalty program of bad decisions.",
-     "The brown SUNK COST badge (sinking ship icon) fills frame. Brain Villain stamps a loyalty card "
-     "full of little anchor stamps — 'buy 9 mistakes, the 10th is free.' Visual joke, no text needed "
-     "beyond stamps."),
+     "The brown SUNK COST badge (sinking ship icon) fills frame. Beside it: a loyalty card full of "
+     "little anchor stamps with the stamper frozen mid-air above it — 'buy 9 mistakes, the 10th is "
+     "free.' Visual joke, no text needed beyond stamps. No characters."),
     (49, "BIAS 7 — SUNK COST",
      "You keep paying for the gym you don't attend, the course you don't finish, the project that died last year.",
      "Triptych of dusty objects: a gym card in cobwebs, an online course at 12% progress bar frozen, "
@@ -280,13 +284,14 @@ BEATS = [
     (54, "BIAS 7 — SUNK COST",
      "You're not protecting your investment. You're buying tickets to watch it sink.",
      "LAPIDARIA FRAME: a tiny theater: rows of seats facing a window where a ship sinks in slow "
-     "motion. A silhouette buys another ticket at the booth run by Brain Villain. Deadpan staging."),
+     "motion. A silhouette buys another ticket at the booth — run by Brain Villain, SMALL, tucked in "
+     "the BACKGROUND-LEFT. Deadpan staging."),
 
     # ═══ BIAS 8 — THE OPTIMISM LOOP (sky badge) ═══
     (55, "BIAS 8 — THE OPTIMISM LOOP",
      "The Optimism Loop. Planning fallacy, if you want the lab name.",
-     "The sky-blue OPTIMISM LOOP badge (sun over calendar icon) fills frame. Brain Villain wears "
-     "tiny lab goggles and holds a clipboard — the 'lab name' gag."),
+     "The sky-blue OPTIMISM LOOP badge (sun over calendar icon) fills frame; a tiny lab flask and a "
+     "clipboard rest beside it — the 'lab name' gag. No characters."),
     (56, "BIAS 8 — THE OPTIMISM LOOP",
      "Next month, you'll spend less. Next month has been coming for nine years.",
      "A horizon road lined with identical 'NEXT MONTH' signposts stretching to the vanishing point — "
@@ -313,7 +318,8 @@ BEATS = [
     (61, "BIAS 9 — DEFAULT BIAS",
      "Default Bias. The silent subscription.",
      "The gray DEFAULT BIAS badge (recycling loop icon) fills frame — but dimmed, half-asleep. "
-     "Brain Villain tiptoes past it with a finger to its lips: shhh."),
+     "Brain Villain — CENTER frame in a soft spotlight, his one theatrical moment — tiptoes past "
+     "it with a finger to his lips: shhh."),
     (62, "BIAS 9 — DEFAULT BIAS",
      "Whatever is already happening keeps happening — not because it's good, but because changing it requires a decision.",
      "A train running in a perfect circle on a gray loop of track; a lever for switching tracks stands "
@@ -333,15 +339,16 @@ BEATS = [
      "a bucket below that is, revealed by a step back, already ocean-sized. Decades in one image."),
     (66, "BIAS 9 — DEFAULT BIAS",
      "The most expensive decisions of your life are the ones you never made.",
-     "LAPIDARIA FRAME: an auction room where the auctioneer (Brain Villain) slams the gavel on lots "
-     "labeled with clock icons — sold to an EMPTY chair with a name card. White, stark, minimal."),
+     "LAPIDARIA FRAME: an auction room where the gavel slams down BY ITSELF on lots labeled with "
+     "clock icons — sold to an EMPTY chair with a name card. No auctioneer, no characters. "
+     "White, stark, minimal."),
 
     # ═══ BIAS 10 — SCARCITY MINDSET (dark navy badge) ═══
     (67, "BIAS 10 — SCARCITY MINDSET",
      "Scarcity Mindset. The heavy one.",
      "The dark navy SCARCITY badge (closing tunnel icon) fills frame — heavier, matte, absorbing "
-     "light. Brain Villain sets it down with visible effort, no jokes this time. Tone shift: quieter "
-     "staging, more shadow."),
+     "light. Brain Villain — CENTER-LOW in frame, subdued — sets it down with visible effort, no "
+     "jokes this time. Tone shift: quieter staging, more shadow."),
     (68, "BIAS 10 — SCARCITY MINDSET",
      "When money has been tight long enough, scarcity stops being a situation and becomes an operating system.",
      "A computer boot screen made of everyday life: a kitchen scene rendered inside a loading bar, "
@@ -381,7 +388,7 @@ BEATS = [
     (76, "CLOSE — THE CATALOG",
      "You can't uninstall a bias. Nobody can.",
      "A cursor dragging one badge toward a trash bin — the badge snaps back on an elastic cable. "
-     "Brain Villain shrugs sympathetically: it's not personal, it's architecture."),
+     "Brain Villain — SMALL at the right edge — shrugs sympathetically: it's not personal, it's architecture."),
     (77, "CLOSE — THE CATALOG",
      "But a named program never runs quietly again — from now on, when one fires, some part of you will be watching.",
      "The ten badges now each have a small OPEN EYE icon etched into their corner. One badge lights "
@@ -465,7 +472,7 @@ def build_pdf():
         Spacer(1, 3),
         Paragraph(esc(TITLE), SUB),
         Spacer(1, 4),
-        Paragraph(f"{TOTAL} beats · {len(parts)} parts · SIN ALEX — Brain Villain aislado como host · badges de color por sesgo",
+        Paragraph(f"{TOTAL} beats · {len(parts)} parts · SIN ALEX · Villain solo en 7 beats (posición/tamaño variados) · resto: solo objetos/badges",
                   META),
         Spacer(1, 8),
         Paragraph(f"<b>STYLE PREAMBLE</b> — prepend to every prompt in Google Flow:<br/>{esc(STYLE)}",
