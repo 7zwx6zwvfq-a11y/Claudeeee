@@ -450,30 +450,34 @@ Every image must add information the narration **cannot** convey. Never illustra
 **REGLA ABSOLUTA:** Si la imagen necesita un texto para entenderse, el concepto visual es demasiado abstracto. Rediseñar — no añadir texto.
 Reemplazar labels con: postura (figura encorvada = se rindió), iconos (tenedor = almuerzo), metáfora visual (espacio vacío = desapareció).
 
-### REGLA — REDUCIR ALEX EN PANTALLA (Julio 2026)
+### REGLA — MIX DE PERSONAJES EN PANTALLA: 30/30/30/10 (Julio 2026, versión final)
 
 > El espectador ya sabe quién es Alex desde el segundo 3. No hace falta reconfirmarlo en cada beat.
+> Esta sección tuvo dos rondas de feedback: primero "reduce Alex" (sustituyó el problema por
+> Villain omnipresente), luego el creador fijó una **proporción numérica exacta y obligatoria**.
+> Esta es la regla vigente — sustituye cualquier guía anterior de "mayoría absoluta sin Alex".
 
-- **Muchos beats deben ser mayoritariamente visuales — casi sin texto y sin que Alex aparezca en el frame.**
-  Objetos, diagramas, manos, pantallas de móvil, dinero, relojes, el propio Brain Villain aislado
-  (sin el cuerpo de Alex) pueden llevar el peso visual de un beat perfectamente solos.
-- **⚠ La regla aplica a AMBOS personajes (feedback V16, julio 2026): sustituir a Alex por el Villain
-  en todos los beats es el mismo error con otro disfraz.** El Villain tampoco aparece "presentando"
-  cada sección ni en la mayoría de beats — solo en un puñado (referencia: ~7 de 81 en V16), y cuando
-  aparece, VARIAR posición y tamaño explícitamente en el prompt (centro grande / esquina pequeña /
-  saliendo del frame / fondo) — nunca dos veces seguidas en el mismo sitio. La mayoría de beats:
-  cero personajes, con nota explícita "No characters" en el prompt.
-- **Alex aparece cuando aporta algo que el objeto/diagrama no puede** — una reacción emocional,
-  un momento de identidad, un gesto que cambia el significado de la escena. Si el beat funciona
-  igual de bien sin él, no lo pongas.
-- Al escribir cada image prompt, decidir explícitamente: **¿este beat necesita a Alex, o es más
-  fuerte sin él?** Si la respuesta es "no lo necesita", el prompt debe decirlo explícito:
-  *"Alex NOT visible in this beat — [objeto/diagrama/mano/Brain Villain aislado] carries the frame."*
-- Esto no es la regla antigua de "romper diagramas abstractos con humanos" (ver Sección 11, fila 5,
-  ya actualizada) — un beat sin Alex puede seguir siendo muy visual e interesante por sí mismo.
-  Lo que hay que evitar es un diagrama plano y estático sin vida, no la ausencia de Alex.
-- Guía aproximada, no regla rígida de conteo: en un guión de referencia, Alex no debería aparecer
-  en la mayoría absoluta de los beats — que su ausencia sea normal, no la excepción.
+**RATIO OBLIGATORIO por guión (81-110 beats):**
+
+| Categoría | % objetivo | Qué significa |
+|---|---|---|
+| **ALEX** | ~30% | Alex visible en el frame (con o sin Villain dentro de su skull) |
+| **SIN NADIE** | ~30% | Cero personajes — objetos, diagramas, manos, dinero, relojes cargan el beat solos |
+| **BRAIN VILLAIN solo** | ~30% | El Villain aislado (sin el cuerpo de Alex), posición y tamaño VARIADOS cada vez |
+| **LIBRE (10%)** | ~10% | Lo que mejor sirva al beat — siluetas genéricas, otros personajes del vídeo (ej. Leo/Marc en comparativas), o repetir cualquiera de las tres categorías anteriores |
+
+**Reglas de ejecución:**
+- Ningún beat puede ir "por defecto" — al escribir cada image prompt, decidir explícitamente en
+  cuál de las 4 categorías cae y decirlo en el prompt (p. ej. "No characters —", "Alex —",
+  "Villain [posición], [tamaño] —").
+- El Villain NUNCA repite posición/tamaño dos veces seguidas: variar explícitamente (centro grande /
+  esquina pequeña / saliendo del frame / fondo / lateral) en cada aparición.
+- Alex aparece cuando aporta algo que el objeto/diagrama no puede — reacción emocional, momento de
+  identidad, gesto que cambia el significado de la escena — pero dentro del 30%, no como excepción rara.
+- Verificar el ratio real contando categorías antes de dar el guión por bueno (ver V16 como referencia:
+  81 beats · ~23 Alex · ~22 Villain solo · ~30 sin personajes · ~6 siluetas/flexible).
+- Esto reemplaza la regla anterior de "Alex no debería aparecer en la mayoría absoluta de los beats" —
+  ahora el objetivo es el equilibrio 30/30/30/10, no la ausencia.
 
 ---
 

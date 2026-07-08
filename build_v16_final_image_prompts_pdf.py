@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 VIDEO 16 — IMAGE PROMPTS · FORMATO CATÁLOGO
-81 beats · SIN ALEX · Brain Villain SOLO en 7 beats (25, 32, 46, 54, 61, 67, 76) con posición/tamaño variados — el resto sin personajes
+81 beats · MIX 30/30/30/10: ~23 Alex · ~22 Villain solo (posiciones variadas) · ~30 sin personajes · ~6 siluetas
 Cada sesgo tiene un BADGE circular de color con icono-objeto negro (eco del thumbnail grid).
 Beat 1 = badge de Anchoring llenando pantalla → S17 continuity con el thumbnail grid.
 """
@@ -18,12 +18,16 @@ SUBTITLE = "NEUROCENTS · VIDEO 16"
 
 STYLE = (
     "2D flat cartoon illustration, thick solid black outlines on every element, clean solid color "
-    "fills, no gradients. THIS VIDEO HAS NO ALEX — do not draw the recurring main character. "
-    "THE BRAIN VILLAIN appears ISOLATED (no human body, no skull) ONLY in the handful of beats "
-    "where the prompt explicitly names him — pink cartoon brain (#E8A598), heavy-lidded eyes, "
-    "slight smirk, small teeth, tiny arms. When he appears, VARY his position and size "
-    "(center / left / right / background, large / small) — never the same corner twice. "
-    "MOST BEATS HAVE NO CHARACTERS AT ALL: badges, objects and diagrams carry the frame alone. "
+    "fills, no gradients. CHARACTER MIX (mandatory): ~30% of beats feature ALEX, ~30% feature the "
+    "BRAIN VILLAIN alone, ~30% have NO characters at all, ~10% use generic silhouettes — each "
+    "prompt states which applies; follow it exactly. "
+    "ALEX: large beige oval head (#F5E6C8), transparent glass upper skull revealing pink cartoon "
+    "Brain Villain (#E8A598) inside, small black dot eyes, black spiky hair, BLUE t-shirt (NOT "
+    "red), gray pants (NOT jeans). "
+    "THE BRAIN VILLAIN also appears ISOLATED (no human body, no skull) where named — pink cartoon "
+    "brain, heavy-lidded eyes, slight smirk, small teeth, tiny arms; VARY his position and size "
+    "every appearance (center / left / right / background, large / small) — never the same corner "
+    "twice. Beats marked 'No characters' must contain zero characters. "
     "Generic humans when a scene needs people: simple flat silhouette-style figures with minimal "
     "features, varied builds — never Alex. "
     "BIAS BADGES: each bias has a colored circle badge with a black flat object-icon inside "
@@ -48,31 +52,31 @@ BEATS = [
     (2, "BIAS 1 — ANCHORING",
      "It's everywhere. Price tags, salaries, menus. The most consumed bias on Earth.",
      "Rapid montage grid: a price tag, a salary offer letter, a restaurant menu — each with a glowing "
-     "first number highlighted. Small teal badges hover over each like certification stamps."),
+     "first number highlighted. The BRAIN VILLAIN — tiny, top-right corner — stamps a teal badge onto each like a certification seal."),
     (3, "BIAS 1 — ANCHORING",
      "You see a jacket: two hundred euros, crossed out. Now ninety.",
      "Close-up of a jacket on a rack. Price tag dominant: €200 crossed out in red, €90 below in bold. "
-     "The tag is the protagonist — shot like a jewel. No people."),
+     "ALEX stands at the rack examining it, hand on chin, eyebrows rising — the tag still dominates the frame."),
     (4, "BIAS 1 — ANCHORING",
      "The onset is instant. Ninety stops being a price — it becomes a bargain.",
      "The €90 on the tag morphs visually: sprouting a golden 'bargain' glow, tiny sparkles. "
      "ONSET meter appearing at frame edge (small syringe-style gauge filling, teal). No characters."),
     (5, "BIAS 1 — ANCHORING",
      "Your brain never asked if the jacket was worth ninety. It only compared it to two hundred.",
-     "Diagram: brain icon with two input arrows — a big €200 arrow feeding it, and a tiny unused "
+     "Diagram: the BRAIN VILLAIN as the processor — center, medium — with two input arrows — a big €200 arrow feeding it, and a tiny unused "
      "question mark arrow ('worth it?') lying disconnected on the floor. White diagram background."),
     (6, "BIAS 1 — ANCHORING",
      "At the peak, the crossed-out number does all your thinking. The real question — 'do I even want this?' — never loads.",
      "PEAK: a loading bar labeled with a question-mark icon frozen at 10%, glitching. Above it, the "
-     "crossed-out €200 pulses at full brightness. The comparison runs; the question never renders."),
+     "crossed-out €200 pulses at full brightness. ALEX stares at the frozen bar, finger hovering, hypnotized. The comparison runs; the question never renders."),
     (7, "BIAS 1 — ANCHORING",
      "The comedown arrives at home: a ninety-euro jacket you never planned to buy.",
      "COMEDOWN: the jacket hanging in a dark closet, tag still on, faint teal glow fading. "
-     "A silhouette figure looks at it from the doorway, deflated posture. Moody dim light."),
+     "ALEX looks at it from the doorway, deflated posture, hand on the frame. Moody dim light."),
     (8, "BIAS 1 — ANCHORING",
      "Repeated daily, anchoring quietly decides what 'normal' costs — rent, phones, haircuts, everything.",
      "Wide shot: a city street where every price sign (rent ad, phone shop, barber) has a small "
-     "teal anchor icon stamped on it. The bias owns the landscape. No main characters."),
+     "teal anchor icon stamped on it. ALEX walks through, small in frame, unaware, coffee in hand. The bias owns the landscape."),
     (9, "BIAS 1 — ANCHORING",
      "You never buy the thing. You buy the distance from the first number.",
      "LAPIDARIA FRAME: minimal composition — two numbers on white (€200 faded, €90 bold) with a "
@@ -90,30 +94,30 @@ BEATS = [
      "pan holds an identical €100 note floating light (soft green glow). Same note, double weight."),
     (12, "BIAS 2 — LOSS AVERSION",
      "The onset: you check a price, an account, an investment — and your chest tightens before your thoughts arrive.",
-     "ONSET: a silhouette figure looking at a phone; inside their chest area, a fist-clench icon "
+     "ONSET: ALEX looking at a phone; inside his chest area, a fist-clench icon "
      "squeezes. A tiny red gauge fills at frame edge. The thought bubble above is still empty — "
      "the body reacted first."),
     (13, "BIAS 2 — LOSS AVERSION",
      "At the peak, you'll do irrational things to avoid a small loss — hold a bad investment, keep a broken subscription, stay in the wrong plan.",
-     "PEAK triptych: hands gripping a falling stock chart · hands hugging a broken subscription box "
-     "(cracked, sparking) · hands clinging to a contract on fire. Three grips, zero logic. No faces needed."),
+     "PEAK triptych: ALEX gripping a falling stock chart · ALEX hugging a broken subscription box "
+     "(cracked, sparking) · ALEX clinging to a contract on fire. Three grips, zero logic — same face, rising desperation."),
     (14, "BIAS 2 — LOSS AVERSION",
      "Not to win. Just to not lose.",
      "Minimal frame: a trophy icon crossed out in gray; beside it, a shield icon glowing red, "
-     "standing alone. White background, huge negative space. No characters."),
+     "hugged tight by the BRAIN VILLAIN — small, center, like a teddy bear. White background, huge negative space."),
     (15, "BIAS 2 — LOSS AVERSION",
      "The comedown is invisible: all the better options you never took because they smelled like risk.",
      "COMEDOWN: a corridor of faded, translucent doors labeled with icons (growth chart, new job "
      "briefcase, plane) — all untouched, cobwebbed. The only opened door behind leads back to a "
-     "gray room. Ghost-light palette."),
+     "gray room. ALEX walks the corridor without touching a single handle. Ghost-light palette."),
     (16, "BIAS 2 — LOSS AVERSION",
      "Long-term damage: a life optimized against losing is a life that never compounds.",
      "Two life-lines on a graph: a flat safe gray line hugging the floor, and a dotted green "
      "compounding curve rising away from it — marked as 'never taken' by a faded ghost texture."),
     (17, "BIAS 2 — LOSS AVERSION",
      "Your brain doesn't protect your money. It protects the feeling of not losing it.",
-     "LAPIDARIA FRAME: a glass jar labeled with a heart icon — inside the jar is NOT money, just a "
-     "soft glowing cushion. Actual coins lie ignored outside the jar. White bg. No characters."),
+     "LAPIDARIA FRAME: the BRAIN VILLAIN — left side, medium — hugging a glass jar labeled with a heart icon — inside the jar is NOT money, just a "
+     "soft glowing cushion. Actual coins lie ignored outside the jar. White bg."),
 
     # ═══ BIAS 3 — MENTAL ACCOUNTING (purple badge) ═══
     (18, "BIAS 3 — MENTAL ACCOUNTING",
@@ -128,25 +132,25 @@ BEATS = [
     (20, "BIAS 3 — MENTAL ACCOUNTING",
      "The onset: a hundred euros arrives outside your salary — and it lands in the 'doesn't count' wallet.",
      "ONSET: a €100 note parachuting down, drifting on drawn wind-lines away from a sturdy safe "
-     "and into a flimsy paper bag labeled with a shrug icon. Purple gauge at frame edge. No characters."),
+     "and into a flimsy paper bag labeled with a shrug icon — steered mid-air by the BRAIN VILLAIN flying alongside, top-left, tiny pilot goggles. Purple gauge at frame edge."),
     (21, "BIAS 3 — MENTAL ACCOUNTING",
      "At the peak, you'll spend a tax refund in a weekend while agonizing over a forty-euro grocery bill.",
      "PEAK split: left — confetti and shopping bags devouring a refund letter in fast-forward blur; "
-     "right — a silhouette sweating over a €40 supermarket receipt with a magnifying glass. Same wallet, "
+     "right — ALEX sweating over a €40 supermarket receipt with a magnifying glass. Same wallet, "
      "two universes."),
     (22, "BIAS 3 — MENTAL ACCOUNTING",
      "Same currency. Same account. Different rules.",
      "Minimal: two identical €50 notes side by side on white; one behind velvet museum ropes, one "
-     "inside a hamster wheel spinning. No text."),
+     "inside a hamster wheel spinning; the BRAIN VILLAIN — tiny, bottom-right — naps as museum guard beside the velvet rope. No text."),
     (23, "BIAS 3 — MENTAL ACCOUNTING",
      "The comedown: at the end of the year, the 'free money' is gone and you can't name a single thing it built.",
      "COMEDOWN: December calendar page; beside it an open, empty paper bag (the 'doesn't count' wallet) "
-     "turned inside out, a single moth flying out. Cold winter light."),
+     "turned inside out, a single moth flying out. ALEX holds the bag upside down, shaking it. Cold winter light."),
     (24, "BIAS 3 — MENTAL ACCOUNTING",
      "Money doesn't come with labels. Your brain prints them.",
-     "LAPIDARIA FRAME: a tiny label-printer machine with a mechanical arm sticking labels "
+     "LAPIDARIA FRAME: the BRAIN VILLAIN — right side, medium, gleeful — at a tiny label-printer, sticking labels "
      "(party icon, shrug icon, tie icon) onto identical passing € notes on a conveyor belt — "
-     "running entirely by itself. No characters."),
+     "the Villain humming while he works."),
 
     # ═══ BIAS 4 — PRESENT BIAS (orange badge) ═══
     (25, "BIAS 4 — PRESENT BIAS",
@@ -156,12 +160,12 @@ BEATS = [
      "revealing tiny 'NOW' pills glowing orange. Dark alley vignette, still cartoon-friendly."),
     (26, "BIAS 4 — PRESENT BIAS",
      "To your brain, you-today is a real person. You-in-ten-years is a stranger in a stock photo.",
-     "Split: left — a vivid, full-color silhouette labeled by a bright TODAY sun icon; right — a "
-     "grainy, gray, out-of-focus cardboard cutout inside a cheap picture frame. The contrast is the joke."),
+     "Split: left — ALEX vivid and full-color under a bright TODAY sun icon; right — a "
+     "grainy, gray, out-of-focus cardboard cutout of OLDER ALEX inside a cheap picture frame. The contrast is the joke."),
     (27, "BIAS 4 — PRESENT BIAS",
      "The onset: 'I'll start saving next month.' It feels responsible. It's actually the high.",
      "ONSET: a calendar where the 'next month' page glows warm and golden like a sunrise — while an "
-     "orange gauge quietly fills at frame edge. A relaxed silhouette leans back, feet up, bathed in "
+     "orange gauge quietly fills at frame edge. ALEX leans back, feet up, bathed in "
      "that warm postponement light."),
     (28, "BIAS 4 — PRESENT BIAS",
      "At the peak, today's wants outvote tomorrow's needs every single time — dinner beats retirement, now beats later.",
@@ -173,12 +177,12 @@ BEATS = [
      "gray stranger's blurry portrait stamp. It travels away from the vivid TODAY figure who waves happily."),
     (30, "BIAS 4 — PRESENT BIAS",
      "Until one morning you're the stranger, opening the mail.",
-     "The gray cardboard-cutout figure now stands in color — older silhouette at a mailbox at dawn, "
-     "holding the accumulated envelope stack. The vivid young figure is now the faded photo on the wall."),
+     "OLDER ALEX — gray at the temples — stands at a mailbox at dawn, "
+     "holding the accumulated envelope stack. The vivid young ALEX is now the faded photo on the wall."),
     (31, "BIAS 4 — PRESENT BIAS",
      "Present bias doesn't steal your money. It borrows it from someone you haven't met yet — you.",
-     "LAPIDARIA FRAME: an anonymous hand passing a signed IOU note INTO a mirror — the reflection "
-     "reaching back to receive it is the same hand, older and grayer. Minimal, white background, mirror center."),
+     "LAPIDARIA FRAME: ALEX passing a signed IOU note INTO a mirror — the reflection "
+     "reaching back to receive it is HIMSELF, older and grayer. Minimal, white background, mirror center."),
 
     # ═══ CTA ═══
     (32, "CTA",
@@ -195,10 +199,10 @@ BEATS = [
     (34, "BIAS 5 — HERD INSTINCT",
      "Herd Instinct. Social proof. The party drug.",
      "The pink HERD INSTINCT badge (three sheep icon) fills frame with confetti falling around it — "
-     "the badge alone at the party. No characters."),
+     "the BRAIN VILLAIN peeks from behind it wearing a tiny party hat."),
     (35, "BIAS 5 — HERD INSTINCT",
      "Your brain outsources decisions to the crowd — if everyone's buying, it must be safe.",
-     "A brain icon with its 'decision' cable physically unplugged from itself and plugged into a "
+     "The BRAIN VILLAIN — center, medium — holds his own 'decision' cable unplugged, re-plugging it into a "
      "crowd of silhouettes walking one direction. Diagram style, white background."),
     (36, "BIAS 5 — HERD INSTINCT",
      "The onset feels like belonging: everyone has the phone, the trip, the coin, the sneakers.",
@@ -207,11 +211,11 @@ BEATS = [
     (37, "BIAS 5 — HERD INSTINCT",
      "At the peak, 'everyone's doing it' overrides every number you know. FOMO isn't fear of missing the thing — it's fear of standing outside the group.",
      "PEAK: through a warm window, a party of silhouettes glows inside; outside in cold blue, a single "
-     "figure looks in. Between them, a falling price chart lies on the ground — ignored, stepped over "
-     "by the figure walking toward the door."),
+     "ALEX stands looking in. Between them, a falling price chart lies on the ground — ignored, stepped over "
+     "as ALEX walks toward the door."),
     (38, "BIAS 5 — HERD INSTINCT",
      "The comedown hits when the crowd moves on and you're still holding the receipt.",
-     "COMEDOWN: confetti settling on an empty street at dawn; one silhouette holds a long receipt "
+     "COMEDOWN: confetti settling on an empty street at dawn; ALEX holds a long receipt "
      "curling to the floor. The crowd is tiny dots leaving on the horizon toward a new glow."),
     (39, "BIAS 5 — HERD INSTINCT",
      "The crowd got the memories. You got the credit card statement.",
@@ -234,7 +238,7 @@ BEATS = [
      "calendar's last row, only a thin smoke trail remains. One month, full arc."),
     (43, "BIAS 6 — LIFESTYLE INFLATION",
      "The onset: more money arrives, and 'needs' quietly upgrade themselves to match. Better coffee. Better car. Better everything.",
-     "ONSET: an escalator of objects upgrading themselves as they ride up: paper coffee cup → artisan "
+     "ONSET: ALEX rides an escalator where objects upgrade themselves around him: paper coffee cup → artisan "
      "cup, small car → SUV, phone → newer phone. Gold gauge filling at frame edge. Nobody is pressing "
      "any buttons — the escalator runs alone."),
     (44, "BIAS 6 — LIFESTYLE INFLATION",
@@ -243,7 +247,7 @@ BEATS = [
      "the funnel's bottom drips the identical single coin into an identical near-empty jar. Diagram style."),
     (45, "BIAS 6 — LIFESTYLE INFLATION",
      "That's tolerance. The dose went up. The effect didn't.",
-     "A syringe-style gauge marked with € symbols: dose level rising high; beside it a flat "
+     "The BRAIN VILLAIN as pharmacist — right side, small, lab coat — reads a syringe-style gauge marked with € symbols: dose level rising high; beside it a flat "
      "'satisfaction' meter unmoved at the same low bar. Clinical white diagram, cartoon-clean."),
     (46, "BIAS 6 — LIFESTYLE INFLATION",
      "The comedown is the trap itself: there is no comedown. It just becomes your baseline. Forever.",
@@ -252,14 +256,14 @@ BEATS = [
      "on the RIGHT edge — pockets the key mid-stroll."),
     (47, "BIAS 6 — LIFESTYLE INFLATION",
      "A raise doesn't make you richer. It makes your old life unaffordable.",
-     "LAPIDARIA FRAME: a silhouette looks back at a small cozy glowing house now behind a velvet rope "
+     "LAPIDARIA FRAME: ALEX looks back at a small cozy glowing house now behind a velvet rope "
      "with a price tag higher than the mansion ahead. Minimal, dusk palette."),
 
     # ═══ BIAS 7 — SUNK COST (brown badge) ═══
     (48, "BIAS 7 — SUNK COST",
      "Sunk Cost. The loyalty program of bad decisions.",
      "The brown SUNK COST badge (sinking ship icon) fills frame. Beside it: a loyalty card full of "
-     "little anchor stamps with the stamper frozen mid-air above it — 'buy 9 mistakes, the 10th is "
+     "little anchor stamps, the BRAIN VILLAIN — bottom-left, small — stamping it enthusiastically — 'buy 9 mistakes, the 10th is "
      "free.' Visual joke, no text needed beyond stamps. No characters."),
     (49, "BIAS 7 — SUNK COST",
      "You keep paying for the gym you don't attend, the course you don't finish, the project that died last year.",
@@ -267,8 +271,8 @@ BEATS = [
      "a project folder with a tiny gravestone. Each still has a glowing auto-payment cable attached."),
     (50, "BIAS 7 — SUNK COST",
      "The onset is a sentence: 'But I've already put so much into it.'",
-     "ONSET: a silhouette knee-deep in a hole, still digging; the pile of already-removed dirt towers "
-     "behind them, casting the shadow that keeps them in the hole. Brown gauge at frame edge."),
+     "ONSET: ALEX knee-deep in a hole, still digging; the pile of already-removed dirt towers "
+     "behind him, casting the shadow that keeps him in the hole. Brown gauge at frame edge."),
     (51, "BIAS 7 — SUNK COST",
      "At the peak, the past runs your future — you throw good money after bad, because quitting would make the loss real.",
      "PEAK: fresh green coins marching single-file off a pier into dark water where older sunken coins "
@@ -279,7 +283,7 @@ BEATS = [
      "already walked out the door long ago, waving. The wallet still holds the cut cable hopefully."),
     (53, "BIAS 7 — SUNK COST",
      "The comedown lasts years: every month you stay is another payment on a decision you already know was wrong.",
-     "COMEDOWN: a long staircase downward where each step is a monthly receipt; a silhouette descends "
+     "COMEDOWN: a long staircase downward where each step is a monthly receipt; ALEX descends "
      "slowly, dropping a coin on each step. The staircase visibly leads nowhere — it fades into fog."),
     (54, "BIAS 7 — SUNK COST",
      "You're not protecting your investment. You're buying tickets to watch it sink.",
@@ -291,14 +295,14 @@ BEATS = [
     (55, "BIAS 8 — THE OPTIMISM LOOP",
      "The Optimism Loop. Planning fallacy, if you want the lab name.",
      "The sky-blue OPTIMISM LOOP badge (sun over calendar icon) fills frame; a tiny lab flask and a "
-     "clipboard rest beside it — the 'lab name' gag. No characters."),
+     "clipboard held by the BRAIN VILLAIN — bottom-left, small, wearing lab goggles: the 'lab name' gag."),
     (56, "BIAS 8 — THE OPTIMISM LOOP",
      "Next month, you'll spend less. Next month has been coming for nine years.",
      "A horizon road lined with identical 'NEXT MONTH' signposts stretching to the vanishing point — "
      "nine mile-markers visible. The sun never quite rises past the horizon."),
     (57, "BIAS 8 — THE OPTIMISM LOOP",
      "The onset: every budget you make stars a fictional character — a disciplined, unhurried you with no birthdays, no emergencies, no Fridays.",
-     "ONSET: a movie poster mock-up: a glowing, caped, serene silhouette titled by a halo icon — "
+     "ONSET: a movie poster mock-up: a glowing, caped, serene ALEX titled by a halo icon — "
      "surrounded by crossed-out icons: birthday cake, broken pipe, Friday cocktail. Sky gauge fills."),
     (58, "BIAS 8 — THE OPTIMISM LOOP",
      "At the peak, you plan for the best month you've ever had — every month.",
@@ -310,8 +314,8 @@ BEATS = [
      "pizza) burying the neat budget grid beneath. Zoom-out hint: the other eleven months identical."),
     (60, "BIAS 8 — THE OPTIMISM LOOP",
      "Optimism is a great life partner and a terrible accountant.",
-     "LAPIDARIA FRAME: split desk — left, a sunny figure watering a plant (great partner); right, the "
-     "same sunny figure buried in receipts wearing a crooked accountant visor, numbers floating wrong. "
+     "LAPIDARIA FRAME: split desk — left, sunny ALEX watering a plant (great partner); right, the "
+     "same sunny ALEX buried in receipts wearing a crooked accountant visor, numbers floating wrong. "
      "White background."),
 
     # ═══ BIAS 9 — DEFAULT BIAS (gray badge) ═══
@@ -326,7 +330,7 @@ BEATS = [
      "nearby, cobwebbed, untouched. Nobody is driving the train."),
     (63, "BIAS 9 — DEFAULT BIAS",
      "The onset is nothing. That's its trick. The same bank since you were eighteen. The same tariff. The same insurance, renewing itself in the dark.",
-     "ONSET: a dark room at night; three contracts on a desk quietly re-signing themselves with "
+     "ONSET: a dark room at night; the BRAIN VILLAIN barely visible in the shadows behind a desk where three contracts re-sign themselves with "
      "self-moving pens, glowing faint gray. The gauge at frame edge fills with static — 'nothing' "
      "as a substance."),
     (64, "BIAS 9 — DEFAULT BIAS",
@@ -336,7 +340,7 @@ BEATS = [
     (65, "BIAS 9 — DEFAULT BIAS",
      "The comedown is spread so thin you never feel it: thirty euros here, sixty there, every month, for decades.",
      "COMEDOWN: a bathtub with a barely visible pinhole leak; single drops fall in slow rhythm into "
-     "a bucket below that is, revealed by a step back, already ocean-sized. Decades in one image."),
+     "a bucket below that is, revealed by a step back, already ocean-sized. The BRAIN VILLAIN — tiny, in the corner with a plumber cap — shrugs at the leak. Decades in one image."),
     (66, "BIAS 9 — DEFAULT BIAS",
      "The most expensive decisions of your life are the ones you never made.",
      "LAPIDARIA FRAME: an auction room where the gavel slams down BY ITSELF on lots labeled with "
@@ -355,8 +359,8 @@ BEATS = [
      "booting an OS whose logo is the closing tunnel icon. The system starts before the person wakes."),
     (69, "BIAS 10 — SCARCITY MINDSET",
      "The onset: money worries start taxing your attention — rent math running in the background of every conversation.",
-     "ONSET: two silhouettes talking at a café; above one, a faint transparent calculator overlay "
-     "runs rent arithmetic nonstop behind their eyes. Navy gauge fills at frame edge — slowly, heavily."),
+     "ONSET: ALEX talking with a friend at a café; above him, a faint transparent calculator overlay "
+     "runs rent arithmetic nonstop behind his eyes. Navy gauge fills at frame edge — slowly, heavily."),
     (70, "BIAS 10 — SCARCITY MINDSET",
      "Researchers measured it: active financial scarcity can consume more cognitive capacity than a full night without sleep.",
      "Clean comparison diagram: two brain icons — one with a moon/no-sleep icon dimming 20% of it; "
@@ -383,8 +387,8 @@ BEATS = [
     # ═══ CLOSE ═══
     (75, "CLOSE — THE CATALOG",
      "Ten programs. One brain. Yours came pre-installed with all of them.",
-     "All ten badges arranged in the thumbnail grid formation around a single central brain icon, "
-     "cables connecting each badge to it like a motherboard. Full-circle echo of the thumbnail."),
+     "All ten badges arranged in the thumbnail grid formation around the BRAIN VILLAIN at the center, "
+     "cables connecting each badge to him like a motherboard — he holds them like leashes. Full-circle echo of the thumbnail."),
     (76, "CLOSE — THE CATALOG",
      "You can't uninstall a bias. Nobody can.",
      "A cursor dragging one badge toward a trash bin — the badge snaps back on an elastic cable. "
@@ -399,7 +403,7 @@ BEATS = [
      "around it like wet ink. Quiet frame, maximum negative space."),
     (79, "CLOSE — THE CATALOG",
      "Send this catalog to the friend who's deep in sunk cost right now. They'll know exactly which one they're on.",
-     "A phone mid-send: the ten-badge grid flying as a message bubble toward a contact avatar. "
+     "ALEX mid-send on his phone: the ten-badge grid flying as a message bubble toward a contact avatar. "
      "The SUNK COST badge subtly glows on the recipient's side. Warm, friendly framing."),
 
     # ═══ TEASE ═══
@@ -472,7 +476,7 @@ def build_pdf():
         Spacer(1, 3),
         Paragraph(esc(TITLE), SUB),
         Spacer(1, 4),
-        Paragraph(f"{TOTAL} beats · {len(parts)} parts · SIN ALEX · Villain solo en 7 beats (posición/tamaño variados) · resto: solo objetos/badges",
+        Paragraph(f"{TOTAL} beats · {len(parts)} parts · Mix 30/30/30/10 — Alex · Villain solo (posiciones variadas) · sin personajes · siluetas",
                   META),
         Spacer(1, 8),
         Paragraph(f"<b>STYLE PREAMBLE</b> — prepend to every prompt in Google Flow:<br/>{esc(STYLE)}",
