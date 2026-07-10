@@ -4,34 +4,39 @@ Formato catálogo — espejo del outlier 4.9M "Drug Effects Explained"
 Orden de test: A (grid puro) → si a 200px es ruido: C (5 grandes) → B como swap a 48h si CTR <5%
 
 ═══════════════════════════════════════════════════════════════════
-OPCIÓN A — GRID PURO (PRINCIPAL)
+OPCIÓN A — GRID ESTILO REFERENCIA ("Drug Effects Explained" 4.9M) — PRINCIPAL
 ═══════════════════════════════════════════════════════════════════
 
-Flat 2D icon/pictogram illustration, thick solid black outlines on every element, clean solid flat color fills, no gradients, no photorealism. Pure white background (#FFFFFF). 16:9 format, 1280×720. Infographic catalog-style thumbnail — NO characters, pure icon grid.
+> Ref. exacta pedida por el creador: grid de círculos con icono + etiqueta corta,
+> SIN personaje — igual que los outliers "15 Drugs Explained" / "15 Manipulation
+> Tactics" (sombra suave tipo sticker, NO glow neón; paleta vívida pero pastel,
+> NO saturada; contorno fino-medio, NO grueso).
+
+Flat 2D icon/pictogram illustration. Each circle sits on the white page like a flat sticker with a SOFT DROP SHADOW beneath it (short, subtle, grounded — NOT a glowing halo, NOT neon). Thin-to-medium black outline (~2-3px at full res, not thick). Clean flat color fills, no gradients inside the fill. Pure white background (#FFFFFF). 16:9 format, 1280×720. Infographic catalog-style thumbnail — NO characters, pure icon grid.
 
 HEADER (top of frame, full width, ~14% of frame height, centered):
 - "MONEY BIASES" in ultra-bold black condensed sans-serif (Impact-style), all caps
 - Followed on the same line or directly below by "EXPLAINED" in bold red (#C62828)
 
-ICON GRID (2 rows × 5 colored circles, evenly spaced, generous margins):
+ICON GRID (2 rows × 5 colored circles, evenly spaced, generous margins — 10 items in the same width the reference fits 15, so circles run LARGER and more legible than the reference):
 Row 1:
-1. Teal circle (#2C93A8) — black flat icon: price tag with a diagonal strike — label below: "ANCHORING"
-2. Red circle (#C0392B) — black flat icon: cracked coin — label: "LOSS AVERSION"
-3. Purple circle (#7B5FA6) — black flat icon: three envelopes fanned — label: "MENTAL ACCOUNTS"
-4. Orange circle (#E8892C) — black flat icon: melting hourglass — label: "PRESENT BIAS"
-5. Pink circle (#D9527A) — black flat icon: three sheep in a row — label: "HERD INSTINCT"
+1. Muted mint-teal circle (#4FB8A8) — black flat icon: price tag with a diagonal strike — label below: "ANCHORING"
+2. Coral-red circle (#D9534F) — black flat icon: cracked coin — label: "LOSS AVERSION"
+3. Dusty purple circle (#9B7FBE) — black flat icon: three envelopes fanned — label: "MENTAL ACCTS"
+4. Warm orange circle (#EDA054) — black flat icon: melting hourglass — label: "PRESENT BIAS"
+5. Soft pink circle (#E88FAE) — black flat icon: three sheep in a row — label: "HERD INSTINCT"
 Row 2:
-6. Gold circle (#E8C13C) — black flat icon: rising balloon with € symbol — label: "LIFESTYLE INFLATION"
-7. Brown circle (#8B5A2B) — black flat icon: half-sunken ship — label: "SUNK COST"
-8. Sky blue circle (#58A6D6) — black flat icon: sun over a calendar — label: "OPTIMISM"
-9. Gray circle (#8A8A8A) — black flat icon: circular renewal loop arrows — label: "DEFAULT"
-10. Dark navy circle (#4A4A6A) — black flat icon: narrowing tunnel — label: "SCARCITY"
+6. Warm yellow circle (#F0CB5C) — black flat icon: rising balloon with € symbol — label: "LIFESTYLE INFL."
+7. Tan-brown circle (#A9784F) — black flat icon: half-sunken ship — label: "SUNK COST"
+8. Sky blue circle (#6FB3D9) — black flat icon: sun over a calendar — label: "OPTIMISM"
+9. Gray circle (#9B9B9B) — black flat icon: circular renewal loop arrows — label: "DEFAULT"
+10. Deep navy circle (#4A4A6A) — black flat icon: narrowing tunnel — label: "SCARCITY"
 
 RULES:
-- Each circle ~15-17% of frame width, thick black outline (~5px at full res)
-- Labels: bold black caps, small, uniform typography on all ten
+- Each circle ~16-18% of frame width, THIN-MEDIUM black outline + soft drop shadow (sticker-on-paper look, matching the reference — not the neon-glow look)
+- Labels: bold black caps, tight single line directly under each circle, short — one word wherever possible (matches reference's CANNABIS / ALCOHOL / LSD single-word density better than two-word labels)
 - Icons must be OBJECTS, readable by silhouette alone — no abstract symbols
-- No drop shadows, no 3D, no gradients — pure flat design
+- No neon glow, no 3D, no gradients inside fills — flat sticker style, exactly like the reference grid
 
 ═══════════════════════════════════════════════════════════════════
 OPCIÓN B — GRID + BRAIN VILLAIN DEALER (swap 48h)
