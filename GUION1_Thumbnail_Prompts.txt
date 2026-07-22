@@ -1,0 +1,94 @@
+NEUROCENTS — GUION 1 · The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)
+THUMBNAIL PROMPTS — 3 conceptos, estilo doodle 2D simple (referencia: canal de curiosidades tipo
+"Why a Fan Can Kill You" / "Why Dirty Water Can't Kill Animals")
+
+Generar los 3, comparar a 200px, quedarse con el que mejor lea el gag + el texto a tamaño miniatura.
+
+═══════════════════════════════════════════════════════════════
+CONCEPTO A — ECUACIÓN (recomendado — calca el device de mayor view count del mood board: FAN = SKULL, 396K)
+═══════════════════════════════════════════════════════════════
+2D flat doodle illustration, thick uneven black marker/pen outlines, hand-drawn crude simple
+stick-figure style, minimal flat colors only (black, red, blue), plain solid white background,
+no gradients, no shading, no photorealism, 16:9 YouTube thumbnail composition, extremely high
+contrast and legible at tiny size.
+
+LEFT HALF: a simple stick-figure character "Alex" — round circle head, two small black dot eyes,
+thin flat mouth, small blue rectangle patch as a t-shirt, a tiny transparent oval patch on top of
+his head showing a tiny pink blob "brain villain" character with a small smirk inside — Alex's
+stick arm is pressing a big red rectangular button labeled "SELL" in bold black marker capital
+letters, small motion sweat-drop marks near his head, panicked wide eyes.
+
+CENTER: one giant bold black marker "=" equals sign, very thick, dominating the vertical center
+of the frame.
+
+RIGHT HALF: a large red thick marker downward arrow crashing into bold oversized black marker
+text reading "-€34,000".
+
+TOP OF FRAME: bold black hand-drawn marker capital-letter text stacked in two lines: first line
+"SMART." in black, second line "STILL LOST €34K" in red marker ink.
+
+Style reference: exactly like simple science-explainer doodle thumbnails (thick marker outlines,
+2-3 flat colors, white background, big bold marker text, one clear sight gag), not a polished
+vector illustration.
+
+═══════════════════════════════════════════════════════════════
+CONCEPTO B — SPLIT PANEL A vs B (SELL vs MARKET)
+═══════════════════════════════════════════════════════════════
+2D flat doodle illustration, thick uneven black marker/pen outlines, hand-drawn crude simple
+stick-figure style, minimal flat colors only (black, red, green, blue), plain solid white
+background, no gradients, no shading, no photorealism, 16:9 YouTube thumbnail composition,
+extremely high contrast, split down the middle by a thick black vertical divider line.
+
+LEFT PANEL, labeled "SELL" in bold black marker capitals at the top: a simple stick-figure
+character "Alex" — round circle head, two small black dot eyes, thin flat mouth, small blue
+rectangle t-shirt patch, tiny transparent oval patch on his head with a tiny pink blob "brain
+villain" smirking inside — pressing a big red button, panicked wide eyes, small red arrow behind
+him pointing down.
+
+RIGHT PANEL, labeled "MARKET" in bold black marker capitals at the top: a big thick green marker
+arrow shooting upward with "+18%" written beside it in bold black text, and a faded gray dashed
+outline silhouette of Alex with a large red "X" over it, showing he is not there.
+
+BOTTOM OF FRAME: bold black hand-drawn marker capital-letter text stacked in two lines: first
+line "HE PICKED SAFE." in black, second line "IT COST HIM €34,000" in red marker ink.
+
+Style reference: exactly like simple science-explainer doodle thumbnails (thick marker outlines,
+2-3 flat colors, white background, big bold marker text, one clear sight gag), not a polished
+vector illustration.
+
+═══════════════════════════════════════════════════════════════
+CONCEPTO C — TIER LIST
+═══════════════════════════════════════════════════════════════
+2D flat doodle illustration, thick uneven black marker/pen outlines, hand-drawn crude simple
+stick-figure style, minimal flat colors only (black, red, blue, gray), plain solid white
+background, no gradients, no shading, no photorealism, 16:9 YouTube thumbnail composition,
+extremely high contrast and legible at tiny size.
+
+LEFT THIRD: a vertical tier-list ladder made of four stacked bold black rectangular boxes
+labeled from top to bottom "S", "A", "B", "C" in bold black marker capital letters. A simple
+stick-figure character "Alex" — round circle head, two small black dot eyes, thin flat mouth,
+small blue rectangle t-shirt patch, tiny transparent oval patch on his head with a tiny pink
+blob "brain villain" smirking inside — sits inside the bottom "C" box, and a big thick red
+marker arrow points down at him from above.
+
+RIGHT TWO-THIRDS: the same Alex character drawn larger, mouth wide open in shock, one hand on
+his head, staring at a simple hand-drawn line chart showing a red line dropping sharply then a
+green line rising far above the frame without him.
+
+TOP OF FRAME: bold black hand-drawn marker capital-letter text stacked in two lines: first line
+"HOW SMART PEOPLE RANK" in black, second line "(You Don't Want This Tier)" in red marker ink,
+smaller.
+
+Style reference: exactly like simple science-explainer doodle thumbnails (thick marker outlines,
+2-3 flat colors, white background, big bold marker text, one clear sight gag), not a polished
+vector illustration.
+
+═══════════════════════════════════════════════════════════════
+CRITERIO DE SELECCIÓN (S23 adaptado a este estilo)
+═══════════════════════════════════════════════════════════════
+- Test a 200px: ¿se lee el texto? ¿se entiende el gag en menos de 1 segundo?
+- Alex debe ser reconocible como Alex (skull transparente + brain villain rosa dentro) aunque
+  esté simplificado al estilo doodle.
+- Cifra "€34,000" o "34K" tiene que ser legible — es el anzuelo numérico del título (S17).
+- Elegir UNO como definitivo antes de generar el resto del PRODUCTION.pdf / IMAGE_PROMPTS.pdf,
+  para que el estilo del thumbnail y el estilo de las imágenes del cuerpo del vídeo no choquen.
