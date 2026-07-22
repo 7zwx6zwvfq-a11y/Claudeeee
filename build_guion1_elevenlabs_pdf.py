@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ElevenLabs narration-only PDF — Guion 1 · The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)."""
+"""ElevenLabs narration-only PDF — Guion 1 · Why Smart People Make Terrible Money Decisions."""
 
 import re
 from reportlab.lib.pagesizes import A4
@@ -9,7 +9,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 
-TITLE = "The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)"
+TITLE = "Why Smart People Make Terrible Money Decisions"
 SUBTITLE = "NEUROCENTS · GUION 1 (Creator Brief v4)"
 
 SCRIPT_PATH = "/home/user/Claudeeee/GUION1_Loss_Aversion_SCRIPT.txt"

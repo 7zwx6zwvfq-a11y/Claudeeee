@@ -1,5 +1,5 @@
 # NEUROCENTS — GUION 1 · HANDOFF PARA CLAUDE COWORK
-## "The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)"
+## "Why Smart People Make Terrible Money Decisions"
 
 Este documento es autosuficiente — no depende de contexto de otra conversación. Todo lo que
 necesitas para producir el vídeo completo (imágenes por beat + thumbnail final) está aquí.

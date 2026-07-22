@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-publish checklist — Guion 1 · The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)."""
+"""Pre-publish checklist — Guion 1 · Why Smart People Make Terrible Money Decisions."""
 
 from docx import Document
 from docx.shared import Pt, RGBColor, Cm
@@ -46,21 +46,23 @@ st = doc.styles['Normal']; st.font.name = 'Calibri'; st.font.size = Pt(10)
 t = doc.add_paragraph(); t.alignment = WD_ALIGN_PARAGRAPH.CENTER
 r = t.add_run("NEUROCENTS — GUION 1 · PRE-PUBLISH CHECKLIST"); r.bold = True; r.font.size = Pt(13); r.font.color.rgb = RED
 s = doc.add_paragraph(); s.alignment = WD_ALIGN_PARAGRAPH.CENTER
-r = s.add_run("The 2.5x Bias That Cost Alex €34,000 (Loss Aversion) · Creator Brief v4 · 138 beats")
+r = s.add_run("Why Smart People Make Terrible Money Decisions · Creator Brief v4 · 138 beats")
 r.font.size = Pt(9); r.font.color.rgb = GREY
 doc.add_paragraph()
 
 add_section(doc, "1. NOMBRE DEL ARCHIVO — renombrar el MP4 ANTES de subir")
-add_label_value(doc, "ARCHIVO", "the-2.5x-bias-that-cost-alex-34000-loss-aversion-neurocents.mp4", GREEN, 10)
+add_label_value(doc, "ARCHIVO", "why-smart-people-make-terrible-money-decisions-neurocents.mp4", GREEN, 10)
 divider(doc)
 
 add_section(doc, "2. TÍTULO")
-add_label_value(doc, "TÍTULO PRINCIPAL", "The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)", DARK, 12)
+add_label_value(doc, "TÍTULO PRINCIPAL", "Why Smart People Make Terrible Money Decisions", DARK, 12)
 add_block(doc, "Keyword pilar: 'loss aversion psychology' (17,243/mes · comp. 10.3 — mejor ratio volumen/"
-               "competencia del canal hasta la fecha). Número en el título (S17) + nombre científico "
-               "reconocible (Kahneman) como anzuelo de autoridad.", size=8, color=GREY)
-add_block(doc, "Verificado sin colisión de wording con títulos anteriores del canal (V15 'Why Smart People "
-               "Can't Save Money' fue la primera versión de este título y se descartó por esa razón).", size=8, color=GREY)
+               "competencia del canal hasta la fecha). Patrón de estatus/inteligencia (993x, S21) tal cual "
+               "propuso VidIQ originalmente.", size=8, color=GREY)
+add_block(doc, "NOTA: este título repite casi literalmente las 3 primeras palabras de V15 ('Why Smart People "
+               "Can't Save Money'). Se había cambiado por eso, pero decisión del creador: mantenerlo igual — "
+               "V15 está archivado y no se va a publicar, así que la colisión de wording no aplica en la práctica.",
+               size=8, color=RED)
 divider(doc)
 
 add_section(doc, "3. DESCRIPCIÓN — copia exactamente")
@@ -129,7 +131,7 @@ divider(doc)
 
 add_section(doc, "6. YOUTUBE STUDIO")
 for cb in [
-    "Título:         The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)",
+    "Título:         Why Smart People Make Terrible Money Decisions",
     "Descripción:    Pegada completa — resumen + timestamps + tease Guion 2",
     "Tags:           Pegados (sección 4)",
     "Categoría:      Education",
@@ -234,7 +236,7 @@ divider(doc)
 
 doc.add_paragraph()
 foot = doc.add_paragraph(); foot.alignment = WD_ALIGN_PARAGRAPH.CENTER
-fr = foot.add_run("NEUROCENTS · GUION 1 · PRE-PUBLISH CHECKLIST · The 2.5x Bias That Cost Alex €34,000")
+fr = foot.add_run("NEUROCENTS · GUION 1 · PRE-PUBLISH CHECKLIST · Why Smart People Make Terrible Money Decisions")
 fr.font.size = Pt(8); fr.font.color.rgb = GREY
 
 path = "/home/user/Claudeeee/GUION1_Prepublish_Checklist.docx"
