@@ -1,7 +1,7 @@
-NEUROCENTS — GUION 1 (Creator Brief v4 · Viral Outlier Architecture)
+NEUROCENTS — GUION 1 (Creator Brief v4 · Viral Outlier Architecture) — v2
 The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)
 Keyword: loss aversion psychology (17,243/mo · comp 10.3)
-133 beats · ~1,200 words · ~8-9 min
+138 beats · ~1,290 words · ~9 min
 
 — HOOK —
 [1] Alex made €140,000 a year as a software engineer.
@@ -20,7 +20,7 @@ Keyword: loss aversion psychology (17,243/mo · comp 10.3)
 [14] The first one feels like caution.
 [15] The second one feels like loyalty.
 [16] The third one — the one nobody suspects — feels like patience.
-[17] By the end of this video, you'll know which one is running in you right now.
+[17] Let's lock in the exact numbers, so the excuse has nowhere to hide.
 
 — TRAP ONE: THE FEAR THAT LOOKS LIKE CAUTION —
 [18] Six weeks before Alex sold, his portfolio was worth one hundred ninety thousand euros.
@@ -33,123 +33,128 @@ Keyword: loss aversion psychology (17,243/mo · comp 10.3)
 [25] Not a metaphor. A measurable ratio.
 [26] Your brain doesn't weigh gains and losses equally.
 [27] It weighs losses two and a half times heavier.
-[28] So when Alex looked at that seventeen-thousand-euro drop, his brain didn't calculate probability.
-[29] It calculated pain.
-[30] And pain wants one thing: to stop.
-[31] Selling stopped the pain immediately.
-[32] It also stopped any chance of recovering the eighteen percent gain that came next.
-[33] Not because Alex is bad at math.
-[34] But because Alex's brain solved for "make the pain stop," not for "maximize the outcome."
-[35] This isn't poor judgment. This is neuroscience.
-[36] The amygdala fires on the potential loss before the prefrontal cortex gets a vote.
-[37] By the time Alex "decided" to sell, the decision had already been made somewhere else.
-[38] His smart, analytical brain just wrote the justification afterward.
-[39] "Something didn't feel right" wasn't intuition.
-[40] It was the Brain Villain, translating a chemical alarm into a sentence that sounded reasonable.
-[41] And it worked. Alex believed his own excuse completely.
-[42] That's the first trap. It doesn't feel like fear.
-[43] It feels like caution.
+[28] We call this the 2.5x Tax.
+[29] So when Alex looked at that seventeen-thousand-euro drop, his brain didn't calculate probability.
+[30] It calculated pain.
+[31] And pain wants one thing: to stop.
+[32] Selling stopped the pain immediately.
+[33] It also stopped any chance of recovering the eighteen percent gain that came next.
+[34] Not because Alex is bad at math.
+[35] But because Alex's brain solved for "make the pain stop," not for "maximize the outcome."
+[36] This isn't poor judgment. This is neuroscience.
+[37] The amygdala fires on the potential loss before the prefrontal cortex gets a vote.
+[38] By the time Alex "decided" to sell, the decision had already been made somewhere else.
+[39] His smart, analytical brain just wrote the justification afterward.
+[40] "Something didn't feel right" wasn't intuition.
+[41] It was the Brain Villain, translating a chemical alarm into a sentence that sounded reasonable.
+[42] And it worked. Alex believed his own excuse completely.
+[43] That's the first trap. It doesn't feel like fear.
+[44] It feels like caution.
 
 — CTA —
-[44] If your brain is doing this to you right now — subscribe.
-[45] We break down a new bias every week.
-[46] It's free.
-[47] And it might save you more than you think.
+[45] If your brain is doing this to you right now — subscribe.
+[46] We break down a new bias every week.
+[47] It's free.
+[48] And it might save you more than you think.
 
 — TRAP TWO: THE LOYALTY THAT ISN'T LOYALTY —
-[48] Three months after selling, Alex finally reinvested. Carefully this time.
-[49] He put most of it into shares of the company he used to work for.
-[50] He'd worked there for six years. He understood the product. He trusted it.
-[51] The stock underperformed the market for two straight years.
-[52] Alex kept it anyway.
-[53] Not because the data supported it.
-[54] Because it was his.
-[55] In 1990, Richard Thaler, Daniel Kahneman, and Jack Knetsch ran a simple experiment at Cornell University.
-[56] They gave half a group of students a coffee mug. Nothing else.
-[57] Then they asked: how much would you sell it for? And: how much would you pay for one?
-[58] The students who owned the mug wanted roughly twice as much to give it up as the others were willing to pay.
-[59] Same mug. Same market. Same students.
-[60] The only difference: ownership.
-[61] Researchers named it the endowment effect.
-[62] The moment something becomes yours, your brain inflates its value.
-[63] Not because it's worth more.
-[64] But because losing it now counts as a loss — and loss aversion just doubled down.
-[65] Alex didn't hold that stock because he believed in it more than the data.
-[66] He held it because giving it up would have felt like losing something, not like reallocating something.
-[67] Not bad judgment. The same mechanism as the mug, wearing a company badge.
-[68] Every underperforming month, Alex told himself he was being loyal.
-[69] The trap doesn't feel like a trap. It feels like a virtue.
-[70] Two years of underperformance. Eleven thousand two hundred euros of it, measured against the index.
-[71] The Brain Villain doesn't ask you to be irrational.
-[72] It asks you to call the irrational thing "loyalty."
-[73] And you say yes, because you already know how to be loyal.
+[49] Three months after selling, Alex finally reinvested. Carefully this time.
+[50] He put most of it into shares of the company he used to work for.
+[51] He'd worked there for six years. He understood the product. He trusted it.
+[52] The stock underperformed the market for two straight years.
+[53] Alex kept it anyway.
+[54] Not because the data supported it.
+[55] Because it was his.
+[56] In 1990, Richard Thaler, Daniel Kahneman, and Jack Knetsch ran a simple experiment at Cornell University.
+[57] They gave half a group of students a coffee mug. Nothing else.
+[58] Then they asked: how much would you sell it for? And: how much would you pay for one?
+[59] The students who owned the mug wanted roughly twice as much to give it up as the others were willing to pay.
+[60] Same mug. Same market. Same students.
+[61] The only difference: ownership.
+[62] Researchers named it the endowment effect.
+[63] We call it the Ownership Markup.
+[64] The moment something becomes yours, your brain inflates its value.
+[65] Not because it's worth more.
+[66] But because losing it now counts as a loss — and the 2.5x Tax just doubled down.
+[67] Alex didn't hold that stock because he believed in it more than the data.
+[68] He held it because giving it up would have felt like losing something, not like reallocating something.
+[69] Not bad judgment. The same mechanism as the mug, wearing a company badge.
+[70] Every underperforming month, Alex told himself he was being loyal.
+[71] The trap doesn't feel like a trap. It feels like a virtue.
+[72] Two years of underperformance. Eleven thousand two hundred euros of it, measured against the index.
+[73] The Brain Villain doesn't ask you to be irrational.
+[74] It asks you to call the irrational thing "loyalty."
+[75] And you say yes, because you already know how to be loyal.
 
 — TRAP THREE: THE ONE NOBODY SUSPECTS —
-[74] Here's the trap that doesn't have a villain-movie name. It has a boring one. That's exactly why it works.
-[75] In 1985, Hersh Shefrin and Meir Statman published a study most investors have never heard of.
-[76] They called it the disposition effect.
-[77] It has one job: it makes you sell your winners too early and hold your losers too long.
-[78] Alex owned two positions that year, after the mug lesson finally sank in and he diversified.
-[79] One was up eleven percent. One was down eleven percent.
-[80] He sold the winner. "Lock in the gain," he said.
-[81] He kept the loser. "It'll come back," he said.
-[82] Shefrin and Statman found this in almost every retail portfolio they studied.
-[83] Winners sold, on average, weeks before losers.
-[84] Not because winners were riskier going forward.
-[85] Because selling a winner feels like a victory you get to keep.
-[86] And selling a loser feels like making the loss real.
-[87] Your brain will let you feel one hundred percent of a gain.
-[88] It will fight you on admitting even one percent of a loss.
-[89] So Alex kept the loser for fourteen more months.
-[90] It dropped another nineteen percent before he finally sold.
-[91] The winner he'd sold early, meanwhile, kept climbing without him.
-[92] Total cost of that single decision: six thousand four hundred euros.
-[93] Not because Alex didn't know the math.
-[94] But because knowing the math and feeling the math are answered by two different parts of the brain — and only one of them was driving.
-[95] This isn't laziness. This is neuroscience.
-[96] And it's the trap nobody suspects, because it doesn't feel like fear, and it doesn't feel like loyalty.
-[97] It feels like discipline. "I'm locking in wins. I'm being patient with the rest."
-[98] Same brain. Same mechanism. A completely different disguise.
+[76] Here's the trap that doesn't have a villain-movie name. It has a boring one. That's exactly why it works.
+[77] In 1985, Hersh Shefrin and Meir Statman published a study most investors have never heard of.
+[78] They called it the disposition effect.
+[79] We call it the Backwards Sort.
+[80] It has one job: it makes you sell your winners too early and hold your losers too long.
+[81] Alex owned two positions that year, after the mug lesson finally sank in and he diversified.
+[82] One was up eleven percent. One was down eleven percent.
+[83] He sold the winner. "Lock in the gain," he said.
+[84] He kept the loser. "It'll come back," he said.
+[85] Shefrin and Statman found this in almost every retail portfolio they studied.
+[86] Winners sold, on average, weeks before losers.
+[87] Not because winners were riskier going forward.
+[88] Because selling a winner feels like a victory you get to keep.
+[89] And selling a loser feels like making the loss real.
+[90] Your brain will let you feel one hundred percent of a gain.
+[91] It will fight you on admitting even one percent of a loss.
+[92] So Alex kept the loser for fourteen more months.
+[93] It dropped another nineteen percent before he finally sold.
+[94] The winner he'd sold early, meanwhile, kept climbing without him.
+[95] Total cost of that single decision: six thousand four hundred euros.
+[96] Not because Alex didn't know the math.
+[97] But because knowing the math and feeling the math are answered by two different parts of the brain — and only one of them was driving.
+[98] This isn't laziness. This is neuroscience.
+[99] And it's the trap nobody suspects, because it doesn't feel like fear, and it doesn't feel like loyalty.
+[100] It feels like discipline. "I'm locking in wins. I'm being patient with the rest."
+[101] Same brain. Same mechanism. A completely different disguise.
 
 — HONEST COUNTER —
-[99] Now, an honest counter.
-[100] Not every sale during a downturn is loss aversion.
-[101] Sometimes the fundamentals actually changed. Sometimes selling is the correct decision.
-[102] This isn't a rule that says "never sell."
-[103] It's a rule that says: know which reason you're actually acting on.
-[104] If you can write down a specific, external reason for the trade — do it.
-[105] If the only reason is a feeling in your chest — that's the Brain Villain, not analysis.
-[106] The goal was never to never feel loss aversion.
-[107] Nobody escapes it completely. Kahneman didn't either, and he won a Nobel Prize studying it.
-[108] The goal is knowing it's happening while it's happening.
-[109] That's the only version of this that actually works.
+[102] Now, an honest counter.
+[103] Not every sale during a downturn is the 2.5x Tax.
+[104] Real signal: the company issues a profit warning, cuts guidance, the CFO resigns in the same week.
+[105] Non-signal: the price dropped and social media got nervous.
+[106] This isn't a rule that says "never sell."
+[107] It's a rule that says: know which reason you're actually acting on.
+[108] If you can write down a specific, external reason for the trade — do it.
+[109] If the only reason is a feeling in your chest — that's the Brain Villain, not analysis.
+[110] The goal was never to never feel loss aversion.
+[111] Nobody escapes it completely. Kahneman didn't either, and he won a Nobel Prize studying it.
+[112] The goal is knowing it's happening while it's happening.
+[113] That's the only version of this that actually works.
 
 — SYSTEM CLOSE —
-[110] These three traps aren't separate. They're one system.
-[111] Loss Aversion is the operating system. Endowment Effect and Disposition Effect are the applications running on top of it.
-[112] All three exist for the same reason.
-[113] To your brain, a loss is not information. A loss is an emergency.
-[114] Sell the falling position — emergency handled.
-[115] Keep the position you already own — no new loss admitted.
-[116] Sell the winner, keep the loser — protect the win, delay the emergency.
-[117] Every single one of Alex's "mistakes" was the Brain Villain successfully doing its job.
-[118] Just not the job investing actually requires.
-[119] And here's the part that has nothing to do with income.
-[120] Alex earned more than most of his friends.
-[121] It didn't protect him. If anything, it gave his brain more euros to defend.
-[122] This scales with the account balance. It does not disappear with the paycheck.
-[123] The programs are not broken.
-[124] They are perfectly designed for an environment where a loss really did mean the difference between eating and not eating.
-[125] Your brain is still defending you against a famine that ended generations ago.
+[114] These three traps aren't separate. They're one system.
+[115] The 2.5x Tax is the operating system. The Ownership Markup and the Backwards Sort are the applications running on top of it.
+[116] Add it up. Thirty-four thousand. Plus eleven thousand two hundred. Plus six thousand four hundred.
+[117] Fifty-one thousand six hundred euros. In eighteen months. From the same well-read, well-informed brain.
+[118] Say that number out loud.
+[119] All three exist for the same reason.
+[120] To your brain, a loss is not information. A loss is an emergency.
+[121] Sell the falling position — emergency handled.
+[122] Keep the position you already own — no new loss admitted.
+[123] Sell the winner, keep the loser — protect the win, delay the emergency.
+[124] Every single one of Alex's "mistakes" was the Brain Villain successfully doing its job.
+[125] Just not the job investing actually requires.
+[126] And here's the part that has nothing to do with income.
+[127] Alex earned more than most of his friends.
+[128] It didn't protect him. If anything, it gave his brain more euros to defend.
+[129] This scales with the account balance. It does not disappear with the paycheck.
+[130] The programs are not broken.
+[131] They are perfectly designed for an environment where a loss really did mean the difference between eating and not eating.
+[132] Your brain is still defending you against a famine that ended generations ago.
 
-— IDENTITY CLOSE + TEASE —
-[126] Alex isn't undisciplined. Alex isn't bad with money.
-[127] Alex read the books. Alex understood the odds.
-[128] None of that mattered in the six weeks that decided €34,000.
-[129] Alex has a brain built for a world with predators, running a spreadsheet built for compound interest.
-[130] The programs still work exactly as designed.
-[131] They were just never designed for this.
-[132] Same trap. Different label. Same result.
-[133] Next week: the exact moment your brain decides to spend — three hours before you actually do it.
+— IDENTITY CLOSE + MIRROR + TEASE —
+[133] Alex isn't undisciplined. Alex isn't bad with money.
+[134] Alex has a brain built for a world with predators, running a spreadsheet built for compound interest.
+[135] Same trap. Different label. Same result.
+[136] So which one is running in you right now?
+[137] The fear that looks like caution. The loyalty that isn't loyalty. Or the discipline that isn't discipline at all.
+[138] Next week: the exact moment your brain decides to spend — three hours before you actually do it.
 
-END OF SCRIPT · 133 beats
+END OF SCRIPT · 138 beats
