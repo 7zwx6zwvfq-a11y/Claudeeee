@@ -25,7 +25,8 @@
 - **Handle YouTube:** [RELLENAR — @handle]
 - **Nicho:** Behavioral finance / psicología del dinero
 - **Formato:** Faceless, 2D animated, inglés (US). One cognitive bias per video.
-- **Duración:** Long-form only. Beats: **70 mínimo — 110 máximo, SIEMPRE** (~8–10 palabras/beat → ~6–10 min resultante)
+- **Duración:** Long-form only. Beats: **130 mínimo — 160 máximo, SIEMPRE** (~8–10 palabras/beat → ~1,200–1,500 palabras → ~8–12 min resultante).
+  Actualizado Julio 2026 (S25 — Creator Brief v4) para caber la plantilla de arquitectura viral (HOOK + 3 traps + Honest Counter + System Close). Sustituye el rango anterior de 70-110.
 - **Cadencia:** 2 videos/semana — **Lunes y Jueves a las 20:15 España (CEST = UTC+2) = 14:15 EST**
 - **Localización creador:** España
 - **Subs actuales:** 1,030
@@ -570,7 +571,7 @@ The video topic is NOT chosen by personal interest — it's chosen because peopl
 | Spec | Value |
 |---|---|
 | Format | Long-form only, 16:9, 1280×720 |
-| Duration | Beats: **70 mínimo — 110 máximo, SIEMPRE** (regla fija, sin excepciones). Duración resultante ~6–10 min a ~8–10 palabras/beat — la duración es consecuencia del beat count, no al revés. |
+| Duration | Beats: **130 mínimo — 160 máximo, SIEMPRE** (regla fija desde S25/Julio 2026, sustituye el 70-110 anterior). Duración resultante ~8–12 min a ~8–10 palabras/beat — la duración es consecuencia del beat count, no al revés. |
 | Publishing | Weekly. Consistent day/time. |
 | Imágenes | 2D flat cartoon estático, thick black outlines, solid color fills, no gradients — generado en Google Flow/Imagen 4 |
 | Edición | Imágenes estáticas + CapCut Ken Burns / zoom / pan. Sin animación IA. |
@@ -1224,6 +1225,119 @@ Thick black outline around the transparent glass skull section.
 
 **ORDEN DE PUBLICACIÓN:** V16 catálogo → V17 comparativa → V18 señales. Cadena de teases encadenada ✅
 **PENDIENTE por vídeo:** IMAGE_PROMPTS.pdf + PRODUCTION.pdf + Prepublish_Checklist (generar al dar OK cada guión)
+
+---
+
+## 25. CREATOR BRIEF v4 — VIRAL OUTLIER ARCHITECTURE (Julio 2026)
+
+> Establecido Julio 2026 tras análisis de 4 guiones outlier de otros nichos finance (compounding/"Kate",
+> real estate vs stocks/"Jake vs Marcus", psicología generacional Gen X, "the arrival trap" 4 generaciones)
+> y una segunda pasada de VidIQ sobre esos mismos guiones. Decisión del creador: **el canal SIGUE siendo
+> Neurocents** — neurociencia real, Alex, Brain Villain — pero con conceptos más básicos/accesibles para
+> público general, montados sobre la arquitectura narrativa de esos outliers en vez de la plantilla S5 clásica.
+> Esta sección SUSTITUYE S5 (Section Order) para guiones nuevos desde este punto en adelante.
+
+### LO QUE NO CAMBIA (heredado de v3.1)
+
+- Alex + Brain Villain siguen siendo los personajes de marca. El Brain Villain debe nombrarse ≥2 veces por guion.
+- Frases ancla del Voice Profile (S3) siguen vigentes tal cual: "Not X. But Y.", "This isn't [fallo moral].
+  This is neuroscience.", "The trap doesn't feel like a trap. It feels like a virtue.", "Same trap. Different
+  label. Same result." — no son nuevas, VidIQ solo confirmó que ya estaban bien.
+- CTA a ~35% del guion, euros (no dólares) en cifras monetarias, números nunca redondeados.
+- Regla de Independencia (S20) y regla de frescura (top del archivo) — cada guion autocontenido, sin repetir
+  frases textuales del guion inmediatamente anterior.
+
+### LO QUE CAMBIA — DECISIONES CERRADAS CON EL CREADOR
+
+1. **Público objetivo:** conceptos básicos/accesibles, nivel introductorio — no jerga de nicho behavioral
+   finance. El sesgo se explica desde cero, asumiendo que es la primera vez que el espectador oye hablar de él.
+2. **Personaje del hook = SIEMPRE Alex.** No se usan nombres nuevos por vídeo (Kate/Sarah/Marcus, como en los
+   outliers originales). Alex protagoniza un caso hiperespecífico distinto cada semana — esto mantiene la
+   identidad de marca y hace posible la consistencia de imagen en Magnific entre vídeos.
+3. **Duración ampliada a 130-160 beats / ~1,200-1,500 palabras / ~8-12 min** (ver arriba) — para que quepa la
+   plantilla completa sin recortar el Honest Counter ni los tres traps.
+4. **Nueva sección obligatoria: HONEST COUNTER** (~80-100 palabras / ~10-14 beats) — se inserta después del
+   Trap 3, antes del System Close. Reconoce una limitación real del argumento central y explica por qué no lo
+   invalida. Dispara credibilidad porque admite que el mundo no es perfecto. No existía en v3.1.
+5. **Consistencia visual con Magnific:** cuando un objeto/personaje reaparece en beats no consecutivos (ej. un
+   gráfico, una prop, una escena), el beat posterior se genera usando como imagen de referencia el resultado ya
+   generado del beat anterior (image-to-image / variation), no solo el prompt de texto — para que sea
+   literalmente el mismo objeto, no una reinterpretación.
+
+### ARQUITECTURA DEL GUION — PLANTILLA OBLIGATORIA (sustituye S5)
+
+```
+HOOK (~120-150 palabras, ~15-17 beats)
+├── Alex nombrado en un momento hiperespecífico
+├── Coste o revelación concreta (números reales, en euros)
+├── Giro universal: "Here's what nobody tells you about [tema]: / It's not [lo obvio]. It's [mecanismo]."
+└── Tease numerado (todas las trampas anunciadas, la peor escondida para el final)
+
+TRAP 1 (~200-250 palabras)
+├── Comportamiento de Alex → parece normal
+├── Mecanismo cerebral nombrado (nombre científico + nombre llano)
+├── Cita de científico real: [Nombre] — [Institución] — [hallazgo en una frase llana]
+├── Coste real calculado (cifra exacta, nunca redondeada)
+├── Por qué se siente justificado ("reward, not luxury")
+└── Puente al siguiente trap
+
+CTA (~30-40 palabras, a ~35% del guion)
+├── "If your brain is doing this to you right now — subscribe."
+└── "We break down a new bias every week. It's free. And it might save you more than you think."
+
+TRAP 2 (~200-250 palabras) — misma estructura que Trap 1
+TRAP 3 (~200-250 palabras) — misma estructura; ESTA es la peor trampa, la que nadie sospecha
+
+HONEST COUNTER (~80-100 palabras) — NUEVO, obligatorio desde v4
+├── Reconoce una limitación real del argumento
+├── Explica por qué no invalida el mecanismo central
+└── Refuerza: esto no es sobre ser perfecto, es sobre saber qué está pasando
+
+SYSTEM CLOSE (~100-150 palabras)
+├── Revela que las trampas se componen como sistema (no son independientes)
+├── Dato/observación independiente del ingreso — las trampas escalan con el salario, no desaparecen con él
+├── "[Trap 1] is the operating system. [Trap 2] and [Trap 3] are the applications."
+└── "The programs are not broken. They are perfectly designed for an environment that no longer exists."
+
+IDENTITY CLOSE + TEASE (~50-80 palabras)
+├── Quita la culpa (excusa evolutiva para el conjunto de las tres trampas)
+├── Awareness = primer paso, no solución
+├── Tease del próximo vídeo
+└── "Same trap. Different label. Same result." o equivalente
+```
+
+### KEYWORDS — ACTUALIZACIÓN JULIO 2026 (segunda pasada VidIQ)
+
+| Prioridad | Keyword | Búsquedas/mes | Competencia |
+|---|---|---|---|
+| 🥇 | loss aversion psychology | 17,243 | 10.3 |
+| 🥈 | impulse spending psychology | 5,039 | 5.3 |
+| 🥉 | dopamine spending | 5,190 | 15.6 |
+| 4 | behavioral finance | 74,718 | 32.0 |
+| 5 | overconfidence bias investing | 5,217 | 13.0 |
+
+**⚠ INCONSISTENCIA SIN RESOLVER:** esta pasada da "behavioral finance" = 74,718/mes · comp 32.0. La tabla
+original de S13 ya tenía "behavioral finance" = 98,056/mes · comp 24.2, de una consulta anterior. Alguna de
+las dos cifras está desactualizada o hay un error de copia entre pulls de VidIQ. **Verificar antes de fijarlo
+como keyword pilar de ningún guion** — no usar ninguna de las dos cifras como única fuente de verdad todavía.
+
+### COLA DE GUIONES — ARQUITECTURA v4 (orden de escritura: Guion 1 primero, mejor ratio volumen/competencia)
+
+| # | Título | Keyword | Sesgo | Nota |
+|---|---|---|---|---|
+| Guion 1 | **The 2.5x Bias That Cost Alex €34,000 (Loss Aversion)** | loss aversion psychology | Loss Aversion + Endowment Effect + Sunk Cost | Título corregido — el original ("Why Smart People Make Terrible Money Decisions") repetía casi literalmente las 3 primeras palabras de V15 ("Why Smart People Can't Save Money"), violando la regla de no repetir wording de título. Sesgo NUEVO para el canal — sin solape detectado. |
+| Guion 2 | Your Brain Treats Spending Like a Drug (And It Knows Exactly When to Strike) | dopamine spending | Anticipation Dopamine (Schultz) + Hedonic Adaptation + Reward Resetting | Solapa parcialmente con V2 (Dopamine Trap) — diferenciar explícitamente en el guion: V2 = dopamina de la compra en sí, Guion 2 = dopamina de la ANTICIPACIÓN antes de comprar. Revisar antes de escribir. |
+| Guion 3 | The Trap Nobody Warns You About (It's Not What You Spend) | impulse spending psychology | Present Bias + Future Self as Stranger + Hyperbolic Discounting | Solapa parcialmente con Present Bias ya usado en V11/V13/V14 — diferenciar con el ángulo específico de Hershfield (future self = extraño en fMRI), que el canal no ha usado antes. |
+| Guion 4 | Why Earning More Money Makes You Poorer | behavioral finance + lifestyle creep | Hedonic Treadmill (Brickman & Campbell) + Lifestyle Creep + Ratchet Effect | **Solape aceptado con V8** ("Getting Rich Is Making You Poorer" — mismo sesgo, mismo ángulo). Decisión del creador: seguir adelante igualmente. Recomendación: publicarlos muy separados en el calendario para minimizar la sensación de repetición. |
+| Guion 5 | The €119 to €24,400 Problem Nobody Warns You About | behavioral finance | Exponential growth blindness (linear thinking bias) + compounding rungs | Adaptado del Doc 1 outlier ("Kate") — persona cambiada a Alex (S25-2), cifras pasadas a euros, rungs renombrados a algo propio del canal en vez de copiar literalmente "Starter Floor / Inflection Band / Catch-Fire Threshold". Escribir la versión final con etiquetas y cifras propias, no las del guion fuente. |
+
+### CIENTÍFICOS VALIDADOS PARA ESTA TANDA (reales, verificar cita exacta al escribir)
+
+- **Daniel Kahneman — Princeton — Nobel de Economía 2002** — pérdidas duelen ~2.5x más que ganancias equivalentes (loss aversion).
+- **Wolfram Schultz — Universidad de Cambridge** — reward prediction error: las neuronas dopaminérgicas se activan ante la señal que predice recompensa, no ante la recompensa misma.
+- **Hal Hershfield — UCLA** — fMRI: pensar en tu "yo futuro" activa los mismos patrones cerebrales que pensar en un desconocido.
+- **George Ainslie** — hyperbolic discounting: la curva matemática que explica por qué prefieres 100€ hoy a 120€ en un mes, pero 120€ en 13 meses a 100€ en 12 meses.
+- **Brickman & Campbell — Northwestern (1971)** — "hedonic treadmill": ganadores de lotería y parapléjicos vuelven a su nivel basal de felicidad en ~12 meses.
 
 ---
 
