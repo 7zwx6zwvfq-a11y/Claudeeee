@@ -19,7 +19,7 @@ Keyword: loss aversion psychology (17,243/mo · comp 10.3)
 [13] Three traps did this to Alex. Not one.
 [14] The first one feels like caution.
 [15] The second one feels like loyalty.
-[16] The third one — the one nobody suspects — feels like patience.
+[16] The third one — the one nobody suspects — feels like discipline.
 [17] Let's lock in the exact numbers, so the excuse has nowhere to hide.
 
 — TRAP ONE: THE FEAR THAT LOOKS LIKE CAUTION —
@@ -33,7 +33,7 @@ Keyword: loss aversion psychology (17,243/mo · comp 10.3)
 [25] Not a metaphor. A measurable ratio.
 [26] Your brain doesn't weigh gains and losses equally.
 [27] It weighs losses two and a half times heavier.
-[28] We call this the 2.5x Tax.
+[28] We call this the 2.5x Sting.
 [29] So when Alex looked at that seventeen-thousand-euro drop, his brain didn't calculate probability.
 [30] It calculated pain.
 [31] And pain wants one thing: to stop.
@@ -75,7 +75,7 @@ Keyword: loss aversion psychology (17,243/mo · comp 10.3)
 [63] We call it the Ownership Markup.
 [64] The moment something becomes yours, your brain inflates its value.
 [65] Not because it's worth more.
-[66] But because losing it now counts as a loss — and the 2.5x Tax just doubled down.
+[66] But because losing it now counts as a loss — and the 2.5x Sting just doubled down.
 [67] Alex didn't hold that stock because he believed in it more than the data.
 [68] He held it because giving it up would have felt like losing something, not like reallocating something.
 [69] Not bad judgment. The same mechanism as the mug, wearing a company badge.
@@ -116,7 +116,7 @@ Keyword: loss aversion psychology (17,243/mo · comp 10.3)
 
 — HONEST COUNTER —
 [102] Now, an honest counter.
-[103] Not every sale during a downturn is the 2.5x Tax.
+[103] Not every sale during a downturn is the 2.5x Sting.
 [104] Real signal: the company issues a profit warning, cuts guidance, the CFO resigns in the same week.
 [105] Non-signal: the price dropped and social media got nervous.
 [106] This isn't a rule that says "never sell."
@@ -130,9 +130,9 @@ Keyword: loss aversion psychology (17,243/mo · comp 10.3)
 
 — SYSTEM CLOSE —
 [114] These three traps aren't separate. They're one system.
-[115] The 2.5x Tax is the operating system. The Ownership Markup and the Backwards Sort are the applications running on top of it.
+[115] The 2.5x Sting is the operating system. The Ownership Markup and the Backwards Sort are the applications running on top of it.
 [116] Add it up. Thirty-four thousand. Plus eleven thousand two hundred. Plus six thousand four hundred.
-[117] Fifty-one thousand six hundred euros. In eighteen months. From the same well-read, well-informed brain.
+[117] Fifty-one thousand six hundred euros. From the same well-read, well-informed brain.
 [118] Say that number out loud.
 [119] All three exist for the same reason.
 [120] To your brain, a loss is not information. A loss is an emergency.
