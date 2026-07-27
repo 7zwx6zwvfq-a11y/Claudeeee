@@ -1,0 +1,134 @@
+beat,filename,start_s,end_s,duration_s,timestamp,text
+1,001_00m00s-00m05s.png,0.0,4.8,4.8,00m00s-00m05s,"The screen lights up Alex's face in the dark. 11:47pm, Friday."
+2,002_00m05s-00m11s.png,4.8,11.34,6.54,00m05s-00m11s,"""24-HOUR SALE — 30% OFF. ENDS TONIGHT."" His thumb moves before he's finished reading it."
+3,003_00m11s-00m16s.png,11.34,16.14,4.8,00m11s-00m16s,He doesn't buy. Not yet — not for three more hours.
+4,004_00m16s-00m19s.png,16.14,19.19,3.05,00m16s-00m19s,"At 2:50am, he finally taps ""confirm order."""
+5,005_00m19s-00m24s.png,19.19,23.99,4.8,00m19s-00m24s,"Ask him when he decided, and he'll say right now. 2:50am."
+6,006_00m24s-00m30s.png,23.99,30.1,6.11,00m24s-00m30s,He's wrong. The decision happened at 11:47pm — the instant the screen lit up.
+7,007_00m30s-00m36s.png,30.1,35.77,5.67,00m30s-00m36s,"Three hours he didn't need. The transaction was already finished, in his head."
+8,008_00m36s-00m43s.png,35.77,42.75,6.98,00m36s-00m43s,"By the time money changed hands, his brain had already cashed in and left the building."
+9,009_00m43s-00m48s.png,42.75,48.42,5.67,00m43s-00m48s,"Multiply that by every notification this year, and the pattern gets expensive fast."
+10,010_00m48s-00m52s.png,48.42,51.91,3.49,00m48s-00m52s,Here's what nobody tells you about impulse spending.
+11,011_00m52s-00m55s.png,51.91,54.96,3.05,00m52s-00m55s,It's not that you're weak at 3am.
+12,012_00m55s-01m01s.png,54.96,61.07,6.11,00m55s-01m01s,It's that your brain already got its reward before you ever paid for anything.
+13,013_01m01s-01m04s.png,61.07,64.12,3.05,01m01s-01m04s,Three traps run this system. Not one.
+14,014_01m04s-01m07s.png,64.12,66.74,2.62,01m04s-01m07s,The first one feels like excitement.
+15,015_01m07s-01m09s.png,66.74,69.36,2.62,01m07s-01m09s,The second one feels like relief.
+16,016_01m09s-01m15s.png,69.36,75.03,5.67,01m09s-01m15s,The third one — the one nobody suspects — feels like moving on.
+17,017_01m15s-01m20s.png,75.03,80.26,5.23,01m15s-01m20s,"Let's time this out to the minute, so nothing gets rewritten later."
+18,018_01m20s-01m28s.png,80.26,87.68,7.42,01m20s-01m28s,"Six months ago, Alex got the same kind of notification. He didn't buy anything that day either."
+19,019_01m28s-01m35s.png,87.68,95.1,7.42,01m28s-01m35s,His heart rate still climbed. His thumb still reached for the phone before his brain caught up.
+20,020_01m35s-01m43s.png,95.1,103.38,8.28,01m35s-01m43s,"Wolfram Schultz — University of Cambridge — ran an experiment with monkeys, a light, and a squirt of juice."
+21,021_01m43s-01m48s.png,103.38,108.18,4.8,01m43s-01m48s,"Every time the light came on, juice followed two seconds later."
+22,022_01m48s-01m52s.png,108.18,112.11,3.93,01m48s-01m52s,Schultz measured the monkeys' dopamine neurons the entire time.
+23,023_01m52s-01m56s.png,112.11,116.03,3.92,01m52s-01m56s,"At first, the neurons fired when the juice arrived."
+24,024_01m56s-01m59s.png,116.03,118.65,2.62,01m56s-01m59s,"After a few repetitions, something changed."
+25,025_01m59s-02m02s.png,118.65,121.71,3.06,01m59s-02m02s,The neurons stopped firing for the juice.
+26,026_02m02s-02m04s.png,121.71,123.89,2.18,02m02s-02m04s,They fired for the light.
+27,027_02m04s-02m10s.png,123.89,129.56,5.67,02m04s-02m10s,Not a metaphor. A measured shift in exactly which moment produces the chemical.
+28,028_02m10s-02m12s.png,129.56,132.17,2.61,02m10s-02m12s,Researchers call this reward prediction error.
+29,029_02m12s-02m17s.png,132.17,136.54,4.37,02m12s-02m17s,The brain doesn't reward you for getting what you expected.
+30,030_02m17s-02m22s.png,136.54,141.77,5.23,02m17s-02m22s,It rewards you for the signal that something good might be coming.
+31,031_02m22s-02m24s.png,141.77,144.39,2.62,02m22s-02m24s,We call this the Maybe Hit.
+32,032_02m24s-02m27s.png,144.39,147.44,3.05,02m24s-02m27s,That's what happened to Alex at 11:47pm.
+33,033_02m27s-02m32s.png,147.44,152.24,4.8,02m27s-02m32s,The notification was the light. The 30% discount was the juice.
+34,034_02m32s-02m37s.png,152.24,157.04,4.8,02m32s-02m37s,"His dopamine had already fired in bed, three hours before checkout."
+35,035_02m37s-02m39s.png,157.04,158.78,1.74,02m37s-02m39s,Not because he's impulsive.
+36,036_02m39s-02m44s.png,158.78,164.02,5.24,02m39s-02m44s,"But because his brain already got paid the moment the ""maybe"" appeared."
+37,037_02m44s-02m48s.png,164.02,167.94,3.92,02m44s-02m48s,This isn't a lack of self-control. This is neuroscience.
+38,038_02m48s-02m52s.png,167.94,171.87,3.93,02m48s-02m52s,"The purchase itself, at 2:50am, was almost chemically irrelevant."
+39,039_02m52s-02m57s.png,171.87,177.11,5.24,02m52s-02m57s,The Brain Villain had already collected its reward and left the room.
+40,040_02m57s-03m02s.png,177.11,181.9,4.79,02m57s-03m02s,That's the first trap. It doesn't feel like a chemical event.
+41,041_03m02s-03m04s.png,181.9,183.65,1.75,03m02s-03m04s,It feels like excitement.
+42,042_03m04s-03m09s.png,183.65,188.88,5.23,03m04s-03m09s,If your brain is doing this to you right now — subscribe.
+43,043_03m09s-03m12s.png,188.88,192.37,3.49,03m09s-03m12s,We break down a new bias every week.
+44,044_03m12s-03m13s.png,192.37,193.25,0.88,03m12s-03m13s,It's free.
+45,045_03m13s-03m17s.png,193.25,197.17,3.92,03m13s-03m17s,And it might save you more than you think.
+46,046_03m17s-03m21s.png,197.17,200.66,3.49,03m17s-03m21s,"Two days after the sale, the package arrived."
+47,047_03m21s-03m25s.png,200.66,205.02,4.36,03m21s-03m25s,Alex felt genuinely happy opening it. For about a day.
+48,048_03m25s-03m29s.png,205.02,209.39,4.37,03m25s-03m29s,"By day three, the item was just there. Furniture. Background."
+49,049_03m29s-03m35s.png,209.39,215.06,5.67,03m29s-03m35s,He didn't return it. It wasn't bad. It just stopped registering as anything.
+50,050_03m35s-03m41s.png,215.06,221.16,6.1,03m35s-03m41s,Leaf Van Boven and Thomas Gilovich — Cornell University — studied exactly this fade.
+51,051_03m41s-03m48s.png,221.16,227.71,6.55,03m41s-03m48s,They compared people who spent money on things versus people who spent money on experiences.
+52,052_03m48s-03m52s.png,227.71,231.63,3.92,03m48s-03m52s,Both groups felt the same happiness on day one.
+53,053_03m52s-03m56s.png,231.63,236.43,4.8,03m52s-03m56s,"By the follow-up, the material purchases had faded. The experiences hadn't."
+54,054_03m56s-03m59s.png,236.43,238.61,2.18,03m56s-03m59s,Not because objects are worthless.
+55,055_03m59s-04m04s.png,238.61,243.85,5.24,03m59s-04m04s,But because a static object gives your brain nothing new to predict.
+56,056_04m04s-04m09s.png,243.85,249.08,5.23,04m04s-04m09s,"Once it's sitting on your shelf, there's no ""maybe"" left in it."
+57,057_04m09s-04m12s.png,249.08,251.7,2.62,04m09s-04m12s,We call this the 48-Hour Fade.
+58,058_04m12s-04m17s.png,251.7,257.37,5.67,04m12s-04m17s,Alex has fourteen of these purchases sitting in drawers from this year alone.
+59,059_04m17s-04m23s.png,257.37,263.48,6.11,04m17s-04m23s,Two thousand eight hundred seventy euros. Almost none of it still feels like anything.
+60,060_04m23s-04m27s.png,263.48,266.97,3.49,04m23s-04m27s,"Fourteen separate ""maybe"" moments. Fourteen separate 3am checkouts."
+61,061_04m27s-04m31s.png,266.97,271.33,4.36,04m27s-04m31s,None of the fourteen items were ever really the point.
+62,062_04m31s-04m37s.png,271.33,277.0,5.67,04m31s-04m37s,They were just receipts for a feeling that had already happened hours earlier.
+63,063_04m37s-04m42s.png,277.0,282.23,5.23,04m37s-04m42s,The trap doesn't feel like a trap. It feels like a virtue.
+64,064_04m42s-04m49s.png,282.23,288.78,6.55,04m42s-04m49s,"""I earned this"" sounds like self-respect. It's the Brain Villain, wearing self-respect as a costume."
+65,065_04m49s-04m52s.png,288.78,292.27,3.49,04m49s-04m52s,Not because he doesn't appreciate what he owns.
+66,066_04m52s-04m58s.png,292.27,297.5,5.23,04m52s-04m58s,But because appreciation was never the chemical that made him buy it.
+67,067_04m58s-05m04s.png,297.5,303.61,6.11,04m58s-05m04s,This is why the fifteenth sale notification works exactly as well as the first.
+68,068_05m04s-05m12s.png,303.61,311.9,8.29,05m04s-05m12s,"Each one is a brand new ""maybe"" — a fresh hit, unrelated to whether the last one satisfied you."
+69,069_05m12s-05m17s.png,311.9,317.13,5.23,05m12s-05m17s,Your closet fills up. Your dopamine account resets to zero every time.
+70,070_05m17s-05m24s.png,317.13,323.67,6.54,05m17s-05m24s,That's the second trap. It doesn't feel like the fade coming. It feels like relief.
+71,071_05m24s-05m30s.png,323.67,330.22,6.55,05m24s-05m30s,"Here's the trap that doesn't announce itself, because it looks like the story ending well."
+72,072_05m30s-05m34s.png,330.22,334.14,3.92,05m30s-05m34s,Go back to Schultz's monkeys for one more detail.
+73,073_05m34s-05m39s.png,334.14,338.51,4.37,05m34s-05m39s,"Once the light reliably predicted the juice, something else happened."
+74,074_05m39s-05m43s.png,338.51,343.3,4.79,05m39s-05m43s,"The dopamine neurons went quiet — eventually, for the light too."
+75,075_05m43s-05m48s.png,343.3,347.67,4.37,05m43s-05m48s,A fully predictable reward stops producing the chemical at all.
+76,076_05m48s-05m52s.png,347.67,352.03,4.36,05m48s-05m52s,The system runs on uncertainty. Guaranteed good things bore it.
+77,077_05m52s-05m59s.png,352.03,358.57,6.54,05m52s-05m59s,"So the day after Alex's package arrived and the excitement faded, his brain didn't rest."
+78,078_05m59s-06m02s.png,358.57,361.63,3.06,05m59s-06m02s,"It went looking for the next ""maybe."""
+79,079_06m02s-06m04s.png,361.63,363.81,2.18,06m02s-06m04s,Not because Alex decided to.
+80,080_06m04s-06m11s.png,363.81,371.22,7.41,06m04s-06m11s,But because a satisfied prediction system has nothing left to do but search for a new one.
+81,081_06m11s-06m15s.png,371.22,375.15,3.93,06m11s-06m15s,This isn't a lack of discipline. This is neuroscience.
+82,082_06m15s-06m21s.png,375.15,381.26,6.11,06m15s-06m21s,"It's a chemical system that treats ""problem solved"" as ""please generate a new problem."""
+83,083_06m21s-06m24s.png,381.26,383.87,2.61,06m21s-06m24s,We call this the Empty Refill.
+84,084_06m24s-06m28s.png,383.87,388.24,4.37,06m24s-06m28s,It's the reason one purchase becomes three purchases becomes fourteen.
+85,085_06m28s-06m30s.png,388.24,390.42,2.18,06m28s-06m30s,Not escalating want. Escalating search.
+86,086_06m30s-06m35s.png,390.42,395.21,4.79,06m30s-06m35s,The scariest part: it feels like the opposite of a trap.
+87,087_06m35s-06m43s.png,395.21,402.63,7.42,06m35s-06m43s,"It feels like moving on — from one small treat to the next, healthily, like anyone would."
+88,088_06m43s-06m48s.png,402.63,408.3,5.67,06m43s-06m48s,Alex would tell you he just likes finding good deals. That's not wrong.
+89,089_06m48s-06m53s.png,408.3,413.1,4.8,06m48s-06m53s,It's also exactly what the mechanism wants him to call it.
+90,090_06m53s-06m59s.png,413.1,418.77,5.67,06m53s-06m59s,A system built to search never runs out of things to search for.
+91,091_06m59s-07m06s.png,418.77,426.19,7.42,06m59s-07m06s,"It's the trap nobody suspects, because it doesn't feel like fear, and it doesn't feel like relief."
+92,092_07m06s-07m10s.png,426.19,430.11,3.92,07m06s-07m10s,It feels like a person who just likes shopping.
+93,093_07m10s-07m14s.png,430.11,434.04,3.93,07m10s-07m14s,Same circuit. Same chemical. Wearing a completely different outfit.
+94,094_07m14s-07m16s.png,434.04,435.78,1.74,07m14s-07m16s,"Now, an honest counter."
+95,095_07m16s-07m19s.png,435.78,439.27,3.49,07m16s-07m19s,Not every night purchase is the Maybe Hit.
+96,096_07m19s-07m29s.png,439.27,448.87,9.6,07m19s-07m29s,"Real signal: you needed the item before you saw the notification, and you'd have bought it at full price next week anyway."
+97,097_07m29s-07m37s.png,448.87,456.72,7.85,07m29s-07m37s,"Non-signal: you didn't know the product existed forty minutes ago, and there's a countdown timer on the screen."
+98,098_07m37s-07m42s.png,456.72,462.39,5.67,07m37s-07m42s,"This isn't a rule that says ""never buy anything you feel excited about."""
+99,099_07m42s-07m50s.png,462.39,469.81,7.42,07m42s-07m50s,"It's a rule that says: notice whether the want existed before the ""maybe"" showed up, or after."
+100,100_07m50s-07m55s.png,469.81,474.61,4.8,07m50s-07m55s,If you can name the need from yesterday — buy it.
+101,101_07m55s-08m03s.png,474.61,482.89,8.28,07m55s-08m03s,"If the only thing that changed is a red countdown clock — that's the Brain Villain, not a need."
+102,102_08m03s-08m07s.png,482.89,487.26,4.37,08m03s-08m07s,The goal was never to feel zero anticipation ever again.
+103,103_08m07s-08m12s.png,487.26,492.06,4.8,08m07s-08m12s,Schultz's monkeys couldn't opt out of the mechanism. Neither can you.
+104,104_08m12s-08m17s.png,492.06,496.85,4.79,08m12s-08m17s,"The goal is noticing which moment the ""yes"" actually happened in."
+105,105_08m17s-08m22s.png,496.85,501.65,4.8,08m17s-08m22s,"None of these three run alone. They're one loop, feeding itself."
+106,106_08m22s-08m31s.png,501.65,511.25,9.6,08m22s-08m31s,The Maybe Hit is the operating system. The 48-Hour Fade and the Empty Refill are the applications running on top of it.
+107,107_08m31s-08m38s.png,511.25,518.23,6.98,08m31s-08m38s,"That number again. Two thousand eight hundred seventy euros, on items that stopped registering within days."
+108,108_08m38s-08m47s.png,518.23,527.39,9.16,08m38s-08m47s,"Plus the hours spent scrolling for the next ""maybe"" — time that never shows up on any bank statement at all."
+109,109_08m47s-08m50s.png,527.39,530.01,2.62,08m47s-08m50s,Sit with that for a second.
+110,110_08m50s-08m54s.png,530.01,533.93,3.92,08m50s-08m54s,All three are powered by the exact same fuel.
+111,111_08m54s-09m00s.png,533.93,539.6,5.67,08m54s-09m00s,"To your brain, uncertainty is not a distraction. Uncertainty is the entire reward."
+112,112_09m00s-09m04s.png,539.6,543.53,3.93,09m00s-09m04s,See the notification — the Maybe Hit fires immediately.
+113,113_09m04s-09m08s.png,543.53,548.33,4.8,09m04s-09m08s,Own the object — the Fade sets in within 48 hours.
+114,114_09m08s-09m14s.png,548.33,554.0,5.67,09m08s-09m14s,Feel nothing left to want — the Empty Refill sends you looking again.
+115,115_09m14s-09m20s.png,554.0,559.67,5.67,09m14s-09m20s,"Every one of Alex's ""treats"" was the Brain Villain successfully doing its job."
+116,116_09m20s-09m24s.png,559.67,563.6,3.93,09m20s-09m24s,Just not the job his bank account actually needed.
+117,117_09m24s-09m29s.png,563.6,569.27,5.67,09m24s-09m29s,None of this required Alex to be unhappy. That's what makes it invisible.
+118,118_09m29s-09m32s.png,569.27,572.32,3.05,09m29s-09m32s,It runs perfectly well disguised as contentment.
+119,119_09m32s-09m37s.png,572.32,577.12,4.8,09m32s-09m37s,And here's the part that has nothing to do with willpower.
+120,120_09m37s-09m41s.png,577.12,581.04,3.92,09m37s-09m41s,Alex has more self-control than most people he knows.
+121,121_09m41s-09m46s.png,581.04,586.28,5.24,09m41s-09m46s,It didn't matter. The mechanism doesn't check for willpower before it fires.
+122,122_09m46s-09m53s.png,586.28,592.82,6.54,09m46s-09m53s,"This scales with how many ""maybes"" reach your phone, not with how disciplined you are."
+123,123_09m53s-09m55s.png,592.82,595.0,2.18,09m53s-09m55s,The programs are not broken.
+124,124_09m55s-10m06s.png,595.0,606.35,11.35,09m55s-10m06s,"They are perfectly designed for an environment where a new ""maybe"" — a berry bush, a chance encounter — was rare enough to be worth chasing."
+125,125_10m06s-10m14s.png,606.35,614.2,7.85,10m06s-10m14s,"Your phone now generates hundreds of ""maybes"" a day. Your brain still chases every one like it's rare."
+126,126_10m14s-10m18s.png,614.2,618.12,3.92,10m14s-10m18s,Alex isn't shallow. Alex isn't bad at managing money.
+127,127_10m18s-10m28s.png,618.12,628.16,10.04,10m18s-10m28s,"Alex has a brain built for a world with one rare ""maybe"" a month, running a phone that offers a hundred a day."
+128,128_10m28s-10m31s.png,628.16,631.21,3.05,10m28s-10m31s,The programs still work exactly as designed.
+129,129_10m31s-10m34s.png,631.21,634.26,3.05,10m31s-10m34s,They were just never designed for this.
+130,130_10m34s-10m37s.png,634.26,636.88,2.62,10m34s-10m37s,Same trap. Different label. Same result.
+131,131_10m37s-10m41s.png,636.88,641.24,4.36,10m37s-10m41s,So which part of this is running in you tonight?
+132,132_10m41s-10m50s.png,641.24,649.97,8.73,10m41s-10m50s,"The excitement of the ""maybe."" The relief of the fade. Or the quiet refill that just feels like moving on."
+133,133_10m50s-11m00s.png,649.97,660.0,10.03,10m50s-11m00s,Next week: why your brain treats your future self like a complete stranger — and why that's the real reason you don't save.
