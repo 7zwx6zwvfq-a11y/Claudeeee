@@ -1,0 +1,445 @@
+﻿Sección,Beat #,Texto del guión,Shot (descripción),Stock ID,Duración (s),Inicio,Fin,CapCut Motion,Ref. hoja Shots
+HOOK,1,Entre 2022 y 2024 el precio del aceite de oliva,The buyer chooses olive oil in the supermarket,151138,3.4,00:00.00,00:03.40,ZOOM IN SLOW · 4s,buyer_choosing
+HOOK,2,en España se triplicó.,The buyer chooses olive oil in the supermarket,151138,1.4,00:03.40,00:04.80,PAN RIGHT · 4s,buyer_choosing
+HOOK,3,Lo viste en el súper.,Person Checking Bill Or Receipt For Supermarket Shopping Basket Full Of Basic Food Items,687809,1.7,00:04.80,00:06.50,ZOOM OUT SLOW · 4s,receipt_check
+HOOK,4,Lo viste en tu ticket.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,1.7,00:06.50,00:08.20,STATIC,shelf_oils
+HOOK,5,"Y mientras el precio subía, las botellas seguían diciendo exactamente",An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,00:08.20,00:11.60,PAN LEFT · 4s,premium_bottle
+HOOK,6,"lo mismo: virgen extra, primera presión en frío, calidad superior.",An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,00:11.60,00:15.00,DIAGONAL PAN + ZOOM IN · 4s,premium_bottle
+HOOK,7,España produce alrededor del 45% de todo el aceite de,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,00:15.00,00:18.40,ZOOM IN FAST · 2s,magnifier_doc
+HOOK,8,"oliva del mundo, según datos del Consejo Oleícola Internacional.",Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.1,00:18.40,00:21.50,PAN UP · 4s,magnifier_doc
+HOOK,9,"La provincia de Jaén, ella sola, produce más que Italia y Grecia juntas.",Scientist using pipette 4k,1864061,4.5,00:21.50,00:26.00,ZOOM IN SLOW · 4s,lab_pipette
+HOOK,10,"Y aun así, la mayoría de los compradores no sabría",A smooth out-of-focus camera movement travels down a brightly lit retail grocery store aisle,7917819,3.4,00:26.00,00:29.40,PAN RIGHT · 4s,aisle_dolly
+HOOK,11,distinguir un virgen extra real de una imitación bien etiquetada.,A smooth out-of-focus camera movement travels down a brightly lit retail grocery store aisle,7917819,3.4,00:29.40,00:32.80,ZOOM OUT SLOW · 4s,aisle_dolly
+HOOK,12,"El problema es que ""virgen extra"" no es una promesa de marketing.",Bottles of Cooking Oil,5177810,4.1,00:32.80,00:36.90,STATIC,bottles_row
+HOOK,13,"Es una categoría legal, con un límite de acidez, con","Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.4,00:36.90,00:40.30,PAN LEFT · 4s,network_anim
+HOOK,14,"un panel de cata obligatorio, con reglas que muy pocas","Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.4,00:40.30,00:43.70,DIAGONAL PAN + ZOOM IN · 4s,network_anim
+HOOK,15,botellas del pasillo cumplen realmente cuando se analizan a fondo.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.4,00:43.70,00:47.10,ZOOM IN FAST · 2s,network_anim
+HOOK,16,Hoy vamos a revisar siete de las marcas más vendidas,Close-up of a Bottle with Yellow Cap,3811676,3.4,00:47.10,00:50.50,PAN UP · 4s,yellow_cap
+HOOK,17,"en España y Latinoamérica, y por qué la estructura de",Close-up of a Bottle with Yellow Cap,3811676,3.4,00:50.50,00:53.90,ZOOM IN SLOW · 4s,yellow_cap
+HOOK,18,"cada una —quién la fabrica, quién la posee, qué categoría",Close-up of a Bottle with Yellow Cap,3811676,3.4,00:53.90,00:57.30,PAN RIGHT · 4s,yellow_cap
+HOOK,19,de aceite esconde detrás del nombre— hace que pagues más,Close-up of a Bottle with Yellow Cap,3811676,3.4,00:57.30,01:00.70,ZOOM OUT SLOW · 4s,yellow_cap
+HOOK,20,de lo que crees por menos de lo que piensas.,Close-up of a Bottle with Yellow Cap,3811676,3.4,01:00.70,01:04.10,STATIC,yellow_cap
+HOOK,21,Europol y la Oficina Europea de Lucha contra el Fraude,Rotating Around Euros,6285,3.4,01:04.10,01:07.50,PAN LEFT · 4s,euros_rotating
+HOOK,22,llevan años realizando operaciones conjuntas contra el fraude alimentario en,Rotating Around Euros,6285,3.4,01:07.50,01:10.90,DIAGONAL PAN + ZOOM IN · 4s,euros_rotating
+HOOK,23,"Europa, y el aceite de oliva aparece de forma recurrente",Rotating Around Euros,6285,3.4,01:10.90,01:14.30,ZOOM IN FAST · 2s,euros_rotating
+HOOK,24,"entre los productos investigados, junto a la miel y el vino.",Rotating Around Euros,6285,3.8,01:14.30,01:18.10,PAN UP · 4s,euros_rotating
+HOOK,25,No hace falta que exista una trama criminal para que,"Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,3.4,01:18.10,01:21.50,ZOOM IN SLOW · 4s,three_bottles
+HOOK,26,el consumidor salga perdiendo: muchas veces basta con que la,"Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,3.4,01:21.50,01:24.90,PAN RIGHT · 4s,three_bottles
+HOOK,27,ley permita justo lo suficiente de ambigüedad.,"Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,2.4,01:24.90,01:27.30,ZOOM OUT SLOW · 4s,three_bottles
+HOOK,28,Después te vamos a enseñar tres que sí están construidas,Hand opening a bottle cap with a bottle opener,5474555,3.4,01:27.30,01:30.70,STATIC,opening_cap
+HOOK,29,para cumplir lo que ponen en la etiqueta.,Hand opening a bottle cap with a bottle opener,5474555,2.8,01:30.70,01:33.50,PAN LEFT · 4s,opening_cap
+HOOK,30,Vamos a ello.,"Decreasing trend red line graph, stock market stagnation",6590339,1,01:33.50,01:34.50,DIAGONAL PAN + ZOOM IN · 4s,stock_decline1
+MARCA 7 - COOSUR,31,Número 7.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,0.7,01:34.50,01:35.20,ZOOM IN FAST · 2s,shelf_oils
+MARCA 7 - COOSUR,32,Coosur.,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,0.3,01:35.20,01:35.50,PAN UP · 4s,generic_shelf
+MARCA 7 - COOSUR,33,La marca del súper que parece independiente y no lo es.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.8,01:35.50,01:39.30,ZOOM IN SLOW · 4s,network_anim
+MARCA 7 - COOSUR,34,Coosur lleva décadas en las baldas de los supermercados españoles,Aerial View of Olive Grove Landscape,6956087,3.4,01:39.30,01:42.70,PAN RIGHT · 4s,olive_grove_aerial
+MARCA 7 - COOSUR,35,"con un diseño sobrio, verde, de aspecto casi institucional.",Aerial View of Olive Grove Landscape,6956087,3.1,01:42.70,01:45.80,ZOOM OUT SLOW · 4s,olive_grove_aerial
+MARCA 7 - COOSUR,36,Nada en el envase te dice que Coosur forma parte,Automated Beverage Bottling Line,5540725,3.4,01:45.80,01:49.20,STATIC,bottling_line
+MARCA 7 - COOSUR,37,"de un grupo cooperativo mucho más grande, DCOOP, el mayor",Automated Beverage Bottling Line,5540725,3.4,01:49.20,01:52.60,PAN LEFT · 4s,bottling_line
+MARCA 7 - COOSUR,38,"productor de aceite de oliva del mundo, que agrupa a",Automated Beverage Bottling Line,5540725,3.4,01:52.60,01:56.00,DIAGONAL PAN + ZOOM IN · 4s,bottling_line
+MARCA 7 - COOSUR,39,decenas de miles de agricultores a través de decenas de,Automated Beverage Bottling Line,5540725,3.4,01:56.00,01:59.40,ZOOM IN FAST · 2s,bottling_line
+MARCA 7 - COOSUR,40,cooperativas locales y controla varias marcas que tú crees que,Automated Beverage Bottling Line,5540725,3.4,01:59.40,02:02.80,PAN UP · 4s,bottling_line
+MARCA 7 - COOSUR,41,compiten entre sí en el mismo lineal.,Automated Beverage Bottling Line,5540725,2.4,02:02.80,02:05.20,ZOOM IN SLOW · 4s,bottling_line
+MARCA 7 - COOSUR,42,Eso no es ilegal.,Red and Blue Industrial Barrels Stored in an Outdoor Warehouse Yard,7249724,1.4,02:05.20,02:06.60,PAN RIGHT · 4s,warehouse_barrels
+MARCA 7 - COOSUR,43,No es ni siquiera inusual.,Bottled Drink Production Line,5540686,1.7,02:06.60,02:08.30,ZOOM OUT SLOW · 4s,conveyor_bottles
+MARCA 7 - COOSUR,44,Es simplemente cómo funciona la industria del aceite a gran escala.,Vast Olive Grove at Sunset,6163120,3.8,02:08.30,02:12.10,STATIC,olive_grove_sunset
+MARCA 7 - COOSUR,45,Pero cambia lo que estás comprando cuando eliges Coosur en,Close-up of a Bottle with Yellow Cap,3811676,3.4,02:12.10,02:15.50,PAN LEFT · 4s,yellow_cap
+MARCA 7 - COOSUR,46,vez de otra opción del súper pensando que estás eligiendo,Close-up of a Bottle with Yellow Cap,3811676,3.4,02:15.50,02:18.90,DIAGONAL PAN + ZOOM IN · 4s,yellow_cap
+MARCA 7 - COOSUR,47,entre dos productores distintos.,Close-up of a Bottle with Yellow Cap,3811676,1.4,02:18.90,02:20.30,ZOOM IN FAST · 2s,yellow_cap
+MARCA 7 - COOSUR,48,Aquí está la parte que importa de verdad.,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,2.8,02:20.30,02:23.10,PAN UP · 4s,magnifier_doc
+MARCA 7 - COOSUR,49,Coosur mezcla aceite procedente de múltiples cooperativas y múltiples campañas,"Business people handshake in boardroom, corporate partnership deal",2466239,3.4,02:23.10,02:26.50,ZOOM IN SLOW · 4s,handshake_boardroom
+MARCA 7 - COOSUR,50,para mantener un sabor constante todo el año.,"Business people handshake in boardroom, corporate partnership deal",2466239,2.8,02:26.50,02:29.30,PAN RIGHT · 4s,handshake_boardroom
+MARCA 7 - COOSUR,51,La campaña de recolección en España ocurre entre octubre y enero.,Forklift operator steering down warehouse aisle carrying pallet of boxes,8378084,3.8,02:29.30,02:33.10,ZOOM OUT SLOW · 4s,forklift1
+MARCA 7 - COOSUR,52,"Todo lo que se vende el resto del año, de",Warehouse shelves filled with stacked cardboard boxes,6684302,3.4,02:33.10,02:36.50,STATIC,boxes_shelves
+MARCA 7 - COOSUR,53,"febrero a septiembre, procede de aceite ya almacenado, mezclado y",Warehouse shelves filled with stacked cardboard boxes,6684302,3.4,02:36.50,02:39.90,PAN LEFT · 4s,boxes_shelves
+MARCA 7 - COOSUR,54,ajustado en depósitos meses antes de llegar a tu botella.,Warehouse shelves filled with stacked cardboard boxes,6684302,3.4,02:39.90,02:43.30,DIAGONAL PAN + ZOOM IN · 4s,boxes_shelves
+MARCA 7 - COOSUR,55,Eso significa que la botella que compras en enero y,Price tags at a market stall with blurred fresh produce,6143948,3.4,02:43.30,02:46.70,ZOOM IN FAST · 2s,price_tags1
+MARCA 7 - COOSUR,56,"la que compras en julio proceden de mezclas distintas, ajustadas",Price tags at a market stall with blurred fresh produce,6143948,3.4,02:46.70,02:50.10,PAN UP · 4s,price_tags1
+MARCA 7 - COOSUR,57,para que sepan igual.,Price tags at a market stall with blurred fresh produce,6143948,1.4,02:50.10,02:51.50,ZOOM IN SLOW · 4s,price_tags1
+MARCA 7 - COOSUR,58,"Un aceite de una sola finca, de una sola cosecha,",A Vibrant Aisle of Colorful Products in a Modern Supermarket,6451901,3.4,02:51.50,02:54.90,PAN RIGHT · 4s,aisle_colorful
+MARCA 7 - COOSUR,59,no puede prometerte eso.,A Vibrant Aisle of Colorful Products in a Modern Supermarket,6451901,1.4,02:54.90,02:56.30,ZOOM OUT SLOW · 4s,aisle_colorful
+MARCA 7 - COOSUR,60,"Un aceite mezclado sí, porque para eso existe la mezcla.",Bankruptcy news headline in different articles,2439631,3.4,02:56.30,02:59.70,STATIC,news_bankruptcy
+MARCA 7 - COOSUR,61,"La etiqueta de la parte trasera suele decir ""Coupage de",Interior of modern natural oil factory,6067479,3.4,02:59.70,03:03.10,PAN LEFT · 4s,modern_oil_factory
+MARCA 7 - COOSUR,62,"aceites de oliva vírgenes extra de la Unión Europea"".",Interior of modern natural oil factory,6067479,3.1,03:03.10,03:06.20,DIAGONAL PAN + ZOOM IN · 4s,modern_oil_factory
+MARCA 7 - COOSUR,63,Esa frase existe gracias al Reglamento europeo 29/2012 sobre normas,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,03:06.20,03:09.60,ZOOM IN FAST · 2s,shelf_oils
+MARCA 7 - COOSUR,64,"de comercialización del aceite de oliva, en vigor desde 2012,",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,03:09.60,03:13.00,PAN UP · 4s,shelf_oils
+MARCA 7 - COOSUR,65,y significa exactamente lo que parece: una combinación de orígenes,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,03:13.00,03:16.40,ZOOM IN SLOW · 4s,shelf_oils
+MARCA 7 - COOSUR,66,que no está obligada a detallar países.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,2.4,03:16.40,03:18.80,PAN RIGHT · 4s,shelf_oils
+MARCA 7 - COOSUR,67,Podría ser cien por cien español.,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,2.1,03:18.80,03:20.90,ZOOM OUT SLOW · 4s,generic_shelf
+MARCA 7 - COOSUR,68,Podría no serlo.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,1,03:20.90,03:21.90,STATIC,network_anim
+MARCA 7 - COOSUR,69,"La etiqueta no te lo va a decir, y la",Aerial View of Olive Grove Landscape,6956087,3.4,03:21.90,03:25.30,PAN LEFT · 4s,olive_grove_aerial
+MARCA 7 - COOSUR,70,ley no le obliga a decírtelo.,Aerial View of Olive Grove Landscape,6956087,2.1,03:25.30,03:27.40,DIAGONAL PAN + ZOOM IN · 4s,olive_grove_aerial
+MARCA 6 - LA ESPANOLA,71,Número 6.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,0.7,03:27.40,03:28.10,ZOOM IN FAST · 2s,shelf_oils
+MARCA 6 - LA ESPANOLA,72,La Española.,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,0.7,03:28.10,03:28.80,PAN UP · 4s,generic_shelf
+MARCA 6 - LA ESPANOLA,73,El otro lado de la misma cooperativa.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,2.4,03:28.80,03:31.20,ZOOM IN SLOW · 4s,network_anim
+MARCA 6 - LA ESPANOLA,74,Si acabas de decidir que prefieres La Española a Coosur,Bottles of Cooking Oil,5177810,3.4,03:31.20,03:34.60,PAN RIGHT · 4s,bottles_row
+MARCA 6 - LA ESPANOLA,75,"porque el diseño parece más artesanal, tienes que saber algo.",Bottles of Cooking Oil,5177810,3.4,03:34.60,03:38.00,ZOOM OUT SLOW · 4s,bottles_row
+MARCA 6 - LA ESPANOLA,76,"Aceites del Sur-Coosur, el grupo que fabrica ambas, es el",Two bottles of olive oil and extra virgin olive,2310359,3.4,03:38.00,03:41.40,STATIC,two_bottles_compare
+MARCA 6 - LA ESPANOLA,77,mismo dentro de DCOOP.,Two bottles of olive oil and extra virgin olive,2310359,1.4,03:41.40,03:42.80,PAN LEFT · 4s,two_bottles_compare
+MARCA 6 - LA ESPANOLA,78,"Estás comparando dos etiquetas de la misma estructura industrial, no",Close-up of a Bottle with Yellow Cap,3811676,3.4,03:42.80,03:46.20,DIAGONAL PAN + ZOOM IN · 4s,yellow_cap
+MARCA 6 - LA ESPANOLA,79,dos filosofías distintas de hacer aceite.,Close-up of a Bottle with Yellow Cap,3811676,2.1,03:46.20,03:48.30,ZOOM IN FAST · 2s,yellow_cap
+MARCA 6 - LA ESPANOLA,80,Este es un patrón que vas a ver repetirse varias,Traditional Olive Oil Production,5593361,3.4,03:48.30,03:51.70,PAN UP · 4s,stone_mill
+MARCA 6 - LA ESPANOLA,81,"veces en este vídeo, y cada vez que aparece significa",Traditional Olive Oil Production,5593361,3.4,03:51.70,03:55.10,ZOOM IN SLOW · 4s,stone_mill
+MARCA 6 - LA ESPANOLA,82,lo mismo: la sensación de estar eligiendo entre competidores reales,Traditional Olive Oil Production,5593361,3.4,03:55.10,03:58.50,PAN RIGHT · 4s,stone_mill
+MARCA 6 - LA ESPANOLA,83,"es, en realidad, la misma empresa vendiéndose a sí misma",Traditional Olive Oil Production,5593361,3.4,03:58.50,04:01.90,ZOOM OUT SLOW · 4s,stone_mill
+MARCA 6 - LA ESPANOLA,84,"en dos estanterías distintas, a precios ligeramente distintos, para capturar",Traditional Olive Oil Production,5593361,3.4,04:01.90,04:05.30,STATIC,stone_mill
+MARCA 6 - LA ESPANOLA,85,tanto al comprador que busca lo barato como al que,Traditional Olive Oil Production,5593361,3.4,04:05.30,04:08.70,PAN LEFT · 4s,stone_mill
+MARCA 6 - LA ESPANOLA,86,busca sentirse un poco más selectivo.,Traditional Olive Oil Production,5593361,2.1,04:08.70,04:10.80,DIAGONAL PAN + ZOOM IN · 4s,stone_mill
+MARCA 6 - LA ESPANOLA,87,La Española también vende dos líneas bajo el mismo nombre:,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,04:10.80,04:14.20,ZOOM IN FAST · 2s,magnifier_doc
+MARCA 6 - LA ESPANOLA,88,"una etiquetada ""Aceite de oliva virgen extra"" y otra simplemente ""Aceite de oliva"".",Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,4.5,04:14.20,04:18.70,PAN UP · 4s,magnifier_doc
+MARCA 6 - LA ESPANOLA,89,No son el mismo producto.,Workshop with large stone wheel and old equipment for pressing olive oil,2537351,1.7,04:18.70,04:20.40,ZOOM IN SLOW · 4s,olive_press_workshop
+MARCA 6 - LA ESPANOLA,90,La segunda es una mezcla de aceite refinado —tratado con,"Archival footage, women working in factories, 1915",98280,3.4,04:20.40,04:23.80,PAN RIGHT · 4s,vintage_factory
+MARCA 6 - LA ESPANOLA,91,calor y productos químicos para neutralizar defectos— con un pequeño,"Archival footage, women working in factories, 1915",98280,3.4,04:23.80,04:27.20,ZOOM OUT SLOW · 4s,vintage_factory
+MARCA 6 - LA ESPANOLA,92,"porcentaje de aceite virgen añadido después, solo para devolverle algo","Archival footage, women working in factories, 1915",98280,3.4,04:27.20,04:30.60,STATIC,vintage_factory
+MARCA 6 - LA ESPANOLA,93,de aroma y un tono dorado reconocible.,"Archival footage, women working in factories, 1915",98280,2.4,04:30.60,04:33.00,PAN LEFT · 4s,vintage_factory
+MARCA 6 - LA ESPANOLA,94,"El proceso de refinado industrial pasa por varias etapas: desgomado,","Woman choosing products in supermarket, reading label on bottle of oil",2362890,3.4,04:33.00,04:36.40,DIAGONAL PAN + ZOOM IN · 4s,reading_label2
+MARCA 6 - LA ESPANOLA,95,"neutralización con álcali para reducir la acidez, decoloración con arcillas","Woman choosing products in supermarket, reading label on bottle of oil",2362890,3.4,04:36.40,04:39.80,ZOOM IN FAST · 2s,reading_label2
+MARCA 6 - LA ESPANOLA,96,"activadas, y una desodorización final con vapor a alta temperatura,","Woman choosing products in supermarket, reading label on bottle of oil",2362890,3.4,04:39.80,04:43.20,PAN UP · 4s,reading_label2
+MARCA 6 - LA ESPANOLA,97,"por encima de los doscientos grados, para eliminar cualquier olor.","Woman choosing products in supermarket, reading label on bottle of oil",2362890,3.4,04:43.20,04:46.60,ZOOM IN SLOW · 4s,reading_label2
+MARCA 6 - LA ESPANOLA,98,"Al final de ese proceso, lo que queda es un",Close-up of Price Tags at a Market Stall,3520905,3.4,04:46.60,04:50.00,PAN RIGHT · 4s,price_tags2
+MARCA 6 - LA ESPANOLA,99,"aceite prácticamente neutro en sabor, color y aroma.",Close-up of Price Tags at a Market Stall,3520905,2.8,04:50.00,04:52.80,ZOOM OUT SLOW · 4s,price_tags2
+MARCA 6 - LA ESPANOLA,100,Legalmente puede llamarse aceite de oliva.,Warehouse Forklift Operation,3862405,2.1,04:52.80,04:54.90,STATIC,forklift2
+MARCA 6 - LA ESPANOLA,101,No puede llamarse virgen de ninguna manera.,Female worker working in oil factory,1848714,2.4,04:54.90,04:57.30,PAN LEFT · 4s,oil_factory_worker1
+MARCA 6 - LA ESPANOLA,102,"Y sin embargo, comparten marca, diseño de botella y estantería,",Person Using an Old Red Calculator,3750206,3.4,04:57.30,05:00.70,DIAGONAL PAN + ZOOM IN · 4s,vintage_calculator1
+MARCA 6 - LA ESPANOLA,103,separados solo por una palabra que muchos compradores no leen.,Person Using an Old Red Calculator,3750206,3.4,05:00.70,05:04.10,ZOOM IN FAST · 2s,vintage_calculator1
+MARCA 6 - LA ESPANOLA,104,Esto no es exclusivo de La Española.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,2.4,05:04.10,05:06.50,PAN UP · 4s,shelf_oils
+MARCA 6 - LA ESPANOLA,105,Es una práctica extendida en casi todo el segmento económico,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,05:06.50,05:09.90,ZOOM IN SLOW · 4s,generic_shelf
+MARCA 6 - LA ESPANOLA,106,"del pasillo, y la vas a ver repetirse en varias","Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,05:09.90,05:13.30,PAN RIGHT · 4s,generic_shelf
+MARCA 6 - LA ESPANOLA,107,de las marcas que vienen a continuación.,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,2.4,05:13.30,05:15.70,ZOOM OUT SLOW · 4s,generic_shelf
+MARCA 6 - LA ESPANOLA,108,"El aceite refinado, por sí solo, cumple igualmente los requisitos","Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.4,05:15.70,05:19.10,STATIC,network_anim
+MARCA 6 - LA ESPANOLA,109,mínimos de seguridad alimentaria para el consumo humano.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,2.8,05:19.10,05:21.90,PAN LEFT · 4s,network_anim
+MARCA 6 - LA ESPANOLA,110,El problema nunca ha sido la seguridad.,Bottles of Cooking Oil,5177810,2.4,05:21.90,05:24.30,DIAGONAL PAN + ZOOM IN · 4s,bottles_row
+MARCA 6 - LA ESPANOLA,111,Ha sido siempre la confusión deliberada entre dos productos con nombres casi idénticos.,Two bottles of olive oil and extra virgin olive,2310359,4.5,05:24.30,05:28.80,ZOOM IN FAST · 2s,two_bottles_compare
+MARCA 5 - BORGES,112,Número 5.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,0.7,05:28.80,05:29.50,PAN UP · 4s,shelf_oils
+MARCA 5 - BORGES,113,Borges.,Aerial View of a Busy Container Port,5883923,0.3,05:29.50,05:29.80,ZOOM IN SLOW · 4s,port_containers
+MARCA 5 - BORGES,114,El aceite que tiene que saber igual en cien países a la vez.,"Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,4.5,05:29.80,05:34.30,PAN RIGHT · 4s,world_map_port
+MARCA 5 - BORGES,115,Borges es una de las mayores exportadoras de aceite de oliva del planeta.,Vast Olive Grove at Sunset,6163120,4.5,05:34.30,05:38.80,ZOOM OUT SLOW · 4s,olive_grove_sunset
+MARCA 5 - BORGES,116,"Sus botellas están en supermercados de España, México, Estados Unidos,",Bottled Drink Production Line,5540686,3.4,05:38.80,05:42.20,STATIC,conveyor_bottles
+MARCA 5 - BORGES,117,Australia y decenas de países más.,Bottled Drink Production Line,5540686,2.1,05:42.20,05:44.30,PAN LEFT · 4s,conveyor_bottles
+MARCA 5 - BORGES,118,"Esa escala es, en sí misma, el problema estructural de este producto concreto.",Automated Beverage Bottling Line,5540725,4.5,05:44.30,05:48.80,DIAGONAL PAN + ZOOM IN · 4s,bottling_line
+MARCA 5 - BORGES,119,Un aceite de oliva de verdad cambia de año en año.,Scientist using pipette 4k,1864061,3.8,05:48.80,05:52.60,ZOOM IN FAST · 2s,lab_pipette
+MARCA 5 - BORGES,120,"Cambia con la lluvia, con la temperatura de la cosecha,",An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,05:52.60,05:56.00,PAN UP · 4s,premium_bottle
+MARCA 5 - BORGES,121,con el momento exacto de la recolección.,An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,2.4,05:56.00,05:58.40,ZOOM IN SLOW · 4s,premium_bottle
+MARCA 5 - BORGES,122,Eso es lo que se supone que debe pasar con un producto agrícola.,Woman Tastes Tea In A Glass And Smiles In Her House,5079112,4.5,05:58.40,06:02.90,PAN RIGHT · 4s,tasting_reaction
+MARCA 5 - BORGES,123,Pero una marca que vende el mismo producto en cien,Pouring pure Extra Virgin Olive Oil,606843,3.4,06:02.90,06:06.30,ZOOM OUT SLOW · 4s,bottle_pouring
+MARCA 5 - BORGES,124,mercados distintos no puede permitirse esa variación.,Pouring pure Extra Virgin Olive Oil,606843,2.4,06:06.30,06:08.70,STATIC,bottle_pouring
+MARCA 5 - BORGES,125,Necesita que la botella que se abre en Madrid sepa,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,06:08.70,06:12.10,PAN LEFT · 4s,magnifier_doc
+MARCA 5 - BORGES,126,igual que la que se abre en Ciudad de México seis meses después.,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,4.5,06:12.10,06:16.60,DIAGONAL PAN + ZOOM IN · 4s,magnifier_doc
+MARCA 5 - BORGES,127,"Para conseguir eso, la industria recurre a mezclas grandes y","Executives Reach Handshake Across Meeting Table, Negotiation Scene",7819113,3.4,06:16.60,06:20.00,ZOOM IN FAST · 2s,handshake_negotiation
+MARCA 5 - BORGES,128,"estandarizadas, ajustadas en laboratorio para lograr un perfil de sabor","Executives Reach Handshake Across Meeting Table, Negotiation Scene",7819113,3.4,06:20.00,06:23.40,PAN UP · 4s,handshake_negotiation
+MARCA 5 - BORGES,129,"""seguro"": ni demasiado amargo, ni demasiado picante, nada que pueda","Executives Reach Handshake Across Meeting Table, Negotiation Scene",7819113,3.4,06:23.40,06:26.80,ZOOM IN SLOW · 4s,handshake_negotiation
+MARCA 5 - BORGES,130,sorprender a un consumidor que no espera sorpresas.,"Executives Reach Handshake Across Meeting Table, Negotiation Scene",7819113,2.8,06:26.80,06:29.60,PAN RIGHT · 4s,handshake_negotiation
+MARCA 5 - BORGES,131,Es una decisión de negocio completamente racional.,Stock Market Crash Red Arrow Graph Going Down Into Recession,4045992,2.4,06:29.60,06:32.00,ZOOM OUT SLOW · 4s,stock_crash
+MARCA 5 - BORGES,132,También es la razón exacta por la que ese aceite,A forklift carries stacked cardboard boxes along a warehouse aisle,8410557,3.4,06:32.00,06:35.40,STATIC,forklift_boxes
+MARCA 5 - BORGES,133,nunca te va a picar en la garganta como debería,A forklift carries stacked cardboard boxes along a warehouse aisle,8410557,3.4,06:35.40,06:38.80,PAN LEFT · 4s,forklift_boxes
+MARCA 5 - BORGES,134,un virgen extra recién prensado.,A forklift carries stacked cardboard boxes along a warehouse aisle,8410557,1.7,06:38.80,06:40.50,DIAGONAL PAN + ZOOM IN · 4s,forklift_boxes
+MARCA 5 - BORGES,135,El Consejo Oleícola Internacional clasifica el aceite de oliva en,"Trees and olive groves in green landscapes, Granada, Spain",7055616,3.4,06:40.50,06:43.90,ZOOM IN FAST · 2s,granada_groves
+MARCA 5 - BORGES,136,"categorías según su acidez: virgen extra hasta 0,8%, virgen hasta","Trees and olive groves in green landscapes, Granada, Spain",7055616,3.4,06:43.90,06:47.30,PAN UP · 4s,granada_groves
+MARCA 5 - BORGES,137,"2%, y lampante por encima de ese nivel, una categoría","Trees and olive groves in green landscapes, Granada, Spain",7055616,3.4,06:47.30,06:50.70,ZOOM IN SLOW · 4s,granada_groves
+MARCA 5 - BORGES,138,que ni siquiera es apta para el consumo directo sin,"Trees and olive groves in green landscapes, Granada, Spain",7055616,3.4,06:50.70,06:54.10,PAN RIGHT · 4s,granada_groves
+MARCA 5 - BORGES,139,pasar antes por refinado.,"Trees and olive groves in green landscapes, Granada, Spain",7055616,1.4,06:54.10,06:55.50,ZOOM OUT SLOW · 4s,granada_groves
+MARCA 5 - BORGES,140,"Cuanto más lejos está un aceite de la categoría lampante,",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,06:55.50,06:58.90,STATIC,shelf_oils
+MARCA 5 - BORGES,141,"más caro es producirlo, y más incentivo tiene la industria",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,06:58.90,07:02.30,PAN LEFT · 4s,shelf_oils
+MARCA 5 - BORGES,142,para mezclar hacia abajo sin que se note en el sabor final.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,4.1,07:02.30,07:06.40,DIAGONAL PAN + ZOOM IN · 4s,shelf_oils
+MARCA 5 - BORGES,143,"Ese picor de garganta, por cierto, tiene nombre: oleocanal.",Aerial View of a Busy Container Port,5883923,3.1,07:06.40,07:09.50,ZOOM IN FAST · 2s,port_containers
+MARCA 5 - BORGES,144,Es un compuesto que se forma de manera natural en,"Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,3.4,07:09.50,07:12.90,PAN UP · 4s,world_map_port
+MARCA 5 - BORGES,145,el aceite de oliva fresco y que produce una sensación,"Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,3.4,07:12.90,07:16.30,ZOOM IN SLOW · 4s,world_map_port
+MARCA 5 - BORGES,146,"de ardor en la parte de atrás de la garganta,","Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,3.4,07:16.30,07:19.70,PAN RIGHT · 4s,world_map_port
+MARCA 5 - BORGES,147,casi idéntica a la que produce el ibuprofeno.,"Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,2.8,07:19.70,07:22.50,ZOOM OUT SLOW · 4s,world_map_port
+MARCA 5 - BORGES,148,"De hecho, la estructura química del oleocanal es muy similar",Vast Olive Grove at Sunset,6163120,3.4,07:22.50,07:25.90,STATIC,olive_grove_sunset
+MARCA 5 - BORGES,149,"a la de ese fármaco antiinflamatorio, algo documentado por investigadores",Vast Olive Grove at Sunset,6163120,3.4,07:25.90,07:29.30,PAN LEFT · 4s,olive_grove_sunset
+MARCA 5 - BORGES,150,del Monell Chemical Senses Center y publicado en la revista Nature en 2005.,Vast Olive Grove at Sunset,6163120,4.5,07:29.30,07:33.80,DIAGONAL PAN + ZOOM IN · 4s,olive_grove_sunset
+MARCA 5 - BORGES,151,"Cuanto más reciente y menos procesado es el aceite, más oleocanal contiene.",Bottled Drink Production Line,5540686,4.1,07:33.80,07:37.90,ZOOM IN FAST · 2s,conveyor_bottles
+MARCA 5 - BORGES,152,"Si tu aceite es suave, dulce y no te hace",Automated Beverage Bottling Line,5540725,3.4,07:37.90,07:41.30,PAN UP · 4s,bottling_line
+MARCA 5 - BORGES,153,"toser ni una sola vez, eso no es sinónimo de calidad.",Automated Beverage Bottling Line,5540725,3.8,07:41.30,07:45.10,ZOOM IN SLOW · 4s,bottling_line
+MARCA 5 - BORGES,154,"Es, casi siempre, sinónimo de lo contrario.",Scientist using pipette 4k,1864061,2.4,07:45.10,07:47.50,PAN RIGHT · 4s,lab_pipette
+MARCA 4 - HACENDADO,155,Número 4.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,0.7,07:47.50,07:48.20,ZOOM OUT SLOW · 4s,shelf_oils
+MARCA 4 - HACENDADO,156,Hacendado.,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,0.3,07:48.20,07:48.50,STATIC,generic_shelf
+MARCA 4 - HACENDADO,157,La marca blanca que no tiene que decirte quién la fabrica.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.8,07:48.50,07:52.30,PAN LEFT · 4s,network_anim
+MARCA 4 - HACENDADO,158,"Hacendado es la marca propia de Mercadona, y Mercadona no fabrica aceite.",Automated Beverage Bottling Line,5540725,4.1,07:52.30,07:56.40,DIAGONAL PAN + ZOOM IN · 4s,bottling_line
+MARCA 4 - HACENDADO,159,Lo produce a través de lo que la empresa llama,Close-up of a Bottle with Yellow Cap,3811676,3.4,07:56.40,07:59.80,ZOOM IN FAST · 2s,yellow_cap
+MARCA 4 - HACENDADO,160,"""interproveedores"", fábricas asociadas que trabajan en exclusiva para ellos bajo",Close-up of a Bottle with Yellow Cap,3811676,3.4,07:59.80,08:03.20,PAN UP · 4s,yellow_cap
+MARCA 4 - HACENDADO,161,contrato a largo plazo.,Close-up of a Bottle with Yellow Cap,3811676,1.4,08:03.20,08:04.60,ZOOM IN SLOW · 4s,yellow_cap
+MARCA 4 - HACENDADO,162,"Ese modelo, a su favor, es más estable que el",Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,08:04.60,08:08.00,PAN RIGHT · 4s,magnifier_doc
+MARCA 4 - HACENDADO,163,de otras cadenas de supermercado que rotan de proveedor según,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,08:08.00,08:11.40,ZOOM OUT SLOW · 4s,magnifier_doc
+MARCA 4 - HACENDADO,164,el precio cada trimestre.,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,1.4,08:11.40,08:12.80,STATIC,magnifier_doc
+MARCA 4 - HACENDADO,165,"Pero la parte que no cambia es esta: tú, como",Two bottles of olive oil and extra virgin olive,2310359,3.4,08:12.80,08:16.20,PAN LEFT · 4s,two_bottles_compare
+MARCA 4 - HACENDADO,166,"comprador, no tienes forma de saber qué almazara, qué cooperativa",Two bottles of olive oil and extra virgin olive,2310359,3.4,08:16.20,08:19.60,DIAGONAL PAN + ZOOM IN · 4s,two_bottles_compare
+MARCA 4 - HACENDADO,167,o qué mezcla de orígenes hay detrás de esa botella,Two bottles of olive oil and extra virgin olive,2310359,3.4,08:19.60,08:23.00,ZOOM IN FAST · 2s,two_bottles_compare
+MARCA 4 - HACENDADO,168,con etiqueta negra y letras doradas.,Two bottles of olive oil and extra virgin olive,2310359,2.1,08:23.00,08:25.10,PAN UP · 4s,two_bottles_compare
+MARCA 4 - HACENDADO,169,"Mercadona no está obligada a decírtelo, y no lo dice.",Shopping Cart in a Supermarket Aisle,6154249,3.4,08:25.10,08:28.50,ZOOM IN SLOW · 4s,cart_aisle
+MARCA 4 - HACENDADO,170,La confianza que tienes en Hacendado no está construida sobre transparencia de origen.,"An empty grocery cart drives a grocery supermarket, time lapse",4244202,4.5,08:28.50,08:33.00,PAN RIGHT · 4s,cart_timelapse
+MARCA 4 - HACENDADO,171,"Está construida sobre la reputación general de la cadena, que",Grocery store food price tag,6008763,3.4,08:33.00,08:36.40,ZOOM OUT SLOW · 4s,price_tag_grocery
+MARCA 4 - HACENDADO,172,es una cosa completamente distinta.,Grocery store food price tag,6008763,1.7,08:36.40,08:38.10,STATIC,price_tag_grocery
+MARCA 4 - HACENDADO,173,El Reglamento europeo 1169/2011 sobre información alimentaria al consumidor obliga,African American Woman Reading Label on Olive Oil Bottle,6935335,3.4,08:38.10,08:41.50,PAN LEFT · 4s,reading_label1
+MARCA 4 - HACENDADO,174,a indicar el origen del aceite de oliva en la,African American Woman Reading Label on Olive Oil Bottle,6935335,3.4,08:41.50,08:44.90,DIAGONAL PAN + ZOOM IN · 4s,reading_label1
+MARCA 4 - HACENDADO,175,"etiqueta, pero permite hacerlo con fórmulas genéricas como ""Unión Europea""",African American Woman Reading Label on Olive Oil Bottle,6935335,3.4,08:44.90,08:48.30,ZOOM IN FAST · 2s,reading_label1
+MARCA 4 - HACENDADO,176,cuando el producto mezcla orígenes.,African American Woman Reading Label on Olive Oil Bottle,6935335,1.7,08:48.30,08:50.00,PAN UP · 4s,reading_label1
+MARCA 4 - HACENDADO,177,Cumplir la ley y ser transparente con el consumidor no,A Vibrant Aisle of Colorful Products in a Modern Supermarket,6451901,3.4,08:50.00,08:53.40,ZOOM IN SLOW · 4s,aisle_colorful
+MARCA 4 - HACENDADO,178,"son, en este caso, exactamente lo mismo.",A Vibrant Aisle of Colorful Products in a Modern Supermarket,6451901,2.4,08:53.40,08:55.80,PAN RIGHT · 4s,aisle_colorful
+MARCA 4 - HACENDADO,179,"Esto importa especialmente en el aceite de oliva porque, a",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,08:55.80,08:59.20,ZOOM OUT SLOW · 4s,shelf_oils
+MARCA 4 - HACENDADO,180,"diferencia de una lata de atún, aquí el origen determina",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,08:59.20,09:02.60,STATIC,shelf_oils
+MARCA 4 - HACENDADO,181,"directamente el sabor, el precio justo y si de verdad",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,09:02.60,09:06.00,PAN LEFT · 4s,shelf_oils
+MARCA 4 - HACENDADO,182,estás pagando por algo superior o por una versión bien,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,09:06.00,09:09.40,DIAGONAL PAN + ZOOM IN · 4s,shelf_oils
+MARCA 4 - HACENDADO,183,empaquetada de lo mismo que se vende tres estantes más,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,09:09.40,09:12.80,ZOOM IN FAST · 2s,shelf_oils
+MARCA 4 - HACENDADO,184,abajo con otro nombre.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,1.4,09:12.80,09:14.20,PAN UP · 4s,shelf_oils
+MARCA 4 - HACENDADO,185,"Las marcas propias, en general, suelen venderse entre un veinte","Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,09:14.20,09:17.60,ZOOM IN SLOW · 4s,generic_shelf
+MARCA 4 - HACENDADO,186,y un treinta por ciento más baratas que sus equivalentes,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,09:17.60,09:21.00,PAN RIGHT · 4s,generic_shelf
+MARCA 4 - HACENDADO,187,"de marca reconocida, principalmente porque no cargan con presupuesto de","Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,09:21.00,09:24.40,ZOOM OUT SLOW · 4s,generic_shelf
+MARCA 4 - HACENDADO,188,publicidad ni con el coste de mantener una marca visible.,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,09:24.40,09:27.80,STATIC,generic_shelf
+MARCA 4 - HACENDADO,189,Esa parte es honesta.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,1.4,09:27.80,09:29.20,PAN LEFT · 4s,network_anim
+MARCA 4 - HACENDADO,190,La parte que no lo es tanto es que el,Automated Beverage Bottling Line,5540725,3.4,09:29.20,09:32.60,DIAGONAL PAN + ZOOM IN · 4s,bottling_line
+MARCA 4 - HACENDADO,191,ahorro no viene acompañado de la misma información sobre el,Automated Beverage Bottling Line,5540725,3.4,09:32.60,09:36.00,ZOOM IN FAST · 2s,bottling_line
+MARCA 4 - HACENDADO,192,origen que sí exige la ley a un producto con,Automated Beverage Bottling Line,5540725,3.4,09:36.00,09:39.40,PAN UP · 4s,bottling_line
+MARCA 4 - HACENDADO,193,nombre propio bien posicionado.,Automated Beverage Bottling Line,5540725,1.4,09:39.40,09:40.80,ZOOM IN SLOW · 4s,bottling_line
+MARCA 3 - YBARRA,194,Número 3.,"Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,0.7,09:40.80,09:41.50,PAN RIGHT · 4s,andalusia_street
+MARCA 3 - YBARRA,195,Ybarra.,Close-up of a Bottle with Yellow Cap,3811676,0.3,09:41.50,09:41.80,ZOOM OUT SLOW · 4s,yellow_cap
+MARCA 3 - YBARRA,196,El nombre con historia que vende dos productos bajo la misma confianza.,Two bottles of olive oil and extra virgin olive,2310359,4.1,09:41.80,09:45.90,STATIC,two_bottles_compare
+MARCA 3 - YBARRA,197,"Ybarra lleva en Andalucía desde 1842, con sede en Dos Hermanas, Sevilla.",Traditional Olive Oil Production,5593361,4.1,09:45.90,09:50.00,PAN LEFT · 4s,stone_mill
+MARCA 3 - YBARRA,198,"Es, junto a Carbonell, uno de los apellidos con más",Scientist using pipette 4k,1864061,3.4,09:50.00,09:53.40,DIAGONAL PAN + ZOOM IN · 4s,lab_pipette
+MARCA 3 - YBARRA,199,peso histórico en el aceite español.,Scientist using pipette 4k,1864061,2.1,09:53.40,09:55.50,ZOOM IN FAST · 2s,lab_pipette
+MARCA 3 - YBARRA,200,Ese peso es exactamente lo que hace más relevante lo,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,09:55.50,09:58.90,PAN UP · 4s,magnifier_doc
+MARCA 3 - YBARRA,201,que vas a leer a continuación.,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,2.1,09:58.90,10:01.00,ZOOM IN SLOW · 4s,magnifier_doc
+MARCA 3 - YBARRA,202,"Ybarra vende, bajo el mismo nombre y en botellas de",Rotating Around Euros,6285,3.4,10:01.00,10:04.40,PAN RIGHT · 4s,euros_rotating
+MARCA 3 - YBARRA,203,"diseño casi idéntico, tanto ""Aceite de oliva virgen extra"" como",Rotating Around Euros,6285,3.4,10:04.40,10:07.80,ZOOM OUT SLOW · 4s,euros_rotating
+MARCA 3 - YBARRA,204,"simplemente ""Aceite de oliva"".",Rotating Around Euros,6285,1.4,10:07.80,10:09.20,STATIC,euros_rotating
+MARCA 3 - YBARRA,205,Ya sabes lo que significa esa segunda etiqueta: aceite refinado,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,10:09.20,10:12.60,PAN LEFT · 4s,generic_shelf
+MARCA 3 - YBARRA,206,—procesado con calor y disolventes para eliminar acidez y defectos—,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,10:12.60,10:16.00,DIAGONAL PAN + ZOOM IN · 4s,generic_shelf
+MARCA 3 - YBARRA,207,mezclado después con un poco de virgen para recuperar algo de sabor.,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,4.1,10:16.00,10:20.10,ZOOM IN FAST · 2s,generic_shelf
+MARCA 3 - YBARRA,208,"Es un producto legal, seguro para consumir, y notablemente inferior",Waving Flag of Spain,8567147,3.4,10:20.10,10:23.50,PAN UP · 4s,spain_flag1
+MARCA 3 - YBARRA,209,"en polifenoles, antioxidantes y sabor real de aceituna.",Waving Flag of Spain,8567147,2.8,10:23.50,10:26.30,ZOOM IN SLOW · 4s,spain_flag1
+MARCA 3 - YBARRA,210,Estudios de organizaciones de consumidores en España han mostrado repetidamente,Spanish Olive Tree Branches Sway in Wind with Blue Sky,742110,3.4,10:26.30,10:29.70,PAN RIGHT · 4s,branches_wind2
+MARCA 3 - YBARRA,211,que buena parte de los compradores no distingue entre estas,Spanish Olive Tree Branches Sway in Wind with Blue Sky,742110,3.4,10:29.70,10:33.10,ZOOM OUT SLOW · 4s,branches_wind2
+MARCA 3 - YBARRA,212,"dos categorías al hacer la compra, y elige guiándose por",Spanish Olive Tree Branches Sway in Wind with Blue Sky,742110,3.4,10:33.10,10:36.50,STATIC,branches_wind2
+MARCA 3 - YBARRA,213,"el apellido de la marca, no por la palabra impresa",Spanish Olive Tree Branches Sway in Wind with Blue Sky,742110,3.4,10:36.50,10:39.90,PAN LEFT · 4s,branches_wind2
+MARCA 3 - YBARRA,214,justo debajo del nombre.,Spanish Olive Tree Branches Sway in Wind with Blue Sky,742110,1.4,10:39.90,10:41.30,DIAGONAL PAN + ZOOM IN · 4s,branches_wind2
+MARCA 3 - YBARRA,215,El problema no es que Ybarra venda las dos versiones.,"Endless rows of olive trees around Cazorla village, Andalusia, Spain",666966,3.4,10:41.30,10:44.70,ZOOM IN FAST · 2s,cazorla_grove
+MARCA 3 - YBARRA,216,Muchas marcas lo hacen.,Typical Spanish man harvesting olives with his dog and old tools,839038,1.4,10:44.70,10:46.10,PAN UP · 4s,spanish_harvest_dog
+MARCA 3 - YBARRA,217,El problema es que la confianza que un comprador deposita,"Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,3.4,10:46.10,10:49.50,ZOOM IN SLOW · 4s,andalusia_street
+MARCA 3 - YBARRA,218,en un apellido con casi dos siglos de historia se,"Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,3.4,10:49.50,10:52.90,PAN RIGHT · 4s,andalusia_street
+MARCA 3 - YBARRA,219,"traslada, sin que nadie te lo explique en el lineal,","Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,3.4,10:52.90,10:56.30,ZOOM OUT SLOW · 4s,andalusia_street
+MARCA 3 - YBARRA,220,de la botella premium a la básica.,"Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,2.4,10:56.30,10:58.70,STATIC,andalusia_street
+MARCA 3 - YBARRA,221,Compras el nombre.,Close-up of a Bottle with Yellow Cap,3811676,1,10:58.70,10:59.70,PAN LEFT · 4s,yellow_cap
+MARCA 3 - YBARRA,222,El nombre no te dice en cuál de las dos,Two bottles of olive oil and extra virgin olive,2310359,3.4,10:59.70,11:03.10,DIAGONAL PAN + ZOOM IN · 4s,two_bottles_compare
+MARCA 3 - YBARRA,223,versiones estás pagando de más.,Two bottles of olive oil and extra virgin olive,2310359,1.7,11:03.10,11:04.80,ZOOM IN FAST · 2s,two_bottles_compare
+MARCA 3 - YBARRA,224,"Ybarra, además, fabrica también mayonesa, kétchup y otras salsas bajo el mismo apellido.",Traditional Olive Oil Production,5593361,4.5,11:04.80,11:09.30,PAN UP · 4s,stone_mill
+MARCA 3 - YBARRA,225,Esa diversificación funciona precisamente porque la confianza de un producto,Scientist using pipette 4k,1864061,3.4,11:09.30,11:12.70,ZOOM IN SLOW · 4s,lab_pipette
+MARCA 3 - YBARRA,226,se contagia a los demás sin que el comprador se,Scientist using pipette 4k,1864061,3.4,11:12.70,11:16.10,PAN RIGHT · 4s,lab_pipette
+MARCA 3 - YBARRA,227,pare a evaluar cada categoría por separado.,Scientist using pipette 4k,1864061,2.4,11:16.10,11:18.50,ZOOM OUT SLOW · 4s,lab_pipette
+MARCA 3 - YBARRA,228,Es la misma mecánica que hace que la línea básica,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,11:18.50,11:21.90,STATIC,magnifier_doc
+MARCA 3 - YBARRA,229,de aceite se beneficie de la reputación construida por la línea premium.,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,4.1,11:21.90,11:26.00,PAN LEFT · 4s,magnifier_doc
+MARCA 2 - HOJIBLANCA,230,Número 2.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,0.7,11:26.00,11:26.70,DIAGONAL PAN + ZOOM IN · 4s,shelf_oils
+MARCA 2 - HOJIBLANCA,231,Hojiblanca.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,0.3,11:26.70,11:27.00,ZOOM IN FAST · 2s,network_anim
+MARCA 2 - HOJIBLANCA,232,El otro competidor que no compite contigo.,Automated Beverage Bottling Line,5540725,2.4,11:27.00,11:29.40,PAN UP · 4s,bottling_line
+MARCA 2 - HOJIBLANCA,233,Aquí volvemos al patrón que ya viste con Coosur y,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,11:29.40,11:32.80,ZOOM IN SLOW · 4s,generic_shelf
+MARCA 2 - HOJIBLANCA,234,"La Española, pero con un jugador todavía más grande.","Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.1,11:32.80,11:35.90,PAN RIGHT · 4s,generic_shelf
+MARCA 2 - HOJIBLANCA,235,"Hojiblanca pertenece a Deoleo, la mayor envasadora de aceite de",Close-up of a Bottle with Yellow Cap,3811676,3.4,11:35.90,11:39.30,ZOOM OUT SLOW · 4s,yellow_cap
+MARCA 2 - HOJIBLANCA,236,"oliva del mundo, una compañía española que controla directamente algunas",Close-up of a Bottle with Yellow Cap,3811676,3.4,11:39.30,11:42.70,STATIC,yellow_cap
+MARCA 2 - HOJIBLANCA,237,de las marcas más reconocidas del pasillo.,Close-up of a Bottle with Yellow Cap,3811676,2.4,11:42.70,11:45.10,PAN LEFT · 4s,yellow_cap
+MARCA 2 - HOJIBLANCA,238,Deoleo no siempre se llamó así.,An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,2.1,11:45.10,11:47.20,DIAGONAL PAN + ZOOM IN · 4s,premium_bottle
+MARCA 2 - HOJIBLANCA,239,"Hasta 2011 operaba como SOS Cuétara, un grupo que atravesó","Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,3.4,11:47.20,11:50.60,ZOOM IN FAST · 2s,world_map_port
+MARCA 2 - HOJIBLANCA,240,una crisis financiera grave a finales de la década de,"Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,3.4,11:50.60,11:54.00,PAN UP · 4s,world_map_port
+MARCA 2 - HOJIBLANCA,241,"2000, con una deuda enorme y un cambio forzado de dirección.","Appearing world map overlay animating above port terminal, glowing arcs routing cargo toward cranes",7558377,3.8,11:54.00,11:57.80,ZOOM IN SLOW · 4s,world_map_port
+MARCA 2 - HOJIBLANCA,242,"Tras esa reestructuración, la compañía se rebautizó como Deoleo y",Olive harvesting process,6277209,3.4,11:57.80,12:01.20,PAN RIGHT · 4s,harvest_process
+MARCA 2 - HOJIBLANCA,243,continuó controlando el mismo puñado de marcas de aceite que,Olive harvesting process,6277209,3.4,12:01.20,12:04.60,ZOOM OUT SLOW · 4s,harvest_process
+MARCA 2 - HOJIBLANCA,244,domina hoy el pasillo del supermercado.,Olive harvesting process,6277209,2.1,12:04.60,12:06.70,STATIC,harvest_process
+MARCA 2 - HOJIBLANCA,245,Si en tu supermercado ves Hojiblanca junto a otra marca,Branches with young green olives swinging in the wind,222576,3.4,12:06.70,12:10.10,PAN LEFT · 4s,branches_wind1
+MARCA 2 - HOJIBLANCA,246,de Deoleo y sientes que estás decidiendo entre dos filosofías,Branches with young green olives swinging in the wind,222576,3.4,12:10.10,12:13.50,DIAGONAL PAN + ZOOM IN · 4s,branches_wind1
+MARCA 2 - HOJIBLANCA,247,"distintas de producción, no lo estás haciendo.",Branches with young green olives swinging in the wind,222576,2.4,12:13.50,12:15.90,ZOOM IN FAST · 2s,branches_wind1
+MARCA 2 - HOJIBLANCA,248,Estás decidiendo entre dos etiquetas de la misma sala de,Spanish man harvesting olive trees in a sunny field by hand,1060909,3.4,12:15.90,12:19.30,PAN UP · 4s,spanish_harvest_hand
+MARCA 2 - HOJIBLANCA,249,"embotellado, diseñadas para capturar a compradores distintos con el mismo",Spanish man harvesting olive trees in a sunny field by hand,1060909,3.4,12:19.30,12:22.70,ZOOM IN SLOW · 4s,spanish_harvest_hand
+MARCA 2 - HOJIBLANCA,250,producto base ajustado en distintos grados de mezcla.,Spanish man harvesting olive trees in a sunny field by hand,1060909,2.8,12:22.70,12:25.50,PAN RIGHT · 4s,spanish_harvest_hand
+MARCA 2 - HOJIBLANCA,251,Esto no convierte a Hojiblanca en un mal aceite.,Price tag for produce at a market,5303140,3.1,12:25.50,12:28.60,ZOOM OUT SLOW · 4s,price_tag3
+MARCA 2 - HOJIBLANCA,252,"Convierte la decisión de ""cuál elijo"" en una pregunta mal",Olive oil can being kept on table in oil factory,2955969,3.4,12:28.60,12:32.00,STATIC,oil_can_factory
+MARCA 2 - HOJIBLANCA,253,"planteada, porque las dos opciones que crees tener delante en",Olive oil can being kept on table in oil factory,2955969,3.4,12:32.00,12:35.40,PAN LEFT · 4s,oil_can_factory
+MARCA 2 - HOJIBLANCA,254,realidad son una sola empresa hablando contigo dos veces.,Olive oil can being kept on table in oil factory,2955969,3.1,12:35.40,12:38.50,DIAGONAL PAN + ZOOM IN · 4s,oil_can_factory
+MARCA 2 - HOJIBLANCA,255,"Fuera de España, Deoleo también controla la marca Bertolli en",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,12:38.50,12:41.90,ZOOM IN FAST · 2s,shelf_oils
+MARCA 2 - HOJIBLANCA,256,"el segmento de aceite de oliva, uno de los nombres",Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,12:41.90,12:45.30,PAN UP · 4s,shelf_oils
+MARCA 2 - HOJIBLANCA,257,más reconocidos internacionalmente en el pasillo de aceites.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,2.8,12:45.30,12:48.10,ZOOM IN SLOW · 4s,shelf_oils
+MARCA 2 - HOJIBLANCA,258,"El mismo grupo, las mismas plantas de producción, adaptando el","Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.4,12:48.10,12:51.50,PAN RIGHT · 4s,network_anim
+MARCA 2 - HOJIBLANCA,259,nombre según el mercado en el que se vende cada botella.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,3.8,12:51.50,12:55.30,ZOOM OUT SLOW · 4s,network_anim
+MARCA 2 - HOJIBLANCA,260,"Y la marca que completa ese trío —la más grande,",Automated Beverage Bottling Line,5540725,3.4,12:55.30,12:58.70,STATIC,bottling_line
+MARCA 2 - HOJIBLANCA,261,"la más histórica, la que probablemente tienes en tu cocina",Automated Beverage Bottling Line,5540725,3.4,12:58.70,13:02.10,PAN LEFT · 4s,bottling_line
+MARCA 2 - HOJIBLANCA,262,ahora mismo— es la que cierra esta lista.,Automated Beverage Bottling Line,5540725,2.8,13:02.10,13:04.90,DIAGONAL PAN + ZOOM IN · 4s,bottling_line
+MARCA 1 - CARBONELL,263,Número 1.,"Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,0.7,13:04.90,13:05.60,ZOOM IN FAST · 2s,andalusia_street
+MARCA 1 - CARBONELL,264,Carbonell.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,0.3,13:05.60,13:05.90,PAN UP · 4s,network_anim
+MARCA 1 - CARBONELL,265,La marca más antigua de España vendiéndote su propia contradicción.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,3.4,13:05.90,13:09.30,ZOOM IN SLOW · 4s,shelf_oils
+MARCA 1 - CARBONELL,266,Carbonell nació en Córdoba en 1866.,Close-up of a Bottle with Yellow Cap,3811676,2.1,13:09.30,13:11.40,PAN RIGHT · 4s,yellow_cap
+MARCA 1 - CARBONELL,267,"Es, sin exagerar, el apellido más asociado al aceite de",Two bottles of olive oil and extra virgin olive,2310359,3.4,13:11.40,13:14.80,ZOOM OUT SLOW · 4s,two_bottles_compare
+MARCA 1 - CARBONELL,268,oliva español dentro y fuera de España.,Two bottles of olive oil and extra virgin olive,2310359,2.4,13:14.80,13:17.20,STATIC,two_bottles_compare
+MARCA 1 - CARBONELL,269,"También pertenece a Deoleo, el mismo grupo, antes llamado SOS",Traditional Olive Oil Production,5593361,3.4,13:17.20,13:20.60,PAN LEFT · 4s,stone_mill
+MARCA 1 - CARBONELL,270,"Cuétara, que controla Hojiblanca y Koipe.",Traditional Olive Oil Production,5593361,2.1,13:20.60,13:22.70,DIAGONAL PAN + ZOOM IN · 4s,stone_mill
+MARCA 1 - CARBONELL,271,"Tres nombres que parecen tres empresas y son, en la",Workshop with large stone wheel and old equipment for pressing olive oil,2537351,3.4,13:22.70,13:26.10,ZOOM IN FAST · 2s,olive_press_workshop
+MARCA 1 - CARBONELL,272,"práctica, la misma estructura industrial vendiéndose en tres estanterías distintas del mismo pasillo.",Workshop with large stone wheel and old equipment for pressing olive oil,2537351,4.5,13:26.10,13:30.60,PAN UP · 4s,olive_press_workshop
+MARCA 1 - CARBONELL,273,Pero la razón por la que Carbonell ocupa el número,Pouring pure Extra Virgin Olive Oil,606843,3.4,13:30.60,13:34.00,ZOOM IN SLOW · 4s,bottle_pouring
+MARCA 1 - CARBONELL,274,uno no es solo la propiedad compartida.,Pouring pure Extra Virgin Olive Oil,606843,2.4,13:34.00,13:36.40,PAN RIGHT · 4s,bottle_pouring
+MARCA 1 - CARBONELL,275,Es lo que la propia marca hace con su gama.,An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,13:36.40,13:39.80,ZOOM OUT SLOW · 4s,premium_bottle
+MARCA 1 - CARBONELL,276,"Carbonell vende, con el mismo apellido, el mismo diseño de","Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,13:39.80,13:43.20,STATIC,generic_shelf
+MARCA 1 - CARBONELL,277,etiqueta y el mismo tapón amarillo reconocible desde el otro,"Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,13:43.20,13:46.60,PAN LEFT · 4s,generic_shelf
+MARCA 1 - CARBONELL,278,"lado del supermercado, tanto su línea ""Virgen Extra"" como su","Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,3.4,13:46.60,13:50.00,DIAGONAL PAN + ZOOM IN · 4s,generic_shelf
+MARCA 1 - CARBONELL,279,"línea clásica, simplemente llamada ""Aceite de Oliva"".","Fixed clip of full grocery store shelves, filled with brightly coloured products",6181813,2.4,13:50.00,13:52.40,ZOOM IN FAST · 2s,generic_shelf
+MARCA 1 - CARBONELL,280,Esta segunda es la que la mayoría de los hogares,Rotating Around Euros,6285,3.4,13:52.40,13:55.80,PAN UP · 4s,euros_rotating
+MARCA 1 - CARBONELL,281,españoles ha comprado durante generaciones sin saber exactamente qué diferencia,Rotating Around Euros,6285,3.4,13:55.80,13:59.20,ZOOM IN SLOW · 4s,euros_rotating
+MARCA 1 - CARBONELL,282,a una de la otra.,Rotating Around Euros,6285,1.7,13:59.20,14:00.90,PAN RIGHT · 4s,euros_rotating
+MARCA 1 - CARBONELL,283,Y la diferencia es enorme.,"Archival footage, women working in factories, 1915",98280,1.7,14:00.90,14:02.60,ZOOM OUT SLOW · 4s,vintage_factory
+MARCA 1 - CARBONELL,284,"""Aceite de Oliva"" a secas —sin la palabra virgen en","Red candles stock market down, arrow drop",6169589,3.4,14:02.60,14:06.00,STATIC,stock_down
+MARCA 1 - CARBONELL,285,"ningún sitio de la etiqueta— es, por definición legal, una","Red candles stock market down, arrow drop",6169589,3.4,14:06.00,14:09.40,PAN LEFT · 4s,stock_down
+MARCA 1 - CARBONELL,286,mezcla de aceite de oliva refinado con una pequeña proporción,"Red candles stock market down, arrow drop",6169589,3.4,14:09.40,14:12.80,DIAGONAL PAN + ZOOM IN · 4s,stock_down
+MARCA 1 - CARBONELL,287,de aceite virgen añadido al final del proceso.,"Red candles stock market down, arrow drop",6169589,2.8,14:12.80,14:15.60,ZOOM IN FAST · 2s,stock_down
+MARCA 1 - CARBONELL,288,"El refinado se obtiene sometiendo aceitunas de baja calidad, con","Hand shake, diversity partnership",1233440,3.4,14:15.60,14:19.00,PAN UP · 4s,handshake1
+MARCA 1 - CARBONELL,289,"demasiada acidez o demasiados defectos para venderse como virgen, a","Hand shake, diversity partnership",1233440,3.4,14:19.00,14:22.40,ZOOM IN SLOW · 4s,handshake1
+MARCA 1 - CARBONELL,290,un proceso industrial con calor y disolventes químicos que elimina,"Hand shake, diversity partnership",1233440,3.4,14:22.40,14:25.80,PAN RIGHT · 4s,handshake1
+MARCA 1 - CARBONELL,291,"el sabor, el color y el olor.","Hand shake, diversity partnership",1233440,2.4,14:25.80,14:28.20,ZOOM OUT SLOW · 4s,handshake1
+MARCA 1 - CARBONELL,292,"Después se le añade un poco de aceite virgen, normalmente",Dolly Shot Of Sun Setting Behind Olive Trees,3322694,3.4,14:28.20,14:31.60,STATIC,sunset_dolly
+MARCA 1 - CARBONELL,293,"entre un cinco y un quince por ciento, solo para",Dolly Shot Of Sun Setting Behind Olive Trees,3322694,3.4,14:31.60,14:35.00,PAN LEFT · 4s,sunset_dolly
+MARCA 1 - CARBONELL,294,devolverle algo de aroma y un tono dorado reconocible.,Dolly Shot Of Sun Setting Behind Olive Trees,3322694,3.1,14:35.00,14:38.10,DIAGONAL PAN + ZOOM IN · 4s,sunset_dolly
+MARCA 1 - CARBONELL,295,Es exactamente lo contrario de lo que el apellido Carbonell,"Hands counting new fifty euro bills, money stack",989385,3.4,14:38.10,14:41.50,ZOOM IN FAST · 2s,counting_euros2
+MARCA 1 - CARBONELL,296,lleva siglo y medio prometiendo.,"Hands counting new fifty euro bills, money stack",989385,1.7,14:41.50,14:43.20,PAN UP · 4s,counting_euros2
+MARCA 1 - CARBONELL,297,"Y sin embargo, esa botella amarilla ha estado en la",Close up of printed numbers adding up with plus symbols on a paper roll,7223545,3.4,14:43.20,14:46.60,ZOOM IN SLOW · 4s,adding_machine
+MARCA 1 - CARBONELL,298,"cocina de tu abuela, en la tuya, y probablemente seguirá",Close up of printed numbers adding up with plus symbols on a paper roll,7223545,3.4,14:46.60,14:50.00,PAN RIGHT · 4s,adding_machine
+MARCA 1 - CARBONELL,299,"en la de tus hijos, porque el nombre genera una",Close up of printed numbers adding up with plus symbols on a paper roll,7223545,3.4,14:50.00,14:53.40,ZOOM OUT SLOW · 4s,adding_machine
+MARCA 1 - CARBONELL,300,confianza que el contenido de esa línea concreta no siempre respalda.,Close up of printed numbers adding up with plus symbols on a paper roll,7223545,3.8,14:53.40,14:57.20,STATIC,adding_machine
+MARCA 1 - CARBONELL,301,El consumo medio de aceite de oliva en España ronda,Technicians examining olive oil,1848743,3.4,14:57.20,15:00.60,PAN LEFT · 4s,technicians_oil
+MARCA 1 - CARBONELL,302,los diez litros por persona al año.,Technicians examining olive oil,1848743,2.4,15:00.60,15:03.00,DIAGONAL PAN + ZOOM IN · 4s,technicians_oil
+MARCA 1 - CARBONELL,303,"Si una parte relevante de ese consumo procede, sin que","Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,3.4,15:03.00,15:06.40,ZOOM IN FAST · 2s,andalusia_street
+MARCA 1 - CARBONELL,304,"el comprador lo sepa del todo, de la línea refinada","Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,3.4,15:06.40,15:09.80,PAN UP · 4s,andalusia_street
+MARCA 1 - CARBONELL,305,"en lugar de la virgen extra, la diferencia en polifenoles","Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,3.4,15:09.80,15:13.20,ZOOM IN SLOW · 4s,andalusia_street
+MARCA 1 - CARBONELL,306,y antioxidantes acumulada a lo largo de una vida no,"Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,3.4,15:13.20,15:16.60,PAN RIGHT · 4s,andalusia_street
+MARCA 1 - CARBONELL,307,es un detalle menor.,"Traditional whitewashed houses with balconies and barred windows line a narrow cobblestone street, Andalusian village",5987261,1.4,15:16.60,15:18.00,ZOOM OUT SLOW · 4s,andalusia_street
+MARCA 1 - CARBONELL,308,Es la suma de miles de pequeñas decisiones tomadas con información incompleta.,"Central avatar appearing and expanding, sending connecting lines and nodes, showing company network",7618572,4.1,15:18.00,15:22.10,STATIC,network_anim
+MARCA 1 - CARBONELL,309,Siete marcas.,Close up of olive oil and other cooking oil bottles on a shelf in a supermarket,3472735,0.7,15:22.10,15:22.80,PAN LEFT · 4s,shelf_oils
+MARCA 1 - CARBONELL,310,La mayoría de ellas repartidas entre dos o tres grupos,Close-up of a Bottle with Yellow Cap,3811676,3.4,15:22.80,15:26.20,DIAGONAL PAN + ZOOM IN · 4s,yellow_cap
+MARCA 1 - CARBONELL,311,industriales que se disfrazan de competencia real.,Close-up of a Bottle with Yellow Cap,3811676,2.4,15:26.20,15:28.60,ZOOM IN FAST · 2s,yellow_cap
+MARCA 1 - CARBONELL,312,"Ahora que sabes cómo detectarlo, vamos a las tres que",Two bottles of olive oil and extra virgin olive,2310359,3.4,15:28.60,15:32.00,PAN UP · 4s,two_bottles_compare
+MARCA 1 - CARBONELL,313,sí están construidas de otra manera.,Two bottles of olive oil and extra virgin olive,2310359,2.1,15:32.00,15:34.10,ZOOM IN SLOW · 4s,two_bottles_compare
+MEJOR OPCION 3 - MELGAREJO,314,Mejor opción número 3.,Vast Olive Grove at Sunset,6163120,1.4,15:34.10,15:35.50,PAN RIGHT · 4s,olive_grove_hillside
+MEJOR OPCION 3 - MELGAREJO,315,Melgarejo.,Close view of hand picking black olives from green tree branches,6295653,0.3,15:35.50,15:35.80,ZOOM OUT SLOW · 4s,hand_picking_olives
+MEJOR OPCION 3 - MELGAREJO,316,"Melgarejo es una familia de Jaén, la provincia que por",Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,15:35.80,15:39.20,STATIC,cert_stamp
+MEJOR OPCION 3 - MELGAREJO,317,sí sola produce más aceite de oliva que la mayoría,Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,15:39.20,15:42.60,PAN LEFT · 4s,cert_stamp
+MEJOR OPCION 3 - MELGAREJO,318,de los países del mundo juntos.,Stamp with CERTIFIED text of flat style isolated on white background,3982793,2.1,15:42.60,15:44.70,DIAGONAL PAN + ZOOM IN · 4s,cert_stamp
+MEJOR OPCION 3 - MELGAREJO,319,"Trabajan variedades locales, muelen la aceituna el mismo día de",Aerial View of Olive Grove Landscape,6956087,3.4,15:44.70,15:48.10,ZOOM IN FAST · 2s,olive_grove_aerial
+MEJOR OPCION 3 - MELGAREJO,320,"la recolección —una ventana de horas, no de días— y",Aerial View of Olive Grove Landscape,6956087,3.4,15:48.10,15:51.50,PAN UP · 4s,olive_grove_aerial
+MEJOR OPCION 3 - MELGAREJO,321,"su producción está certificada bajo Denominación de Origen, un sello",Aerial View of Olive Grove Landscape,6956087,3.4,15:51.50,15:54.90,ZOOM IN SLOW · 4s,olive_grove_aerial
+MEJOR OPCION 3 - MELGAREJO,322,"que sí exige control de origen geográfico real, no una",Aerial View of Olive Grove Landscape,6956087,3.4,15:54.90,15:58.30,PAN RIGHT · 4s,olive_grove_aerial
+MEJOR OPCION 3 - MELGAREJO,323,"etiqueta genérica de ""Unión Europea"".",Aerial View of Olive Grove Landscape,6956087,1.7,15:58.30,15:60.00,ZOOM OUT SLOW · 4s,olive_grove_aerial
+MEJOR OPCION 3 - MELGAREJO,324,La Denominación de Origen es exactamente lo que le falta,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,15:60.00,16:03.40,STATIC,magnifier_doc
+MEJOR OPCION 3 - MELGAREJO,325,a todas las marcas que acabas de ver.,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,2.8,16:03.40,16:06.20,PAN LEFT · 4s,magnifier_doc
+MEJOR OPCION 3 - MELGAREJO,326,En España existen actualmente cerca de treinta Denominaciones de Origen,Aerial video of a man pruning olive tree with chainsaw,1255745,3.4,16:06.20,16:09.60,DIAGONAL PAN + ZOOM IN · 4s,pruning_aerial
+MEJOR OPCION 3 - MELGAREJO,327,"Protegida para el aceite de oliva, reconocidas por la Unión",Aerial video of a man pruning olive tree with chainsaw,1255745,3.4,16:09.60,16:13.00,ZOOM IN FAST · 2s,pruning_aerial
+MEJOR OPCION 3 - MELGAREJO,328,"Europea, entre ellas Baena, Sierra Mágina, Priego de Córdoba y Sierra de Cazorla.",Aerial video of a man pruning olive tree with chainsaw,1255745,4.5,16:13.00,16:17.50,PAN UP · 4s,pruning_aerial
+MEJOR OPCION 3 - MELGAREJO,329,Cada una obliga a que el cien por cien de,Farmer harvesting olive with rack,1848680,3.4,16:17.50,16:20.90,ZOOM IN SLOW · 4s,harvest_rack
+MEJOR OPCION 3 - MELGAREJO,330,"la aceituna proceda de una zona geográfica delimitada, verificada por",Farmer harvesting olive with rack,1848680,3.4,16:20.90,16:24.30,PAN RIGHT · 4s,harvest_rack
+MEJOR OPCION 3 - MELGAREJO,331,"un consejo regulador independiente, no por el propio fabricante.",Farmer harvesting olive with rack,1848680,3.1,16:24.30,16:27.40,ZOOM OUT SLOW · 4s,harvest_rack
+MEJOR OPCION 3 - MELGAREJO,332,Cuando ves el sello de una Denominación de Origen en,Close view of olive tree branch with leaves moving in daylight,7504652,3.4,16:27.40,16:30.80,STATIC,branch_daylight
+MEJOR OPCION 3 - MELGAREJO,333,"una botella, estás viendo el equivalente real de lo que",Close view of olive tree branch with leaves moving in daylight,7504652,3.4,16:30.80,16:34.20,PAN LEFT · 4s,branch_daylight
+MEJOR OPCION 3 - MELGAREJO,334,"las grandes marcas simulan con palabras como ""tradicional"" o ""selección",Close view of olive tree branch with leaves moving in daylight,7504652,3.4,16:34.20,16:37.60,DIAGONAL PAN + ZOOM IN · 4s,branch_daylight
+MEJOR OPCION 3 - MELGAREJO,335,"especial"": una garantía verificada por un tercero, no una frase",Close view of olive tree branch with leaves moving in daylight,7504652,3.4,16:37.60,16:41.00,ZOOM IN FAST · 2s,branch_daylight
+MEJOR OPCION 3 - MELGAREJO,336,de marketing que nadie audita.,Close view of olive tree branch with leaves moving in daylight,7504652,1.7,16:41.00,16:42.70,PAN UP · 4s,branch_daylight
+MEJOR OPCION 3 - MELGAREJO,337,"La variedad picual, dominante en Jaén, produce aceites con más","The olives are in a spoon, olive oil flows",4312045,3.4,16:42.70,16:46.10,ZOOM IN SLOW · 4s,spoon_olives
+MEJOR OPCION 3 - MELGAREJO,338,"cuerpo, más picor y más estabilidad frente a la oxidación","The olives are in a spoon, olive oil flows",4312045,3.4,16:46.10,16:49.50,PAN RIGHT · 4s,spoon_olives
+MEJOR OPCION 3 - MELGAREJO,339,que muchas otras variedades comerciales.,"The olives are in a spoon, olive oil flows",4312045,1.7,16:49.50,16:51.20,ZOOM OUT SLOW · 4s,spoon_olives
+MEJOR OPCION 3 - MELGAREJO,340,"Eso significa que, además de la trazabilidad, este tipo de",Olive tree branches with small bottles of olive oil,6643654,3.4,16:51.20,16:54.60,STATIC,branch_bottles
+MEJOR OPCION 3 - MELGAREJO,341,"aceite envejece mejor en tu propia cocina, algo que ningún",Olive tree branches with small bottles of olive oil,6643654,3.4,16:54.60,16:58.00,PAN LEFT · 4s,branch_bottles
+MEJOR OPCION 3 - MELGAREJO,342,coupage industrial puede garantizar porque su composición cambia de lote en lote.,Olive tree branches with small bottles of olive oil,6643654,4.1,16:58.00,17:02.10,DIAGONAL PAN + ZOOM IN · 4s,branch_bottles
+MEJOR OPCION 2 - CASTILLO DE CANENA,343,Mejor opción número 2.,Vast Olive Grove at Sunset,6163120,1.4,17:02.10,17:03.50,ZOOM IN FAST · 2s,olive_grove_sunset
+MEJOR OPCION 2 - CASTILLO DE CANENA,344,Castillo de Canena.,Video of drone of a family playfully runs through olive groves,5682519,1,17:03.50,17:04.50,PAN UP · 4s,family_olive_grove
+MEJOR OPCION 2 - CASTILLO DE CANENA,345,"Esta es una familia de Jaén, los Vañó, que decidió",Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,17:04.50,17:07.90,ZOOM IN SLOW · 4s,cert_stamp
+MEJOR OPCION 2 - CASTILLO DE CANENA,346,hace unas décadas dejar de vender su cosecha a granel,Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,17:07.90,17:11.30,PAN RIGHT · 4s,cert_stamp
+MEJOR OPCION 2 - CASTILLO DE CANENA,347,a las grandes envasadoras y embotellar bajo su propio nombre.,Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,17:11.30,17:14.70,ZOOM OUT SLOW · 4s,cert_stamp
+MEJOR OPCION 2 - CASTILLO DE CANENA,348,El resultado ha sido reconocido varias veces en concursos internacionales,Hand holding a small dark green glass bottle with a red cap,3717430,3.4,17:14.70,17:18.10,STATIC,dark_bottle_label
+MEJOR OPCION 2 - CASTILLO DE CANENA,349,"de aceite de oliva, de esos donde paneles de cata",Hand holding a small dark green glass bottle with a red cap,3717430,3.4,17:18.10,17:21.50,PAN LEFT · 4s,dark_bottle_label
+MEJOR OPCION 2 - CASTILLO DE CANENA,350,profesionales evalúan a ciegas sin saber qué marca están probando.,Hand holding a small dark green glass bottle with a red cap,3717430,3.4,17:21.50,17:24.90,DIAGONAL PAN + ZOOM IN · 4s,dark_bottle_label
+MEJOR OPCION 2 - CASTILLO DE CANENA,351,Castillo de Canena trabaja variedades poco habituales en el mercado,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,17:24.90,17:28.30,ZOOM IN FAST · 2s,magnifier_doc
+MEJOR OPCION 2 - CASTILLO DE CANENA,352,"masivo —picual, arbequina en distintas proporciones, algunas ediciones monovarietales— y",Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,17:28.30,17:31.70,PAN UP · 4s,magnifier_doc
+MEJOR OPCION 2 - CASTILLO DE CANENA,353,"publica la fecha de cosecha en cada botella, no solo",Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,3.4,17:31.70,17:35.10,ZOOM IN SLOW · 4s,magnifier_doc
+MEJOR OPCION 2 - CASTILLO DE CANENA,354,una fecha de caducidad genérica.,Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs,8534240,1.7,17:35.10,17:36.80,PAN RIGHT · 4s,magnifier_doc
+MEJOR OPCION 2 - CASTILLO DE CANENA,355,Esa distinción importa más de lo que parece: los polifenoles,An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,17:36.80,17:40.20,ZOOM OUT SLOW · 4s,premium_bottle
+MEJOR OPCION 2 - CASTILLO DE CANENA,356,"del aceite de oliva, los compuestos responsables tanto del sabor",An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,17:40.20,17:43.60,STATIC,premium_bottle
+MEJOR OPCION 2 - CASTILLO DE CANENA,357,amargo y picante como de buena parte de sus beneficios,An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,17:43.60,17:47.00,PAN LEFT · 4s,premium_bottle
+MEJOR OPCION 2 - CASTILLO DE CANENA,358,"para la salud, se degradan con el tiempo, con el",An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,3.4,17:47.00,17:50.40,DIAGONAL PAN + ZOOM IN · 4s,premium_bottle
+MEJOR OPCION 2 - CASTILLO DE CANENA,359,calor y con la exposición a la luz.,An Exquisite Representation of the Finest Olive Oil: A Harvest Reserve Bottle,6264187,2.8,17:50.40,17:53.20,ZOOM IN FAST · 2s,premium_bottle
+MEJOR OPCION 2 - CASTILLO DE CANENA,360,La Autoridad Europea de Seguridad Alimentaria reconoce oficialmente que los,Close-up of Golden Olive Oil Pouring onto a Green Olive,8006564,3.4,17:53.20,17:56.60,PAN UP · 4s,golden_pour1
+MEJOR OPCION 2 - CASTILLO DE CANENA,361,polifenoles del aceite de oliva contribuyen a proteger los lípidos,Close-up of Golden Olive Oil Pouring onto a Green Olive,8006564,3.4,17:56.60,17:60.00,ZOOM IN SLOW · 4s,golden_pour1
+MEJOR OPCION 2 - CASTILLO DE CANENA,362,"sanguíneos del daño oxidativo, siempre que el aceite mantenga una",Close-up of Golden Olive Oil Pouring onto a Green Olive,8006564,3.4,17:60.00,18:03.40,PAN RIGHT · 4s,golden_pour1
+MEJOR OPCION 2 - CASTILLO DE CANENA,363,concentración mínima de esos compuestos.,Close-up of Golden Olive Oil Pouring onto a Green Olive,8006564,1.7,18:03.40,18:05.10,ZOOM OUT SLOW · 4s,golden_pour1
+MEJOR OPCION 2 - CASTILLO DE CANENA,364,Un aceite con fecha de cosecha reciente no es una cuestión estética.,Golden olive oil flowing smoothly during processing,7291357,4.1,18:05.10,18:09.20,STATIC,golden_flow
+MEJOR OPCION 2 - CASTILLO DE CANENA,365,Es una garantía de que lo que estás comprando todavía,A wooden rack holds test tubes filled with colorful liquids,5712239,3.4,18:09.20,18:12.60,PAN LEFT · 4s,lab_testtubes1
+MEJOR OPCION 2 - CASTILLO DE CANENA,366,conserva lo que se supone que debe tener.,A wooden rack holds test tubes filled with colorful liquids,5712239,2.8,18:12.60,18:15.40,DIAGONAL PAN + ZOOM IN · 4s,lab_testtubes1
+MEJOR OPCION 2 - CASTILLO DE CANENA,367,Es una opción más cara que cualquiera de las siete anteriores.,Relaxed man enjoys typical olives soaked in olive oil,2508365,3.8,18:15.40,18:19.20,ZOOM IN FAST · 2s,man_olives
+MEJOR OPCION 2 - CASTILLO DE CANENA,368,También es una opción donde el precio corresponde a una,Vast Olive Grove at Sunset,6163120,3.4,18:19.20,18:22.60,PAN UP · 4s,olive_grove_sunset
+MEJOR OPCION 2 - CASTILLO DE CANENA,369,"trazabilidad real, no a un apellido histórico reciclado sobre una mezcla industrial.",Vast Olive Grove at Sunset,6163120,4.1,18:22.60,18:26.70,ZOOM IN SLOW · 4s,olive_grove_sunset
+MEJOR OPCION 2 - CASTILLO DE CANENA,370,Familias como esta compiten en concursos internacionales donde el jurado,Video of drone of a family playfully runs through olive groves,5682519,3.4,18:26.70,18:30.10,PAN RIGHT · 4s,family_olive_grove
+MEJOR OPCION 2 - CASTILLO DE CANENA,371,no sabe qué botella está probando hasta después de puntuarla.,Video of drone of a family playfully runs through olive groves,5682519,3.4,18:30.10,18:33.50,ZOOM OUT SLOW · 4s,family_olive_grove
+MEJOR OPCION 2 - CASTILLO DE CANENA,372,"Ese formato de cata a ciegas es, precisamente, lo contrario",Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,18:33.50,18:36.90,STATIC,cert_stamp
+MEJOR OPCION 2 - CASTILLO DE CANENA,373,del panel de marketing que decide qué palabra va en,Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,18:36.90,18:40.30,PAN LEFT · 4s,cert_stamp
+MEJOR OPCION 2 - CASTILLO DE CANENA,374,el frente de una etiqueta industrial.,Stamp with CERTIFIED text of flat style isolated on white background,3982793,2.1,18:40.30,18:42.40,DIAGONAL PAN + ZOOM IN · 4s,cert_stamp
+MEJOR OPCION 1 - NUNEZ DE PRADO,375,Mejor opción número 1.,People In Olive Orchard Collecting Fruit In The Harvest Season,6127160,1.4,18:42.40,18:43.80,ZOOM IN FAST · 2s,olive_harvest_people
+MEJOR OPCION 1 - NUNEZ DE PRADO,376,Núñez de Prado.,Video of drone of a family playfully runs through olive groves,5682519,1,18:43.80,18:44.80,PAN UP · 4s,family_olive_grove
+MEJOR OPCION 1 - NUNEZ DE PRADO,377,"Esta es una familia de Baena, Córdoba, que lleva embotellando aceite desde 1795.",Pouring pure Extra Virgin Olive Oil,606843,4.5,18:44.80,18:49.30,ZOOM IN SLOW · 4s,bottle_pouring
+MEJOR OPCION 1 - NUNEZ DE PRADO,378,"Siete generaciones de la misma familia, sin haber vendido nunca",Traditional Olive Oil Production,5593361,3.4,18:49.30,18:52.70,PAN RIGHT · 4s,stone_mill
+MEJOR OPCION 1 - NUNEZ DE PRADO,379,la empresa a un grupo industrial mayor.,Traditional Olive Oil Production,5593361,2.4,18:52.70,18:55.10,ZOOM OUT SLOW · 4s,stone_mill
+MEJOR OPCION 1 - NUNEZ DE PRADO,380,En un vídeo donde casi todo lo demás termina perteneciendo,Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.4,18:55.10,18:58.50,STATIC,cert_stamp
+MEJOR OPCION 1 - NUNEZ DE PRADO,381,"a dos o tres estructuras corporativas, esto por sí solo ya los distingue.",Stamp with CERTIFIED text of flat style isolated on white background,3982793,4.5,18:58.50,19:03.00,PAN LEFT · 4s,cert_stamp
+MEJOR OPCION 1 - NUNEZ DE PRADO,382,"Su producto insignia se llama ""Flor de Aceite"": el aceite",Vast Olive Grove at Sunset,6163120,3.4,19:03.00,19:06.40,DIAGONAL PAN + ZOOM IN · 4s,olive_grove_hillside
+MEJOR OPCION 1 - NUNEZ DE PRADO,383,que se obtiene por goteo natural de la pasta de,Vast Olive Grove at Sunset,6163120,3.4,19:06.40,19:09.80,ZOOM IN FAST · 2s,olive_grove_hillside
+MEJOR OPCION 1 - NUNEZ DE PRADO,384,"aceituna, antes incluso de aplicar presión mecánica o centrifugado.",Vast Olive Grove at Sunset,6163120,3.1,19:09.80,19:12.90,PAN UP · 4s,olive_grove_hillside
+MEJOR OPCION 1 - NUNEZ DE PRADO,385,No se filtra industrialmente ni se mezcla con otras cosechas.,Farmer harvesting olives using electric rake,6052701,3.4,19:12.90,19:16.30,ZOOM IN SLOW · 4s,harvest_electric_rake
+MEJOR OPCION 1 - NUNEZ DE PRADO,386,"Es, literalmente, la primera gota, el método de extracción más","Restábal, a white village in the Lecrín Valley, Granada, Spain",6976685,3.4,19:16.30,19:19.70,PAN RIGHT · 4s,restabal_village
+MEJOR OPCION 1 - NUNEZ DE PRADO,387,antiguo y menos intervenido que existe.,"Restábal, a white village in the Lecrín Valley, Granada, Spain",6976685,2.1,19:19.70,19:21.80,ZOOM OUT SLOW · 4s,restabal_village
+MEJOR OPCION 1 - NUNEZ DE PRADO,388,"Producen bajo certificación ecológica, con variedades autóctonas de la zona",Scientist holding a plate of colorful test tubes with liquid solutions,8182467,3.4,19:21.80,19:25.20,STATIC,lab_testtubes2
+MEJOR OPCION 1 - NUNEZ DE PRADO,389,"de Baena, y su escala sigue siendo lo bastante pequeña",Scientist holding a plate of colorful test tubes with liquid solutions,8182467,3.4,19:25.20,19:28.60,PAN LEFT · 4s,lab_testtubes2
+MEJOR OPCION 1 - NUNEZ DE PRADO,390,como para que la familia conozca el origen exacto de,Scientist holding a plate of colorful test tubes with liquid solutions,8182467,3.4,19:28.60,19:32.00,DIAGONAL PAN + ZOOM IN · 4s,lab_testtubes2
+MEJOR OPCION 1 - NUNEZ DE PRADO,391,cada partida que sale de la almazara.,Scientist holding a plate of colorful test tubes with liquid solutions,8182467,2.4,19:32.00,19:34.40,ZOOM IN FAST · 2s,lab_testtubes2
+MEJOR OPCION 1 - NUNEZ DE PRADO,392,No vas a encontrar Núñez de Prado en cada supermercado,Chemist drips reagent into test tube with yellow liquid,1747463,3.4,19:34.40,19:37.80,PAN UP · 4s,lab_reagent
+MEJOR OPCION 1 - NUNEZ DE PRADO,393,de camino a casa.,Chemist drips reagent into test tube with yellow liquid,1747463,1.4,19:37.80,19:39.20,ZOOM IN SLOW · 4s,lab_reagent
+MEJOR OPCION 1 - NUNEZ DE PRADO,394,"Esa es, precisamente, la señal.",Olive Oil Pouring from Bottle,3878595,1.7,19:39.20,19:40.90,PAN RIGHT · 4s,bottle_pour2
+MEJOR OPCION 1 - NUNEZ DE PRADO,395,Cuando un aceite de oliva es fácil de encontrar en,Female worker working in oil factory,1848716,3.4,19:40.90,19:44.30,ZOOM OUT SLOW · 4s,oil_factory_worker2
+MEJOR OPCION 1 - NUNEZ DE PRADO,396,"cualquier sitio, a cualquier precio, todo el año, generalmente es",Female worker working in oil factory,1848716,3.4,19:44.30,19:47.70,STATIC,oil_factory_worker2
+MEJOR OPCION 1 - NUNEZ DE PRADO,397,"porque está diseñado para la distribución masiva, no para la trazabilidad.",Female worker working in oil factory,1848716,3.8,19:47.70,19:51.50,PAN LEFT · 4s,oil_factory_worker2
+MEJOR OPCION 1 - NUNEZ DE PRADO,398,"Cuando cuesta encontrarlo, casi siempre es porque no se ha",People In Olive Orchard Collecting Fruit In The Harvest Season,6127160,3.4,19:51.50,19:54.90,DIAGONAL PAN + ZOOM IN · 4s,olive_harvest_people
+MEJOR OPCION 1 - NUNEZ DE PRADO,399,sacrificado nada en el proceso para que llegue más lejos.,People In Olive Orchard Collecting Fruit In The Harvest Season,6127160,3.4,19:54.90,19:58.30,ZOOM IN FAST · 2s,olive_harvest_people
+MEJOR OPCION 1 - NUNEZ DE PRADO,400,La finca se encuentra dentro de la zona amparada por,Video of drone of a family playfully runs through olive groves,5682519,3.4,19:58.30,20:01.70,PAN UP · 4s,family_olive_grove
+MEJOR OPCION 1 - NUNEZ DE PRADO,401,"la Denominación de Origen Baena, la misma región que da",Video of drone of a family playfully runs through olive groves,5682519,3.4,20:01.70,20:05.10,ZOOM IN SLOW · 4s,family_olive_grove
+MEJOR OPCION 1 - NUNEZ DE PRADO,402,"nombre a Melgarejo, aunque cada familia trabaja su propia tierra",Video of drone of a family playfully runs through olive groves,5682519,3.4,20:05.10,20:08.50,PAN RIGHT · 4s,family_olive_grove
+MEJOR OPCION 1 - NUNEZ DE PRADO,403,de manera completamente independiente.,Video of drone of a family playfully runs through olive groves,5682519,1.4,20:08.50,20:09.90,ZOOM OUT SLOW · 4s,family_olive_grove
+MEJOR OPCION 1 - NUNEZ DE PRADO,404,"Siete generaciones bajo el mismo techo, sin haber cedido nunca",Pouring pure Extra Virgin Olive Oil,606843,3.4,20:09.90,20:13.30,STATIC,bottle_pouring
+MEJOR OPCION 1 - NUNEZ DE PRADO,405,"el control de la producción a un tercero, es algo",Pouring pure Extra Virgin Olive Oil,606843,3.4,20:13.30,20:16.70,PAN LEFT · 4s,bottle_pouring
+MEJOR OPCION 1 - NUNEZ DE PRADO,406,que ninguna de las siete marcas anteriores puede decir de sí misma.,Pouring pure Extra Virgin Olive Oil,606843,4.1,20:16.70,20:20.80,DIAGONAL PAN + ZOOM IN · 4s,bottle_pouring
+CIERRE,407,"Aquí está la regla que te llevas de este vídeo,","Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,3.4,20:20.80,20:24.20,ZOOM IN FAST · 2s,three_bottles
+CIERRE,408,y que puedes aplicar la próxima vez que estés delante,"Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,3.4,20:24.20,20:27.60,PAN UP · 4s,three_bottles
+CIERRE,409,de la estantería de aceites.,"Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,1.7,20:27.60,20:29.30,ZOOM IN SLOW · 4s,three_bottles
+CIERRE,410,"Primero, mira si la etiqueta dice ""virgen extra"" o solo ""aceite de oliva"".",Close-up of a Bottle with Yellow Cap,3811676,4.5,20:29.30,20:33.80,PAN RIGHT · 4s,yellow_cap
+CIERRE,411,"Son categorías legales distintas, no una cuestión de gusto.",Stamp with CERTIFIED text of flat style isolated on white background,3982793,3.1,20:33.80,20:36.90,ZOOM OUT SLOW · 4s,cert_stamp
+CIERRE,412,"Solo la primera está hecha exclusivamente por medios mecánicos, sin",Hand holding a small dark green glass bottle with a red cap,3717430,3.4,20:36.90,20:40.30,STATIC,dark_bottle_label
+CIERRE,413,calor añadido ni disolventes.,Hand holding a small dark green glass bottle with a red cap,3717430,1.4,20:40.30,20:41.70,PAN LEFT · 4s,dark_bottle_label
+CIERRE,414,"Y ten cuidado también con el ""aceite de orujo de",Woman Tastes Tea In A Glass And Smiles In Her House,5079112,3.4,20:41.70,20:45.10,DIAGONAL PAN + ZOOM IN · 4s,tasting_reaction
+CIERRE,415,"oliva"", una categoría todavía más barata que se extrae con",Woman Tastes Tea In A Glass And Smiles In Her House,5079112,3.4,20:45.10,20:48.50,ZOOM IN FAST · 2s,tasting_reaction
+CIERRE,416,disolventes de los restos sólidos que quedan tras el primer,Woman Tastes Tea In A Glass And Smiles In Her House,5079112,3.4,20:48.50,20:51.90,PAN UP · 4s,tasting_reaction
+CIERRE,417,"prensado, y que muchos compradores confunden con aceite de oliva",Woman Tastes Tea In A Glass And Smiles In Her House,5079112,3.4,20:51.90,20:55.30,ZOOM IN SLOW · 4s,tasting_reaction
+CIERRE,418,"normal solo por la palabra ""oliva"" en el envase.",Woman Tastes Tea In A Glass And Smiles In Her House,5079112,3.1,20:55.30,20:58.40,PAN RIGHT · 4s,tasting_reaction
+CIERRE,419,"Segundo, busca el sello de Denominación de Origen.",Pouring pure Extra Virgin Olive Oil,606843,2.8,20:58.40,21:01.20,ZOOM OUT SLOW · 4s,bottle_pouring
+CIERRE,420,Es la única garantía verificada por un organismo externo a la propia marca.,Person Checking Bill Or Receipt For Supermarket Shopping Basket Full Of Basic Food Items,687809,4.5,21:01.20,21:05.70,STATIC,receipt_check
+CIERRE,421,"Tercero, busca la fecha de cosecha, no solo la de caducidad.",Spain national flag waving on flagpole,3082160,3.8,21:05.70,21:09.50,PAN LEFT · 4s,spain_flag2
+CIERRE,422,"Un aceite reciente conserva más polifenoles, más sabor real y",Woman counting fifty and one hundred euro bills,6947932,3.4,21:09.50,21:12.90,DIAGONAL PAN + ZOOM IN · 4s,counting_euros3
+CIERRE,423,más de los beneficios por los que probablemente lo estás comprando.,Woman counting fifty and one hundred euro bills,6947932,3.8,21:12.90,21:16.70,ZOOM IN FAST · 2s,counting_euros3
+CIERRE,424,Guárdalo además lejos del calor y de la luz directa:,Pouring Olive Oil on a Fresh Salad,3522160,3.4,21:16.70,21:20.10,PAN UP · 4s,salad_pour1
+CIERRE,425,ambos aceleran la degradación de esos mismos compuestos.,Pouring Olive Oil on a Fresh Salad,3522160,2.8,21:20.10,21:22.90,ZOOM IN SLOW · 4s,salad_pour1
+CIERRE,426,"Y cuarto, pruébalo.","Tilting bottle pouring oil over tomato, onion, basil",8663762,1,21:22.90,21:23.90,PAN RIGHT · 4s,salad_pour2
+CIERRE,427,Un virgen extra fresco tiene que picarte ligeramente en la,Pouring hand tilting olive oil bottle over salad on counter,7402383,3.4,21:23.90,21:27.30,ZOOM OUT SLOW · 4s,salad_pour3
+CIERRE,428,garganta y dejar un punto de amargor al final.,Pouring hand tilting olive oil bottle over salad on counter,7402383,3.1,21:27.30,21:30.40,STATIC,salad_pour3
+CIERRE,429,"Si tu aceite es suave, neutro y no te hace",Couple cooking in the kitchen,2947891,3.4,21:30.40,21:33.80,PAN LEFT · 4s,couple_cooking
+CIERRE,430,"pestañear ni un poco, no estás bebiendo lo que la",Couple cooking in the kitchen,2947891,3.4,21:33.80,21:37.20,DIAGONAL PAN + ZOOM IN · 4s,couple_cooking
+CIERRE,431,etiqueta dice que estás bebiendo.,Couple cooking in the kitchen,2947891,1.7,21:37.20,21:38.90,ZOOM IN FAST · 2s,couple_cooking
+CIERRE,432,Un último detalle práctico.,Biracial woman pouring oil on vegetables in baking tray,2717206,1.4,21:38.90,21:40.30,PAN UP · 4s,woman_pour_veg
+CIERRE,433,"La fecha de ""consumir preferentemente antes de"" suele fijarse entre",Happy senior woman mixing salad in sunny kitchen,3169363,3.4,21:40.30,21:43.70,ZOOM IN SLOW · 4s,senior_woman_salad
+CIERRE,434,"dieciocho y veinticuatro meses después del envasado, independientemente de la",Happy senior woman mixing salad in sunny kitchen,3169363,3.4,21:43.70,21:47.10,PAN RIGHT · 4s,senior_woman_salad
+CIERRE,435,frescura real del contenido.,Happy senior woman mixing salad in sunny kitchen,3169363,1.4,21:47.10,21:48.50,ZOOM OUT SLOW · 4s,senior_woman_salad
+CIERRE,436,"Esa fecha te dice cuándo caduca legalmente el producto, no",Aerial pan shot of a highway in the south of Spain surrounded by olive fields,1106294,3.4,21:48.50,21:51.90,STATIC,highway_olives
+CIERRE,437,cuándo dejó de estar en su mejor momento.,Aerial pan shot of a highway in the south of Spain surrounded by olive fields,1106294,2.8,21:51.90,21:54.70,PAN LEFT · 4s,highway_olives
+CIERRE,438,"Y siempre que puedas, elige botellas de vidrio oscuro o","Trees and olive groves in green landscapes, Granada, Spain",7055616,3.4,21:54.70,21:58.10,DIAGONAL PAN + ZOOM IN · 4s,granada_groves
+CIERRE,439,de lata frente al vidrio transparente: la luz degrada los,"Trees and olive groves in green landscapes, Granada, Spain",7055616,3.4,21:58.10,22:01.50,ZOOM IN FAST · 2s,granada_groves
+CIERRE,440,mismos compuestos que hacen que un buen aceite valga la pena.,"Trees and olive groves in green landscapes, Granada, Spain",7055616,3.8,22:01.50,22:05.30,PAN UP · 4s,granada_groves
+CIERRE,441,Si esto ha cambiado la forma en que vas a,"Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,3.4,22:05.30,22:08.70,ZOOM IN SLOW · 4s,three_bottles
+CIERRE,442,"mirar la próxima botella que compres, coméntanos qué marca tienes","Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,3.4,22:08.70,22:12.10,PAN RIGHT · 4s,three_bottles
+CIERRE,443,ahora mismo en tu cocina.,"Three glass bottles with handles containing olive oil, closed with cork stopper, with a bowl of olives",5465997,1.7,22:12.10,22:13.80,ZOOM OUT SLOW · 4s,three_bottles
+CIERRE,444,Es genuinamente útil ver qué está comprando la gente sin saber todo esto.,Close-up of a Bottle with Yellow Cap,3811676,4.5,22:13.80,22:18.30,STATIC,yellow_cap
