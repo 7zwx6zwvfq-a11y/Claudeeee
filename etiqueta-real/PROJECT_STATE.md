@@ -34,8 +34,18 @@ cierre con regla práctica de una sola línea + CTA de compartir.
 
 ---
 
-## V1 — ACEITE DE OLIVA ✅ TERMINADO (carpeta `aceite_oliva/`)
+## V1 — ACEITE DE OLIVA ✅ TERMINADO Y PUBLICADO (carpeta `aceite_oliva/`)
 
+- **Publicado.** Título final en YouTube: "7 marcas de aceite de oliva que..." (thumbnail
+  "ESTO NO ES ACEITE"). Métricas a las 28h de publicarse (captura YouTube Studio, 2026-08-01):
+  - **1.843 visualizaciones**, **+15 suscriptores** atribuidos al vídeo.
+  - **CTR 6,1%** (por encima del umbral de referencia >6%).
+  - Descubrimiento **~95% algorítmico**: 59,2% Funciones de exploración (home) + 35,5%
+    Vídeos sugeridos. Solo 0,4% vino de búsqueda — el algoritmo lo está empujando solo.
+  - **72,7% del tráfico de sitios de terceros viene de whatsapp.com** — se está reenviando
+    de forma orgánica, no solo viéndose de forma pasiva.
+  - Lectura: arranque fuerte y validado para el formato "ranking de marcas ocultas" — razón
+    de más para completar el pipeline de V2 (Atún) y no dejarlo solo en guion.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
