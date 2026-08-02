@@ -36,14 +36,25 @@ cierre con regla práctica de una sola línea + CTA de compartir.
 
 ## V1 — ACEITE DE OLIVA ✅ TERMINADO Y PUBLICADO (carpeta `aceite_oliva/`)
 
-- **Publicado.** Título final en YouTube: "7 marcas de aceite de oliva que..." (thumbnail
-  "ESTO NO ES ACEITE"). Métricas a las 28h de publicarse (captura YouTube Studio, 2026-08-01):
-  - **1.843 visualizaciones**, **+15 suscriptores** atribuidos al vídeo.
-  - **CTR 6,1%** (por encima del umbral de referencia >6%).
-  - Descubrimiento **~95% algorítmico**: 59,2% Funciones de exploración (home) + 35,5%
-    Vídeos sugeridos. Solo 0,4% vino de búsqueda — el algoritmo lo está empujando solo.
-  - **72,7% del tráfico de sitios de terceros viene de whatsapp.com** — se está reenviando
-    de forma orgánica, no solo viéndose de forma pasiva.
+- **Publicado.** Canal confirmado: **Etiqueta Real** (17 suscriptores totales a fecha
+  2026-08-01; últimos 28 días del canal: 2,4K visualizaciones, 254h de tiempo de
+  visualización). Título del vídeo: "7 marcas de aceite de oliva que debes evitar..."
+  (thumbnail "ESTO NO ES ACEITE"). Duración real: **22:36**.
+  - **A las 28h**: 1.843 visualizaciones, +15 suscriptores, CTR 6,1%.
+  - **A las 43h**: **2.542 visualizaciones** (curva REACELERANDO: sube más rápido entre
+    28h-42h que entre 14h-28h — YouTube está aumentando la distribución con el tiempo, no
+    reduciéndola, al revés del patrón típico de pico-y-caída), 35,7K impresiones, CTR 5,7%
+    (baja un poco al ampliarse la base a audiencia más fría, pero se mantiene sólido).
+  - Descubrimiento **~95% algorítmico** de forma consistente en ambas mediciones: ~60%
+    Funciones de exploración (home) + ~35% Vídeos sugeridos. Prácticamente nada de búsqueda.
+  - **72,7% del tráfico de sitios de terceros viene de whatsapp.com** — reenvío orgánico
+    real, aunque en volumen absoluto todavía es pequeño (~15 views vía fuentes externas).
+  - **Retención**: duración media 6:15-6:17 → **27,8% de retención media** sobre 22:36.
+    Curva: caída fuerte a 62% ya en el segundo 0:27 (pierde 38% de la audiencia antes de
+    los 30s), luego cola larga y estable bajando poco a poco hasta ~15-20% al final. La
+    fuga se concentra casi toda en el arranque, no repartida por el vídeo.
+  - **Engagement**: 70 likes / 2.542 views ≈ 2,75% ratio like/view (decente para canal sin
+    audiencia previa). 12 comentarios, todos respondidos, sin backlog.
   - Lectura: arranque fuerte y validado para el formato "ranking de marcas ocultas" — razón
     de más para completar el pipeline de V2 (Atún) y no dejarlo solo en guion.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
@@ -71,6 +82,24 @@ cierre con regla práctica de una sola línea + CTA de compartir.
   magnifier_doc, yellow_cap, >15-25 usos); temas sin cobertura de stock (testimonio experto,
   comparativa botella oscura/clara, infografía IOC, fachada súper genérica, laboratorio de
   catadores, camión de reparto, fábrica cerrada para el tramo Deoleo/crisis financiera).
+
+### ⚠️ REGLA DE PRODUCCIÓN — Continuidad Thumbnail → Beat 1 (aprendida de V1 en real, 2026-08-01)
+
+> Diagnóstico sobre datos reales de retención de V1: caída del 38% de la audiencia ya en el
+> segundo 0:27 (retención 62%), el punto de mayor fuga de todo el vídeo con diferencia. El
+> frame de 0:00 es el shot `magnifier_doc` (una lupa sobre un documento antiguo genérico) —
+> un plano de "investigación" que no muestra el objeto físico que prometió el thumbnail
+> ("ESTO NO ES ACEITE" + botellas de aceite). El guion arranca fuerte por voz (dato del
+> precio triplicado), pero la imagen no confirma la promesa visual en el primer segundo.
+
+**Regla, válida para todos los vídeos futuros de Etiqueta Real (V2 en adelante):**
+El Beat 1 tiene que enseñar el objeto físico real del thumbnail — las botellas, las latas,
+el producto exacto que hizo click al espectador — no una metáfora genérica de tipo "lupa /
+investigación / documento". La cola de retención del resto del vídeo en V1 fue buena (bajada
+suave y estable tras el arranque, no fuga repartida) — el problema no es el contenido, es la
+puerta de entrada. Antes de cerrar el pool de stock real de V2 (Atún) o de cualquier vídeo
+siguiente, verificar explícitamente que el primer shot de la sección HOOK muestra el producto
+protagonista del thumbnail, no un stock genérico de "investigación".
 
 ---
 
