@@ -103,12 +103,18 @@ protagonista del thumbnail, no un stock genérico de "investigación".
 
 ---
 
-## V2 — ATÚN ✅ GUION Y PRODUCCIÓN LISTOS, PENDIENTE STOCK REAL (carpeta `atun/`)
+## V2 — ATÚN ✅ GUION + STOCK REAL LISTOS (carpeta `atun/`)
 
-- Guion completo en `atun/atun_full_script.py`. **4.513 palabras, ~25.9 min** a 174 ppm
+- Guion completo en `atun/atun_full_script.py`. **4.368 palabras, ~25.1 min** a 174 ppm
   (objetivo pedido: 25-27 min — cumplido; V1 se quedó corto en 22:30, aviso explícito del
   creador de que este debía ser más largo).
-- **CTA sutil de suscripción al 35,8%** del guion (tras cerrar el bloque de Isabel, antes de
+- **HOOK reescrito por completo (2026-08-02)** tras diagnóstico real de retención de V1
+  (fuga del 38% en el segundo 0:27 por un Beat 1 poco físico/directo). Nueva apertura:
+  2ª persona inmediata ("Para. Antes de echar esa lata de atún al carro..."), gotcha rápido
+  (dos personas comprando marcas "rivales" que en realidad son la misma empresa), open loop
+  sin desvelar cuál marca sorprende más, verbo de acción física ("vamos a abrir, literalmente,
+  esas siete latas") que ata la narración a una acción filmable concreta desde el Beat 1.
+- **CTA sutil de suscripción al ~34%** del guion (tras cerrar el bloque de Isabel, antes de
   Carrefour) — pedido explícito del creador: "sutil", no plantilla agresiva tipo Neurocents.
 - **Sin porcentajes en la narración** (pedido explícito) — todas las cifras de cuota/proporción
   se expresan como fracciones habladas: "uno de cada cinco", "siete de cada diez gramos",
@@ -139,15 +145,21 @@ protagonista del thumbnail, no un stock genérico de "investigación".
   en especies depredadoras grandes como rabil/patudo), Reglamento UE 1169/2011 (origen
   genérico permitido en marca blanca), regla de peso escurrido (natural ≥70%, aceite o
   escabeche ≥65%).
-- Pipeline generado: `atun_full_script.py` → `build_beats_atun.py` (488 beats, target
-  26:00) → `Atun_Beats.csv` → `make_atun_pdfs.py` → `Atun_SCRIPT.pdf` (con cabeceras, para
-  revisión), `Atun_ELEVENLABS.pdf` (narración limpia, 176 líneas), `Atun_Beats.pdf` (tabla
-  con timecodes y CapCut Motion).
-- **⚠️ PENDIENTE — lo único que falta para producción real:** los 488 beats tienen una
-  columna "sugerencia visual" que es un CONCEPTO descriptivo (ej. "Mapa animado con España,
-  Ecuador, Perú..."), NO un clip de stock real con ID de Freepik verificado como en V1. No
-  se ha hecho búsqueda de stock real esta sesión — haría falta repetir el proceso de V1
-  (`SHOTS`/`DOWNLOAD_URLS` con IDs y enlaces reales) antes de poder montar en CapCut.
+- Pipeline generado: `atun_full_script.py` → `build_beats_atun.py` (475 beats, target
+  26:00) → `Atun_Beats.csv` + `Atun_Shots_unicos.csv` → `make_atun_pdfs.py` →
+  `Atun_SCRIPT.pdf` (con cabeceras, para revisión), `Atun_ELEVENLABS.pdf` (narración limpia,
+  178 líneas), `Atun_Beats.pdf` (tabla con timecodes y CapCut Motion), `Atun_Shots_unicos.pdf`.
+- **✅ Stock real completado (2026-08-02):** 46 shots únicos, todos con ID real verificado
+  en el catálogo de Freepik vía `stock_search` (mismo mecanismo que V1). Se reutilizaron
+  directamente los IDs genéricos ya verificados en V1 (network_anim, magnifier_doc,
+  cert_stamp, handshake_boardroom, vintage_factory, generic_shelf, spain_flag1) y se
+  verificaron ~35 IDs nuevos específicos de atún/pesca/latas (aperturas de lata reales,
+  banderas Chile/Brasil, flota pesquera en Muxia/Galicia, etc.). El Beat 1 del HOOK usa
+  ahora un shot real de una mano deteniéndose sobre latas en el carrito (ID 5954197),
+  cumpliendo la regla de continuidad thumbnail→Beat 1.
+  **Nota técnica:** no se guardaron URLs de descarga firmadas (caducan en horas) — al
+  montar en CapCut, usar `stock_download(id, tipo)` con los IDs de `Atun_Shots_unicos.csv`
+  para obtener el enlace fresco en el momento de editar.
 - Nota de confianza: la participación exacta de Bolton Group en Grupo Calvo se dejó sin
   cifra concreta en el guion porque las fuentes encontradas se contradicen (una dice 40%
   desde 2012, otra dice familia al 77,8%) — se optó por "una participación" sin porcentaje,
@@ -161,7 +173,7 @@ protagonista del thumbnail, no un stock genérico de "investigación".
 etiqueta-real/
   PROJECT_STATE.md          <- este archivo
   aceite_oliva/              <- V1 completo (script, beats, shots reales, PDFs, xlsx)
-  atun/                      <- V2 completo (script, beats, PDFs) — falta stock real
+  atun/                      <- V2 completo: script, beats, stock real (46 shots), PDFs
 ```
 
 No incluye `junko_furuta/` (true crime, proyecto/canal distinto, no forma parte de
@@ -169,9 +181,10 @@ Etiqueta Real) — se quedó solo en el scratchpad de la sesión original si hac
 
 ## Próximos pasos posibles
 
-1. Aprobar el guion de V2 (Atún) tal cual, o pedir ajustes.
-2. Buscar y verificar clips de stock reales (Freepik) para los 488 beats de Atún, igual que
-   se hizo para Aceite — es el único bloque pendiente antes de poder montar el vídeo.
-3. Generar `Atun_Prepublish_Checklist` (título, descripción, tags, Reddit) cuando el guion
+1. Aprobar el guion de V2 (Atún) tal cual, o pedir ajustes — guion y stock real ya están
+   listos, el vídeo se puede montar en CapCut en cuanto se apruebe.
+2. Generar `Atun_Prepublish_Checklist` (título, descripción, tags, Reddit) cuando el guion
    esté aprobado — no se ha hecho todavía para este vídeo.
+3. Seguir el rendimiento real de V1 (Aceite) en YouTube Studio y aplicar lecciones al montaje
+   de V2 antes de publicarlo (ver regla de continuidad Thumbnail→Beat 1 arriba).
 4. Decidir el V3 de este canal (siguiente categoría de producto a rankear).

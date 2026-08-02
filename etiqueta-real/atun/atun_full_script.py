@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 """ATUN - Full script text (V2), section by section. Target ~25-27 min at ~174 wpm."""
 
-HOOK = """En España se consumen más de tres kilos de atún en lata por persona al año. En México, en Ecuador, en Chile, en Costa Rica, la lata de atún está entre las conservas más vendidas de cualquier supermercado, en cualquier país de habla hispana. Es barata, dura años en la despensa, y casi nadie se para a mirar más allá del precio y la foto del pescado en la etiqueta.
+HOOK = """Para. Antes de echar esa lata de atún al carro, mira bien el nombre de la marca.
 
-Pero detrás de las siete marcas de atún más reconocibles del mundo hispanohablante —da igual si vives en Madrid, en Ciudad de México, en Santiago de Chile o en San José de Costa Rica— hay una estructura mucho más pequeña de lo que el pasillo del súper te hace creer. Puede que tú compres una marca en tu país y tu prima, al otro lado del Atlántico, compre otra completamente distinta pensando que elige algo diferente. Muchas veces las dos salen de la misma fábrica, del mismo grupo, incluso del mismo accionista final.
+Ahora imagina a tu prima, en otro país, a miles de kilómetros, echando a su carro una lata completamente distinta. Convencida de que está comprando algo diferente a lo tuyo.
 
-El Reglamento europeo 1379/2013 obliga a indicar en cada lata la especie exacta de atún, el método de captura y la zona donde se pescó. Esa información existe, impresa en letra pequeña, casi siempre en la parte trasera del envase. Casi nadie la lee. Y donde la ley no obliga a explicar algo más allá de eso, la industria rara vez lo explica por voluntad propia.
+Las dos acaban de pagarle a la misma empresa.
 
-Hoy vamos a repasar siete marcas de atún que probablemente tengas en tu cocina ahora mismo —desde Chile hasta España, pasando por México, Ecuador y Centroamérica— y por qué la estructura real detrás de cada una hace que la elección que crees estar haciendo, muchas veces, no exista en absoluto. Vas a ver el mismo patrón repetirse una y otra vez, con nombres distintos y banderas distintas, hasta que sea imposible no reconocerlo la próxima vez que estés delante de la estantería.
+No es una coincidencia. Es el negocio real de al menos tres de las siete marcas de atún más vendidas de todo el mundo hispanohablante ahora mismo, desde España hasta Chile, desde México hasta Ecuador.
 
-No hace falta ser un experto en pesca ni en finanzas corporativas para entender lo que viene a continuación. Solo hace falta prestar atención a algo que casi nunca hacemos en el supermercado: preguntarnos quién gana dinero, exactamente, cada vez que metemos una lata en el carrito, y si esa empresa es de verdad quien creemos que es.
+Y una de esas siete es, probablemente, la marca que más veces ha entrado en tu cocina en toda tu vida. Todavía no te vamos a decir cuál.
 
-Después te vamos a enseñar tres marcas que sí están construidas de otra manera, para ser exactamente lo que dicen ser.
+Esto está documentado: registros mercantiles, prensa económica, memorias de sostenibilidad que las propias empresas publican por su cuenta, orgullosas. Lo único donde nunca aparece es en la lata que tienes en la mano ahora mismo.
 
-Vamos a ello."""
+Hoy vamos a abrir, literalmente, esas siete latas, de la peor a la mejor, y te vamos a enseñar quién fabrica de verdad cada una. Al final, tres marcas que sí son exactamente lo que dicen ser en la etiqueta.
+
+El Reglamento europeo 1379/2013 obliga a declarar en cada lata la especie exacta, el método de captura y la zona donde se pescó. Esa información existe. Casi nadie la lee. Y donde la ley no exige contarte más que eso, la industria casi nunca te cuenta el resto por su cuenta.
+
+Vamos a abrirlas."""
 
 MARCA7 = """Número 7. Hacendado. La marca blanca de Mercadona, la que llevas comprando sin pensarlo si haces la compra en Mercadona, sea en el pueblo o en la ciudad que sea de España.
 

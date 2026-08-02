@@ -103,8 +103,8 @@ data = [[Paragraph(h, header_style) for h in header]]
 for row in body:
     data.append([Paragraph(str(c) if c is not None else "", cell_style) for c in row])
 
-# Sección | Beat# | Texto | Sugerencia visual | Duración | Inicio | Fin | Motion
-col_widths_mm = [26, 9, 55, 55, 12, 14, 14, 22]
+# Sección | Beat# | Texto | Shot | Freepik ID | Duración | Inicio | Fin | Motion | Ref
+col_widths_mm = [24, 8, 50, 48, 14, 11, 13, 13, 20, 20]
 col_widths = [w * mm for w in col_widths_mm]
 
 doc3 = SimpleDocTemplate(base + "Atun_Beats.pdf", pagesize=landscape(A4),
@@ -121,8 +121,9 @@ table.setStyle(TableStyle([
 elements3 = [
     Paragraph(f"{TITLE} — Beats ({len(body)}) con duracion y timecode (objetivo ~26:00)", pdf_title_style),
     Spacer(1, 3 * mm),
-    Paragraph("Columna 'Sugerencia visual' = concepto descriptivo, NO un clip de stock real todavia. "
-              "Pendiente: busqueda y descarga de clips reales (Freepik/similares) antes de montar en CapCut.",
+    Paragraph("Shots verificados en el catalogo real de Freepik (IDs reales via stock_search). "
+              "Para descargar el archivo final usar stock_download(id, tipo) en el momento de montar "
+              "en CapCut -- las URLs firmadas caducan en horas, por eso no se guardan aqui.",
               ParagraphStyle("note", parent=styles["Normal"], fontSize=8, textColor=RED, spaceAfter=4)),
     Spacer(1, 2 * mm),
     table,
@@ -130,4 +131,34 @@ elements3 = [
 doc3.build(elements3)
 print(f"Guardado Atun_Beats.pdf ({len(body)} filas)")
 
-print("Listo. 3 PDFs generados.")
+
+# ---------------- 4) SHOTS UNICOS PDF ----------------
+with open(base + "Atun_Shots_unicos.csv", encoding="utf-8-sig") as f:
+    rows4 = list(csv.reader(f))
+header4, body4 = rows4[0], rows4[1:]
+data4 = [[Paragraph(h, header_style) for h in header4]]
+for row in body4:
+    data4.append([Paragraph(str(c) if c is not None else "", cell_style) for c in row])
+
+col_widths4_mm = [40, 130, 25, 25]
+col_widths4 = [w * mm for w in col_widths4_mm]
+doc4 = SimpleDocTemplate(base + "Atun_Shots_unicos.pdf", pagesize=landscape(A4),
+                          leftMargin=10 * mm, rightMargin=10 * mm, topMargin=12 * mm, bottomMargin=12 * mm)
+table4 = Table(data4, colWidths=col_widths4, repeatRows=1)
+table4.setStyle(TableStyle([
+    ("BACKGROUND", (0, 0), (-1, 0), RED),
+    ("GRID", (0, 0), (-1, -1), 0.4, colors.grey),
+    ("VALIGN", (0, 0), (-1, -1), "TOP"),
+    ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#F5F5F5")]),
+    ("TOPPADDING", (0, 0), (-1, -1), 3),
+    ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+]))
+elements4 = [
+    Paragraph(f"{TITLE} — Shots unicos ({len(body4)})", pdf_title_style),
+    Spacer(1, 3 * mm),
+    table4,
+]
+doc4.build(elements4)
+print(f"Guardado Atun_Shots_unicos.pdf ({len(body4)} filas)")
+
+print("Listo. 4 PDFs generados.")

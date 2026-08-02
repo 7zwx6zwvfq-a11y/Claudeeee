@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Build beats (timecoded, ~9-11 word chunks) for the Atun video.
-No hay librería de stock real todavía (pendiente de búsqueda en Freepik),
-así que cada beat lleva una SUGERENCIA VISUAL descriptiva en vez de un ID de clip real."""
+Librería de SHOTS con IDs REALES verificados en el catálogo de Freepik
+(vía stock_search) — ya no son sugerencias descriptivas genéricas.
+Para descargar: usar stock_download(id, type) en el momento de editar
+(las URLs firmadas caducan en horas, así que no se guardan aquí)."""
 import re
 import csv
 
 from atun_full_script import SECTIONS
 
-TARGET_SECONDS = 26 * 60  # objetivo de duración de render: 26:00 (dentro del rango 25-27 pedido)
+TARGET_SECONDS = 26 * 60  # objetivo de duración de render: 26:00
 
 MOTIONS = [
     "ZOOM IN SLOW · 4s", "PAN RIGHT · 4s", "ZOOM OUT SLOW · 4s",
@@ -16,114 +18,90 @@ MOTIONS = [
     "ZOOM IN FAST · 2s", "PAN UP · 4s",
 ]
 
-# Sugerencias visuales rotativas por sección (conceptos, no clips reales todavía)
-SECTION_VISUALS = {
-    "HOOK": [
-        "Estanterías de supermercado genérico llenas de latas de atún",
-        "Mano comparando dos latas de atún de marcas distintas",
-        "Mapa animado con banderas de España, México, Chile, Ecuador y Costa Rica conectándose",
-        "Primer plano de la parte trasera de una lata, texto legal en letra pequeña",
-        "Animación de red corporativa: un nodo central expandiéndose hacia varios logos genéricos",
-        "Carro de la compra avanzando por el pasillo de conservas",
-        "Reloj o calendario pasando páginas rápido (paso del tiempo / rutina de compra)",
-        "Persona leyendo el envase de una lata con cara de duda",
-    ],
-    "MARCA 7 - HACENDADO": [
-        "Exterior genérico de supermercado tipo gran superficie",
-        "Lineal de marca blanca con latas de atún idénticas en diseño",
-        "Primer plano de una lata de atún estilo marca blanca (sin logo real)",
-        "Interior de fábrica conservera, cinta transportadora con latas",
-        "Animación de red corporativa: logo del súper conectado a un fabricante oculto detrás",
-        "Documento / informe corporativo genérico en pantalla (memoria de sostenibilidad)",
-        "Sello circular tipo certificación de pesca sostenible",
-        "Mapa de Galicia con un pin marcando una fábrica",
-    ],
-    "MARCA 6 - ROBINSON CRUSOE": [
-        "Costa rocosa e isla vista aérea (estilo Pacífico sur)",
-        "Lata de atún genérica con diseño de bandera chilena de fondo",
-        "Mapa animado con línea conectando Chile y España",
-        "Barco pesquero navegando en mar abierto",
-        "Planta de envasado de conservas, trabajadores con cofia",
-        "Bandera de Chile ondeando",
-        "Bandera de España ondeando",
-        "Animación de red corporativa uniendo dos marcas bajo un mismo logo paraguas",
-    ],
-    "MARCA 5 - ISABEL": [
-        "Mapa animado con España, Ecuador, Perú, Colombia y México iluminándose uno a uno",
-        "Lineal de supermercado con latas de atún en primer plano, foco desenfocado en el fondo",
-        "Animación de accionariado: dos empresas pequeñas conectadas a una multinacional más grande",
-        "Primer plano de etiqueta trasera de lata con texto de especie y zona de pesca",
-        "Lupa sobre un párrafo de texto legal en un envase",
-        "Icono o gráfico de advertencia junto a un símbolo de balanza / mercurio",
-        "Dos latas de atún casi idénticas, una junto a otra, distinguibles solo por una palabra",
-        "Familia numerosa repartida en una videollamada (metáfora de países distintos, misma marca)",
-    ],
-    "CTA SUTIL (~35%)": [
-        "Icono de campana de notificación animándose suavemente",
-        "Mano tocando la pantalla de un móvil sobre un botón de suscripción genérico",
-        "Interfaz genérica de vídeo online con botón de suscribirse resaltado",
-    ],
-    "MARCA 4 - CARREFOUR": [
-        "Exterior genérico de híper con carritos en fila",
-        "Lineal de marca blanca en tonos azules y blancos",
-        "Dos botellas/latas comparadas: una con aceite de oliva, otra con aceite de girasol",
-        "Documento con tabla de resultados de un análisis de calidad (genérico, sin logos)",
-        "Báscula de cocina pesando el contenido de una lata escurrida",
-        "Primer plano de sal derramándose sobre una superficie",
-        "Tabla comparativa animada: peso neto vs peso escurrido",
-        "Persona leyendo la etiqueta trasera de una lata en el pasillo",
-    ],
-    "MARCA 3 - ORTIZ": [
-        "Fábrica conservera de aspecto artesanal, ladrillo visto, maquinaria antigua",
-        "Lata de atún de diseño vintage/premium sobre fondo de madera",
-        "Documento de análisis de consumo con sello de 'resultado' genérico",
-        "Primer plano de sal en un salero de cocina",
-        "Mesa puesta con mantel elegante, lata de atún gourmet como centro de mesa",
-        "Tienda delicatessen / gourmet con productos premium en estantería de madera",
-    ],
-    "MARCA 2 - NOSTROMO": [
-        "Lata de atún con estética italiana (colores cálidos, tipografía clásica)",
-        "Mapa animado con línea conectando España e Italia",
-        "Animación de red corporativa: dos marcas con logos distintos convergiendo en una sola empresa",
-        "Lineal de supermercado con dos marcas de diseño opuesto (una grande, otra 'artesanal') juntas",
-        "Interior de fábrica conservera genérica, líneas de producción paralelas",
-    ],
-    "MARCA 1 - CALVO": [
-        "Metraje de archivo en blanco y negro, fábrica de conservas años 40-50",
-        "Máquina industrial de enlatado en movimiento, estilo retro",
-        "Flota de barcos pesqueros en un puerto gallego",
-        "Mapa mundial animado con puntos iluminándose en más de setenta países",
-        "Bandera de Brasil ondeando",
-        "Gráfico de barras ascendente representando crecimiento regional",
-        "Familia genérica reunida en torno a una mesa de despacho (protocolo familiar / empresa familiar)",
-        "Documento corporativo con el logo de dos empresas conectadas por una línea de accionariado",
-        "Primer plano de una lata de atún icónica sobre fondo neutro",
-    ],
-    "MEJOR OPCION 3 - FRINSA": [
-        "Barco pesquero propio saliendo a faenar al amanecer",
-        "Planta procesadora de pescado con trabajadores en primer plano",
-        "Mapa de Galicia con costa marcada",
-        "Cinta transportadora con lomos de atún antes de enlatar",
-    ],
-    "MEJOR OPCION 2 - PALACIO DE ORIENTE": [
-        "Fachada de fábrica histórica en Vigo, ladrillo antiguo",
-        "Fotografía de archivo en sepia de una conservera de principios del siglo XX",
-        "Trabajador artesanal seleccionando pescado a mano",
-        "Lata de atún de diseño clásico/artesanal sobre mesa de madera",
-    ],
-    "MEJOR OPCION 1 - CONSORCIO": [
-        "Mesa de selección manual de lomos de atún, trabajador revisando pieza a pieza",
-        "Primer plano de manos colocando pescado dentro de una lata a mano",
-        "Sello de trazabilidad / lote impreso en el fondo de una lata",
-        "Lata de atún premium en un estante reducido, poco stock",
-    ],
-    "CIERRE": [
-        "Checklist gráfico animado con 5 puntos marcándose uno a uno",
-        "Mano señalando la etiqueta trasera de una lata de atún",
-        "Comparativa final: las siete latas de la lista alineadas en una balda",
-        "Icono de compartir / enviar mensaje en un móvil",
-        "Persona mostrando el móvil a otra persona en la cocina (compartiendo el vídeo)",
-    ],
+# ---------- SHOT LIBRARY (Freepik IDs reales, verificados via stock_search) ----------
+# formato: clave -> (titulo, id, tipo)
+SHOTS = {
+    # -- reutilizados de la libreria real de V1 (Aceite), conceptos genericos --
+    "generic_shelf":      ("Fixed clip of full grocery store shelves, filled with brightly coloured products", 6181813, "video"),
+    "network_anim":       ("Central avatar appearing and expanding, sending connecting lines and nodes, showing company network", 7618572, "video"),
+    "magnifier_doc":      ("Close-Up of a Magnifying Glass on an Aged Document Highlighting Detailed Text and Graphs", 8534240, "video"),
+    "cert_stamp":         ("Stamp with CERTIFIED text of flat style isolated on white background", 3982793, "video"),
+    "handshake_boardroom": ("Business people handshake in boardroom, corporate partnership deal", 2466239, "video"),
+    "vintage_factory":    ("Archival footage, women working in factories, 1915", 98280, "video"),
+    "aisle_dolly":        ("A smooth out-of-focus camera movement travels down a brightly lit retail grocery store aisle", 7917819, "video"),
+    "spain_flag1":        ("Waving Flag of Spain", 8567147, "video"),
+    "two_bottles_compare": ("Two bottles of olive oil and extra virgin olive", 2310359, "video"),
+    "modern_oil_factory": ("Interior of modern natural oil factory", 6067479, "video"),
+    # -- nuevos, verificados esta sesion para Atun --
+    "hand_cart_cans":     ("Hand of elegant shopper reaches into metal grocery cart to lift two tins of canned food by precise fingertips", 5954197, "video"),
+    "hand_holding_tuna":  ("Women holding a canned tuna", 2476908, "video"),
+    "network_converge":   ("Animation of network of connections and data processing over dark background", 4721014, "video"),
+    "cans_aligned_low":   ("A video still of canned goods lined up on a reflective surface, captured from a low angle", 7103683, "video"),
+    "opening_tuna_dramatic": ("A close-up sequence shows hands opening a pull-tab can of tuna chunks in mineral water", 6168409, "video"),
+    "reading_glass_files": ("Animation of reading glass and text over files", 2082900, "video"),
+    "cans_colorful_shelf": ("A Colorful Array of Canned Goods on Grocery Store Shelves", 6843740, "video"),
+    "opening_tuna_can":   ("Opening a can of tuna", 5044250, "video"),
+    "canned_tuna_plain":  ("Canned Tuna", 3420831, "video"),
+    "cannery_conveyor":   ("Closeup of cans moving on a conveyor belt in a food production line", 3455151, "video"),
+    "rocky_island_aerial": ("Stunning aerial view of rocky island surrounded by ocean waves", 6758697, "video"),
+    "canned_tuna_wood":   ("Canned tuna on wooden table", 2427530, "video"),
+    "world_map_lines":    ("Lines showing countries connecting on world map", 3071564, "video"),
+    "fishing_boat_galicia": ("Fishing Boat Cruising In The Blue Sea In To Muxia In Spain", 2979449, "video"),
+    "factory_workers_pink": ("Factory Workers in Pink Uniforms Packaging Products on an Automated Assembly Line", 8083967, "video"),
+    "chile_flag":         ("Chile national flag waving on flagpole", 3091163, "video"),
+    "warning_icon":       ("Alert sign attention mark caution icon triangle exclamation mark danger warning emergency hazard", 5695539, "video"),
+    "two_cans_compare":   ("Two Cans of Food on a Blue Wooden Tabletop", 3680436, "video"),
+    "share_button_glow":  ("Animated Share Button Glowing on Black Background", 7196718, "video"),
+    "finger_share_phone": ("Finger on Share Button on Mobile Phone", 4838647, "video"),
+    "youtube_share_anim": ("Premium Youtube Share Animation 1", 7055249, "video"),
+    "sunflower_oil":      ("Sunflower oil bottle. Cooking oil in glass bottle. Cooking ingredients", 1474089, "video"),
+    "kitchen_scale":      ("Close up of kitchen digital weighing scale displaying zero with metallic container placed on top", 5302538, "video"),
+    "salt_pouring":       ("Closeup of a Hand Pouring Salt From a Shaker", 3479267, "video"),
+    "reading_label_store": ("Person Reading Product Label in Grocery Store", 4972749, "video"),
+    "elegant_table":      ("Minimalist table setting with white plate, fork, and knife arranged neatly", 5070095, "video"),
+    "deli_shopping":      ("Woman Shopping at an Italian Delicatessen", 4874053, "video"),
+    "canning_machine":    ("Industrial canning machine tops and seals cans, four aluminum beverage cans move down production line, HD", 722777, "video"),
+    "world_map_network":  ("Blue world map with growing white network of connected icons on black background", 1948107, "video"),
+    "brazil_flag":        ("Brazil Flag Waving Cloth Textured", 8588916, "video"),
+    "bar_chart_growth":   ("Animated Bar Chart Showing Progressive Growth of Colorful Data Columns", 9083856, "video"),
+    "fish_factory_line":  ("Men work cutting and cleaning fish on an assembly line at a fish processing factory", 122898, "video"),
+    "fish_fillet_worker": ("Worker slices fish fillet lengthwise with fish tail resting on cutting board", 8939865, "video"),
+    "hands_sorting_fish": ("Hands Sorting Fresh Fish and Adding Ice at a Market", 7803085, "video"),
+    "checklist_anim":     ("Animated Checklist on Clipboard with Stopwatch for Task Completion", 7352827, "video"),
+    "hand_spoon_tuna":    ("Hands open a can of tuna with a spoon", 3420163, "video"),
+}
+
+# Rotacion de shots por seccion (ciclo por frase, misma logica que V1)
+SECTION_SHOTS = {
+    "HOOK": ["hand_cart_cans", "hand_holding_tuna", "network_converge", "cans_aligned_low",
+             "opening_tuna_dramatic", "reading_glass_files", "cans_colorful_shelf",
+             "magnifier_doc", "opening_tuna_can"],
+    "MARCA 7 - HACENDADO": ["aisle_dolly", "generic_shelf", "canned_tuna_plain", "cannery_conveyor",
+                             "network_anim", "reading_glass_files", "cert_stamp", "world_map_lines"],
+    "MARCA 6 - ROBINSON CRUSOE": ["rocky_island_aerial", "canned_tuna_wood", "world_map_lines",
+                                    "fishing_boat_galicia", "factory_workers_pink", "chile_flag",
+                                    "spain_flag1", "network_converge"],
+    "MARCA 5 - ISABEL": ["world_map_network", "cans_colorful_shelf", "network_converge",
+                          "magnifier_doc", "reading_glass_files", "warning_icon",
+                          "two_cans_compare", "cans_colorful_shelf"],
+    "CTA SUTIL (~35%)": ["share_button_glow", "finger_share_phone", "youtube_share_anim"],
+    "MARCA 4 - CARREFOUR": ["aisle_dolly", "generic_shelf", "sunflower_oil", "reading_glass_files",
+                              "kitchen_scale", "salt_pouring", "kitchen_scale", "reading_label_store"],
+    "MARCA 3 - ORTIZ": ["modern_oil_factory", "canned_tuna_wood", "reading_glass_files",
+                          "salt_pouring", "elegant_table", "deli_shopping"],
+    "MARCA 2 - NOSTROMO": ["canned_tuna_wood", "world_map_lines", "network_converge",
+                             "cans_colorful_shelf", "cannery_conveyor"],
+    "MARCA 1 - CALVO": ["vintage_factory", "canning_machine", "fishing_boat_galicia",
+                          "world_map_network", "brazil_flag", "bar_chart_growth",
+                          "handshake_boardroom", "network_converge", "canned_tuna_plain"],
+    "MEJOR OPCION 3 - FRINSA": ["fishing_boat_galicia", "fish_factory_line", "world_map_lines",
+                                  "fish_fillet_worker"],
+    "MEJOR OPCION 2 - PALACIO DE ORIENTE": ["vintage_factory", "vintage_factory",
+                                              "hands_sorting_fish", "canned_tuna_wood"],
+    "MEJOR OPCION 1 - CONSORCIO": ["hands_sorting_fish", "hand_spoon_tuna", "cert_stamp",
+                                     "cans_colorful_shelf"],
+    "CIERRE": ["checklist_anim", "reading_label_store", "cans_aligned_low",
+                "finger_share_phone", "youtube_share_anim"],
 }
 
 
@@ -158,40 +136,50 @@ gcount = 0
 motion_i = 0
 
 for section, full_text in SECTIONS:
-    visual_cycle = SECTION_VISUALS[section]
+    shot_cycle = SECTION_SHOTS[section]
     sentences = split_sentences(full_text)
     for s_idx, sentence in enumerate(sentences):
-        visual = visual_cycle[s_idx % len(visual_cycle)]
+        shot_key = shot_cycle[s_idx % len(shot_cycle)]
         for sub in split_words(sentence, target=10):
             gcount += 1
             motion = MOTIONS[motion_i % len(MOTIONS)]
             motion_i += 1
-            expanded.append((section, gcount, sub, visual, motion))
+            expanded.append((section, gcount, sub, shot_key, motion))
 
 TOTAL_WORDS = sum(len(t.split()) for _, t in SECTIONS)
 SEC_PER_WORD = TARGET_SECONDS / TOTAL_WORDS
 
 timed = []
 t = 0.0
-for section, beat, text, visual, motion in expanded:
+for section, beat, text, shot_key, motion in expanded:
     words = len(text.split())
     dur = round(words * SEC_PER_WORD, 1)
     start = t
     end = t + dur
     t = end
-    timed.append((section, beat, text, visual, motion, dur, start, end))
+    timed.append((section, beat, text, shot_key, motion, dur, start, end))
 
 print(f"Total beats: {gcount}")
 print(f"Total palabras: {TOTAL_WORDS}")
 print(f"Duracion objetivo: {TARGET_SECONDS}s ({TARGET_SECONDS/60:.1f} min) -> {SEC_PER_WORD:.4f} s/palabra")
 print(f"Duracion timeline calculada: {fmt_tc(t)}")
+print(f"Shots unicos reales usados: {len(SHOTS)}")
 
 base = "/tmp/claude-0/-home-user-Claudeeee/fed35260-2711-5769-ad05-7e136fd68906/scratchpad/"
 with open(base + "Atun_Beats.csv", "w", encoding="utf-8-sig", newline="") as f:
     w = csv.writer(f)
-    w.writerow(["Sección", "Beat #", "Texto del guión", "Sugerencia visual (pendiente de clip real)",
-                "Duración (s)", "Inicio", "Fin", "CapCut Motion"])
-    for section, beat, text, visual, motion, dur, start, end in timed:
-        w.writerow([section, beat, text, visual, dur, fmt_tc(start), fmt_tc(end), motion])
+    w.writerow(["Sección", "Beat #", "Texto del guión", "Shot (descripción real)", "Freepik ID",
+                "Duración (s)", "Inicio", "Fin", "CapCut Motion", "Ref. shot"])
+    for section, beat, text, shot_key, motion, dur, start, end in timed:
+        title, sid, stype = SHOTS[shot_key]
+        w.writerow([section, beat, text, title, sid, dur, fmt_tc(start), fmt_tc(end), motion, shot_key])
 
 print("Guardado Atun_Beats.csv")
+
+# ---------------- Hoja de shots unicos (para descargar con stock_download) ----------------
+with open(base + "Atun_Shots_unicos.csv", "w", encoding="utf-8-sig", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["Ref.", "Titulo del clip", "Freepik ID", "Tipo"])
+    for key, (title, sid, stype) in SHOTS.items():
+        w.writerow([key, title, sid, stype])
+print(f"Guardado Atun_Shots_unicos.csv ({len(SHOTS)} shots)")
