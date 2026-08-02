@@ -149,17 +149,27 @@ protagonista del thumbnail, no un stock genérico de "investigación".
   26:00) → `Atun_Beats.csv` + `Atun_Shots_unicos.csv` → `make_atun_pdfs.py` →
   `Atun_SCRIPT.pdf` (con cabeceras, para revisión), `Atun_ELEVENLABS.pdf` (narración limpia,
   178 líneas), `Atun_Beats.pdf` (tabla con timecodes y CapCut Motion), `Atun_Shots_unicos.pdf`.
-- **✅ Stock real completado (2026-08-02):** 46 shots únicos, todos con ID real verificado
+- **✅ Stock real completado (2026-08-02):** 45 shots únicos, todos con ID real verificado
   en el catálogo de Freepik vía `stock_search` (mismo mecanismo que V1). Se reutilizaron
   directamente los IDs genéricos ya verificados en V1 (network_anim, magnifier_doc,
   cert_stamp, handshake_boardroom, vintage_factory, generic_shelf, spain_flag1) y se
-  verificaron ~35 IDs nuevos específicos de atún/pesca/latas (aperturas de lata reales,
+  verificaron ~34 IDs nuevos específicos de atún/pesca/latas (aperturas de lata reales,
   banderas Chile/Brasil, flota pesquera en Muxia/Galicia, etc.). El Beat 1 del HOOK usa
   ahora un shot real de una mano deteniéndose sobre latas en el carrito (ID 5954197),
-  cumpliendo la regla de continuidad thumbnail→Beat 1.
-  **Nota técnica:** no se guardaron URLs de descarga firmadas (caducan en horas) — al
-  montar en CapCut, usar `stock_download(id, tipo)` con los IDs de `Atun_Shots_unicos.csv`
-  para obtener el enlace fresco en el momento de editar.
+  cumpliendo la regla de continuidad thumbnail→Beat 1. Un ID (122898, fish_factory_line)
+  devolvió 404 al pedir la descarga — descartado y sustituido por `hands_sorting_fish`
+  (7803085) en la sección Frinsa, mismo patrón que el ID inválido 134130 que ya apareció en V1.
+  **⚠️ Intento de descarga real de los 45 archivos — bloqueado por política de red de este
+  entorno:** el proxy de salida de esta sesión devuelve 403 al intentar conectar directamente
+  con `videocdn.cdnpk.net` (el CDN de Freepik) — es una política de la organización, no un
+  fallo técnico, y la documentación del proxy indica explícitamente no intentar rodearla.
+  Los IDs quedan verificados y listos en `Atun_Shots_unicos.csv`; las URLs firmadas que sí se
+  obtuvieron (vía la API de `stock_download`, que no pasa por ese bloqueo) están en
+  `Atun_Shots_URLs_frescas.csv` y `Atun_Download_Manifest.csv` (este último ordenado por
+  timeline exacto de cada uno de los 475 beats) — pero **caducan ~1h después de generarse
+  (2026-08-02)**, así que para descargar los archivos de verdad hay que pedir un enlace fresco
+  con `stock_download(id, tipo)` desde un entorno con salida a internet normal, o descargarlos
+  a mano desde freepik.com usando el ID.
 - Nota de confianza: la participación exacta de Bolton Group en Grupo Calvo se dejó sin
   cifra concreta en el guion porque las fuentes encontradas se contradicen (una dice 40%
   desde 2012, otra dice familia al 77,8%) — se optó por "una participación" sin porcentaje,
@@ -173,7 +183,8 @@ protagonista del thumbnail, no un stock genérico de "investigación".
 etiqueta-real/
   PROJECT_STATE.md          <- este archivo
   aceite_oliva/              <- V1 completo (script, beats, shots reales, PDFs, xlsx)
-  atun/                      <- V2 completo: script, beats, stock real (46 shots), PDFs
+  atun/                      <- V2 completo: script, beats, stock real (45 shots, IDs
+                                verificados), manifiesto de descarga, checklist, PDFs
 ```
 
 No incluye `junko_furuta/` (true crime, proyecto/canal distinto, no forma parte de
