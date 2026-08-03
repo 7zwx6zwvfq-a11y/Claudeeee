@@ -100,6 +100,20 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     frenar (y la última acelerando más, no menos) — todavía sin señal de techo. Rango de
     proyección se mantiene en **~35K-80K**, con sesgo ahora hacia la parte media-alta si
     este ritmo se sostiene 24h más.
+  - **Datos demográficos de audiencia (28D, 6 jul-2 ago 2026 — prácticamente todo es
+    tráfico de V1 dado que el canal no tenía views previas relevantes):**
+    - **Edad: 83,4% tiene 55+ años** (65+: 60,5% · 55-64: 22,9% · 45-54: 8,8% · 35-44:
+      5,2% · 25-34: 2,7% · 18-24 y 13-17: 0%). Audiencia MUCHO más mayor de lo asumido —
+      relevante para el tono/enfoque de próximos vídeos (V3+).
+    - **Sexo: 50,7% hombre / 49,3% mujer** — sin sesgo relevante.
+    - **Geografía: España solo 5,9%** — el grueso es LatAm repartida: México 12,2%
+      (el país más grande con diferencia) · Colombia 4,4% · Argentina 3,6% · EE.UU. 3,6%
+      · Ecuador 2,4% · Venezuela 2,4% · Perú 2,1% · Rep. Dominicana 1,6% · Chile 1,5%.
+    - **Impacto en RPM esperado:** con tan poco peso de España/EE.UU. (mercados de CPM
+      alto) y tanto peso de LatAm (CPM generalmente más bajo), se revisa el RPM estimado
+      A LA BAJA de ~2-6 USD/1000 views a **~1-3 USD/1000 views** (posible compensación
+      parcial: audiencia 55+ interesa a anunciantes de seguros/salud/finanzas, que pagan
+      bien independientemente del país).
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
