@@ -72,6 +72,14 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     Sin señales de techo: proyección honesta a partir de este ritmo apunta a la parte
     media-alta del rango 15K-40K estimado en el checkpoint anterior, o por encima, si el
     CTR no se desploma en los próximos días.
+  - **Checkpoint ~2h después (mismo día 3, tarde)**: **8.745 visualizaciones** (+1.261 en
+    solo ~2h, ritmo ~630/h — el tramo más empinado visto hasta ahora en la gráfica),
+    **145,5K impresiones** (+23,8K en ~2h, tramo casi vertical), CTR **4,7%** (baja muy
+    poco), retención **29,7%** (6:42) — estable pese al salto de volumen. Algorítmico
+    95,9% (55,2% Exploración + 40,7% Sugeridos). Advertencia: un salto tan fuerte en 2h
+    puede ser el inicio de un empujón sostenido o un pico puntual que se enfríe — no
+    tratarlo como la nueva pendiente normal hasta confirmarlo con más horas. Rango de
+    proyección revisado al alza: **~25K-60K** en 2-3 semanas, centro ahora ~30-40K.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
