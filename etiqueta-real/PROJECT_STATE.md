@@ -62,6 +62,16 @@ cierre con regla práctica de una sola línea + CTA de compartir.
   - Lectura: esto ya no es solo "arranque fuerte" — es una curva que acelera al segundo día
     con retención subiendo en vez de bajar al escalar audiencia, mix de descubrimiento
     casi puramente algorítmico y estable. La mejor señal posible antes de publicar V2 (Atún).
+  - **A ~día 3**: **7.484 visualizaciones** (+36% sobre las 5.502 de ~48h en solo ~24h —
+    LA CURVA SIGUE ACELERANDO, el tramo más empinado de los tres cortes tomados hasta
+    ahora), **121,7K impresiones** (+41%), CTR **4,9%** (baja poco, coherente con alcanzar
+    audiencia cada vez más fría). Duración media **6:46** → retención ~**29,9%**, sigue
+    subiendo pese a que las views casi se triplican desde el primer checkpoint (28h).
+    Algorítmico **96,0%** (55,9% Exploración + 40,1% Sugeridos — Sugeridos sigue ganando
+    cuota, es la fuente que se autorrefuerza). WhatsApp 51,8% del tráfico de terceros.
+    Sin señales de techo: proyección honesta a partir de este ritmo apunta a la parte
+    media-alta del rango 15K-40K estimado en el checkpoint anterior, o por encima, si el
+    CTR no se desploma en los próximos días.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
