@@ -80,6 +80,17 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     puede ser el inicio de un empujón sostenido o un pico puntual que se enfríe — no
     tratarlo como la nueva pendiente normal hasta confirmarlo con más horas. Rango de
     proyección revisado al alza: **~25K-60K** en 2-3 semanas, centro ahora ~30-40K.
+  - **Checkpoint ~1,5h después (mismo día 3, noche)**: **9.584 visualizaciones** (+839 en
+    ~1,5h → ~560/h, RITMO CONFIRMADO — casi idéntico al tramo anterior, ya no parece pico
+    aislado sino tramo sostenido), **162,2K impresiones** (+16,7K en ~1,5h → ~11,1K/h,
+    también consistente con la ventana previa). CTR **4,7%** — se ESTABILIZA, deja de
+    caer. Retención **29,7%** (6:50) — intacta pese al volumen. Sugeridos sigue ganando
+    cuota (41,4%) y en absoluto ya SUPERA a Exploración por primera vez (84,3K vs 78,2K
+    impresiones lifetime). Lectura: dos ventanas seguidas al mismo ritmo alto = empuje
+    algorítmico activo confirmado, no ruido. Rango revisado con más confianza al alza:
+    **~35K-80K** en 2-3 semanas. Próximo checkpoint útil: 24h, para ver si el ritmo de
+    ~500-600 views/hora se sostiene o empieza a bajar (los tramos "verticales" como este
+    suelen durar 1-3 días antes de suavizarse).
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
