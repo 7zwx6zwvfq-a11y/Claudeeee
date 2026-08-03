@@ -91,6 +91,15 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     **~35K-80K** en 2-3 semanas. Próximo checkpoint útil: 24h, para ver si el ritmo de
     ~500-600 views/hora se sostiene o empieza a bajar (los tramos "verticales" como este
     suelen durar 1-3 días antes de suavizarse).
+  - **Checkpoint ~2,4h después (mismo día 3, noche)**: **11.329 visualizaciones** (+1.745
+    en ~2,4h → **~727/h — EL RITMO SUBE**, tercera ventana consecutiva en fase de
+    aceleración fuerte y esta vez más rápido que la anterior, no igual), **195,5K
+    impresiones** (+33,3K en ~2,4h → ~13,9K/h, también acelera). CTR **4,5%** (baja poco,
+    sigue sano). Retención **~30,3%** (6:51) — sin ceder nada pese a acelerar. Sugeridos
+    sigue ganando cuota (42,5% vs 53,6% Exploración). Lectura: tres ventanas seguidas sin
+    frenar (y la última acelerando más, no menos) — todavía sin señal de techo. Rango de
+    proyección se mantiene en **~35K-80K**, con sesgo ahora hacia la parte media-alta si
+    este ritmo se sostiene 24h más.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
