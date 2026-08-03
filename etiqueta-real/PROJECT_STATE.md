@@ -45,18 +45,23 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     28h-42h que entre 14h-28h — YouTube está aumentando la distribución con el tiempo, no
     reduciéndola, al revés del patrón típico de pico-y-caída), 35,7K impresiones, CTR 5,7%
     (baja un poco al ampliarse la base a audiencia más fría, pero se mantiene sólido).
-  - Descubrimiento **~95% algorítmico** de forma consistente en ambas mediciones: ~60%
-    Funciones de exploración (home) + ~35% Vídeos sugeridos. Prácticamente nada de búsqueda.
-  - **72,7% del tráfico de sitios de terceros viene de whatsapp.com** — reenvío orgánico
-    real, aunque en volumen absoluto todavía es pequeño (~15 views vía fuentes externas).
-  - **Retención**: duración media 6:15-6:17 → **27,8% de retención media** sobre 22:36.
-    Curva: caída fuerte a 62% ya en el segundo 0:27 (pierde 38% de la audiencia antes de
-    los 30s), luego cola larga y estable bajando poco a poco hasta ~15-20% al final. La
-    fuga se concentra casi toda en el arranque, no repartida por el vídeo.
+  - **A ~48h (día 2)**: **5.502 visualizaciones** (más que duplicado desde las 43h — la
+    reaceleración continúa, no se aplana), **86,2K impresiones** (×2,5 desde 35,7K), CTR
+    **5,1%** (baja ligeramente, esperable con audiencia cada vez más fría). **602h de tiempo
+    de visualización**, duración media **6:40** → **retención ~29,6%** sobre 22:36 — SUBE
+    respecto al 27,8% de las 43h pese a triplicar el volumen de vistas, señal de que la
+    audiencia nueva conecta igual o mejor que la inicial, no peor.
+  - Descubrimiento **~95-96% algorítmico**, estable en las tres mediciones: 28h/43h ~60%
+    Funciones de exploración + ~35% Vídeos sugeridos; a 48h **57,6% Exploración + 38,1%
+    Sugeridos**. Prácticamente nada de búsqueda (0,4%).
+  - **WhatsApp sigue siendo la fuente externa dominante**: 72,7% a 43h → **54,2%** a 48h
+    (baja en peso relativo solo porque el tráfico algorítmico crece más rápido, no porque
+    el reenvío orgánico se frene).
   - **Engagement**: 70 likes / 2.542 views ≈ 2,75% ratio like/view (decente para canal sin
     audiencia previa). 12 comentarios, todos respondidos, sin backlog.
-  - Lectura: arranque fuerte y validado para el formato "ranking de marcas ocultas" — razón
-    de más para completar el pipeline de V2 (Atún) y no dejarlo solo en guion.
+  - Lectura: esto ya no es solo "arranque fuerte" — es una curva que acelera al segundo día
+    con retención subiendo en vez de bajar al escalar audiencia, mix de descubrimiento
+    casi puramente algorítmico y estable. La mejor señal posible antes de publicar V2 (Atún).
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
