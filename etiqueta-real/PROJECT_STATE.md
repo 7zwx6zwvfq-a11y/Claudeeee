@@ -163,6 +163,13 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     de solape donde ambos públicos están activos a la vez, de ahí el récord. Rango de
     proyección se mantiene **~60K-150K**, centro se desplaza ligeramente más arriba a
     **~90-110K**.
+  - **Checkpoint ~1,2h después (21:07-21:08)**: **27.688 visualizaciones** (+1.053 en
+    1,2h → **~878/h**, baja del récord de 1.136/h pero sigue en la parte alta de todo lo
+    visto). Tiempo real última hora: 808/h. Impresiones **494,6K** (+19K → ~15,8K/h).
+    CTR 4,3% y retención 30,7% **sin cambios** — señal de que la bajada de ritmo es solo
+    alejarse del pico de solape España-noche/LatAm-tarde, no el inicio de una
+    desaceleración real (eso se vería primero en CTR/retención cayendo, no aquí). Rango
+    de proyección sin cambios: ~60K-150K, centro ~90-110K.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
