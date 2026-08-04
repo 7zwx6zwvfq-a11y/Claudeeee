@@ -155,6 +155,14 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     identificado el patrón horario (pico tarde-noche España/mañana-tarde LatAm, valle
     madrugada España/noche cerrada LatAm) para no confundir ciclo diario con desaceleración
     real en próximos checkpoints.
+  - **Checkpoint ~3,3h después (noche España, ~19:53)**: **26.635 visualizaciones**
+    (+3.748 en 3,3h → **~1.136/h — RÉCORD de ritmo de todos los checkpoints**), **475,6K
+    impresiones** (+68,3K en 3,3h → ~20,7K/h, también récord). CTR 4,3% estable.
+    Retención 30,7% (6:56) estable. Tiempo real última hora: 964 views/h, confirma que
+    el pico se sostiene. Hipótesis: esta franja (noche España = tarde LatAm) es el punto
+    de solape donde ambos públicos están activos a la vez, de ahí el récord. Rango de
+    proyección se mantiene **~60K-150K**, centro se desplaza ligeramente más arriba a
+    **~90-110K**.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
