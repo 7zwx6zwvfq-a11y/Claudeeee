@@ -136,6 +136,15 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     Prueba de verdad: esta tarde-noche (hora España = tarde-noche LatAm), si el ritmo
     vuelve a subir a 500-700/h confirma que es ciclo diario; si se queda plano incluso
     ahí, sería la primera señal real de desaceleración.
+  - **Geografía actualizada (28D, 7 jul-3 ago, un día después de la anterior)**: TODOS
+    los países del top 10 bajan su cuota relativa — México 12,2%→**6,4%**, España
+    5,9%→**5,4%**, Colombia 4,4%→**3,0%**, Argentina 3,6%→**2,6%**, EE.UU. 3,6%→**2,2%**,
+    Venezuela 2,4%→**1,8%**, Ecuador 2,4%→**1,5%**, Perú 2,1%→**1,3%**, Chile 1,5%→**1,1%**,
+    Rep. Dominicana 1,6%→**0,9%**. Suma top 10: 39,7%→**26,2%** — significa que más del
+    73% del tráfico ahora viene de FUERA del top 10, repartido en muchos más países.
+    Lectura: el vídeo sigue ampliando alcance geográfico además de volumen — más señal de
+    breakout real. Para RPM, diluye aún más el peso de España/EE.UU. (7,6% combinado),
+    se mantiene la estimación conservadora de ~1-3 USD/1000 views.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
