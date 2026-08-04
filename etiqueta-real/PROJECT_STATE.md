@@ -125,6 +125,17 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     ventanas seguidas sin desacelerar (y acelerando) ya es un patrón de breakout real, no
     solo buen arranque. Rango de proyección revisado con más confianza al alza:
     **~60K-150K**, centro ahora ~80-100K.
+  - **Checkpoint ~3,1h después (mañana hora España)**: **18.805 visualizaciones** (+1.169
+    en ~3,1h → **~377/h — PRIMERA desaceleración real**, la mitad del ritmo anterior),
+    **339,1K impresiones** (+21,4K en ~3,1h → ~6,9K/h, también cae a menos de la mitad).
+    CTR 4,3% y retención 29,6% estables. Algorítmico estable 96,5%. **Lectura: muy
+    probablemente NO es señal de techo, sino ciclo horario** — a las 10:57 en España son
+    las ~4-7 de la madrugada en México/Colombia/Argentina (grueso de la audiencia real),
+    la hora de menor actividad posible para ese público. La ventana rápida anterior
+    (23:35-7:51 España) coincidía con tarde-noche LatAm, su horario de máxima audiencia.
+    Prueba de verdad: esta tarde-noche (hora España = tarde-noche LatAm), si el ritmo
+    vuelve a subir a 500-700/h confirma que es ciclo diario; si se queda plano incluso
+    ahí, sería la primera señal real de desaceleración.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
