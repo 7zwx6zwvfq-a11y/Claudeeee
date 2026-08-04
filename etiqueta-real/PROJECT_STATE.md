@@ -114,6 +114,17 @@ cierre con regla práctica de una sola línea + CTA de compartir.
       A LA BAJA de ~2-6 USD/1000 views a **~1-3 USD/1000 views** (posible compensación
       parcial: audiencia 55+ interesa a anunciantes de seguros/salud/finanzas, que pagan
       bien independientemente del país).
+  - **Checkpoint ~8,3h después (tras pasar la noche)**: **17.636 visualizaciones**
+    (+6.307 en 8,3h → **~760/h — CUARTA ventana consecutiva sin desacelerar, y la más
+    rápida de las cuatro**), **317,7K impresiones** (+122,2K en 8,3h → ~14,7K/h). CTR
+    **4,4%** (estable). Retención **29,6%** (6:42/6:54) — intacta. Sugeridos 42,2% vs
+    Exploración 54,3% — estable. Dato clave: esto ocurrió DURANTE LA NOCHE (cuando España
+    duerme) sin frenar, coherente con que la audiencia real es mayoritariamente LatAm
+    (husos horarios distintos cubren la madrugada española). Panel nuevo confirma 16,9K
+    de 17,6K views vienen de "Recomendaciones de YouTube" (~96%). Lectura: cuatro
+    ventanas seguidas sin desacelerar (y acelerando) ya es un patrón de breakout real, no
+    solo buen arranque. Rango de proyección revisado con más confianza al alza:
+    **~60K-150K**, centro ahora ~80-100K.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
