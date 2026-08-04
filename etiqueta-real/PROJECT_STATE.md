@@ -145,6 +145,16 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     Lectura: el vídeo sigue ampliando alcance geográfico además de volumen — más señal de
     breakout real. Para RPM, diluye aún más el peso de España/EE.UU. (7,6% combinado),
     se mantiene la estimación conservadora de ~1-3 USD/1000 views.
+  - **Checkpoint ~5,6h después (tarde España)**: **22.887 visualizaciones** (+4.082 en
+    5,6h → **~729/h — CONFIRMA que el bajón de la mañana era ciclo horario**, no techo:
+    el ritmo vuelve al nivel rápido en cuanto entra la franja activa España/mañana LatAm),
+    **407,3K impresiones** (+68,2K en 5,6h → ~12,2K/h, también recupera). CTR 4,3%
+    estable. Retención **30,7%** (6:56) — SUBE pese al volumen, no se diluye. Watch time
+    acumulado: **2.500 horas**. Sugeridos 40,2% vs Exploración 56,1%. Se mantiene el rango
+    de proyección **~60K-150K** (centro ~80-100K), ahora con más confianza al tener
+    identificado el patrón horario (pico tarde-noche España/mañana-tarde LatAm, valle
+    madrugada España/noche cerrada LatAm) para no confundir ciclo diario con desaceleración
+    real en próximos checkpoints.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
