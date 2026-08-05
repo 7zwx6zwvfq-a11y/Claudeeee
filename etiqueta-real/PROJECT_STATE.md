@@ -179,6 +179,12 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     (misma franja aprox. que V1). Encaja bien con el patrón horario detectado: da 2-4h de
     rodaje inicial antes de entrar en la franja óptima de solape España-noche/LatAm-tarde
     (20:00-23:00 España), donde V1 marcó su récord.
+  - **Checkpoint ~11h después (mañana, 9:39)**: **38.244 visualizaciones** (+8.790 en
+    ~11h → ~799/h de media nocturna, en línea con el patrón ya conocido). Impresiones
+    **715,3K** (+181,2K → ~16,5K/h). CTR 4,2% (baja un pelín, normal). Retención 30,7%
+    estable, duración tramo reciente 6:35 (leve bajada desde 6:43, no preocupante).
+    Tiempo real última hora: 363/h — bajo porque es madrugada cerrada en LatAm ahora
+    mismo, coherente con el ciclo horario ya identificado. Sin cambios en la proyección.
 - Guion completo en `aceite_oliva/full_script.py`. ~444 beats, audio real 22:30.
 - Ranking (peor→mejor): 7 Coosur · 6 La Española · 5 Borges · 4 Hacendado · 3 Ybarra ·
   2 Hojiblanca · 1 Carbonell. Mejores: 3 Melgarejo · 2 Castillo de Canena · 1 Núñez de Prado.
