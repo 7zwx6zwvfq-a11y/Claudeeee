@@ -122,6 +122,16 @@ cierre con regla práctica de una sola línea + CTA de compartir.
     Suma top 10: 26,2%→**54,8%** — la cola larga de países pequeños se reduce a más de la
     mitad. **Impacto en RPM: se revisa AL ALZA** de ~1-3 a **~1,5-4 USD/1000 views**, dado
     el peso mucho mayor de España (mercado de CPM alto) en la mezcla reciente.
+  - **Checkpoint día 6**: **78.771 visualizaciones** (desde 38.244 en día 4 — sigue
+    acelerando, no desacelerando). **1.393.711 impresiones** (¡1,39M!). CTR acumulado
+    **4,4%** (estable, tras el pico inicial de ~6,8% en día 1). Retención **28,6%**
+    (6:27) — estable. Exploración 67,6% (813,2K impresiones) vs Sugeridos 27,7% (580,6K
+    impresiones). **Tiempo real: 2.170 views en la última hora — RÉCORD absoluto de
+    ritmo de toda la serie** (el anterior era ~1.164/h), a día 6 cuando lo normal sería
+    empezar a desacelerar. Sin ninguna señal de techo todavía. **Proyección total
+    revisada al alza con bastante confianza: ~150K-300K, centro ~200K** (sube desde el
+    ~60K-150K estimado en día 3-4), salvo que aparezca desaceleración real en los
+    próximos 1-2 días.
   - **Checkpoint ~8,3h después (tras pasar la noche)**: **17.636 visualizaciones**
     (+6.307 en 8,3h → **~760/h — CUARTA ventana consecutiva sin desacelerar, y la más
     rápida de las cuatro**), **317,7K impresiones** (+122,2K en 8,3h → ~14,7K/h). CTR
