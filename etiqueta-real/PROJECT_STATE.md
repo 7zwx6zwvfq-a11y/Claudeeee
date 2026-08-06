@@ -368,3 +368,39 @@ Etiqueta Real) — se quedó solo en el scratchpad de la sesión original si hac
 3. Seguir el rendimiento real de V1 (Aceite) en YouTube Studio y aplicar lecciones al montaje
    de V2 antes de publicarlo (ver regla de continuidad Thumbnail→Beat 1 arriba).
 4. Decidir el V3 de este canal (siguiente categoría de producto a rankear).
+
+---
+
+## 💡 IDEA EN STAND BY — Infoproducto (PDFs de veredicto por categoría), NO activa todavía
+
+> Inspirado en el canal inglés "Consumer Exposed" (@ConsumerExposed-ghz, EE.UU., se unió
+> 13 jun 2026, 14.359.029 visualizaciones — cifra MENSUAL, no acumulada, con solo ~1 mes de
+> vida): venden una guía descargable "The Smarter Grocery Shopping Guide" a $19 (ancla desde
+> $79) vía web propia (thehiddenaisle.app) enlazada en descripción de vídeos. Formato interno:
+> fichas por producto tipo "Bread Aisle Verdict" — entrada de ejemplo, por qué, mejor opción,
+> opción económica, fuente.
+
+**Cálculo de referencia (no vinculante, orden de magnitud):** con conversión baja del embudo
+vídeo→venta (0,02%-0,3% de las views), y usando sus 14,36M de views MENSUALES, el rango de
+ingresos estimado del canal de referencia sería de **~54.500 $ a ~818.000 $ al mes** solo por
+el PDF (sin contar AdSense). Trasladado a un canal propio con 2,5M views/mes y precio ajustado
+a mercado hispano (~10€), el rango equivalente sería **~5.000-75.000 €/mes**.
+
+**Decisión de formato preferida (si se retoma en el futuro):** NO un único PDF grande y caro
+(19€) — mejor **un PDF barato por categoría de alimento** (uno de aceite, uno de atún, uno de
+pan...), cada uno ligado directamente al CTA del vídeo de esa categoría. Razones: fricción de
+compra mucho menor (compra de impulso a 4-6€ vs "decisión" a 19€), encaja con el ritmo de
+publicación (cada vídeo nuevo puede llevar su propio PDF), y permite venta repetida al mismo
+fan a lo largo del tiempo (compra el de aceite, luego el de atún, luego el de pan...).
+**Precio sugerido: no bajar de 4-5€** por unidad — por debajo de eso, la comisión fija de
+Stripe/PayPal (~0,30€ + 2,9%) se come un % demasiado grande de la venta. Estructura híbrida
+recomendada a futuro: PDFs sueltos a 4-6€ como puerta de entrada + pack/bundle de todos con
+descuento para quien ya compró 2-3 sueltos (embudo tripwire → bundle).
+**Contenido base:** gran parte ya existe reaprovechable de los guiones de V1 (Aceite) y V2
+(Atún) — quién fabrica cada marca, normativa citada, mejores opciones — solo hace falta
+reestructurar a formato ficha y ampliar el nº de marcas por categoría.
+**Plataformas sin código sugeridas para venta/entrega:** Gumroad, Payhip o Lemon Squeezy
+(cobro multidivisa, entrega automática del PDF, gestión de IVA incluida).
+
+**Estado: EN STAND BY por decisión del creador (2026-08-06) — no construir nada todavía,
+retomar cuando se decida activamente.**
