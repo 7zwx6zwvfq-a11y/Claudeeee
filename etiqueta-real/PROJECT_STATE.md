@@ -305,6 +305,47 @@ protagonista del thumbnail, no un stock genérico de "investigación".
 
 ---
 
+## ⚠️ REGLA DE SELECCIÓN DE TEMA — OBLIGATORIA DESDE V3, aplicar a TODO producto candidato
+
+> Origen: análisis del canal competidor "La Realidad de la Comida" (mismo formato exacto:
+> "N marcas de [producto] que debes evitar" + miniatura con el producto real). Su vídeo de
+> Aceite (21 abr 2026) hizo 213.897 views; publicó Atún solo 4 días después (25 abr) y se
+> hundió a 824 views; Sal 3 días después (28 abr) también se hundió a 1.099 views — pese a
+> tener un dato fuerte en el título ("500 fragmentos de plástico por kilo"). Después
+> repitió el patrón: Café (763K views) → Cereales inmediatamente después (366 views).
+> El gap de tiempo entre vídeos NO explica el hundimiento (4 días, similar al vuestro entre
+> V1 y V2) — la causa real es que el TEMA en sí no tenía el mismo techo, no la ejecución.
+
+**Antes de decidir el producto/tema de cualquier vídeo nuevo (V3 en adelante), pasarlo por
+estos 3 filtros PRIMERO — son los que más pesan y los que MENOS dependen de la ejecución
+(hook, tags, timing son optimización después, no la decisión principal):**
+
+1. **Techo del tema:** ¿este producto ya ha tenido escándalos mediáticos previos de fraude/
+   adulteración/demandas? Si el público YA viene predispuesto a sospechar (como aceite de
+   oliva o café, con años de escándalos recurrentes en prensa), el algoritmo tiene más
+   confianza previa para empujarlo fuerte. Un tema sin ese historial cultural parte con
+   mucho menos recorrido, por muy bien ejecutado que esté el vídeo.
+2. **Carga emocional del engaño:** ¿el reveal hace sentir vergüenza/rabia real ("me han
+   mentido con lo que le doy de comer a mi familia"), o es solo un dato curioso sin más?
+   Cuanto más se sienta como traición personal/de salud, más comparte y más indigna.
+3. **Ajuste con la audiencia real del canal:** el canal ya tiene un perfil de audiencia
+   conocido (ver checkpoint de audiencia de V1: 83,4% tiene 55+ años, mayoría LatAm,
+   interés en consumo/economía doméstica). Un tema puede ser "universal" en abstracto pero
+   no encajar con ESE perfil concreto — evaluar qué le importa de verdad a alguien de
+   55-70 años en LatAm haciendo la compra, no una lista genérica de "productos virales".
+
+**Si los 3 están en verde, entonces sí se optimiza:** hook con dato concreto y verificable
+(nunca frase vacía tipo "esto va a cambiar cómo compras para siempre"), tags que coincidan
+de verdad con el tema (no reciclar tags del vídeo anterior por error), y timing de
+publicación. Pero ningún hook, por bueno que sea, compensa un tema con techo bajo — el
+caso de "Sal" del competidor lo demuestra (dato fuerte en el título, se hundió igual).
+
+**Regla adicional de ritmo:** no decidir el siguiente vídeo (V4, V5...) sin haber dejado
+madurar el dato completo del anterior (mínimo 48h de retención real) — evitar publicar en
+cadena sin leer señal, que es exactamente el patrón que hundió al canal competidor.
+
+---
+
 ## Archivos en `etiqueta-real/` (este repo)
 
 ```
