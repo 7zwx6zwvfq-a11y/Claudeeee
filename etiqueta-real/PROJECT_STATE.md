@@ -114,6 +114,14 @@ cierre con regla práctica de una sola línea + CTA de compartir.
       A LA BAJA de ~2-6 USD/1000 views a **~1-3 USD/1000 views** (posible compensación
       parcial: audiencia 55+ interesa a anunciantes de seguros/salud/finanzas, que pagan
       bien independientemente del país).
+  - **Actualización geografía canal (28D, 9 jul-5 ago — ya incluye tráfico de V2)**: TODOS
+    los países del top 10 suben su cuota respecto al corte anterior (solo V1, hasta 3 ago):
+    España 5,4%→**17,5%** (casi se cuadriplica) · México 6,4%→**10,4%** · Argentina
+    2,6%→**5,6%** · Colombia 3,0%→**5,5%** · EE.UU. 2,2%→**4,7%** · Venezuela 1,8%→3,3%
+    · Perú 1,3%→2,2% · Chile 1,1%→2,2% · Ecuador 1,5%→2,0% · Rep. Dominicana 0,9%→1,4%.
+    Suma top 10: 26,2%→**54,8%** — la cola larga de países pequeños se reduce a más de la
+    mitad. **Impacto en RPM: se revisa AL ALZA** de ~1-3 a **~1,5-4 USD/1000 views**, dado
+    el peso mucho mayor de España (mercado de CPM alto) en la mezcla reciente.
   - **Checkpoint ~8,3h después (tras pasar la noche)**: **17.636 visualizaciones**
     (+6.307 en 8,3h → **~760/h — CUARTA ventana consecutiva sin desacelerar, y la más
     rápida de las cuatro**), **317,7K impresiones** (+122,2K en 8,3h → ~14,7K/h). CTR
