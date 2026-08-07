@@ -39,7 +39,7 @@ end_style = ParagraphStyle("end", parent=styles["Normal"], fontSize=8.5, leading
                              textColor=GRAY, alignment=TA_CENTER, spaceBefore=14)
 
 KICKER = "CAFE — SESION DE PRODUCCION · VIDEO 3"
-TITLE = "7 Marcas de Cafe Que Deberias Dejar de Comprar (Y 3 Que Si Cumplen)"
+TITLE = "10 Marcas de Cafe Que Deberias Dejar de Comprar (Y 5 Que Si Cumplen)"
 
 
 def split_sentences(text):
