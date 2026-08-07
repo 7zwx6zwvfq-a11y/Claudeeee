@@ -5,9 +5,9 @@ guion outlier de ground beef (10 marcas a evitar + 8 que aguantan, ~29 min).
 Estructura: 10 marcas a evitar + 5 mejores opciones, countdown directo,
 2-3 datos fechados y apilados por entrada, frases cortas, cero relleno."""
 
-HOOK = """El café es el segundo producto más comprado cada semana en los supermercados de España y Latinoamérica, justo después del pan. Y la mayoría de la gente que lo compra no tiene ni idea de qué empresa hay realmente detrás del paquete que tiene en la mano.
+HOOK = """Quince mil setecientos millones de euros. Eso es lo que pagó, en un solo cheque, un grupo estadounidense dueño de los refrescos 7Up y Dr Pepper. A cambio se llevó tres marcas de café que llevas años viendo competir entre sí en el mismo lineal del supermercado: Marcilla, Saimaza y L'Or. Sin cambio de etiqueta. Sin ningún aviso al consumidor. El paquete tuvo exactamente el mismo aspecto al día siguiente.
 
-El 24 de agosto de 2025, un grupo estadounidense dueño de los refrescos 7Up y Dr Pepper firmó un cheque de quince mil setecientos millones de euros. A cambio se llevó, de golpe, tres marcas de café que llevan décadas vendiéndose en el mismo lineal como si compitieran entre sí: Marcilla, Saimaza y L'Or. Sin cambio de etiqueta. Sin ningún aviso al consumidor. El paquete tuvo exactamente el mismo aspecto al día siguiente.
+El café es el segundo producto más comprado cada semana en los supermercados de España y Latinoamérica, justo después del pan. Y la mayoría de la gente que lo compra no tiene ni idea de qué empresa hay realmente detrás del paquete que tiene en la mano.
 
 Este vídeo repasa diez marcas de café que probablemente deberías reconsiderar, y cinco que sí aguantan el análisis con datos reales, no con la palabra "premium" en la caja. Empezamos por las peores y terminamos con las que de verdad merecen la pena. La primera marca de esta lista, casi con toda seguridad, ya está en tu cocina ahora mismo."""
 
