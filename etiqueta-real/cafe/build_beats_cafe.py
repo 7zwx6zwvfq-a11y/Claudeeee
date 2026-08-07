@@ -10,7 +10,7 @@ import csv
 
 from cafe_full_script import SECTIONS
 
-TARGET_SECONDS = 24 * 60  # objetivo de duracion de render: ~24 min (4096 palabras a 174ppm ~23.5min)
+TARGET_SECONDS = int(2849/174*60)  # duracion natural del guion a 174ppm
 
 MOTIONS = [
     "ZOOM IN SLOW · 4s", "PAN RIGHT · 4s", "ZOOM OUT SLOW · 4s",
