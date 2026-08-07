@@ -364,6 +364,95 @@ cadena sin leer señal, que es exactamente el patrón que hundió al canal compe
 
 ---
 
+## ⚠️ REGLA DE LAS 3 VARIANTES DE INTRO — OBLIGATORIA DESDE V3, antes de escribir cualquier guion
+
+> Establecida al construir V3 (Café), a partir de un outlier de referencia en inglés (guion
+> de "ground beef", ~29 min, 10 marcas a evitar + 8 que aguantan, estilo denso con datos
+> apilados y fechas/cifras exactas) que el creador aportó como plantilla de estilo a copiar.
+
+**Antes de escribir el guion completo de cualquier vídeo nuevo, generar primero 3 variantes
+de intro (2-3 párrafos cada una, sin desarrollar el resto) y elegir una:**
+
+1. **Número impactante (Number Drop):** la cifra más fuerte del vídeo en la primera frase,
+   sin contexto previo. Pausa. Luego la explicación.
+2. **Ataque a un mito común:** parte de una creencia extendida del comprador medio ("elijo
+   la marca tradicional para escapar de las multinacionales") y la desmonta de inmediato.
+3. **Credibilidad/investigación:** abre estableciendo la autoridad de la investigación
+   (qué se revisó, cuántas fuentes) antes de dar el dato.
+
+**Criterio de elección (aplicado en V3):** por defecto, preferir la **Variante 1 (Número
+impactante)** salvo que el tema no tenga una cifra lo bastante fuerte para sostenerla.
+Motivos verificados con los outliers de la Sección de Outliers Validados: la especificidad
+numérica + aversión a la pérdida es el patrón más repetido en los vídeos que explotaron:
+paga en los primeros 2-5 segundos, no exige que el espectador ya sostenga una creencia
+concreta (a diferencia de la Variante 2), y no retrasa el valor explicando metodología
+(a diferencia de la Variante 3, que choca con la regla de "cero storytelling en los
+primeros 5 segundos"). Usar Variante 2 o 3 solo si el dato numérico disponible es débil
+o si el vídeo anterior ya usó Número Impactante (rotar igual que las estrategias de hook).
+
+---
+
+## V3 — CAFÉ ✅ GUION + BEATS + PDFs COMPLETOS (carpeta `cafe/`)
+
+- **24,4 minutos, 4.246 palabras, 476 beats** a 174 ppm. Estructura **10 marcas a evitar +
+  5 mejores opciones** (decisión explícita del creador: "Opción B pero solo 5 que sí
+  valen", tomando como plantilla de densidad el outlier de ground beef en inglés).
+- **Lección de duración (importante para V4+):** el primer intento (formato heredado 7+3
+  de V1/V2, con datos "suavizados") se quedó en 15-16 min pese a sonar denso. La causa NO
+  fue narración lenta, fue estructural: menos items (7+3=10) y menos datos apilados por
+  item (~1) que el outlier de referencia (10+8=18 items, ~2-3 datos fechados por item).
+  Para vídeos "densos tipo informe" (no formato Alex/Neurocents), la duración es
+  consecuencia directa de (nº de items) × (datos verificados apilados por item), no de
+  añadir relleno o frases de transición. Si un guion de este estilo sale corto, la solución
+  es sumar más marcas/items reales o más hechos verificados por item, nunca alargar prosa.
+- **Hook = Variante 1, Número Impactante** (ver regla arriba): abre con "Quince mil
+  setecientos millones de euros" (el pago de Keurig Dr Pepper por JDE Peet's) antes de
+  cualquier contexto, cifra en el primer beat.
+- Ranking (peor→mejor): 10 Bonka (Nestlé) · 9 Marcilla · 8 Saimaza · 7 Hacendado (Prosol +
+  UCC Coffee Spain) · 6 marca blanca genérica/torrefacto · 5 Nescafé (Nestlé) · 4 L'Or ·
+  3 Bustelo y Pilón · 2 Colcafé · 1 descafeinado por disolvente químico sin especificar.
+  Mejores: 5 café de especialidad (SCA >80 puntos) · 4 método Swiss Water · 3 Lavazza
+  ¡Tierra! (Rainforest Alliance) · 2 Oro 24 Kilates/Altea (verificados por Profeco 2025) ·
+  1 Juan Valdez (Procafecol/Federación Nacional de Cafeteros).
+- **Revelación central repetida:** el 24 de agosto de 2025 Keurig Dr Pepper (7Up, Dr
+  Pepper) compró JDE Peet's completo por 15.700M€ (31,85€/acción), llevándose de golpe
+  Marcilla (1892), Saimaza (Sevilla, 1908, fundada por Joaquín Sáinz de la Maza — el
+  nombre es contracción de su apellido) y L'Or (Francia, 1992). Rafael Oliveira, nombrado
+  CEO de la futura "Global Coffee Co." Nestlé controla aparte Bonka, Nescafé y la
+  tostadora histórica La Estrella (la que originó el torrefacto en 1901).
+- **Corrección importante de hechos vs. borrador anterior de este mismo vídeo:** Colcafé
+  ya NO se explica con el dato viejo de "Grupo Empresarial Antioqueño / Sura / Cementos
+  Argos" (esa estructura de propiedad cruzada se desmontó en 2023-2025). Dato correcto y
+  verificado: desde el 17 de marzo de 2025, Jaime Gilinski Bacal (banquero, dueño también
+  de Metro Bank en Reino Unido y de Bancolombia) es beneficiario final del 84,5% de Grupo
+  Nutresa (y por tanto de Colcafé) tras una OPA hostil iniciada en 2021, consolidada con
+  una operación de 2.000M$. **Lección: no reciclar automáticamente datos corporativos de
+  sesiones anteriores sin re-verificar fecha — las estructuras de propiedad cambian
+  (fusiones, OPAs) y un dato correcto hace 1-2 años puede estar desfasado hoy.**
+- Normativa citada: Real Decreto 1676/2012 (obligación de declarar natural/torrefacto/
+  mezcla en España), Directiva UE 1999/4/CE (café soluble), Reglamento CE 1999/4 (límites
+  de disolvente en descafeinado). Debate FDA/cloruro de metileno: petición EDF diciembre
+  2023, consulta pública FDA enero 2024, sin resolución final aún.
+- Pipeline: `cafe_full_script.py` → `build_beats_cafe.py` (476 beats, target 24:25) →
+  `Cafe_Beats.csv`/`Cafe_Shots_unicos.csv` → `make_cafe_pdfs.py` → `Cafe_SCRIPT.pdf`,
+  `Cafe_ELEVENLABS.pdf` (202 líneas), `Cafe_Beats.pdf`, `Cafe_Shots_unicos.pdf`.
+- Librería de shots: 39 IDs reales verificados en Freepik (19 reutilizados de V1/V2 +
+  20 nuevos específicos de café: tueste, cápsulas, granos, banderas Colombia/México, etc.).
+- **Pendiente, no hecho todavía:** thumbnail, título/descripción/tags definitivos y
+  `Cafe_Prepublish_Checklist` — todos siguen referenciando implícitamente el formato viejo
+  7+3 y hay que generarlos para el formato final 10+5 cuando se pida.
+- **Evaluación honesta de expectativas (2026-08-07, antes de publicar, sin datos reales
+  todavía):** ver comentario completo más abajo, en el momento en que se guardó esta nota.
+  Resumen: el tema Café ya tiene techo alto validado externamente (el canal competidor
+  "La Realidad de la Comida" hizo 763K views con Café, su mejor tema tras Aceite/Pan), pero
+  el ENFOQUE de este guion es más "cadena de propiedad corporativa" (como V2 Atún) que
+  "adulteración/salud" puro (como V1 Aceite) — filtro 2 (carga emocional) queda en un punto
+  medio entre los dos anteriores, no claramente por encima de V1. Formato sin Alex, tono más
+  frío tipo informe — territorio nuevo para este canal, sin A/B previo. CTR y retención a
+  30s del primer día serán la señal real, no esta nota.
+
+---
+
 ## Archivos en `etiqueta-real/` (este repo)
 
 ```
@@ -372,6 +461,8 @@ etiqueta-real/
   aceite_oliva/              <- V1 completo (script, beats, shots reales, PDFs, xlsx)
   atun/                      <- V2 completo: script, beats, stock real (45 shots, IDs
                                 verificados), manifiesto de descarga, checklist, PDFs
+  cafe/                      <- V3 completo: script (10+5, 24,4 min), beats (476), stock
+                                real (39 shots), 4 PDFs de producción
 ```
 
 No incluye `junko_furuta/` (true crime, proyecto/canal distinto, no forma parte de
