@@ -34,28 +34,21 @@ cierre con regla práctica de una sola línea + CTA de compartir.
 
 ---
 
-## 💰 MONETIZACIÓN — YPP requisitos cumplidos (confirmado 2026-08-07/08)
+## 💰 MONETIZACIÓN — ✅ APROBADA (confirmado 2026-08-08, ~1 semana desde el lanzamiento del canal)
 
-**Primera confirmación real** (no proyección) de que el canal cumple los requisitos del
-Programa de Partners de YouTube: **1.000 suscriptores + 4.000 horas de visualización
-válidas en 12 meses**. Captura de YouTube Studio muestra el flujo de onboarding con el
-paso 1 ("Revisa los Términos Fundamentales") ya en verde/aceptado, y el paso 2
-("Regístrate en AdSense para YouTube") en curso — el creador seleccionó "No, tengo que
-crear una" (primera cuenta de AdSense para este canal).
+**Canal monetizado.** Cumplió YPP (1.000 subs + 4.000 horas) y pasó la revisión manual de
+Google en cuestión de días (no el ~1 mes habitual) — señal de que el canal no tiene ninguna
+alerta de contenido (reutilizado sin transformar, engañoso, etc.). Anuncios activos desde
+esta fecha en V1, V2 y cualquier vídeo futuro (V3 Café en cuanto se publique).
 
-**Pasos del flujo:** 1) Términos ✅ → 2) Crear/vincular AdSense (en curso, requiere misma
-cuenta de Google que administra el canal, datos fiscales W-8BEN si no reside en EE.UU.,
-método de cobro bancario) → 3) Revisión manual de Google (puede tardar hasta ~1 mes) →
-4) Anuncios activos.
+**A partir de ahora generan ingresos reales** todas las visualizaciones que ocurran DESDE
+la aprobación — las views ya acumuladas antes de esta fecha en V1/V2 NO generaron ingresos
+(la monetización nunca es retroactiva). Pago mínimo de YouTube: 100$ acumulados antes de
+la primera transferencia.
 
-**Importante para la cuenta de resultados:** una vez aprobado, se pueden monetizar TODOS
-los vídeos ya publicados (V1, V2, V3...), no solo los futuros — pero solo generan ingresos
-las visualizaciones que ocurran DESPUÉS de la aprobación, nunca las ya acumuladas. Pago
-mínimo de YouTube: 100$ acumulados antes de la primera transferencia.
-
-**Pendiente de seguimiento:** fecha de aprobación final cuando llegue, y primer dato real
-de RPM (ver estimaciones previas de ~1,5-4 USD/1000 views por mezcla geográfica del canal,
-sección V1 más abajo) para sustituir proyección por dato medido.
+**Pendiente de seguimiento:** primer dato real de RPM/ingresos en YouTube Studio → pestaña
+Ingresos, para sustituir las estimaciones previas (~1,5-4 USD/1000 views, ver mezcla
+geográfica en la sección V1 más abajo) por un dato medido de verdad.
 
 ---
 
