@@ -34,6 +34,31 @@ cierre con regla práctica de una sola línea + CTA de compartir.
 
 ---
 
+## 💰 MONETIZACIÓN — YPP requisitos cumplidos (confirmado 2026-08-07/08)
+
+**Primera confirmación real** (no proyección) de que el canal cumple los requisitos del
+Programa de Partners de YouTube: **1.000 suscriptores + 4.000 horas de visualización
+válidas en 12 meses**. Captura de YouTube Studio muestra el flujo de onboarding con el
+paso 1 ("Revisa los Términos Fundamentales") ya en verde/aceptado, y el paso 2
+("Regístrate en AdSense para YouTube") en curso — el creador seleccionó "No, tengo que
+crear una" (primera cuenta de AdSense para este canal).
+
+**Pasos del flujo:** 1) Términos ✅ → 2) Crear/vincular AdSense (en curso, requiere misma
+cuenta de Google que administra el canal, datos fiscales W-8BEN si no reside en EE.UU.,
+método de cobro bancario) → 3) Revisión manual de Google (puede tardar hasta ~1 mes) →
+4) Anuncios activos.
+
+**Importante para la cuenta de resultados:** una vez aprobado, se pueden monetizar TODOS
+los vídeos ya publicados (V1, V2, V3...), no solo los futuros — pero solo generan ingresos
+las visualizaciones que ocurran DESPUÉS de la aprobación, nunca las ya acumuladas. Pago
+mínimo de YouTube: 100$ acumulados antes de la primera transferencia.
+
+**Pendiente de seguimiento:** fecha de aprobación final cuando llegue, y primer dato real
+de RPM (ver estimaciones previas de ~1,5-4 USD/1000 views por mezcla geográfica del canal,
+sección V1 más abajo) para sustituir proyección por dato medido.
+
+---
+
 ## V1 — ACEITE DE OLIVA ✅ TERMINADO Y PUBLICADO (carpeta `aceite_oliva/`)
 
 - **Publicado.** Canal confirmado: **Etiqueta Real** (17 suscriptores totales a fecha
